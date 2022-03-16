@@ -811,12 +811,12 @@ babyCucco_state_grabbed:
 @released:
 	ld e,Enemy.yh
 	ld a,(de)
-	cp SMALL_ROOM_HEIGHT<<4
+	cp (SMALL_ROOM_HEIGHT<<4)
 	jr nc,@delete
 
 	ld e,Enemy.xh
 	ld a,(de)
-	cp SMALL_ROOM_WIDTH<<4
+	cp (SMALL_ROOM_WIDTH<<4)
 	jp c,enemyAnimate
 @delete:
 	jp enemyDelete
@@ -1978,11 +1978,11 @@ cucco_state_grabbed:
 @checkOutOfScreenBounds:
 	ld e,Enemy.yh
 	ld a,(de)
-	cp SMALL_ROOM_HEIGHT<<4
+	cp (SMALL_ROOM_HEIGHT<<4)
 	jr nc,++
 	ld e,Enemy.xh
 	ld a,(de)
-	cp SMALL_ROOM_WIDTH<<4
+	cp (SMALL_ROOM_WIDTH<<4)
 	jp c,enemyAnimate
 ++
 	jp enemyDelete
@@ -3337,7 +3337,7 @@ fireKeese_moveTowardCenterIfOutOfBounds:
 	ld a,(de)
 	ldh (<hFF8E),a
 
-	ldbc (LARGE_ROOM_HEIGHT/2)<<4 + 8, (LARGE_ROOM_WIDTH/2)<<4 + 8
+	ldbc ((LARGE_ROOM_HEIGHT/2)<<4) + 8, ((LARGE_ROOM_WIDTH/2)<<4) + 8
 	call objectGetRelativeAngleWithTempVars
 	ld c,a
 	ld b,SPEED_100
@@ -4735,7 +4735,7 @@ wizzrobe_setAngleTowardTargetPosition:
 ; @param[out]	zflag	nz if this tile has solidity
 wizzrobe_chooseSpawnPosition:
 	call getRandomNumber_noPreserveVars
-	and $70 ; Value strictly under SCREEN_HEIGHT<<4
+	and $70 ; Value strictly under (SCREEN_HEIGHT<<4)
 	ld b,a
 	ldh a,(<hCameraY)
 	add b
@@ -4745,7 +4745,7 @@ wizzrobe_chooseSpawnPosition:
 --
 	call getRandomNumber
 	and $f0
-	cp SCREEN_WIDTH<<4
+	cp (SCREEN_WIDTH<<4)
 	jr nc,--
 
 	ld c,a
@@ -5198,11 +5198,11 @@ crow_setAnimationFromAngle:
 crow_subid0_checkWithinScreenBounds:
 	ld e,Enemy.yh
 	ld a,(de)
-	cp SMALL_ROOM_HEIGHT<<4 + 8
+	cp (SMALL_ROOM_HEIGHT<<4) + 8
 	ret nc
 	ld e,Enemy.xh
 	ld a,(de)
-	cp SMALL_ROOM_WIDTH<<4 + 8
+	cp (SMALL_ROOM_WIDTH<<4) + 8
 	ret
 
 ;;
@@ -5255,11 +5255,11 @@ crow_updateSpeed:
 crow_subid1_checkWithinScreenBounds:
 	ld e,Enemy.yh
 	ld a,(de)
-	cp SCREEN_HEIGHT<<4 + 8
+	cp (SCREEN_HEIGHT<<4) + 8
 	ret nc
 	ld e,Enemy.xh
 	ld a,(de)
-	cp SCREEN_WIDTH<<4 + 8
+	cp (SCREEN_WIDTH<<4) + 8
 	ret
 
 

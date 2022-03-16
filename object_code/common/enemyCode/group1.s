@@ -45,7 +45,7 @@ enemyCode08:
 ; Resurfacing in a random position
 @state_09:
 	call getRandomNumber_noPreserveVars
-	cp (SCREEN_WIDTH<<4)-8
+	cp ((SCREEN_WIDTH<<4))-8
 	ret nc
 
 	ld c,a
@@ -880,7 +880,7 @@ enemyCode0b:
 
 	; We have a candidate position; check for validity. NOTE: Assumes small room.
 	and $f0
-	cp SMALL_ROOM_HEIGHT<<4
+	cp (SMALL_ROOM_HEIGHT<<4)
 	jr nc,@@invalid
 	ld a,c
 	and $0f
@@ -1573,11 +1573,11 @@ bladeTrap_subid02:
 	; Blade trap spans about half the size of a large room (which is different in
 	ld l,Enemy.angle
 	bit 3,(hl)
-	ld b,(LARGE_ROOM_HEIGHT/2)<<4 + 8
+	ld b,((LARGE_ROOM_HEIGHT/2)<<4) + 8
 	ld l,Enemy.yh
 	jr z,++
 
-	ld b,(LARGE_ROOM_WIDTH/2)<<4 + 8
+	ld b,((LARGE_ROOM_WIDTH/2)<<4) + 8
 	ld l,Enemy.xh
 ++
 	ld a,(hl)
@@ -5344,7 +5344,7 @@ likelike_subid01:
 	; X from $10-$8f
 	ld a,(w1Link.xh)
 	sub $10
-	cp (SMALL_ROOM_WIDTH<<4)-$20
+	cp ((SMALL_ROOM_WIDTH<<4))-$20
 	ret nc
 
 	ld a,$0a

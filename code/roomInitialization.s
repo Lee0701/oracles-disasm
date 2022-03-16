@@ -656,7 +656,7 @@ getCandidatePositionForEnemy:
 
 @overworld:
 	call getNextValueFromRandomBuffer
-	cp SMALL_ROOM_HEIGHT<<4
+	cp (SMALL_ROOM_HEIGHT<<4)
 	jr nc,@overworld
 
 	ld b,a
