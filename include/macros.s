@@ -294,7 +294,7 @@
 ; ARG 1: actual address
 ; ARG 2: relative address
 .MACRO m_RelativePointer
-	.dw (((\1)&$3fff+(:\1)*$4000) - (\2&$3fff+(:\2)*$4000))&$ffff
+	.dw ((((\1)&$3fff)+((:\1)*$4000)) - (((\2)&$3fff)+((:\2)*$4000)))&$ffff
 .ENDM
 
 ; Same as above but always use absolute numbers instead of labels
