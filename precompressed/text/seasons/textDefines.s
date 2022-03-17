@@ -1,4 +1,4 @@
-.define TEXT_OFFSET_SPLIT_INDEX $2c
+.define TEXT_OFFSET_SPLIT_INDEX $34
 
 .define TX_0000 $0000
 .define TX_0001 $0001
@@ -817,6 +817,7 @@
 .define TX_2401 $2401
 .define TX_2402 $2402
 .define TX_2403 $2403
+.define TX_2404 $2404
 .define TX_2500 $2500
 .define TX_2501 $2501
 .define TX_2502 $2502
@@ -1131,8 +1132,6 @@
 .define TX_308b $308b
 .define TX_308c $308c
 .define TX_308d $308d
-.define TX_308e $308e
-.define TX_30b3 $30b3
 .define TX_308f $308f
 .define TX_3090 $3090
 .define TX_3091 $3091
@@ -1169,6 +1168,8 @@
 .define TX_30b0 $30b0
 .define TX_30b1 $30b1
 .define TX_30b2 $30b2
+.define TX_308e $308e
+.define TX_30b3 $30b3
 .define TX_30b4 $30b4
 .define TX_30b5 $30b5
 .define TX_30b6 $30b6
@@ -1453,8 +1454,8 @@
 .define TX_3e29 $3e29
 .define TX_3f00 $3f00
 .define TX_3f01 $3f01
-.define TX_3f02 $3f02
 .define TX_3f03 $3f03
+.define TX_3f02 $3f02
 .define TX_3f04 $3f04
 .define TX_3f05 $3f05
 .define TX_3f06 $3f06
@@ -1856,6 +1857,7 @@
 .define TX_5338 $5338
 .define TX_5339 $5339
 .define TX_533a $533a
+.define TX_5400 $5400
 .define TX_5500 $5500
 .define TX_5506 $5506
 .define TX_5501 $5501

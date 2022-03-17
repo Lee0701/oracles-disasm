@@ -809,7 +809,7 @@ bank = startAddress//0x4000
 
 textOffset1 = groupDict[0].textStructs[0]
 textOffset2 = groupDict[textOffsetSplitIndex].textStructs[0]
-textOffset3 = groupDict[textOffsetSplitIndex2].textStructs[0]
+textOffset3 = groupDict[textOffsetSplitIndex2].textStructs[0] if textOffsetSplitIndex2 != 0xff else 0
 
 # Print defines
 
@@ -868,6 +868,8 @@ for group in groupDict.values():
 
 outFile.write('\n')
 
+textOffset3Used = False
+
 # Print actual text
 for group in groupDict.values():
     for textStruct in group.textStructs:
@@ -879,6 +881,7 @@ for group in groupDict.values():
             outFile.write('TEXT_OFFSET_2:\n')
         elif textOffset3 == textStruct:
             outFile.write('TEXT_OFFSET_3:\n')
+            textOffset3Used = True
 
         for name in textStruct.names:
             outFile.write(name + '_ADDR:\n')
@@ -909,6 +912,7 @@ for group in groupDict.values():
 #                 outFile2.write(data)
 #                 outFile2.close()
 
+outFile.write('TEXT_OFFSET_3:\n')
 
 outFile.write('\n.DEFINE TEXT_END_ADDR ' + wlahex(address, 4) + '\n')
 outFile.write('.DEFINE TEXT_END_BANK ' + wlahex(bank, 2))
