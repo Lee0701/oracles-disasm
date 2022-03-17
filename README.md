@@ -8,6 +8,14 @@ editing suite.
 setup instructions.
 
 
+# About utf-8 branch
+
+This branch adds support for utf-8 encoded text along with simple unicode font. Currently only supports BMP area
+
+## Font credits
+* Gilche by Eshum (#)[https://cafe.naver.com/hansicgu]
+* k8x12 by Num Kadoma (#)[https://littlelimit.net/k8x12.htm]
+
 # Required tools to build
 
 * Python 3
