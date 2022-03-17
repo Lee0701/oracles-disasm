@@ -626,13 +626,15 @@ loadD6ChangingFloorPatternToBigBuffer:
 	;   Ages:    1d:4000
 	;   Seasons: 1c:5c00
 
-	.include "build/textData.s"
-
-	.REDEFINE DATA_ADDR TEXT_END_ADDR
-	.REDEFINE DATA_BANK TEXT_END_BANK
+.BANK $1d SLOT 1
+.ORG 0
+	.REDEFINE DATA_ADDR $4000
+	.REDEFINE DATA_BANK $1d
 
 	.include "build/data/roomLayoutData.s"
 	.include "build/data/gfxDataMain.s"
+
+	.include "build/textData.s"
 
 
 

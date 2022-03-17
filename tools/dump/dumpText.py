@@ -66,11 +66,11 @@ jpKanaTable = """
 #   0x57: Triforce symbol
 jpKanjiTable = """
 姫村下木東西南北地図出入口水氷池
-見門手力知恵勇気火金銀？？実上四
+見門手力知恵勇気火金銀銅♪実上四
 季春夏秋冬右左大小本王国男女少年
 山人世中々剣花闇将軍真支配者鉄目
 詩死心節甲邪悪魔聖川結界生時炎？
-天空暗黒塔海仙？
+天空暗黒塔海仙▲
 """.replace('\n', '')
 
 
@@ -273,7 +273,7 @@ def lookupNormalCharacter(b):
                 assert(False) # Anything else below 0x20 is unused
         elif b < 0x60:
             if b == 0x20: # Fullwidth space
-                return '　'
+                return ' '
             elif b == 0x22: # RIGHT quotation mark (Override "normal" quotation mark)
                 return '”'
             elif b == 0x5c:
@@ -281,7 +281,7 @@ def lookupNormalCharacter(b):
             elif b == 0x5f:
                 return '。'
             else:
-                return chr(0xff00 + b - 0x20) # Fullwidth form
+                return chr(b) # Fullwidth form
         else:
             return jpKanaTable[b-0x60]
     if region == "EU":

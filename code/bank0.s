@@ -5401,6 +5401,12 @@ textThreadStart:
 	call resumeThreadNextFrame
 	jr -
 
+incHl:
+	inc l
+	ret nz
+	inc h
+	ret
+
 ;;
 ; Can only be called from bank $3f.
 ;
@@ -5411,6 +5417,19 @@ retrieveTextCharacter:
 	push hl
 	push de
 	push bc
+	bit 7,a
+	jr z,@singleByte
+	bit 6,a
+	jr z,@end
+	bit 5,a
+	jr z,@doubleByte
+	bit 4,a
+	jr z,@tripleByte
+	bit 3,a
+	jr z, @quadByte
+	jr @end
+
+@singleByte:
 	call multiplyABy16
 	ld a,(w7TextGfxSource)
 	ld hl,@data
@@ -5420,7 +5439,66 @@ retrieveTextCharacter:
 	ld l,a
 	add hl,bc
 	pop bc
+	push bc
 	ld a,:gfx_font
+	jr @end
+
+@doubleByte:
+	push af
+
+	and a,$1C
+	rrca
+	rrca
+	ld b,a
+
+	jr @lastByte
+
+@tripleByte:
+	and a,$0F
+	rlca
+	rlca
+	rlca
+	rlca
+	ld b,a
+
+	call readByteFromW7ActiveBank
+	inc hl
+
+	push af
+	and a,$3C
+	rrca
+	rrca
+	or b
+	ld b,a
+
+	jr @lastByte
+
+@quadByte:
+	jr @end
+
+@lastByte
+	pop af
+
+	and a,$03
+	rrca
+	rrca
+	ld c,a
+
+	call readByteFromW7ActiveBank
+	inc hl
+
+	and a,$3f
+	or c
+	ld c,a
+
+	call @getFontOffset
+
+@end:
+	pop bc
+	pop de
+	push de
+
+	push af
 	setrombank
 	call @func_18fd
 
@@ -5429,8 +5507,62 @@ retrieveTextCharacter:
 
 	xor a
 	ld (w7TextGfxSource),a
+	
+	pop af
 	pop de
+
 	pop hl
+	dec hl
+	call readByteFromW7ActiveBank
+	bit 7,a
+	jr z,@singleEnd
+	bit 6,a
+	jr z,@singleEnd
+	bit 5,a
+	jr z,@doubleEnd
+	bit 4,a
+	jr z,@tripleEnd
+	bit 3,a
+	jr z, @quadEnd
+	jr @singleEnd
+	
+@quadEnd:
+	inc hl
+@tripleEnd:
+	inc hl
+@doubleEnd:
+	inc hl
+@singleEnd:
+	inc hl
+
+	ret
+
+@getFontOffset:
+	ld a,b			; First 6 bits of first byte for bank id
+	and a,$FC
+	rrca
+	rrca
+	add a,$80		; Base bank id: $80
+	push af
+	ld a,b
+	and a,$03
+	ld h,a
+	ld a,c
+	ld l,a			; Transfer other bits to hl
+	pop af
+
+	ld d,$04
+-
+	sla l
+	rl h
+	dec d
+	jr nz,-
+
+	push af
+	ld a,h
+	add a,$40		; Add $4000 to hl
+	ld h,a
+	pop af
 	ret
 
 @data:

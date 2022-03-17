@@ -999,9 +999,19 @@ getTextAddress:
 	cp TEXT_OFFSET_SPLIT_INDEX
 	jr c,+
 ; Else, text is relative to TEXT_OFFSET_2
+	cp a,TEXT_OFFSET_SPLIT_INDEX_2
+	jr c,@offset2
+	jr @offset3
+@offset2
 	ld a,(wActiveLanguage)
 	add a
 	ld hl,textOffset2Table
+	jr @end
+@offset3
+	ld a,(wActiveLanguage)
+	add a
+	ld hl,textOffset3Table
+@end
 	rst_addDoubleIndex
 	ldi a,(hl)
 	ld e,a
@@ -1066,6 +1076,26 @@ textOffset2Table:
 	.db 0
 	.db :TEXT_OFFSET_2
 	.dw TEXT_OFFSET_1&$3fff
+	.db 0
+
+textOffset3Table:
+	.db :TEXT_OFFSET_3
+	.dw TEXT_OFFSET_3&$3fff
+	.db 0
+	.db :TEXT_OFFSET_3
+	.dw TEXT_OFFSET_3&$3fff
+	.db 0
+	.db :TEXT_OFFSET_3
+	.dw TEXT_OFFSET_3&$3fff
+	.db 0
+	.db :TEXT_OFFSET_3
+	.dw TEXT_OFFSET_3&$3fff
+	.db 0
+	.db :TEXT_OFFSET_3
+	.dw TEXT_OFFSET_3&$3fff
+	.db 0
+	.db :TEXT_OFFSET_3
+	.dw TEXT_OFFSET_3&$3fff
 	.db 0
 
 textTableTable:
