@@ -534,3 +534,9 @@ oamData_15_4e0c:
 	.include "build/data/treasureDisplayData.s"
 
 .ends
+
+.BANK $80 SLOT 1
+.ORG 0
+	.redefine DATA_ADDR $0000
+	.redefine DATA_BANK $80
+	m_GfxDataMultiple gfx_font_unicode

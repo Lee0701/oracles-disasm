@@ -23,6 +23,27 @@
 	.UNDEFINE SIZE
 .endm
 
+; Macro which allows graphics data to cross over multiple banks
+.macro m_GfxDataMultiple
+	.FOPEN "build/gfx/\1.cmp" m_GfxDataFile
+	.FSIZE m_GfxDataFile SIZE
+	.FCLOSE m_GfxDataFile
+	.REDEFINE SIZE SIZE-1
+
+	.REDEFINE DATA_READAMOUNT $4000
+	
+	\1:
+	.REPEAT (SIZE/$4000) INDEX COUNT
+		.BANK DATA_BANK SLOT 1
+		.ORGA $4000
+		.incbin "build/gfx/\1.cmp" SKIP DATA_ADDR READ DATA_READAMOUNT
+		.REDEFINE DATA_BANK DATA_BANK+1
+		.REDEFINE DATA_ADDR DATA_ADDR + DATA_READAMOUNT
+	.ENDR
+
+	.UNDEFINE SIZE
+.endm
+
 ; Same as last, but doesn't support inter-bank stuff, so DATA_ADDR and DATA_BANK
 ; don't need to be defined beforehand.
 .macro m_GfxDataSimple

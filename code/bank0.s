@@ -5542,7 +5542,7 @@ retrieveTextCharacter:
 	and a,$FC
 	rrca
 	rrca
-	add a,$80		; Base bank id: $80
+	add a,:gfx_font_unicode
 	push af
 	ld a,b
 	and a,$03
