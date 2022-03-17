@@ -13,8 +13,8 @@ setup instructions.
 This branch adds support for utf-8 encoded text along with simple unicode font. Currently only supports BMP area
 
 ## Font credits
-* Gilche by Eshum (#)[https://cafe.naver.com/hansicgu]
-* k8x12 by Num Kadoma (#)[https://littlelimit.net/k8x12.htm]
+* [Gilche](https://cafe.naver.com/hansicgu) by Eshum
+* [k8x12](https://littlelimit.net/k8x12.htm) by Num Kadoma
 
 # Required tools to build
 
