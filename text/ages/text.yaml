@@ -427,7 +427,7 @@ groups:
 
       도망친걸지도 모르겠네\stop
 
-      나는\col(3)임파\col(0) \col(3)하이랄\col(0)王女
+      나는\col(3)임파\col(0) \col(3)하이랄\col(0)王女인
 
       \col(3)젤다公主\col(0)의 乳母야'
   - name: TX_0102
@@ -462,7 +462,7 @@ groups:
     index: 0x6
     text: '\Link 未安한데
 
-      이바위 치워주지않을래?'
+      이바위좀 치워주지않을래?'
   - name: TX_0107
     index: 0x7
     text: '나한테는... 조금...
@@ -3163,7 +3163,7 @@ groups:
     text: ''
   - name: TX_1213
     index: 0x13
-    text: ''
+    text: "\\pos(2)    선택받은勇士여\n 우리의 試鍊을 받아라!"
 - group: 0x13
   data:
   - name: TX_1300
