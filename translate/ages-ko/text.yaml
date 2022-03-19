@@ -12,13 +12,15 @@ groups:
       ...'
   - name: TX_0002
     index: '2'
-    text: ''
+    text: '\col(1)5루피\col(0)손에넣었다!'
   - name: TX_0003
     index: '3'
-    text: ''
+    text: '\col(1)10루피\col(0)손에넣었다!'
   - name: TX_0004
     index: '4'
-    text: ''
+    text: '\col(1)20루피\col(0)손에넣었다!
+
+      조금 기쁘다'
   - name: TX_0005
     index: '5'
     text: ''
