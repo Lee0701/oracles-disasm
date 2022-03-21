@@ -700,9 +700,12 @@ def parseTextFile(textFile, isDictionary):
 
                     else:
                         c = text[i]
-                        utf8 = c.encode('utf-8')
-                        for code in utf8:
-                            textStruct.data.append(code)
+                        if c == '~':
+                            textStruct.data.append(ord('\\'))
+                        else:
+                            utf8 = c.encode('utf-8')
+                            for code in utf8:
+                                textStruct.data.append(code)
 
                         if c == ' ':
                             state.lastSpaceIndex = len(textStruct.data)-1

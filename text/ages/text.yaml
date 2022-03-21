@@ -400,45 +400,95 @@ groups:
   data:
   - name: TX_0100
     index: 0x0
-    text: ''
+    text: \pos(2)     히익~~~!
   - name: TX_0101
     index: 0x1
-    text: ''
+    text: '아아 무서웠어!\stop
+
+      갑자기 異常한魔物들이
+
+      덮쳐와서...
+
+      危險할뻔했어
+
+      고마워 나그네
+
+      근데 너 이름은?\stop
+
+      그래 \Link라고하는구나\stop
+
+      어라 너 왼손등에
+
+      ▲무늬가 있구나
+
+      \col(3)하이랄\col(0)에서 ▲는勇士의證標!
+
+      그래서 魔物들이
+
+      도망친걸지도 모르겠네\stop
+
+      나는\col(3)임파\col(0) \col(3)하이랄\col(0)王女인
+
+      \col(3)젤다公主\col(0)의 乳母야'
   - name: TX_0102
     index: 0x2
-    text: ''
+    text: '\call(TX_0101)
+
+      조금 事情이있어서
+
+      潛行으로 \col(3)넬\col(0)이라는
+
+      歌姬를 찾는中이었어\stop
+
+      \Link 너도같이
+
+      찾아봐주지않을래?
+
+      네가있으면 아무리
+
+      마물이덤벼와도 安心이야'
   - name: TX_0103
     index: 0x3
     text: ''
   - name: TX_0104
     index: 0x4
-    text: ''
+    text: 아아 저깄다!저거야!
   - name: TX_0105
     index: 0x5
-    text: ''
+    text: '이 ▲標識가있는
+
+      바위가 眼標거든!'
   - name: TX_0106
     index: 0x6
-    text: ''
+    text: '\Link 未安한데
+
+      이바위좀 치워주지않을래?'
   - name: TX_0107
     index: 0x7
-    text: ''
+    text: '나한테는... 조금...
+
+      조금말야...'
   - name: TX_0108
     index: 0x8
-    text: ''
+    text: 조금 無理라서...
   - name: TX_0109
     index: 0x9
-    text: ''
+    text: '후우 살았네...
+
+      그럼 가볼까'
   - name: TX_010a
     index: 0xa
-    text: ''
+    text: '어디 가려고!
+
+      \jump(TX_010c)'
     null_terminator: 'False'
   - name: TX_010b
     index: 0xb
-    text: ''
+    text: 뭘 그러고있니?\n
     null_terminator: 'False'
   - name: TX_010c
     index: 0xc
-    text: ''
+    text: 빨리이것좀 치워줘!
   - name:
     - TX_010d
     - TX_010e
@@ -3113,7 +3163,7 @@ groups:
     text: ''
   - name: TX_1213
     index: 0x13
-    text: ''
+    text: "\\pos(2)    선택받은勇士여\n 우리의 試鍊을 받아라!"
 - group: 0x13
   data:
   - name: TX_1300
