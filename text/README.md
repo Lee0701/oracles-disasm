@@ -1,4 +1,5 @@
 
+* original: Text from original disasm repository (Will not be worked on)
 * extracted: Text extracted from the Original ROM
 * extracted-patch: Patch generated from extracted
 * extracted-patched: Text patched with patch of different language (Based on English ROM text names)
