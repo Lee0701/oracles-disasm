@@ -9,7 +9,7 @@ groups:
   - name: DICT0_01
     index: 0x01
     text: |-
-      ##LINE OVER##\n
+      \col(3)Princess Zelda\col(0)
 
   - name: DICT0_02
     index: 0x02
@@ -19,497 +19,497 @@ groups:
   - name: DICT0_03
     index: 0x03
     text: |-
-      \col(3)Rolling Ridge\col(0)
+      You got the\n
 
   - name: DICT0_04
     index: 0x04
     text: |-
-      \col(3)Queen Ambi\col(0)
+      \col(3)Labrynna\col(0)
 
   - name: DICT0_05
     index: 0x05
     text: |-
-      \col(3)Black Tower\col(0)
+      My books tell me\n
 
   - name: DICT0_06
     index: 0x06
-    text: |-
-      You got the\n
+    text: |2-
+       \col(1)secret\col(0)
 
   - name: DICT0_07
     index: 0x07
     text: |-
-      Sword damage\x20
+      \opt()Yes \opt()Not really
 
   - name: DICT0_08
     index: 0x08
     text: |-
-      \col(3)Holodrum\col(0)
+      I'll trade for\n
 
   - name: DICT0_09
     index: 0x09
     text: |-
-      Damage taken\x20
+      Ore Chunks\col(0)
 
   - name: DICT0_0a
     index: 0x0a
-    text: |2-
-       \opt()#YES \opt()#NO
+    text: |-
+      ee hee hee hee!
 
   - name: DICT0_0b
     index: 0x0b
-    text: |2-
-       \col(1)secret\col(0)
+    text: |-
+      Hohhm...ZZZ...
 
   - name: DICT0_0c
     index: 0x0c
     text: |-
-      Eee hee hee hee!
+      Sword damage\x20
 
   - name: DICT0_0d
     index: 0x0d
-    text: |2-
-       damage from\n
+    text: |-
+      \col(3)Zelda\col(0)
 
   - name: DICT0_0e
     index: 0x0e
     text: |-
-      \col(3)Jabu-Jabu\col(0)
+      \col(1)Gasha Seed
 
   - name: DICT0_0f
     index: 0x0f
-    text: |2-
-       \col(3)Nayru\col(0)
+    text: |-
+      \col(3)Twinrova\col(0)
 
   - name: DICT0_10
     index: 0x10
     text: |-
-      ##LINE OVER##
+      \col(1)secret\col(0)
 
   - name: DICT0_11
     index: 0x11
     text: |-
-      You don't have\n
+      Thank you
 
   - name: DICT0_12
     index: 0x12
     text: |-
-      \col(1)Mystery Seeds\col(0)
+      You got \col(1)
 
   - name: DICT0_13
     index: 0x13
-    text: |-
-      \col(3)Veran\col(0)
+    text: |2-
+       \col(1)rings\col(0)
 
   - name: DICT0_14
     index: 0x14
     text: |-
-      something
+      Horon Village
 
   - name: DICT0_15
     index: 0x15
     text: |-
-      Oh ho ho ho ho!
+      Damage taken\x20
 
   - name: DICT0_16
     index: 0x16
     text: |-
-      \col(3)Labrynna\col(0)
+      Want to learn
 
   - name: DICT0_17
     index: 0x17
     text: |-
-      \col(3)Twinrova\col(0)
+      \col(3)Holodrum\col(0)
 
   - name: DICT0_18
     index: 0x18
     text: |-
-      Thank you
+      he seasons
 
   - name: DICT0_19
     index: 0x19
     text: |-
-      \col(3)Nayru\col(0)
+      Subrosian
 
   - name: DICT0_1a
     index: 0x1a
     text: |-
-      Oracle of Ages
+      Seasons\col(0)
 
   - name: DICT0_1b
     index: 0x1b
     text: |-
-      Come back if you\n
+      You got a
 
   - name: DICT0_1c
     index: 0x1c
     text: |-
-      \col(1)Bomb Flower
+      something
 
   - name: DICT0_1d
     index: 0x1d
     text: |-
-      \col(3)Ralph\col(0)
+      0 Rupees
 
   - name: DICT0_1e
     index: 0x1e
     text: |-
-      \col(1)Gasha Seed
+      \col(3)Temple of\n
 
   - name: DICT0_1f
     index: 0x1f
     text: |-
-      You got\x20
+      estruction
 
   - name: DICT0_20
     index: 0x20
     text: |-
-      \col(3)Zelda\col(0)
+      nderstand
 
   - name: DICT0_21
     index: 0x21
     text: |-
-      Symmetry City
+      Spool Swamp
 
   - name: DICT0_22
     index: 0x22
     text: |-
-      Want to learn
+      Heart Container
 
   - name: DICT0_23
     index: 0x23
     text: |-
-      \col(3)Maku Tree\col(0)
+      a fellow named\n
 
   - name: DICT0_24
     index: 0x24
     text: |-
-      hanks to you,\n
+      \col(1)Ring Box\col(0)
 
   - name: DICT0_25
     index: 0x25
-    text: |-
-      h hah hah hah!
+    text: |2-
+       damage from\n
 
   - name: DICT0_26
     index: 0x26
     text: |-
-      This is the
+      Essence of\n
 
   - name: DICT0_27
     index: 0x27
     text: |-
-      \col(1)essence\col(0)
+      Sunken City
 
   - name: DICT0_28
     index: 0x28
     text: |-
-      \col(1)Tuni Nut\col(0)
+      ome back
 
   - name: DICT0_29
     index: 0x29
-    text: |2-
-       \col(1)rings\col(0)
+    text: |-
+      I can't\x20
 
   - name: DICT0_2a
     index: 0x2a
     text: |-
-      I'll teach you\n
+      \col(1)ring\col(0)
 
   - name: DICT0_2b
     index: 0x2b
     text: |-
-      ............\stop\n
+      This is\x20
 
   - name: DICT0_2c
     index: 0x2c
     text: |-
-      0 Rupees
+      I'll teach you
 
   - name: DICT0_2d
     index: 0x2d
     text: |-
-      an animal called\n
+      \col(3)Labrynna's\col(0)
 
   - name: DICT0_2e
     index: 0x2e
     text: |-
-      \col(1)secret\col(0)
+      Take this
 
   - name: DICT0_2f
     index: 0x2f
-    text: |-
-      \col(3)King Zora
+    text: |2-
+       of the\n
 
   - name: DICT0_30
     index: 0x30
     text: |2-
-       Goron Dance
+       you can
 
   - name: DICT0_31
     index: 0x31
     text: |-
-      \col(1)Ring Box\col(0)
+      \col(3)Onox\col(0)
 
   - name: DICT0_32
     index: 0x32
     text: |-
-      \col(1)Shovel\col(0)
+      Try again later!
 
   - name: DICT0_33
     index: 0x33
-    text: |2-
-       to the\n
+    text: |-
+      Do you know\x20
 
   - name: DICT0_34
     index: 0x34
     text: |-
-      \col(1)Fairy Powder\col(0)
+      \col(1)Hard Ore\col(0)
 
   - name: DICT0_35
     index: 0x35
     text: |-
-      he \col(3)Graceful\n
+      \col(1)essences\col(0)
 
   - name: DICT0_36
     index: 0x36
     text: |-
-      \col(3)Lynna City\col(0)
+      \col(1)secrets\col(0)
 
   - name: DICT0_37
     index: 0x37
-    text: |-
-      I can't\x20
+    text: |2-
+       \col(1)bell\col(0)
 
   - name: DICT0_38
     index: 0x38
     text: |-
-      \col(1)secrets\col(0)
+      Mystery Seeds
 
   - name: DICT0_39
     index: 0x39
     text: |-
-      Essence of Time!\stop\n
+      \col(3)Maku Tree\col(0)
 
   - name: DICT0_3a
     index: 0x3a
     text: |-
-      \col(3)Tingle\col(0)
+      of Seasons
 
   - name: DICT0_3b
     index: 0x3b
-    text: |2-
-       in the\n
+    text: |-
+      If you\x20
 
   - name: DICT0_3c
     index: 0x3c
-    text: |2-
-       you can
+    text: |-
+      Thanks to you,\n
 
   - name: DICT0_3d
     index: 0x3d
     text: |-
-      Crescent Island
+      o you remember\n
 
   - name: DICT0_3e
     index: 0x3e
     text: |-
-      \col(1)Mystical Seeds\col(0)
+      You don't
 
   - name: DICT0_3f
     index: 0x3f
-    text: |2-
-       remember
+    text: |-
+      Oracle of
 
   - name: DICT0_40
     index: 0x40
     text: |-
-      ome back
+      That's\x20
 
   - name: DICT0_41
     index: 0x41
     text: |-
-      Welcome to\n
+      \col(1)seeds\col(0)
 
   - name: DICT0_42
     index: 0x42
     text: |-
-      ou don't
+      \col(3)Din\col(0)
 
   - name: DICT0_43
     index: 0x43
-    text: |-
-      \col(3)Nayru's
+    text: |2-
+       to the\n
 
   - name: DICT0_44
     index: 0x44
     text: |-
-      \col(1)seeds\col(0)
+      You can
 
   - name: DICT0_45
     index: 0x45
-    text: |2-
-       \col(1)ring\col(0)
+    text: |-
+      You're\x20
 
   - name: DICT0_46
     index: 0x46
     text: |-
-      want to\x20
+      the village
 
   - name: DICT0_47
     index: 0x47
     text: |-
-      That's\x20
+      appraise
 
   - name: DICT0_48
     index: 0x48
-    text: |-
-      Eyeglass Isle\n
+    text: |2-
+       in the\n
 
   - name: DICT0_49
     index: 0x49
     text: |-
-      nderstand
+      ou have
 
   - name: DICT0_4a
     index: 0x4a
-    text: |-
-      from the
+    text: |2-
+       will be\n
 
   - name: DICT0_4b
     index: 0x4b
     text: |-
-      \col(1)Rock Brisket\col(0)
+      Evil King
 
   - name: DICT0_4c
     index: 0x4c
-    text: |-
-      Target Carts
+    text: |2-
+       give you
 
   - name: DICT0_4d
     index: 0x4d
     text: |2-
-        \opt()No \opt()Yes
+       \opt()No way
 
   - name: DICT0_4e
     index: 0x4e
-    text: |2-
-       \num1 Rupees\n
+    text: |-
+      \col(1)Bombs\col(0)
 
   - name: DICT0_4f
     index: 0x4f
     text: |-
-      If you\x20
+      \col(3)Ganon\col(0)
 
   - name: DICT0_50
     index: 0x50
-    text: |-
-      You can't
+    text: |2-
+       has been\n
 
   - name: DICT0_51
     index: 0x51
-    text: |-
-      \col(1)Bombs\col(0)
+    text: |2-
+       ho ho ho!
 
   - name: DICT0_52
     index: 0x52
-    text: |2-
-       are you
+    text: |-
+      \col(1)Ribbon\col(0)
 
   - name: DICT0_53
     index: 0x53
     text: |-
-      You have
+      Seeds\col(0)
 
   - name: DICT0_54
     index: 0x54
     text: |-
-      Lynna Village
+      he power
 
   - name: DICT0_55
     index: 0x55
-    text: |-
-      enough Rupees
+    text: |2-
+       if you\n
 
   - name: DICT0_56
     index: 0x56
     text: |-
-      estoration
+      darkness
 
   - name: DICT0_57
     index: 0x57
     text: |-
-      don't know
+      You got
 
   - name: DICT0_58
     index: 0x58
-    text: |-
-      Oracle of\n
+    text: |2-
+       return
 
   - name: DICT0_59
     index: 0x59
-    text: |2-
-       of the\n
+    text: |-
+      to the\x20
 
   - name: DICT0_5a
     index: 0x5a
     text: |-
-      darkness
+      ou must
 
   - name: DICT0_5b
     index: 0x5b
     text: |-
-      Did you\x20
+      Boomerang
 
   - name: DICT0_5c
     index: 0x5c
     text: |-
-      Heart Container
+      sacrifice
 
   - name: DICT0_5d
     index: 0x5d
     text: |-
-      Will you\x20
+      Biggoron
 
   - name: DICT0_5e
     index: 0x5e
     text: |-
-      the tower
+      he Flame
 
   - name: DICT0_5f
     index: 0x5f
     text: |-
-      This is
+      \col(3)Rosa\col(0)
 
   - name: DICT0_60
     index: 0x60
-    text: |2-
-        \opt()OK \opt()
+    text: |-
+      You've\x20
 
   - name: DICT0_61
     index: 0x61
-    text: |2-
-       on the\n
+    text: |-
+      I'm gonna\x20
 
   - name: DICT0_62
     index: 0x62
     text: |-
-      You must
+      I want to\x20
 
   - name: DICT0_63
     index: 0x63
     text: |-
-      ake this
+      Nature!\stop\n
 
   - name: DICT0_64
     index: 0x64
     text: |-
-      to the\x20
+      \col(1)shield\col(0)
 
   - name: DICT0_65
     index: 0x65
     text: |-
-      Do you know
+      our \col(1)Seed\n
 
   - name: DICT0_66
     index: 0x66
@@ -518,4611 +518,4611 @@ groups:
 
   - name: DICT0_67
     index: 0x67
-    text: |-
-      \col(3)Veran's\col(0)
+    text: |2-
+       Ring L-
 
   - name: DICT0_68
     index: 0x68
-    text: |2-
-       should\x20
+    text: |-
+      reasure
 
   - name: DICT0_69
     index: 0x69
     text: |-
-      he Goron
+      in the\x20
 
   - name: DICT0_6a
     index: 0x6a
-    text: |-
-      Are you\x20
+    text: |2-
+       your\n
 
   - name: DICT0_6b
     index: 0x6b
     text: |-
-      ou can\x20
+      here's\x20
 
   - name: DICT0_6c
     index: 0x6c
     text: |-
-      \col(3)Princess Zelda\col(0)
+      Will you\x20
 
   - name: DICT0_6d
     index: 0x6d
     text: |-
-      Wild Tokay
+      Hwaah...\n
 
   - name: DICT0_6e
     index: 0x6e
     text: |-
-      Give him the
+      Satchel\col(0)
 
   - name: DICT0_6f
     index: 0x6f
     text: |-
-      Don't forget
+      \col(3)Cap'n\col(0)
 
   - name: DICT0_70
     index: 0x70
     text: |-
-      \col(3)Holodrum's\col(0)
+      Pieces of Heart
 
   - name: DICT0_71
     index: 0x71
     text: |-
-      appraise
+      I don't\x20
 
   - name: DICT0_72
     index: 0x72
     text: |-
-      he world
+      Can you\x20
 
   - name: DICT0_73
     index: 0x73
-    text: |2-
-       thought
+    text: |-
+      come to
 
   - name: DICT0_74
     index: 0x74
     text: |-
-      \col(3)Ambi's
+      e you\x20
 
   - name: DICT0_75
     index: 0x75
-    text: |-
-      I have\x20
+    text: |2-
+       again
 
   - name: DICT0_76
     index: 0x76
-    text: |2-
-       happen
+    text: |-
+      ...\stop\n
 
   - name: DICT0_77
     index: 0x77
     text: |-
-      through
+      seasons
 
   - name: DICT0_78
     index: 0x78
     text: |2-
-       return
+       found\x20
 
   - name: DICT0_79
     index: 0x79
     text: |-
-      Seeds\col(0)
+      of the\x20
 
   - name: DICT0_7a
     index: 0x7a
-    text: |-
-      I am \col(3)
+    text: |2-
+       won't\x20
 
   - name: DICT0_7b
     index: 0x7b
-    text: |2-
-       that\n
+    text: |-
+      "temple
 
   - name: DICT0_7c
     index: 0x7c
-    text: |-
-      You found
+    text: |2-
+       there
 
   - name: DICT0_7d
     index: 0x7d
     text: |-
-      here are\x20
+      Game Boy Color
 
   - name: DICT0_7e
     index: 0x7e
     text: |-
-      somewhere
+      \col(4)\num1 signs\col(0)!\n
 
   - name: DICT0_7f
     index: 0x7f
     text: |-
-      I'm going
+      \col(1)Essences
 
   - name: DICT0_80
     index: 0x80
-    text: |-
-      \col(1)flute\col(0)
+    text: |2-
+       your\x20
 
   - name: DICT0_81
     index: 0x81
-    text: |-
-      the past
+    text: |2-
+       will\n
 
   - name: DICT0_82
     index: 0x82
-    text: |-
-      anything
+    text: |2-
+       on the\n
 
   - name: DICT0_83
     index: 0x83
-    text: |2-
-       this\n
+    text: |-
+      Subrosia
 
   - name: DICT0_84
     index: 0x84
-    text: |2-
-       your\n
+    text: |-
+      Seasons
 
   - name: DICT0_85
     index: 0x85
-    text: |-
-      'll give you\n
+    text: |2-
+       shall\n
 
   - name: DICT0_86
     index: 0x86
     text: |-
-      here's\x20
+      Good luck
 
   - name: DICT0_87
     index: 0x87
     text: |-
-      What's\x20
+      waterfall
 
   - name: DICT0_88
     index: 0x88
-    text: |-
-      without
+    text: |2-
+       with\x20
 
   - name: DICT0_89
     index: 0x89
     text: |2-
-       that\x20
+       power
 
   - name: DICT0_8a
     index: 0x8a
     text: |2-
-       your\x20
+       this\n
 
   - name: DICT0_8b
     index: 0x8b
     text: |-
-      your stuff, too!
+      about\x20
 
   - name: DICT0_8c
     index: 0x8c
     text: |-
-      everything
+      , but\x20
 
   - name: DICT0_8d
     index: 0x8d
     text: |-
-      generation
+      \col(2)essence\col(4)
 
   - name: DICT0_8e
     index: 0x8e
     text: |-
-      , but\x20
+      \col(1)Star-Shaped Ore\col(0)
 
   - name: DICT0_8f
     index: 0x8f
-    text: |-
-      you have
+    text: |2-
+       Rupees
 
   - name: DICT0_90
     index: 0x90
     text: |-
-      treasure
+      without
 
   - name: DICT0_91
     index: 0x91
     text: |-
-      Want to\x20
+      I have\x20
 
   - name: DICT0_92
     index: 0x92
-    text: |-
-      I guess\x20
+    text: |2-
+       around
 
   - name: DICT0_93
     index: 0x93
-    text: |2-
-       called\n
+    text: |-
+      strange
 
   - name: DICT0_94
     index: 0x94
     text: |-
-      Subrosia
+      I am \col(3)
 
   - name: DICT0_95
     index: 0x95
-    text: |2-
-       Ring L-
+    text: |-
+      Don't\x20
 
   - name: DICT0_96
     index: 0x96
     text: |2-
-       again
+       have\n
 
   - name: DICT0_97
     index: 0x97
-    text: |-
-      You've\x20
+    text: |2-
+       this\x20
 
   - name: DICT0_98
     index: 0x98
-    text: |-
-      e the\n
+    text: |2-
+       that\x20
 
   - name: DICT0_99
     index: 0x99
     text: |2-
-       this\x20
+       that\n
 
   - name: DICT0_9a
     index: 0x9a
-    text: |2-
-       have\n
+    text: |-
+      Strange Flute
 
   - name: DICT0_9b
     index: 0x9b
-    text: |2-
-       right
+    text: |-
+      Member's Card
 
   - name: DICT0_9c
     index: 0x9c
     text: |-
-      ssences
+      What kind of\n
 
   - name: DICT0_9d
     index: 0x9d
     text: |-
-      brother
+      I surrender!\n
 
   - name: DICT0_9e
     index: 0x9e
-    text: |2-
-       there's\n
+    text: |-
+      \col(3)Mt. Cucco\col(0)
 
   - name: DICT0_9f
     index: 0x9f
-    text: |-
-      the power
+    text: |2-
+       with\n
 
   - name: DICT0_a0
     index: 0xa0
     text: |-
-      Satchel\col(0)
+      loodgate
 
   - name: DICT0_a1
     index: 0xa1
-    text: |-
-      \col(3)Ganon\col(0)
+    text: |2-
+       for the
 
   - name: DICT0_a2
     index: 0xa2
-    text: |2-
-       will\n
+    text: |-
+      remember
 
   - name: DICT0_a3
     index: 0xa3
     text: |-
-      Pieces of Heart
+      ing the\n
 
   - name: DICT0_a4
     index: 0xa4
     text: |-
-      Great Moblin
+      able to\x20
 
   - name: DICT0_a5
     index: 0xa5
     text: |-
-      he Flame of\n
+      from the
 
   - name: DICT0_a6
     index: 0xa6
     text: |-
-      You got\n
+      ountain
 
   - name: DICT0_a7
     index: 0xa7
     text: |-
-      when you
+      Really?
 
   - name: DICT0_a8
     index: 0xa8
-    text: |2-
-       strange
+    text: |-
+      cannot\x20
 
   - name: DICT0_a9
     index: 0xa9
     text: |2-
-       can't\n
+       I'll\x20
 
   - name: DICT0_aa
     index: 0xaa
     text: |-
-      You're\x20
+      , but\n
 
   - name: DICT0_ab
     index: 0xab
     text: |-
-      I don't
+      secret
 
   - name: DICT0_ac
     index: 0xac
-    text: |-
-      all the
+    text: |2-
+       the\x20
 
   - name: DICT0_ad
     index: 0xad
-    text: |-
-      e you\x20
+    text: |2-
+       just\x20
 
   - name: DICT0_ae
     index: 0xae
     text: |-
-      t the\n
+      Something
 
   - name: DICT0_af
     index: 0xaf
-    text: |2-
-       will\x20
+    text: |-
+      like this
 
   - name: DICT0_b0
     index: 0xb0
     text: |-
-      s the\n
+      kidnapped
 
   - name: DICT0_b1
     index: 0xb1
     text: |-
-      n the\x20
+      Game Link
 
   - name: DICT0_b2
     index: 0xb2
     text: |-
-      Please\x20
+      Village\col(0)
 
   - name: DICT0_b3
     index: 0xb3
     text: |-
-      complet
+      \col(3)Veran\col(0)
 
   - name: DICT0_b4
     index: 0xb4
-    text: |-
-      Welcome
+    text: |2-
+       the\n
 
   - name: DICT0_b5
     index: 0xb5
-    text: |2-
-       friend
+    text: |-
+      you're\x20
 
   - name: DICT0_b6
     index: 0xb6
-    text: |-
-      ...\stop\n
+    text: |2-
+       summer
 
   - name: DICT0_b7
     index: 0xb7
-    text: |2-
-       could
+    text: |-
+      It's a\x20
 
   - name: DICT0_b8
     index: 0xb8
     text: |-
-      Power Bracelet
+      hen you
 
   - name: DICT0_b9
     index: 0xb9
     text: |-
-      \col(1)Lava Juice\col(0)
+      ystical
 
   - name: DICT0_ba
     index: 0xba
     text: |2-
-       with the\n
+       Seeds\n
 
   - name: DICT0_bb
     index: 0xbb
     text: |-
-      , the\n
+      someone
 
   - name: DICT0_bc
     index: 0xbc
     text: |-
-      ceremony
+      Great Moblin
 
   - name: DICT0_bd
     index: 0xbd
     text: |-
-      You are\x20
+      Bright Sun
 
   - name: DICT0_be
     index: 0xbe
     text: |-
-      he Queen
+      \col(1)Blue Ore\col(0)
 
   - name: DICT0_bf
     index: 0xbf
     text: |-
-      ibrary\col(0)
+      r har har!
 
   - name: DICT0_c0
     index: 0xc0
     text: |-
-      you're\x20
+      \col(3)Hyrule\col(0)
 
   - name: DICT0_c1
     index: 0xc1
     text: |-
-      of the\x20
+      friend
 
   - name: DICT0_c2
     index: 0xc2
-    text: |-
-      already
+    text: |2-
+       you\n
 
   - name: DICT0_c3
     index: 0xc3
     text: |-
-      village
+      othing
 
   - name: DICT0_c4
     index: 0xc4
-    text: |-
-      ear the
+    text: |2-
+       right
 
   - name: DICT0_c5
     index: 0xc5
-    text: |-
-      I shall
+    text: |2-
+       will\x20
 
   - name: DICT0_c6
     index: 0xc6
     text: |-
-      Sword\col(0)
+      shall\x20
 
   - name: DICT0_c7
     index: 0xc7
-    text: |-
-      different
+    text: |2-
+       I can
 
   - name: DICT0_c8
     index: 0xc8
     text: |-
-      struction
+      forget
 
   - name: DICT0_c9
     index: 0xc9
     text: |-
-      Evil King
+      naming our son,\n
 
   - name: DICT0_ca
     index: 0xca
     text: |-
-      d the\n
+      you can\x20
 
   - name: DICT0_cb
     index: 0xcb
     text: |-
-      Do you
+      Got it?\n
 
   - name: DICT0_cc
     index: 0xcc
     text: |2-
-       I'll\x20
+       brought
 
   - name: DICT0_cd
     index: 0xcd
-    text: |2-
-       great
+    text: |-
+      It's so\x20
 
   - name: DICT0_ce
     index: 0xce
     text: |-
-      e you\n
+      Darkness
 
   - name: DICT0_cf
     index: 0xcf
     text: |-
-      Mermaid Key
+      \col(1)Rod of
 
   - name: DICT0_d0
     index: 0xd0
-    text: |-
-      My name is\n
+    text: |2-
+       Ring
 
   - name: DICT0_d1
     index: 0xd1
-    text: |2-
-        \opt()Sure \opt()
+    text: |-
+      strong
 
   - name: DICT0_d2
     index: 0xd2
-    text: |-
-      nothing
+    text: |2-
+       when\n
 
   - name: DICT0_d3
     index: 0xd3
-    text: |-
-      Can you
+    text: |2-
+       from\n
 
   - name: DICT0_d4
     index: 0xd4
-    text: |2-
-       won't\x20
+    text: |-
+      \col(0) is\n
 
   - name: DICT0_d5
     index: 0xd5
-    text: |-
-      if you\x20
+    text: |2-
+       you\x20
 
   - name: DICT0_d6
     index: 0xd6
     text: |2-
-       around
+       spring
 
   - name: DICT0_d7
     index: 0xd7
-    text: |2-
-       \col(1)Bomb
+    text: |-
+      through
 
   - name: DICT0_d8
     index: 0xd8
     text: |2-
-       power
+       Screen
 
   - name: DICT0_d9
     index: 0xd9
     text: |2-
-       Goron
+       Shield
 
   - name: DICT0_da
     index: 0xda
-    text: |2-
-       about
+    text: |-
+      monster
 
   - name: DICT0_db
     index: 0xdb
-    text: |2-
-       never
+    text: |-
+      special
 
   - name: DICT0_dc
     index: 0xdc
-    text: |-
-      ! You\n
+    text: |2-
+       and\n
 
   - name: DICT0_dd
     index: 0xdd
     text: |-
-      s the\x20
+      hat's\x20
 
   - name: DICT0_de
     index: 0xde
     text: |-
-      e the\x20
+      Spring
 
   - name: DICT0_df
     index: 0xdf
-    text: |-
-      , but\n
+    text: |2-
+       great
 
   - name: DICT0_e0
     index: 0xe0
-    text: |-
-      I can\x20
+    text: |2-
+       think
 
   - name: DICT0_e1
     index: 0xe1
-    text: |-
-      Rolling Ridge
+    text: |2-
+       and\x20
 
   - name: DICT0_e2
     index: 0xe2
     text: |2-
-       like\n
+       for\n
 
   - name: DICT0_e3
     index: 0xe3
-    text: |-
-      can't\x20
+    text: |2-
+       carry
 
   - name: DICT0_e4
     index: 0xe4
-    text: |-
-      people
+    text: |2-
+       find\x20
 
   - name: DICT0_e5
     index: 0xe5
     text: |-
-      Don't\x20
+      Master
 
   - name: DICT0_e6
     index: 0xe6
     text: |-
-      ing the\n
+      ! You\n
 
   - name: DICT0_e7
     index: 0xe7
     text: |-
-      's House
+      people
 
   - name: DICT0_e8
     index: 0xe8
-    text: |-
-      going on
+    text: |2-
+       I'll\n
 
   - name: DICT0_e9
     index: 0xe9
     text: |-
-      I wonder
+      Please
 
   - name: DICT0_ea
     index: 0xea
     text: |-
-      he Elder
+      don't\x20
 
   - name: DICT0_eb
     index: 0xeb
-    text: |-
-      \col(3)Ambi\col(0)
+    text: |2-
+       could
 
   - name: DICT0_ec
     index: 0xec
     text: |-
-      of Time
+      It's\x20
 
   - name: DICT0_ed
     index: 0xed
     text: |-
-      come to
+      ! That's\n
 
   - name: DICT0_ee
     index: 0xee
     text: |-
-      Village
+      verything
 
   - name: DICT0_ef
     index: 0xef
     text: |-
-      cannot\x20
+      I wonder\x20
 
   - name: DICT0_f0
     index: 0xf0
     text: |-
-      give me
+      Pegasus
 
   - name: DICT0_f1
     index: 0xf1
-    text: |2-
-       must\x20
+    text: |-
+      \col(1)rings\col(0)
 
   - name: DICT0_f2
     index: 0xf2
     text: |-
-      ing to
+      out of\x20
 
   - name: DICT0_f3
     index: 0xf3
-    text: |2-
-        \opt()Trade \opt()Don't
+    text: |-
+      \col(3)Maple\col(0)
 
   - name: DICT0_f4
     index: 0xf4
     text: |-
-      , too!
+      here\x20
 
   - name: DICT0_f5
     index: 0xf5
-    text: |2-
-       time\x20
+    text: |-
+      have\x20
 
   - name: DICT0_f6
     index: 0xf6
-    text: |2-
-       heart
+    text: |-
+      stump to call\n
 
   - name: DICT0_f7
     index: 0xf7
     text: |-
-      t the\x20
+      Power Bracelet
 
   - name: DICT0_f8
     index: 0xf8
-    text: |2-
-       with\x20
+    text: |-
+      The season is\n
 
   - name: DICT0_f9
     index: 0xf9
     text: |-
-      legendary
+      No matter how\n
 
   - name: DICT0_fa
     index: 0xfa
     text: |-
-      Boomerang
+      \col(3)Twinrova's\col(0)
 
   - name: DICT0_fb
     index: 0xfb
-    text: |2-
-       Ring Box
+    text: |-
+      terrible
 
   - name: DICT0_fc
     index: 0xfc
-    text: |2-
-       You can\n
+    text: |-
+      has come
 
   - name: DICT0_fd
     index: 0xfd
     text: |-
-      thank you
+      I, too,\x20
 
   - name: DICT0_fe
     index: 0xfe
     text: |2-
-       or more\n
+        \opt()Sure
 
   - name: DICT0_ff
     index: 0xff
     text: |-
-      sacrifice
+      winter
 
 - group: 0x01
   data:
   - name: DICT1_00
     index: 0x00
-    text: |2-
-       \col(3)Queen\n
+    text: |-
+      happen
 
   - name: DICT1_01
     index: 0x01
-    text: |-
-      passion
+    text: |2-
+       north
 
   - name: DICT1_02
     index: 0x02
     text: |-
-      the sea
+      , too!
 
   - name: DICT1_03
     index: 0x03
     text: |2-
-       things
+       would
 
   - name: DICT1_04
     index: 0x04
-    text: |-
-      ! It's\x20
+    text: |2-
+       place
 
   - name: DICT1_05
     index: 0x05
-    text: |2-
-       I can\n
+    text: |-
+      espair
 
   - name: DICT1_06
     index: 0x06
     text: |-
-      trouble
+      word\col(0)
 
   - name: DICT1_07
     index: 0x07
     text: |2-
-       Seeds\n
+       hear
 
   - name: DICT1_08
     index: 0x08
     text: |-
-      ong ago
+      that\x20
 
   - name: DICT1_09
     index: 0x09
     text: |-
-      anytime
+      I'll\x20
 
   - name: DICT1_0a
     index: 0x0a
-    text: |-
-      Magic Potion
+    text: |2-
+       time
 
   - name: DICT1_0b
     index: 0x0b
     text: |-
-      \col(1)Biggoron's
+      your\x20
 
   - name: DICT1_0c
     index: 0x0c
-    text: |-
-      of Seals\col(0)
+    text: |2-
+       for\x20
 
   - name: DICT1_0d
     index: 0x0d
-    text: |-
-      other\x20
+    text: |2-
+       like
 
   - name: DICT1_0e
     index: 0x0e
     text: |2-
-       place
+       here
 
   - name: DICT1_0f
     index: 0x0f
-    text: |2-
-       there
+    text: |-
+      other
 
   - name: DICT1_10
     index: 0x10
     text: |-
-      What a
+      before
 
   - name: DICT1_11
     index: 0x11
-    text: |2-
-       have\x20
+    text: |-
+      Spirit
 
   - name: DICT1_12
     index: 0x12
     text: |-
-      about\x20
+      We're\x20
 
   - name: DICT1_13
     index: 0x13
     text: |-
-      Thanks
+      Hmm...
 
   - name: DICT1_14
     index: 0x14
-    text: |2-
-       just\x20
+    text: |-
+      always
 
   - name: DICT1_15
     index: 0x15
     text: |-
-      I'm so
+      erhaps
 
   - name: DICT1_16
     index: 0x16
     text: |2-
-       dance
+       can\x20
 
   - name: DICT1_17
     index: 0x17
-    text: |2-
-       you\n
+    text: |-
+      Climb atop a\n
 
   - name: DICT1_18
     index: 0x18
-    text: |2-
-       the\x20
+    text: |-
+      power
 
   - name: DICT1_19
     index: 0x19
     text: |2-
-       to me
+       you.
 
   - name: DICT1_1a
     index: 0x1a
     text: |-
-      please
+      This\x20
 
   - name: DICT1_1b
     index: 0x1b
-    text: |-
-      forget
+    text: |2-
+       you!
 
   - name: DICT1_1c
     index: 0x1c
-    text: |-
-      Congratulations!
+    text: |2-
+       to see
 
   - name: DICT1_1d
     index: 0x1d
     text: |-
-      naming our son,\n
+      courage
 
   - name: DICT1_1e
     index: 0x1e
     text: |-
-      guardian
+      want to
 
   - name: DICT1_1f
     index: 0x1f
-    text: |-
-      terrible
+    text: |2-
+       thanks
 
   - name: DICT1_20
     index: 0x20
     text: |-
-      together
+      ushroom
 
   - name: DICT1_21
     index: 0x21
-    text: |-
-      Graceful
+    text: |2-
+       Level\x20
 
   - name: DICT1_22
     index: 0x22
     text: |-
-      Become a
+      Advance
 
   - name: DICT1_23
     index: 0x23
     text: |-
-      \col(1)Scent\x20
+      tell me
 
   - name: DICT1_24
     index: 0x24
-    text: |2-
-       and\n
+    text: |-
+      rincess
 
   - name: DICT1_25
     index: 0x25
     text: |2-
-       here
+       Oracle
 
   - name: DICT1_26
     index: 0x26
-    text: |2-
-       you\x20
+    text: |-
+      You'll\x20
 
   - name: DICT1_27
     index: 0x27
-    text: |2-
-       found
+    text: |-
+      anytime
 
   - name: DICT1_28
     index: 0x28
-    text: |2-
-       find\x20
+    text: |-
+      Snake\col(0)
 
   - name: DICT1_29
     index: 0x29
     text: |2-
-       with\n
+       is a
 
   - name: DICT1_2a
     index: 0x2a
     text: |-
-      palace
+      What\x20
 
   - name: DICT1_2b
     index: 0x2b
-    text: |-
-      I know
+    text: |2-
+       more
 
   - name: DICT1_2c
     index: 0x2c
-    text: |-
-      Really
+    text: |2-
+       them
 
   - name: DICT1_2d
     index: 0x2d
     text: |2-
-       Ring
+       some
 
   - name: DICT1_2e
     index: 0x2e
     text: |-
-      present
+      ssence
 
   - name: DICT1_2f
     index: 0x2f
-    text: |2-
-       out of
+    text: |-
+      change
 
   - name: DICT1_30
     index: 0x30
     text: |-
-      monster
+      return
 
   - name: DICT1_31
     index: 0x31
-    text: |-
-      of Ages
+    text: |2-
+       It's\n
 
   - name: DICT1_32
     index: 0x32
     text: |-
-      looking
+      ake it
 
   - name: DICT1_33
     index: 0x33
-    text: |-
-      able to
+    text: |2-
+       dance
 
   - name: DICT1_34
     index: 0x34
     text: |-
-      courage
+      enough
 
   - name: DICT1_35
     index: 0x35
     text: |-
-      hield\col(0)
+      hidden
 
   - name: DICT1_36
     index: 0x36
-    text: |2-
-       and\x20
+    text: |-
+      ortune
 
   - name: DICT1_37
     index: 0x37
     text: |-
-      \col(1)key\col(0)
+      \col(1)Bomb
 
   - name: DICT1_38
     index: 0x38
-    text: |2-
-       the\n
+    text: |-
+      \col(0)!\stop\n
 
   - name: DICT1_39
     index: 0x39
-    text: |2-
-       for\n
+    text: |-
+      thing
 
   - name: DICT1_3a
     index: 0x3a
     text: |-
-      It's\x20
+      this\x20
 
   - name: DICT1_3b
     index: 0x3b
     text: |-
-      \col(3)Western Woods
+      s of\n
 
   - name: DICT1_3c
     index: 0x3c
-    text: |2-
-       when\n
+    text: |-
+      Then\x20
 
   - name: DICT1_3d
     index: 0x3d
     text: |2-
-       Heart
+       hero
 
   - name: DICT1_3e
     index: 0x3e
     text: |-
-      before
+      ring\x20
 
   - name: DICT1_3f
     index: 0x3f
     text: |-
-      happen
+      ature
 
   - name: DICT1_40
     index: 0x40
-    text: |-
-      Please
+    text: |2-
+       get\x20
 
   - name: DICT1_41
     index: 0x41
-    text: |-
-      sorrow
+    text: |2-
+       are\n
 
   - name: DICT1_42
     index: 0x42
     text: |-
-      great\x20
+      from\x20
 
   - name: DICT1_43
     index: 0x43
     text: |-
-      change
+      Fertile Soil
 
   - name: DICT1_44
     index: 0x44
     text: |-
-      always
+      Know-It-All\n
 
   - name: DICT1_45
     index: 0x45
-    text: |2-
-       need\x20
+    text: |-
+      Magic Potion
 
   - name: DICT1_46
     index: 0x46
     text: |-
-      0 pts\n
+      ah, hah, hah
 
   - name: DICT1_47
     index: 0x47
     text: |-
-      your\x20
+      egendary
 
   - name: DICT1_48
     index: 0x48
-    text: |2-
-       time
+    text: |-
+      yourself
 
   - name: DICT1_49
     index: 0x49
     text: |-
-      Black Tower
+      strength
 
   - name: DICT1_4a
     index: 0x4a
-    text: |2-
-       back
+    text: |-
+      precious
 
   - name: DICT1_4b
     index: 0x4b
-    text: |-
-      have\x20
+    text: |2-
+       you'll\n
 
   - name: DICT1_4c
     index: 0x4c
     text: |-
-      that\x20
+      Bwee-hee
 
   - name: DICT1_4d
     index: 0x4d
-    text: |2-
-       still
+    text: |-
+      finished
 
   - name: DICT1_4e
     index: 0x4e
     text: |-
-      should
+      \col(1)Gasha\n
 
   - name: DICT1_4f
     index: 0x4f
-    text: |2-
-       think
+    text: |-
+      \col(3)Horon\n
 
   - name: DICT1_50
     index: 0x50
-    text: |2-
-       from\n
+    text: |-
+      That\x20
 
   - name: DICT1_51
     index: 0x51
-    text: |-
-      secret
+    text: |2-
+       good
 
   - name: DICT1_52
     index: 0x52
     text: |2-
-       for\x20
+       has\n
 
   - name: DICT1_53
     index: 0x53
     text: |2-
-       has\n
+       it to
 
   - name: DICT1_54
     index: 0x54
     text: |-
-      this\x20
+      eather
 
   - name: DICT1_55
     index: 0x55
     text: |-
-      I've been
+      should
 
   - name: DICT1_56
     index: 0x56
     text: |-
-      I'm gonna
+      master
 
   - name: DICT1_57
     index: 0x57
-    text: |-
-      Game Link
+    text: |2-
+       must\x20
 
   - name: DICT1_58
     index: 0x58
     text: |-
-      Boy Color
+      Thanks
 
   - name: DICT1_59
     index: 0x59
     text: |-
-      Flowers\col(0)
+      beasts
 
   - name: DICT1_5a
     index: 0x5a
     text: |-
-      Pegasus
+      called
 
   - name: DICT1_5b
     index: 0x5b
     text: |-
-      \col(3)Ricky\col(0)
+      better
 
   - name: DICT1_5c
     index: 0x5c
     text: |-
-      rincess
+      travel
 
   - name: DICT1_5d
     index: 0x5d
     text: |-
-      You may
+      Bwee!\x20
 
   - name: DICT1_5e
     index: 0x5e
     text: |-
-      emember
+      , too.
 
   - name: DICT1_5f
     index: 0x5f
     text: |-
-      finally
+      the \col(1)
 
   - name: DICT1_60
     index: 0x60
     text: |-
-      Too bad
+      lute\col(0)
 
   - name: DICT1_61
     index: 0x61
-    text: |2-
-       where\n
+    text: |-
+      take\x20
 
   - name: DICT1_62
     index: 0x62
     text: |-
-      targets
+      will\x20
 
   - name: DICT1_63
     index: 0x63
-    text: |2-
-       really
+    text: |-
+      Megaphone
 
   - name: DICT1_64
     index: 0x64
     text: |-
-      ometime
+      , ha, ha!
 
   - name: DICT1_65
     index: 0x65
     text: |-
-      brought
+      dreamt of
 
   - name: DICT1_66
     index: 0x66
     text: |-
-      sn't it
+      different
 
   - name: DICT1_67
     index: 0x67
     text: |-
-      Seasons
+      \col(3)Nayru\col(0)
 
   - name: DICT1_68
     index: 0x68
     text: |-
-      \col(1)sword\col(0)
+      \col(3)Vasu\col(0)\x20
 
   - name: DICT1_69
     index: 0x69
     text: |-
-      \col(3)Patch\col(0)
+      with\x20
 
   - name: DICT1_6a
     index: 0x6a
     text: |-
-      \col(1)Seed\n
+      e of\n
 
   - name: DICT1_6b
     index: 0x6b
-    text: |-
-      Flute\col(0)
+    text: |2-
+       are\x20
 
   - name: DICT1_6c
     index: 0x6c
     text: |2-
-       take
+       was\x20
 
   - name: DICT1_6d
     index: 0x6d
     text: |-
-      \col(1)Zora Scale\col(0)
+      finally
 
   - name: DICT1_6e
     index: 0x6e
     text: |-
-      raveyard
+      produce
 
   - name: DICT1_6f
     index: 0x6f
     text: |-
-      research
+      General
 
   - name: DICT1_70
     index: 0x70
     text: |-
-      mountain
+      careful
 
   - name: DICT1_71
     index: 0x71
     text: |-
-      continue
+      outside
 
   - name: DICT1_72
     index: 0x72
     text: |-
-      It looks
+      already
 
   - name: DICT1_73
     index: 0x73
     text: |-
-      precious
+      keyhole
 
   - name: DICT1_74
     index: 0x74
     text: |-
-      want to\n
+      Your\x20
 
   - name: DICT1_75
     index: 0x75
     text: |-
-      \col(3)Hyrule
+      world
 
   - name: DICT1_76
     index: 0x76
-    text: |-
-      \col(1)ring\col(0)
+    text: |2-
+       want
 
   - name: DICT1_77
     index: 0x77
     text: |-
-      Goron
+      Wooden Bird
 
   - name: DICT1_78
     index: 0x78
     text: |-
-      That\x20
+      Hero's Cave
 
   - name: DICT1_79
     index: 0x79
     text: |-
-      like\x20
+      Greetings!\n
 
   - name: DICT1_7a
     index: 0x7a
-    text: |2-
-       what
+    text: |-
+      button
 
   - name: DICT1_7b
     index: 0x7b
     text: |-
-      Rupees
+      Goron\x20
 
   - name: DICT1_7c
     index: 0x7c
     text: |2-
-       would
+       weird
 
   - name: DICT1_7d
     index: 0x7d
-    text: |2-
-       just\n
+    text: |-
+      eweler
 
   - name: DICT1_7e
     index: 0x7e
     text: |-
-      enough
+      Winter
 
   - name: DICT1_7f
     index: 0x7f
-    text: |2-
-       It's\n
+    text: |-
+      ed to\n
 
   - name: DICT1_80
     index: 0x80
     text: |-
-      inside
+      defeat
 
   - name: DICT1_81
     index: 0x81
-    text: |2-
-       I'll\n
+    text: |-
+      o much
 
   - name: DICT1_82
     index: 0x82
     text: |-
-      ing me
+      broken
 
   - name: DICT1_83
     index: 0x83
-    text: |2-
-       might
+    text: |-
+      ight\x20
 
   - name: DICT1_84
     index: 0x84
     text: |-
-      island
+      where
 
   - name: DICT1_85
     index: 0x85
     text: |-
-      friend
+      e to\x20
 
   - name: DICT1_86
     index: 0x86
     text: |-
-      !!!\stop\n
+      been\x20
 
   - name: DICT1_87
     index: 0x87
-    text: |-
-      \col(0)!\stop\n
+    text: |2-
+       hope
 
   - name: DICT1_88
     index: 0x88
     text: |2-
-       more
+        \opt()OK
 
   - name: DICT1_89
     index: 0x89
-    text: |-
-      What\x20
+    text: |2-
+       has\x20
 
   - name: DICT1_8a
     index: 0x8a
     text: |-
-      I'll\x20
+      when\x20
 
   - name: DICT1_8b
     index: 0x8b
-    text: |2-
-       work
+    text: |-
+      come\x20
 
   - name: DICT1_8c
     index: 0x8c
     text: |2-
-       all\n
+       know
 
   - name: DICT1_8d
     index: 0x8d
-    text: |2-
-       long
+    text: |-
+      I am\x20
 
   - name: DICT1_8e
     index: 0x8e
     text: |2-
-       to se
+       well
 
   - name: DICT1_8f
     index: 0x8f
-    text: |-
-      Zora's
+    text: |2-
+       help
 
   - name: DICT1_90
     index: 0x90
     text: |-
-      broken
+      never
 
   - name: DICT1_91
     index: 0x91
     text: |-
-      e can\x20
+      e!\stop\n
 
   - name: DICT1_92
     index: 0x92
     text: |-
-      don't\x20
+      Congratulations!\n
 
   - name: DICT1_93
     index: 0x93
     text: |-
-      sed to
+      offer my advice!\n
 
   - name: DICT1_94
     index: 0x94
-    text: |2-
-       What\n
+    text: |-
+      the\x20
 
   - name: DICT1_95
     index: 0x95
-    text: |-
-      return
+    text: |2-
+       into
 
   - name: DICT1_96
     index: 0x96
     text: |-
-      thanks
+      ress\x20
 
   - name: DICT1_97
     index: 0x97
     text: |-
-      0 pts.
+      ! The
 
   - name: DICT1_98
     index: 0x98
-    text: |-
-      ake it
+    text: |2-
+       that
 
   - name: DICT1_99
     index: 0x99
     text: |-
-      finish
+      lower
 
   - name: DICT1_9a
     index: 0x9a
     text: |-
-      \col(0) is\n
+      trade
 
   - name: DICT1_9b
     index: 0x9b
     text: |-
-      \col(0).\stop\n
+      t it\x20
 
   - name: DICT1_9c
     index: 0x9c
     text: |2-
-       was\x20
+       what
 
   - name: DICT1_9d
     index: 0x9d
     text: |2-
-       mystical\n
+       grow
 
   - name: DICT1_9e
     index: 0x9e
     text: |2-
-       ho ho ho!
+       it's
 
   - name: DICT1_9f
     index: 0x9f
     text: |2-
-       seas are\n
+       were
 
   - name: DICT1_a0
     index: 0xa0
     text: |-
-      hen I grow up
+      since
 
   - name: DICT1_a1
     index: 0xa1
     text: |-
-      been\x20
+      after
 
   - name: DICT1_a2
     index: 0xa2
-    text: |2-
-       I'm\n
+    text: |-
+      e'll\x20
 
   - name: DICT1_a3
     index: 0xa3
-    text: |2-
-       come
+    text: |-
+      !\stop\n
 
   - name: DICT1_a4
     index: 0xa4
-    text: |2-
-       you!
+    text: |-
+      .\stop\n
 
   - name: DICT1_a5
     index: 0xa5
     text: |-
-      s of\n
+      ...\n
 
   - name: DICT1_a6
     index: 0xa6
     text: |-
-      Then\x20
+      ing\x20
 
   - name: DICT1_a7
     index: 0xa7
     text: |-
-      alling\x20
+      Scattered seeds\n
 
   - name: DICT1_a8
     index: 0xa8
-    text: |-
-      haven't
+    text: |2-
+        \opt()Read \opt()Don't
 
   - name: DICT1_a9
     index: 0xa9
-    text: |2-
-       effect
+    text: |-
+      pprais
 
   - name: DICT1_aa
     index: 0xaa
     text: |-
-      one who
+      Let's\x20
 
   - name: DICT1_ab
     index: 0xab
-    text: |2-
-       Level\x20
+    text: |-
+      could\x20
 
   - name: DICT1_ac
     index: 0xac
     text: |-
-      Advance
+      I saw\x20
 
   - name: DICT1_ad
     index: 0xad
-    text: |2-
-       you'll
+    text: |-
+      , then
 
   - name: DICT1_ae
     index: 0xae
     text: |-
-      someone
+      I'm so
 
   - name: DICT1_af
     index: 0xaf
     text: |-
-      balance
+      still\x20
 
   - name: DICT1_b0
     index: 0xb0
-    text: |-
-      mazing!
+    text: |2-
+       to\x20
 
   - name: DICT1_b1
     index: 0xb1
     text: |-
-      after
+      The\x20
 
   - name: DICT1_b2
     index: 0xb2
-    text: |-
-      . The
+    text: |2-
+       to\n
 
   - name: DICT1_b3
     index: 0xb3
-    text: |-
-      thing
+    text: |2-
+       this
 
   - name: DICT1_b4
     index: 0xb4
-    text: |-
-      Tokay
+    text: |2-
+       can\n
 
   - name: DICT1_b5
     index: 0xb5
     text: |2-
-       save
+       back
 
   - name: DICT1_b6
     index: 0xb6
-    text: |-
-      to be
+    text: |2-
+       look
 
   - name: DICT1_b7
     index: 0xb7
-    text: |2-
-       good
+    text: |-
+      on't\n
 
   - name: DICT1_b8
     index: 0xb8
-    text: |2-
-       well
+    text: |-
+      dream
 
   - name: DICT1_b9
     index: 0xb9
     text: |-
-      other
+      h...\x20
 
   - name: DICT1_ba
     index: 0xba
-    text: |-
-      This\x20
+    text: |2-
+       I'm\x20
 
   - name: DICT1_bb
     index: 0xbb
     text: |-
-      on't\n
+      They\x20
 
   - name: DICT1_bc
     index: 0xbc
     text: |-
-      hat's\n
+      round
 
   - name: DICT1_bd
     index: 0xbd
     text: |-
-      ssence
+      need\x20
 
   - name: DICT1_be
     index: 0xbe
-    text: |-
-      trange
+    text: |2-
+       it!\n
 
   - name: DICT1_bf
     index: 0xbf
-    text: |-
-      travel
+    text: |2-
+       \opt()No
 
   - name: DICT1_c0
     index: 0xc0
     text: |-
-      Queen\x20
+      Welcome
 
   - name: DICT1_c1
     index: 0xc1
     text: |-
-      What?\x20
+      protect
 
   - name: DICT1_c2
     index: 0xc2
     text: |-
-      listen
+      complet
 
   - name: DICT1_c3
     index: 0xc3
     text: |-
-      though
+      Mittens
 
   - name: DICT1_c4
     index: 0xc4
     text: |-
-      you've
+      \col(0), an\n
 
   - name: DICT1_c5
     index: 0xc5
     text: |-
-      espair
+      Moosh\col(0)
 
   - name: DICT1_c6
     index: 0xc6
     text: |-
-      Let me
+      anana\col(0)
 
   - name: DICT1_c7
     index: 0xc7
-    text: |2-
-       not\x20
+    text: |-
+      ing\n
 
   - name: DICT1_c8
     index: 0xc8
-    text: |2-
-       them
+    text: |-
+      Phonograph
 
   - name: DICT1_c9
     index: 0xc9
     text: |-
-      world
+      Gasha Seed
 
   - name: DICT1_ca
     index: 0xca
-    text: |-
-      tower
+    text: |2-
+       quickly
 
   - name: DICT1_cb
     index: 0xcb
-    text: |2-
-       know
+    text: |-
+      Holodrum
 
   - name: DICT1_cc
     index: 0xcc
     text: |-
-      Your\x20
+      ower of\x20
 
   - name: DICT1_cd
     index: 0xcd
     text: |2-
-       was\n
+       worried
 
   - name: DICT1_ce
     index: 0xce
     text: |-
-      e...\n
+      name is\n
 
   - name: DICT1_cf
     index: 0xcf
     text: |-
-      Sword beams\n
+      \col(3)Blaino\col(0)
 
   - name: DICT1_d0
     index: 0xd0
     text: |-
-      Beasts drop\n
+      \col(1)bell\col(0)
 
   - name: DICT1_d1
     index: 0xd1
-    text: |-
-      Find double\n
+    text: |2-
+       of\n
 
   - name: DICT1_d2
     index: 0xd2
     text: |-
-      \col(1)Dumbbell\col(0)
+      you\x20
 
   - name: DICT1_d3
     index: 0xd3
     text: |-
-      ymbol of
+      lucky
 
   - name: DICT1_d4
     index: 0xd4
     text: |-
-      the top\x20
+      eason
 
   - name: DICT1_d5
     index: 0xd5
     text: |-
-      counting
+      right
 
   - name: DICT1_d6
     index: 0xd6
-    text: |2-
-       across\n
+    text: |-
+      Heart
 
   - name: DICT1_d7
     index: 0xd7
     text: |-
-      You were
+      find\x20
 
   - name: DICT1_d8
     index: 0xd8
     text: |-
-      back to\x20
+      ouble
 
   - name: DICT1_d9
     index: 0xd9
     text: |-
-      grandson
+      three
 
   - name: DICT1_da
     index: 0xda
     text: |-
-      Got it?\n
+      Ricky
 
   - name: DICT1_db
     index: 0xdb
-    text: |-
-      damage \up
+    text: |2-
+       long
 
   - name: DICT1_dc
     index: 0xdc
-    text: |2-
-       \col(3)King\n
+    text: |-
+      stuff
 
   - name: DICT1_dd
     index: 0xdd
     text: |-
-      \col(3)Impa\col(0)
+      make\n
 
   - name: DICT1_de
     index: 0xde
     text: |-
-      will\x20
+      give\n
 
   - name: DICT1_df
     index: 0xdf
     text: |-
-      with\x20
+      child
 
   - name: DICT1_e0
     index: 0xe0
-    text: |-
-      water
+    text: |2-
+       away
 
   - name: DICT1_e1
     index: 0xe1
-    text: |2-
-       play
+    text: |-
+      plant
 
   - name: DICT1_e2
     index: 0xe2
     text: |-
-      only\x20
+      \col(0)\stop\n
 
   - name: DICT1_e3
     index: 0xe3
-    text: |-
-      I am\x20
+    text: |2-
+       of\x20
 
   - name: DICT1_e4
     index: 0xe4
     text: |-
-      Hey!\x20
+      \col(0)!\n
 
   - name: DICT1_e5
     index: 0xe5
     text: |2-
-       get\n
+       is\n
 
   - name: DICT1_e6
     index: 0xe6
-    text: |-
-      e!\stop\n
+    text: |2-
+       in\n
 
   - name: DICT1_e7
     index: 0xe7
     text: |-
-      remain
+      ?\stop\n
 
   - name: DICT1_e8
     index: 0xe8
     text: |-
-      Screen
+      You\x20
 
   - name: DICT1_e9
     index: 0xe9
     text: |-
-      attack
+      and\x20
 
   - name: DICT1_ea
     index: 0xea
-    text: |-
-      ermaid
+    text: |2-
+       not\x20
 
   - name: DICT1_eb
     index: 0xeb
-    text: |-
-      pprais
+    text: |2-
+       many
 
   - name: DICT1_ec
     index: 0xec
-    text: |-
-      Cheval
+    text: |2-
+       near
 
   - name: DICT1_ed
     index: 0xed
-    text: |2-
-       beast
+    text: |-
+      just\n
 
   - name: DICT1_ee
     index: 0xee
     text: |-
-      better
+      I've\x20
 
   - name: DICT1_ef
     index: 0xef
     text: |-
-      I knew
+      et me
 
   - name: DICT1_f0
     index: 0xf0
     text: |-
-      I want
+      break
 
   - name: DICT1_f1
     index: 0xf1
-    text: |2-
-       young
+    text: |-
+      teach
 
   - name: DICT1_f2
     index: 0xf2
-    text: |-
-      ortune
+    text: |2-
+       I'm\n
 
   - name: DICT1_f3
     index: 0xf3
-    text: |2-
-       prize
+    text: |-
+      quest
 
   - name: DICT1_f4
     index: 0xf4
-    text: |-
-      I hope
+    text: |2-
+       true
 
   - name: DICT1_f5
     index: 0xf5
-    text: |2-
-       seems
+    text: |-
+      come\n
 
   - name: DICT1_f6
     index: 0xf6
     text: |-
-      let me
+      's\col(0)\n
 
   - name: DICT1_f7
     index: 0xf7
     text: |2-
-       hear
+       fruit
 
   - name: DICT1_f8
     index: 0xf8
-    text: |2-
-       is a
+    text: |-
+      ollect
 
   - name: DICT1_f9
     index: 0xf9
-    text: |2-
-       this
+    text: |-
+      aven't
 
   - name: DICT1_fa
     index: 0xfa
     text: |-
-      Fairy
+      sacred
 
   - name: DICT1_fb
     index: 0xfb
     text: |-
-      weird
+      ed Ore
 
   - name: DICT1_fc
     index: 0xfc
-    text: |2-
-       mean
+    text: |-
+      Here's
 
   - name: DICT1_fd
     index: 0xfd
-    text: |2-
-       help
+    text: |-
+      Let us
 
   - name: DICT1_fe
     index: 0xfe
     text: |-
-      first
+      may be
 
   - name: DICT1_ff
     index: 0xff
     text: |-
-      Zora Seas
+      filled
 
 - group: 0x02
   data:
   - name: DICT2_00
     index: 0x00
     text: |-
-      eedling\col(0)
+      shield
 
   - name: DICT2_01
     index: 0x01
-    text: |2-
-       \col(1)Gasha\n
+    text: |-
+      please
 
   - name: DICT2_02
     index: 0x02
     text: |-
-      ustache\col(0)
+      Sorrow
 
   - name: DICT2_03
     index: 0x03
-    text: |-
-      \col(3)Maple\col(0)
+    text: |2-
+       I've\n
 
   - name: DICT2_04
     index: 0x04
-    text: |-
-      \col(3)Vasu\col(0)\x20
+    text: |2-
+       \opt()Yes
 
   - name: DICT2_05
     index: 0x05
-    text: |-
-      t to\n
+    text: |2-
+       now
 
   - name: DICT2_06
     index: 0x06
-    text: |-
-      Maybe
+    text: |2-
+       see
 
   - name: DICT2_07
     index: 0x07
     text: |-
-      e of\n
+      all\x20
 
   - name: DICT2_08
     index: 0x08
-    text: |2-
-       hero
+    text: |-
+      land
 
   - name: DICT2_09
     index: 0x09
     text: |-
-      power
+      reat
 
   - name: DICT2_0a
     index: 0x0a
     text: |-
-      ! The
+      Slingshot
 
   - name: DICT2_0b
     index: 0x0b
     text: |-
-      carry
+      Lava Soup
 
   - name: DICT2_0c
     index: 0x0c
     text: |-
-      ding\x20
+      Maku Tree
 
   - name: DICT2_0d
     index: 0x0d
     text: |-
-      just\x20
+      left hand
 
   - name: DICT2_0e
     index: 0x0e
-    text: |2-
-       our\n
+    text: |-
+      beautiful
 
   - name: DICT2_0f
     index: 0x0f
-    text: |2-
-       it to\x20
+    text: |-
+      Game Boy\n
 
   - name: DICT2_10
     index: 0x10
     text: |-
-      ncient\x20
+      nderstood
 
   - name: DICT2_11
     index: 0x11
     text: |-
-      I came\x20
+      Subscreen
 
   - name: DICT2_12
     index: 0x12
     text: |-
-      promise
+      Thank'ee!
 
   - name: DICT2_13
     index: 0x13
-    text: |-
-      protect
+    text: |2-
+       Jewel\col(0)!
 
   - name: DICT2_14
     index: 0x14
-    text: |-
-      started
+    text: |2-
+       in\x20
 
   - name: DICT2_15
     index: 0x15
     text: |-
-      anymore
+      ance
 
   - name: DICT2_16
     index: 0x16
-    text: |-
-      veryone
+    text: |2-
+       got\x20
 
   - name: DICT2_17
     index: 0x17
-    text: |2-
-       while\n
+    text: |-
+      sleep
 
   - name: DICT2_18
     index: 0x18
     text: |-
-      oh hoh!
+      . The
 
   - name: DICT2_19
     index: 0x19
-    text: |-
-      from\x20
+    text: |2-
+       open
 
   - name: DICT2_1a
     index: 0x1a
-    text: |-
-      e of\x20
+    text: |2-
+       they
 
   - name: DICT2_1b
     index: 0x1b
-    text: |2-
-       into
+    text: |-
+      take\n
 
   - name: DICT2_1c
     index: 0x1c
     text: |-
-      press
+      more\x20
 
   - name: DICT2_1d
     index: 0x1d
     text: |-
-      right
+      can't
 
   - name: DICT2_1e
     index: 0x1e
-    text: |2-
-       grow
+    text: |-
+      like\x20
 
   - name: DICT2_1f
     index: 0x1f
     text: |-
-      plant
+      Hey!\x20
 
   - name: DICT2_20
     index: 0x20
-    text: |-
-      ntroduction
+    text: |2-
+       cold
 
   - name: DICT2_21
     index: 0x21
     text: |-
-      Gar har har
+      give\x20
 
   - name: DICT2_22
     index: 0x22
     text: |-
-      Spin Attack
+      favor
 
   - name: DICT2_23
     index: 0x23
     text: |-
-      urrent
+      all\n
 
   - name: DICT2_24
     index: 0x24
     text: |-
-      choing
+      are\x20
 
   - name: DICT2_25
     index: 0x25
     text: |-
-      , then
+      ight
 
   - name: DICT2_26
     index: 0x26
     text: |2-
-       This\n
+       one
 
   - name: DICT2_27
     index: 0x27
-    text: |2-
-       you,\n
+    text: |-
+      ther
 
   - name: DICT2_28
     index: 0x28
     text: |-
-      appear
+      \col(0).\n
 
   - name: DICT2_29
     index: 0x29
     text: |-
-      ing...
+      Engine Grease
 
   - name: DICT2_2a
     index: 0x2a
     text: |-
-      erhaps
+      Aye, aye, sir
 
   - name: DICT2_2b
     index: 0x2b
     text: |-
-      No way
+      .............
 
   - name: DICT2_2c
     index: 0x2c
-    text: |-
-      Hmm...
+    text: |2-
+       it\x20
 
   - name: DICT2_2d
     index: 0x2d
-    text: |-
-      erfect
+    text: |2-
+       you
 
   - name: DICT2_2e
     index: 0x2e
     text: |-
-      We're\x20
+      ever
 
   - name: DICT2_2f
     index: 0x2f
     text: |-
-      forest
+      But\x20
 
   - name: DICT2_30
     index: 0x30
-    text: |-
-      Sorrow
+    text: |2-
+       my\n
 
   - name: DICT2_31
     index: 0x31
     text: |-
-      lately
+      east
 
   - name: DICT2_32
     index: 0x32
     text: |-
-      ring\x20
+      Lon Lon
 
   - name: DICT2_33
     index: 0x33
     text: |-
-      the \col(1)
+      yeglass
 
   - name: DICT2_34
     index: 0x34
-    text: |2-
-       are\n
+    text: |-
+      dropped
 
   - name: DICT2_35
     index: 0x35
     text: |-
-      king\x20
+      spirits
 
   - name: DICT2_36
     index: 0x36
     text: |2-
-       you.
+       anyone
 
   - name: DICT2_37
     index: 0x37
-    text: |2-
-       true
+    text: |-
+      usiness
 
   - name: DICT2_38
     index: 0x38
     text: |-
-      very\x20
+      ctually
 
   - name: DICT2_39
     index: 0x39
-    text: |-
-      Great
+    text: |2-
+       ask me
 
   - name: DICT2_3a
     index: 0x3a
     text: |-
-      shall
+      my test
 
   - name: DICT2_3b
     index: 0x3b
     text: |-
-      's\col(0)\n
+      mateys!
 
   - name: DICT2_3c
     index: 0x3c
-    text: |-
-      , too
+    text: |2-
+       out
 
   - name: DICT2_3d
     index: 0x3d
     text: |-
-      heart
+      I'm\x20
 
   - name: DICT2_3e
     index: 0x3e
     text: |-
-      aster
+      our\x20
 
   - name: DICT2_3f
     index: 0x3f
-    text: |2-
-       feel
+    text: |-
+      tion
 
   - name: DICT2_40
     index: 0x40
     text: |-
-      round
+      even
 
   - name: DICT2_41
     index: 0x41
-    text: |2-
-       some
+    text: |-
+      Rupee
 
   - name: DICT2_42
     index: 0x42
     text: |-
-      peace
+      found
 
   - name: DICT2_43
     index: 0x43
     text: |-
-      Huh?\x20
+      Sword
 
   - name: DICT2_44
     index: 0x44
-    text: |2-
-       away
+    text: |-
+      ttack
 
   - name: DICT2_45
     index: 0x45
     text: |-
-      ...\n
+      loves
 
   - name: DICT2_46
     index: 0x46
-    text: |-
-      the\x20
+    text: |2-
+       swim
 
   - name: DICT2_47
     index: 0x47
-    text: |2-
-       to\n
+    text: |-
+      Bombs
 
   - name: DICT2_48
     index: 0x48
-    text: |2-
-       get\x20
+    text: |-
+      hunks
 
   - name: DICT2_49
     index: 0x49
-    text: |2-
-       stop
+    text: |-
+      about
 
   - name: DICT2_4a
     index: 0x4a
     text: |2-
-       can\n
+       fine
 
   - name: DICT2_4b
     index: 0x4b
-    text: |-
-      come\x20
+    text: |2-
+       was\n
 
   - name: DICT2_4c
     index: 0x4c
     text: |-
-      three
+      shape
 
   - name: DICT2_4d
     index: 0x4d
-    text: |2-
-       Bomb
+    text: |-
+      order
 
   - name: DICT2_4e
     index: 0x4e
-    text: |2-
-       much
+    text: |-
+      , so\x20
 
   - name: DICT2_4f
     index: 0x4f
     text: |-
-      aving
+      eed\col(0)
 
   - name: DICT2_50
     index: 0x50
     text: |-
-      ing!\n
+      \col(1)\num1\x20
 
   - name: DICT2_51
     index: 0x51
-    text: |2-
-       all\x20
+    text: |-
+      ring
 
   - name: DICT2_52
     index: 0x52
     text: |-
-      alone
+      \col(0)?\n
 
   - name: DICT2_53
     index: 0x53
     text: |-
-      clean
+      Gmph, gmph,\n
 
   - name: DICT2_54
     index: 0x54
-    text: |-
-      Dance
+    text: |2-
+       \opt()Maybe not
 
   - name: DICT2_55
     index: 0x55
     text: |-
-      dance
+      across
 
   - name: DICT2_56
     index: 0x56
     text: |-
-      The\x20
+      agical
 
   - name: DICT2_57
     index: 0x57
     text: |2-
-       to\x20
+       than\n
 
   - name: DICT2_58
     index: 0x58
     text: |-
-      .\stop\n
+      urnace
 
   - name: DICT2_59
     index: 0x59
     text: |-
-      !\stop\n
+      follow
 
   - name: DICT2_5a
     index: 0x5a
     text: |-
-      ing\n
+      I had\x20
 
   - name: DICT2_5b
     index: 0x5b
     text: |-
-      you\x20
+      shadow
 
   - name: DICT2_5c
     index: 0x5c
-    text: |2-
-       is\n
+    text: |-
+      symbol
 
   - name: DICT2_5d
     index: 0x5d
-    text: |2-
-        \opt()Read \opt()Don't
+    text: |-
+      appear
 
   - name: DICT2_5e
     index: 0x5e
-    text: |2-
-       learn
+    text: |-
+      Here!\x20
 
   - name: DICT2_5f
     index: 0x5f
-    text: |2-
-       been\n
+    text: |-
+      What?\x20
 
   - name: DICT2_60
     index: 0x60
-    text: |-
-      Press\x20
+    text: |2-
+       chaos
 
   - name: DICT2_61
     index: 0x61
     text: |2-
-       than\n
+       is\x20
 
   - name: DICT2_62
     index: 0x62
     text: |-
-      create
+      atch
 
   - name: DICT2_63
     index: 0x63
-    text: |2-
-       must\n
+    text: |-
+      save
 
   - name: DICT2_64
     index: 0x64
-    text: |-
-      vanish
+    text: |2-
+       it\n
 
   - name: DICT2_65
     index: 0x65
-    text: |2-
-       need\n
+    text: |-
+      our\n
 
   - name: DICT2_66
     index: 0x66
     text: |-
-      matter
+      meet
 
   - name: DICT2_67
     index: 0x67
     text: |-
-      Shall\x20
+      over
 
   - name: DICT2_68
     index: 0x68
-    text: |2-
-       dream
+    text: |-
+      tell
 
   - name: DICT2_69
     index: 0x69
     text: |-
-      reward
+      saplings
 
   - name: DICT2_6a
     index: 0x6a
-    text: |2-
-       since
+    text: |-
+      Flippers
 
   - name: DICT2_6b
     index: 0x6b
     text: |-
-      ing\x20
+      Cuccodex
 
   - name: DICT2_6c
     index: 0x6c
-    text: |2-
-       in\n
+    text: |-
+      's House
 
   - name: DICT2_6d
     index: 0x6d
     text: |-
-      find\x20
+      guardian
 
   - name: DICT2_6e
     index: 0x6e
     text: |-
-      think
+      not\x20
 
   - name: DICT2_6f
     index: 0x6f
     text: |-
-      very\n
+      n't\x20
 
   - name: DICT2_70
     index: 0x70
     text: |-
-      sound
+      hold
 
   - name: DICT2_71
     index: 0x71
-    text: |-
-      happy
+    text: |2-
+       You
 
   - name: DICT2_72
     index: 0x72
-    text: |-
-      Well,
+    text: |2-
+       up\n
 
   - name: DICT2_73
     index: 0x73
     text: |-
-      teach
+      but\x20
 
   - name: DICT2_74
     index: 0x74
-    text: |2-
-       done
+    text: |-
+      ship
 
   - name: DICT2_75
     index: 0x75
     text: |-
-      child
+      \col(0),\n
 
   - name: DICT2_76
     index: 0x76
     text: |-
-      Wooden\x20
+      hoots
 
   - name: DICT2_77
     index: 0x77
     text: |-
-      heavens
+      then\x20
 
   - name: DICT2_78
     index: 0x78
     text: |-
-      collect
+      start
 
   - name: DICT2_79
     index: 0x79
     text: |-
-      Oracle\n
+      Ember
 
   - name: DICT2_7a
     index: 0x7a
     text: |-
-      Not bad
+      ready
 
   - name: DICT2_7b
     index: 0x7b
     text: |-
-      kind of
+      very\n
 
   - name: DICT2_7c
     index: 0x7c
     text: |2-
-       costs\n
+       get\n
 
   - name: DICT2_7d
     index: 0x7d
     text: |-
-      rules?\n
+      emple
 
   - name: DICT2_7e
     index: 0x7e
     text: |-
-      volcano
+      esert
 
   - name: DICT2_7f
     index: 0x7f
     text: |-
-      \col(0), an\n
+      find\n
 
   - name: DICT2_80
     index: 0x80
-    text: |-
-      \col(1)Ember
+    text: |2-
+       name
 
   - name: DICT2_81
     index: 0x81
     text: |-
-      owder\col(0)
+      first
 
   - name: DICT2_82
     index: 0x82
     text: |-
-      Lynna City
+      urely
 
   - name: DICT2_83
     index: 0x83
-    text: |2-
-       ha ha ha!
+    text: |-
+      ruins
 
   - name: DICT2_84
     index: 0x84
     text: |-
-      Gasha Seed
+      just\x20
 
   - name: DICT2_85
     index: 0x85
     text: |-
-      ked floors
+      ought
 
   - name: DICT2_86
     index: 0x86
     text: |-
-      adventur
+      water
 
   - name: DICT2_87
     index: 0x87
     text: |-
-      distance
+      Sorry
 
   - name: DICT2_88
     index: 0x88
-    text: |-
-      suddenly
+    text: |2-
+       love
 
   - name: DICT2_89
     index: 0x89
-    text: |2-
-       quickly
+    text: |-
+      woods
 
   - name: DICT2_8a
     index: 0x8a
     text: |-
-      practice
+      trees
 
   - name: DICT2_8b
     index: 0x8b
     text: |-
-      ancestor
+      peace
 
   - name: DICT2_8c
     index: 0x8c
-    text: |2-
-       \col(1)chart\col(0)
+    text: |-
+      nside
 
   - name: DICT2_8d
     index: 0x8d
     text: |-
-      eather\col(0)
+      ry it
 
   - name: DICT2_8e
     index: 0x8e
     text: |-
-      \col(1)book\col(0)
+      cable
 
   - name: DICT2_8f
     index: 0x8f
     text: |-
-      \col(1)tune\col(0)
+      orth
 
   - name: DICT2_90
     index: 0x90
-    text: |2-
-       of\n
+    text: |-
+      eeds
 
   - name: DICT2_91
     index: 0x91
     text: |-
-      \col(0)!\n
+      for\x20
 
   - name: DICT2_92
     index: 0x92
     text: |-
-      You\x20
+      feel
 
   - name: DICT2_93
     index: 0x93
-    text: |-
-      place
+    text: |2-
+       on\n
 
   - name: DICT2_94
     index: 0x94
     text: |-
-      again
+      take
 
   - name: DICT2_95
     index: 0x95
     text: |-
-      as a\x20
+      here
 
   - name: DICT2_96
     index: 0x96
     text: |-
-      I see
+      town
 
   - name: DICT2_97
     index: 0x97
-    text: |2-
-       were
+    text: |-
+      e a\n
 
   - name: DICT2_98
     index: 0x98
-    text: |2-
-       it's
+    text: |-
+      know
 
   - name: DICT2_99
     index: 0x99
     text: |-
-      House
+      wait
 
   - name: DICT2_9a
     index: 0x9a
     text: |-
-      could
+      each
 
   - name: DICT2_9b
     index: 0x9b
     text: |-
-      , so\n
+      Dimitri's F
 
   - name: DICT2_9c
     index: 0x9c
     text: |-
-      give\x20
+      less
 
   - name: DICT2_9d
     index: 0x9d
-    text: |2-
-       I am
+    text: |-
+      fall
 
   - name: DICT2_9e
     index: 0x9e
     text: |-
-      and\x20
+      What
 
   - name: DICT2_9f
     index: 0x9f
     text: |-
-      But\x20
+      back
 
   - name: DICT2_a0
     index: 0xa0
     text: |-
-      ?\stop\n
+      Now\x20
 
   - name: DICT2_a1
     index: 0xa1
     text: |-
-      I'm\x20
+      some
 
   - name: DICT2_a2
     index: 0xa2
     text: |-
-      here
+      e's\x20
 
   - name: DICT2_a3
     index: 0xa3
-    text: |2-
-       now
+    text: |-
+      're\n
 
   - name: DICT2_a4
     index: 0xa4
     text: |2-
-       out
+       be\n
 
   - name: DICT2_a5
     index: 0xa5
     text: |2-
-       is\x20
+       we\x20
 
   - name: DICT2_a6
     index: 0xa6
     text: |-
-      back\x20
+      ing!
 
   - name: DICT2_a7
     index: 0xa7
-    text: |2-
-       are\x20
+    text: |-
+      the\n
 
   - name: DICT2_a8
     index: 0xa8
     text: |-
-      sleep
+      e...
 
   - name: DICT2_a9
     index: 0xa9
     text: |-
-      even\n
+      ster
 
   - name: DICT2_aa
     index: 0xaa
-    text: |-
-      take\n
+    text: |2-
+       use
 
   - name: DICT2_ab
     index: 0xab
     text: |-
-      sword
+      ould
 
   - name: DICT2_ac
     index: 0xac
     text: |-
-      hadow
+      hear
 
   - name: DICT2_ad
     index: 0xad
     text: |-
-      some\x20
+      one\x20
 
   - name: DICT2_ae
     index: 0xae
     text: |-
-      ready
+      ay,\x20
 
   - name: DICT2_af
     index: 0xaf
     text: |2-
-       meet
+       all
 
   - name: DICT2_b0
     index: 0xb0
     text: |2-
-       live
+       any
 
   - name: DICT2_b1
     index: 0xb1
-    text: |-
-      cause
+    text: |2-
+        \opt()
 
   - name: DICT2_b2
     index: 0xb2
     text: |-
-      Sorry
+      thin
 
   - name: DICT2_b3
     index: 0xb3
-    text: |-
-      Good\x20
+    text: |2-
+       on\x20
 
   - name: DICT2_b4
     index: 0xb4
     text: |-
-      trees
+      time
 
   - name: DICT2_b5
     index: 0xb5
     text: |-
-      build
+      only
 
   - name: DICT2_b6
     index: 0xb6
     text: |-
-      stuff
+      Come
 
   - name: DICT2_b7
     index: 0xb7
     text: |-
-      make\n
+      it?\n
 
   - name: DICT2_b8
     index: 0xb8
     text: |-
-      reach
+      e me
 
   - name: DICT2_b9
     index: 0xb9
-    text: |-
-      quest
+    text: |2-
+       my\x20
 
   - name: DICT2_ba
     index: 0xba
-    text: |2-
-       once
+    text: |-
+      help
 
   - name: DICT2_bb
     index: 0xbb
     text: |-
-      which
+      been\n
 
   - name: DICT2_bc
     index: 0xbc
-    text: |2-
-       my\n
+    text: |-
+      ummer
 
   - name: DICT2_bd
     index: 0xbd
     text: |-
-      Witch Syrup's\n
+      their
 
   - name: DICT2_be
     index: 0xbe
-    text: |2-
-       speak
+    text: |-
+      ocked
 
   - name: DICT2_bf
     index: 0xbf
     text: |-
-      button
+      while
 
   - name: DICT2_c0
     index: 0xc0
-    text: |-
-      ibrary
+    text: |2-
+       real
 
   - name: DICT2_c1
     index: 0xc1
-    text: |2-
-       hold\n
+    text: |-
+      prize
 
   - name: DICT2_c2
     index: 0xc2
     text: |-
-      You're
+      racti
 
   - name: DICT2_c3
     index: 0xc3
     text: |-
-      Listen
+      told\x20
 
   - name: DICT2_c4
     index: 0xc4
     text: |-
-      Palace
+      those
 
   - name: DICT2_c5
     index: 0xc5
     text: |-
-      Why do
+      forge
 
   - name: DICT2_c6
     index: 0xc6
     text: |-
-      You'll
+      it's\x20
 
   - name: DICT2_c7
     index: 0xc7
     text: |-
-      almost
+      First
 
   - name: DICT2_c8
     index: 0xc8
     text: |-
-      My son
+      isten
 
   - name: DICT2_c9
     index: 0xc9
     text: |-
-      strong
+      huge\x20
 
   - name: DICT2_ca
     index: 0xca
     text: |-
-      rhythm
+      happy
 
   - name: DICT2_cb
     index: 0xcb
     text: |-
-      screen
+      learn
 
   - name: DICT2_cc
     index: 0xcc
     text: |-
-      ings\col(0)
+      items
 
   - name: DICT2_cd
     index: 0xcd
     text: |-
-      Ambi\col(0)
+      olish
 
   - name: DICT2_ce
     index: 0xce
-    text: |2-
-       of\x20
+    text: |-
+      pupil
 
   - name: DICT2_cf
     index: 0xcf
     text: |-
-      ight
+      's\col(0)\x20
 
   - name: DICT2_d0
     index: 0xd0
     text: |-
-      ...\x20
+      Tarm Ruins
 
   - name: DICT2_d1
     index: 0xd1
     text: |-
-      \col(0)?\n
+      Hyuh, hyuh
 
   - name: DICT2_d2
     index: 0xd2
     text: |-
-      all\x20
+      down south
 
   - name: DICT2_d3
     index: 0xd3
     text: |-
-      Time Hole
+      soft earth
 
   - name: DICT2_d4
     index: 0xd4
     text: |-
-      Maku Tree
+      Warmth
 
   - name: DICT2_d5
     index: 0xd5
     text: |-
-      wonderful
+      SELECT
 
   - name: DICT2_d6
     index: 0xd6
     text: |-
-      Wanna try
+      Wooden
 
   - name: DICT2_d7
     index: 0xd7
     text: |-
-      that
+      emains
 
   - name: DICT2_d8
     index: 0xd8
     text: |-
-      tion
+      Moblin
 
   - name: DICT2_d9
     index: 0xd9
     text: |-
-      can\x20
+      Sunken
 
   - name: DICT2_da
     index: 0xda
-    text: |2-
-       it!
+    text: |-
+      danger
 
   - name: DICT2_db
     index: 0xdb
     text: |-
-      over
+      I knew
 
   - name: DICT2_dc
     index: 0xdc
-    text: |2-
-       it\x20
+    text: |-
+      final\x20
 
   - name: DICT2_dd
     index: 0xdd
     text: |-
-      time
+      effect
 
   - name: DICT2_de
     index: 0xde
     text: |2-
-       one
+       I ask
 
   - name: DICT2_df
     index: 0xdf
     text: |-
-      move\n
+      Secret
 
   - name: DICT2_e0
     index: 0xe0
     text: |-
-      hield
+      damage
 
   - name: DICT2_e1
     index: 0xe1
     text: |-
-      ! Now
+      \col(3)Deku
 
   - name: DICT2_e2
     index: 0xe2
     text: |-
-      start
+      nice
 
   - name: DICT2_e3
     index: 0xe3
     text: |-
-      more\x20
+      grow
 
   - name: DICT2_e4
     index: 0xe4
     text: |-
-      trade
+      s a\x20
 
   - name: DICT2_e5
     index: 0xe5
     text: |-
-      ed me
+      that
 
   - name: DICT2_e6
     index: 0xe6
     text: |-
-      First
+      good
 
   - name: DICT2_e7
     index: 0xe7
     text: |-
-      sn't\x20
+      Good
 
   - name: DICT2_e8
     index: 0xe8
-    text: |2-
-       she\n
+    text: |-
+      what
 
   - name: DICT2_e9
     index: 0xe9
     text: |-
-      find\n
+      left
 
   - name: DICT2_ea
     index: 0xea
     text: |-
-      offer
+      work
 
   - name: DICT2_eb
     index: 0xeb
     text: |-
-      never
+      !!!\n
 
   - name: DICT2_ec
     index: 0xec
     text: |-
-      Let's
+      rest
 
   - name: DICT2_ed
     index: 0xed
     text: |2-
-       you
+       so\n
 
   - name: DICT2_ee
     index: 0xee
     text: |-
-      help
+      Oh!\x20
 
   - name: DICT2_ef
     index: 0xef
-    text: |2-
-       my\x20
+    text: |-
+      \col(0)!\x20
 
   - name: DICT2_f0
     index: 0xf0
-    text: |2-
-       it\n
+    text: |-
+      enemies
 
   - name: DICT2_f1
     index: 0xf1
     text: |-
-      tell
+      agnetic
 
   - name: DICT2_f2
     index: 0xf2
     text: |-
-      throne room.\n
+      narled\x20
 
   - name: DICT2_f3
     index: 0xf3
     text: |-
-      name
+      Blossom
 
   - name: DICT2_f4
     index: 0xf4
     text: |-
-      know
+      unleash
 
   - name: DICT2_f5
     index: 0xf5
     text: |-
-      this
+      I guess
 
   - name: DICT2_f6
     index: 0xf6
-    text: |2-
-       in\x20
+    text: |-
+      explain
 
   - name: DICT2_f7
     index: 0xf7
     text: |-
-      has\x20
+      connect
 
   - name: DICT2_f8
     index: 0xf8
     text: |-
-      produce
+      systems
 
   - name: DICT2_f9
     index: 0xf9
     text: |-
-      Ricky's
+      , huh?\n
 
   - name: DICT2_fa
     index: 0xfa
-    text: |-
-      Gallery
+    text: |2-
+       is:\stop\n
 
   - name: DICT2_fb
     index: 0xfb
     text: |-
-      healthy
+      \col(1)key\col(0)
 
   - name: DICT2_fc
     index: 0xfc
     text: |-
-      eft and
+      How\x20
 
   - name: DICT2_fd
     index: 0xfd
     text: |-
-      ctually
+      this
 
   - name: DICT2_fe
     index: 0xfe
     text: |-
-      Goodbye
+      nder
 
   - name: DICT2_ff
     index: 0xff
     text: |-
-      Heh heh
+      life
 
 - group: 0x03
   data:
   - name: DICT3_00
     index: 0x00
     text: |-
-      , like,
+      ress
 
   - name: DICT3_01
     index: 0x01
-    text: |2-
-       Thank\n
+    text: |-
+      ches
 
   - name: DICT3_02
     index: 0x02
     text: |-
-      explain
+      open
 
   - name: DICT3_03
     index: 0x03
     text: |-
-      destroy
+      stop
 
   - name: DICT3_04
     index: 0x04
     text: |-
-      believe
+      play
 
   - name: DICT3_05
     index: 0x05
-    text: |-
-      \col(1)Magic
+    text: |2-
+       it.
 
   - name: DICT3_06
     index: 0x06
     text: |-
-      Zelda\col(0)
+      Some
 
   - name: DICT3_07
     index: 0x07
-    text: |-
-      \col(3)Lynna
+    text: |2-
+       if\n
 
   - name: DICT3_08
     index: 0x08
-    text: |2-
-       is:\stop\n
+    text: |-
+      keep
 
   - name: DICT3_09
     index: 0x09
     text: |-
-      Zora
+      wear
 
   - name: DICT3_0a
     index: 0x0a
     text: |-
-      but\x20
+      hard
 
   - name: DICT3_0b
     index: 0x0b
     text: |-
-      wait
+      me!\n
 
   - name: DICT3_0c
     index: 0x0c
     text: |-
-      pirit
+      not\n
 
   - name: DICT3_0d
     index: 0x0d
     text: |-
-      choes
+      lost
 
   - name: DICT3_0e
     index: 0x0e
     text: |-
-      found
+      Seed
 
   - name: DICT3_0f
     index: 0x0f
     text: |-
-      Sword
+      get\x20
 
   - name: DICT3_10
     index: 0x10
     text: |-
-      their
+      ound
 
   - name: DICT3_11
     index: 0x11
     text: |-
-      items
+      pass
 
   - name: DICT3_12
     index: 0x12
     text: |-
-      nergy
+      make
 
   - name: DICT3_13
     index: 0x13
-    text: |2-
-       fine
+    text: |-
+      With
 
   - name: DICT3_14
     index: 0x14
     text: |-
-      check
+      you.
 
   - name: DICT3_15
     index: 0x15
-    text: |2-
-       fish
+    text: |-
+      alon
 
   - name: DICT3_16
     index: 0x16
-    text: |2-
-       flow
+    text: |-
+      ...\x20
 
   - name: DICT3_17
     index: 0x17
     text: |-
-      Elder
+      mean
 
   - name: DICT3_18
     index: 0x18
     text: |-
-      They\x20
+      Ages
 
   - name: DICT3_19
     index: 0x19
-    text: |-
-      hose\x20
+    text: |2-
+       me\n
 
   - name: DICT3_1a
     index: 0x1a
     text: |-
-      Ready
+      hero
 
   - name: DICT3_1b
     index: 0x1b
     text: |-
-      Blue\x20
+      Oh,\x20
 
   - name: DICT3_1c
     index: 0x1c
     text: |-
-      shape
+      burn
 
   - name: DICT3_1d
     index: 0x1d
-    text: |-
-      clear
+    text: |2-
+       him
 
   - name: DICT3_1e
     index: 0x1e
     text: |-
-      give\n
+      west
 
   - name: DICT3_1f
     index: 0x1f
-    text: |-
-      enter
+    text: |2-
+       new
 
   - name: DICT3_20
     index: 0x20
-    text: |2-
-       any\n
+    text: |-
+      move
 
   - name: DICT3_21
     index: 0x21
-    text: |2-
-       hard
+    text: |-
+      's Plaque
 
   - name: DICT3_22
     index: 0x22
     text: |-
-      Game\x20
+      Like Like
 
   - name: DICT3_23
     index: 0x23
-    text: |2-
-       late
+    text: |-
+      h hoh hoh
 
   - name: DICT3_24
     index: 0x24
-    text: |-
-      these
+    text: |2-
+       promised
 
   - name: DICT3_25
     index: 0x25
     text: |-
-      ren't
+      utumn
 
   - name: DICT3_26
     index: 0x26
     text: |-
-      cable
+      hovel
 
   - name: DICT3_27
     index: 0x27
     text: |-
-      Now\x20
+      force
 
   - name: DICT3_28
     index: 0x28
     text: |-
-      are\x20
+      Blue\x20
 
   - name: DICT3_29
     index: 0x29
     text: |-
-      hear
+      Goron
 
   - name: DICT3_2a
     index: 0x2a
     text: |-
-      for\x20
+      weird
 
   - name: DICT3_2b
     index: 0x2b
     text: |-
-      atch
+      Zelda
 
   - name: DICT3_2c
     index: 0x2c
-    text: |2-
-       on\n
+    text: |-
+      sword
 
   - name: DICT3_2d
     index: 0x2d
-    text: |2-
-       it.
+    text: |-
+      place
 
   - name: DICT3_2e
     index: 0x2e
-    text: |-
-      one\x20
+    text: |2-
+       who\n
 
   - name: DICT3_2f
     index: 0x2f
     text: |-
-      !!!\n
+      leave
 
   - name: DICT3_30
     index: 0x30
     text: |-
-      land
+      offer
 
   - name: DICT3_31
     index: 0x31
     text: |-
-      I've
+      float
 
   - name: DICT3_32
     index: 0x32
     text: |-
-      Seed Shooter
+      hese\x20
 
   - name: DICT3_33
     index: 0x33
     text: |-
-      Know-It-All\n
+      Just\x20
 
   - name: DICT3_34
     index: 0x34
     text: |-
-      \col(3)Labrynna\col(4)
+      Huh?\x20
 
   - name: DICT3_35
     index: 0x35
     text: |-
-      ternal
+      he's\n
 
   - name: DICT3_36
     index: 0x36
-    text: |2-
-       only\n
+    text: |-
+      check
 
   - name: DICT3_37
     index: 0x37
-    text: |-
-      acred\x20
+    text: |2-
+       gift
 
   - name: DICT3_38
     index: 0x38
-    text: |-
-      ystery
+    text: |2-
+       once
 
   - name: DICT3_39
     index: 0x39
-    text: |-
-      gotten
+    text: |2-
+       late
 
   - name: DICT3_3a
     index: 0x3a
     text: |-
-      hidden
+      skill
 
   - name: DICT3_3b
     index: 0x3b
-    text: |-
-      to try
+    text: |2-
+       it,\n
 
   - name: DICT3_3c
     index: 0x3c
     text: |-
-      such a
+      aught
 
   - name: DICT3_3d
     index: 0x3d
-    text: |-
-      Ambi's
+    text: |2-
+       sho
 
   - name: DICT3_3e
     index: 0x3e
     text: |-
-      Moblin
+      into
 
   - name: DICT3_3f
     index: 0x3f
     text: |-
-      eweler
+      reen
 
   - name: DICT3_40
     index: 0x40
     text: |-
-      filled
+      cent
 
   - name: DICT3_41
     index: 0x41
     text: |-
-      e goes
+      And\x20
 
   - name: DICT3_42
     index: 0x42
     text: |-
-      little
+      more
 
   - name: DICT3_43
     index: 0x43
     text: |-
-      anyone
+      come
 
   - name: DICT3_44
     index: 0x44
     text: |-
-      hungry
+      rust
 
   - name: DICT3_45
     index: 0x45
     text: |-
-      Silver
+      give
 
   - name: DICT3_46
     index: 0x46
     text: |-
-      animal
+      Then
 
   - name: DICT3_47
     index: 0x47
     text: |-
-      didn't
+      best
 
   - name: DICT3_48
     index: 0x48
     text: |-
-      normal
+      ! We
 
   - name: DICT3_49
     index: 0x49
-    text: |-
-      bridge
+    text: |2-
+       did
 
   - name: DICT3_4a
     index: 0x4a
     text: |-
-      choose
+      ing.
 
   - name: DICT3_4b
     index: 0x4b
-    text: |-
-      filthy
+    text: |2-
+       she
 
   - name: DICT3_4c
     index: 0x4c
     text: |-
-      ower\col(0)
+      urse
 
   - name: DICT3_4d
     index: 0x4d
     text: |-
-      \col(1)Book
+      you,
 
   - name: DICT3_4e
     index: 0x4e
     text: |-
-      will
+      When
 
   - name: DICT3_4f
     index: 0x4f
     text: |-
-      eeds
+      I am
 
   - name: DICT3_50
     index: 0x50
     text: |-
-      open
+      hole
 
   - name: DICT3_51
     index: 0x51
     text: |-
-      look
+      does
 
   - name: DICT3_52
     index: 0x52
     text: |-
-      east
+      live
 
   - name: DICT3_53
     index: 0x53
-    text: |2-
-       me!
+    text: |-
+      List
 
   - name: DICT3_54
     index: 0x54
-    text: |2-
-        \opt()
+    text: |-
+      song
 
   - name: DICT3_55
     index: 0x55
-    text: |2-
-       for
+    text: |-
+      ...
 
   - name: DICT3_56
     index: 0x56
     text: |-
-      with
+      \stop\n
 
   - name: DICT3_57
     index: 0x57
     text: |-
-      get\x20
+      That
 
   - name: DICT3_58
     index: 0x58
     text: |-
-      them
+      ful\n
 
   - name: DICT3_59
     index: 0x59
     text: |-
-      love
+      seed
 
   - name: DICT3_5a
     index: 0x5a
-    text: |2-
-       if\n
+    text: |-
+      This
 
   - name: DICT3_5b
     index: 0x5b
     text: |-
-      move
+      sign
 
   - name: DICT3_5c
     index: 0x5c
     text: |-
-      many
+      cont
 
   - name: DICT3_5d
     index: 0x5d
     text: |-
-      hero
+      one\n
 
   - name: DICT3_5e
     index: 0x5e
-    text: |2-
-       can
+    text: |-
+      ! No
 
   - name: DICT3_5f
     index: 0x5f
     text: |-
-      What
+      can\x20
 
   - name: DICT3_60
     index: 0x60
     text: |-
-      come
+      want
 
   - name: DICT3_61
     index: 0x61
     text: |-
-      must
+      n't\n
 
   - name: DICT3_62
     index: 0x62
-    text: |2-
-       me\n
+    text: |-
+      look
 
   - name: DICT3_63
     index: 0x63
     text: |-
-      what
+      very
 
   - name: DICT3_64
     index: 0x64
-    text: |2-
-       so\x20
+    text: |-
+      get\n
 
   - name: DICT3_65
     index: 0x65
     text: |-
-      . I\n
+      Here
 
   - name: DICT3_66
     index: 0x66
     text: |-
-      strength
+      I'll
 
   - name: DICT3_67
     index: 0x67
-    text: |-
-      made me\x20
+    text: |2-
+       way
 
   - name: DICT3_68
     index: 0x68
     text: |-
-      delicate
+      girl
 
   - name: DICT3_69
     index: 0x69
-    text: |-
-      romantic
+    text: |2-
+       boy
 
   - name: DICT3_6a
     index: 0x6a
     text: |-
-      everyday
+      name
 
   - name: DICT3_6b
     index: 0x6b
-    text: |-
-      electric
+    text: |2-
+       was
 
   - name: DICT3_6c
     index: 0x6c
     text: |-
-      stairway
+      lose
 
   - name: DICT3_6d
     index: 0x6d
     text: |-
-      ring
+      eyes
 
   - name: DICT3_6e
     index: 0x6e
     text: |-
-      lock
+      , I\n
 
   - name: DICT3_6f
     index: 0x6f
-    text: |-
-      hen\x20
+    text: |2-
+       sea
 
   - name: DICT3_70
     index: 0x70
     text: |-
-      want
+      ines
 
   - name: DICT3_71
     index: 0x71
     text: |-
-      be a
+      part
 
   - name: DICT3_72
     index: 0x72
     text: |-
-      ave\x20
+      er!\n
 
   - name: DICT3_73
     index: 0x73
     text: |-
-      not\n
+      down
 
   - name: DICT3_74
     index: 0x74
     text: |-
-      long
+      If I
 
   - name: DICT3_75
     index: 0x75
     text: |-
-      get\n
+      kind
 
   - name: DICT3_76
     index: 0x76
     text: |-
-      \col(0).\n
+      hich
 
   - name: DICT3_77
     index: 0x77
     text: |-
-      ears\x20
+      city
 
   - name: DICT3_78
     index: 0x78
     text: |-
-      Flame
+      a \col(1)
 
   - name: DICT3_79
     index: 0x79
     text: |-
-      throw
+      to\x20
 
   - name: DICT3_7a
     index: 0x7a
     text: |-
-      witch
+      of\x20
 
   - name: DICT3_7b
     index: 0x7b
     text: |-
-      smell
+      ing
 
   - name: DICT3_7c
     index: 0x7c
     text: |-
-      Nayru
+      you
 
   - name: DICT3_7d
     index: 0x7d
     text: |-
-      would
+      ed\n
 
   - name: DICT3_7e
     index: 0x7e
-    text: |-
-      sense
+    text: |2-
+       a\x20
 
   - name: DICT3_7f
     index: 0x7f
     text: |-
-      to do
+      \col(0)\n
 
   - name: DICT3_80
     index: 0x80
     text: |-
-      iddle
+      's\n
 
   - name: DICT3_81
     index: 0x81
-    text: |2-
-       hole
+    text: |-
+      all
 
   - name: DICT3_82
     index: 0x82
     text: |-
-      south
+      my\x20
 
   - name: DICT3_83
     index: 0x83
-    text: |2-
-       cool
+    text: |-
+      Iron Pot
 
   - name: DICT3_84
     index: 0x84
     text: |-
-      visit
+      Strange\n
 
   - name: DICT3_85
     index: 0x85
     text: |-
-      worry
+      olcanoes
 
   - name: DICT3_86
     index: 0x86
     text: |-
-      s all
+      ! See ya
 
   - name: DICT3_87
     index: 0x87
     text: |-
-      today
+      awakened
 
   - name: DICT3_88
     index: 0x88
     text: |-
-      prize
+      elicious
 
   - name: DICT3_89
     index: 0x89
     text: |-
-      begin
+      adventur
 
   - name: DICT3_8a
     index: 0x8a
-    text: |2-
-       kid!
+    text: |-
+      ungeon
 
   - name: DICT3_8b
     index: 0x8b
     text: |-
-      Hey,\x20
+      Banana
 
   - name: DICT3_8c
     index: 0x8c
     text: |-
-      back
+      illage
 
   - name: DICT3_8d
     index: 0x8d
-    text: |2-
-       see
+    text: |-
+      Hyrule
 
   - name: DICT3_8e
     index: 0x8e
-    text: |2-
-       sea
+    text: |-
+      golden
 
   - name: DICT3_8f
     index: 0x8f
     text: |-
-      make
+      almost
 
   - name: DICT3_90
     index: 0x90
     text: |-
-      one\n
+      matter
 
   - name: DICT3_91
     index: 0x91
     text: |-
-      ! I\n
+      \col(1)Fish\col(0)
 
   - name: DICT3_92
     index: 0x92
     text: |-
-      rest
+      summit
 
   - name: DICT3_93
     index: 0x93
     text: |-
-      llow
+      regret
 
   - name: DICT3_94
     index: 0x94
     text: |-
-      good
+      normal
 
   - name: DICT3_95
     index: 0x95
     text: |-
-      \col(0)!\x20
+      \col(3)Ambi\col(0)
 
   - name: DICT3_96
     index: 0x96
     text: |-
-      Doggie Mask
+      wisdom
 
   - name: DICT3_97
     index: 0x97
     text: |-
-      How\x20
+      , dude
 
   - name: DICT3_98
     index: 0x98
     text: |-
-      ness
+      \col(3)Onox
 
   - name: DICT3_99
     index: 0x99
     text: |-
-      ave\n
+      in\x20
 
   - name: DICT3_9a
     index: 0x9a
     text: |-
-      body
+      's\x20
 
   - name: DICT3_9b
     index: 0x9b
     text: |-
-      care
+      ed\x20
 
   - name: DICT3_9c
     index: 0x9c
     text: |-
-      own\x20
+      the
 
   - name: DICT3_9d
     index: 0x9d
     text: |-
-      Oh!\x20
+      You
 
   - name: DICT3_9e
     index: 0x9e
     text: |-
-      I'll
+      !!!
 
   - name: DICT3_9f
     index: 0x9f
     text: |-
-      Some
+      be\x20
 
   - name: DICT3_a0
     index: 0xa0
-    text: |-
-      need
+    text: |2-
+       me
 
   - name: DICT3_a1
     index: 0xa1
     text: |-
-      Come
+      and
 
   - name: DICT3_a2
     index: 0xa2
     text: |-
-      e'll
+      ate
 
   - name: DICT3_a3
     index: 0xa3
     text: |-
-      a \col(1)
+      ell
 
   - name: DICT3_a4
     index: 0xa4
     text: |-
-      \col(0),\n
+      Time
 
   - name: DICT3_a5
     index: 0xa5
     text: |-
-      cent
+      find
 
   - name: DICT3_a6
     index: 0xa6
     text: |-
-      your
+      lock
 
   - name: DICT3_a7
     index: 0xa7
     text: |-
-      stop
+      door
 
   - name: DICT3_a8
     index: 0xa8
-    text: |-
-      play
+    text: |2-
+       or\n
 
   - name: DICT3_a9
     index: 0xa9
     text: |-
-      e's\x20
+      Open
 
   - name: DICT3_aa
     index: 0xaa
     text: |-
-      was\x20
+      any\x20
 
   - name: DICT3_ab
     index: 0xab
     text: |-
-      left
+      Bomb
 
   - name: DICT3_ac
     index: 0xac
     text: |-
-      it's
+      lute
 
   - name: DICT3_ad
     index: 0xad
     text: |-
-      hope
+      astl
 
   - name: DICT3_ae
     index: 0xae
     text: |-
-      lost
+      ayor
 
   - name: DICT3_af
     index: 0xaf
     text: |-
-      turn
+      wish
 
   - name: DICT3_b0
     index: 0xb0
     text: |-
-      s...
+      Find
 
   - name: DICT3_b1
     index: 0xb1
     text: |-
-      game
+      Read
 
   - name: DICT3_b2
     index: 0xb2
     text: |-
-      wish
+      made
 
   - name: DICT3_b3
     index: 0xb3
     text: |-
-      less
+      last
 
   - name: DICT3_b4
     index: 0xb4
     text: |-
-      the\n
+      was\x20
 
   - name: DICT3_b5
     index: 0xb5
-    text: |2-
-       her
+    text: |-
+      lame
 
   - name: DICT3_b6
     index: 0xb6
     text: |-
-      our\x20
+      link
 
   - name: DICT3_b7
     index: 0xb7
     text: |-
-      have
+      said
 
   - name: DICT3_b8
     index: 0xb8
     text: |-
-      ower
+      seen
 
   - name: DICT3_b9
     index: 0xb9
     text: |-
-      Bomb
+      Link
 
   - name: DICT3_ba
     index: 0xba
-    text: |-
-      ing!
+    text: |2-
+       a\n
 
   - name: DICT3_bb
     index: 0xbb
-    text: |-
-      ance
+    text: |2-
+       \opt()
 
   - name: DICT3_bc
     index: 0xbc
-    text: |-
-      take
+    text: |2-
+       got\n
 
   - name: DICT3_bd
     index: 0xbd
     text: |-
-      keep
+      Nurtu
 
   - name: DICT3_be
     index: 0xbe
     text: |-
-      rock
+      build
 
   - name: DICT3_bf
     index: 0xbf
     text: |-
-      ing.
+      hoose
 
   - name: DICT3_c0
     index: 0xc0
     text: |-
-      came
+      ragon
 
   - name: DICT3_c1
     index: 0xc1
-    text: |2-
-       had
+    text: |-
+      thank
 
   - name: DICT3_c2
     index: 0xc2
     text: |-
-      said
+      gonna
 
   - name: DICT3_c3
     index: 0xc3
-    text: |2-
-       we\n
+    text: |-
+      Syrup
 
   - name: DICT3_c4
     index: 0xc4
-    text: |-
-      ueen
+    text: |2-
+       Shop
 
   - name: DICT3_c5
     index: 0xc5
     text: |-
-      live
+      visit
 
   - name: DICT3_c6
     index: 0xc6
-    text: |2-
-       who
+    text: |-
+      throw
 
   - name: DICT3_c7
     index: 0xc7
     text: |-
-      e're
+      bloom
 
   - name: DICT3_c8
     index: 0xc8
     text: |-
-      ever
+      cliff
 
   - name: DICT3_c9
     index: 0xc9
     text: |-
-      last
+      Scrub
 
   - name: DICT3_ca
     index: 0xca
     text: |-
-      alls
+      racle
 
   - name: DICT3_cb
     index: 0xcb
     text: |-
-      age\n
+      , sir
 
   - name: DICT3_cc
     index: 0xcc
-    text: |2-
-       him
+    text: |-
+      After
 
   - name: DICT3_cd
     index: 0xcd
-    text: |-
-      work
+    text: |2-
+       may\n
 
   - name: DICT3_ce
     index: 0xce
-    text: |2-
-       nice
+    text: |-
+      reviv
 
   - name: DICT3_cf
     index: 0xcf
     text: |-
-      truth
+      are
 
   - name: DICT3_d0
     index: 0xd0
     text: |-
-      close
+      ave
 
   - name: DICT3_d1
     index: 0xd1
     text: |-
-      still
+      ill
 
   - name: DICT3_d2
     index: 0xd2
-    text: |-
-      heavy
+    text: |2-
+       it
 
   - name: DICT3_d3
     index: 0xd3
-    text: |-
-      Moosh
+    text: |2-
+       so
 
   - name: DICT3_d4
     index: 0xd4
-    text: |-
-      Hurry
+    text: |2-
+       \col(1)
 
   - name: DICT3_d5
     index: 0xd5
-    text: |-
-      you,\x20
+    text: |2-
+       \col(3)
 
   - name: DICT3_d6
     index: 0xd6
     text: |-
-      a way
+      ! I
 
   - name: DICT3_d7
     index: 0xd7
     text: |-
-      ed up
+      ent
 
   - name: DICT3_d8
     index: 0xd8
     text: |-
-      chase
+      \col(0)!
 
   - name: DICT3_d9
     index: 0xd9
     text: |-
-      . She
+      one
 
   - name: DICT3_da
     index: 0xda
-    text: |-
-      point
+    text: |2-
+       to
 
   - name: DICT3_db
     index: 0xdb
     text: |-
-      wins\x20
+      ain
 
   - name: DICT3_dc
     index: 0xdc
     text: |-
-      until
+      ear
 
   - name: DICT3_dd
     index: 0xdd
     text: |-
-      magic
+      Doo, dee, dee\sym(0x1c)
 
   - name: DICT3_de
     index: 0xde
     text: |-
-      Snake
+      for
 
   - name: DICT3_df
     index: 0xdf
-    text: |-
-      \col(1)Tun
+    text: |2-
+       is
 
   - name: DICT3_e0
     index: 0xe0
-    text: |-
-      Dimitri's\x20
+    text: |2-
+       he
 
   - name: DICT3_e1
     index: 0xe1
     text: |-
-      Funny Joke
+      out
 
   - name: DICT3_e2
     index: 0xe2
     text: |-
-      Mamamu Yan
+      ree
 
   - name: DICT3_e3
     index: 0xe3
     text: |-
-      instrument
+      ick
 
   - name: DICT3_e4
     index: 0xe4
     text: |-
-      ah hah hah
+      ake
 
   - name: DICT3_e5
     index: 0xe5
     text: |-
-      hyperactiv
+      is\x20
 
   - name: DICT3_e6
     index: 0xe6
     text: |-
-      ungeon
+      in'
 
   - name: DICT3_e7
     index: 0xe7
     text: |-
-      object
+      so\x20
 
   - name: DICT3_e8
     index: 0xe8
     text: |-
-      ippers
+      \col(0)\x20
 
   - name: DICT3_e9
     index: 0xe9
-    text: |-
-      bigger
+    text: |2-
+       bad
 
   - name: DICT3_ea
     index: 0xea
-    text: |-
-      entrus
+    text: |2-
+       an\n
 
   - name: DICT3_eb
     index: 0xeb
     text: |-
-      symbol
+      Life
 
   - name: DICT3_ec
     index: 0xec
     text: |-
-      worrie
+      arry
 
   - name: DICT3_ed
     index: 0xed
     text: |-
-      airies
+      lect
 
   - name: DICT3_ee
     index: 0xee
     text: |-
-      Storms
+      Hold
 
   - name: DICT3_ef
     index: 0xef
     text: |-
-      undred
+      ease
 
   - name: DICT3_f0
     index: 0xf0
     text: |-
-      hey're
+      They
 
   - name: DICT3_f1
     index: 0xf1
     text: |-
-      behind
+      Gale
 
   - name: DICT3_f2
     index: 0xf2
     text: |-
-      buried
+      evil
 
   - name: DICT3_f3
     index: 0xf3
     text: |-
-      called
+      sure
 
   - name: DICT3_f4
     index: 0xf4
     text: |-
-      crumbl
+      appr
 
   - name: DICT3_f5
     index: 0xf5
     text: |-
-      tunnel
+      ouse
 
   - name: DICT3_f6
     index: 0xf6
     text: |-
-      ot yet
+      on!\n
 
   - name: DICT3_f7
     index: 0xf7
     text: |-
-      safely
+      goes
 
   - name: DICT3_f8
     index: 0xf8
-    text: |-
-      Golden
+    text: |2-
+       say
 
   - name: DICT3_f9
     index: 0xf9
     text: |-
-      person
+      next
 
   - name: DICT3_fa
     index: 0xfa
     text: |-
-      desire
+      were
 
   - name: DICT3_fb
     index: 0xfb
-    text: |2-
-       use
+    text: |-
+      Even
 
   - name: DICT3_fc
     index: 0xfc
     text: |-
-      ther
+      such
 
   - name: DICT3_fd
     index: 0xfd
     text: |-
-      life
+      spot
 
   - name: DICT3_fe
     index: 0xfe
     text: |-
-      pass
+      melt
 
   - name: DICT3_ff
     index: 0xff
     text: |-
-      song
+      end
