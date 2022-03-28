@@ -1,6 +1,5 @@
 
 import sys
-import csv
 import yaml
 
 with open(sys.argv[1], 'r', encoding='utf8') as f:
@@ -22,6 +21,4 @@ def hexint_presenter(dumper, data):
 yaml.add_representer(int, hexint_presenter)
 
 with open(sys.argv[2], 'w', encoding='utf8') as f:
-    writer = csv.writer(f, delimiter=',')
-    for row in patch_content.items():
-        writer.writerow(row)
+    yaml.dump(patch_content, f, sort_keys=False, allow_unicode=True)

@@ -1,16 +1,12 @@
 
 import sys
-import csv
 import yaml
 
 with open(sys.argv[1], 'r', encoding='utf8') as f:
     base_content = yaml.safe_load(f)
 
-patch_content = {}
 with open(sys.argv[2], 'r', encoding='utf8') as f:
-    reader = csv.reader(f, delimiter=',')
-    for row in reader:
-        patch_content[row[0]] = row[1]
+    patch_content = yaml.safe_load(f)
 
 for g in base_content['groups']:
     for d in g['data']:
