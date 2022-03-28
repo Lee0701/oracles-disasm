@@ -232,11 +232,7 @@ build/rooms/room%.cmp: precompressed/rooms/$(GAME)/room%.cmp | build/rooms
 	@cp $< $@
 
 # Parse & compress text
-build/textData.s: text/$(GAME)/text.yaml text/$(GAME)/dict.yaml translate/$(GAME)-ko/text.yaml translate/$(GAME)-ko/dict.yaml tools/build/parseText.py | build
-
-	@echo "Fixing text..."
-	@$(PYTHON) tools/build/fixText.py translate/$(GAME)-ko/text.yaml text/$(GAME)/text.yaml
-	@$(PYTHON) tools/build/fixText.py translate/$(GAME)-ko/dict.yaml text/$(GAME)/dict.yaml
+build/textData.s: text/$(GAME)/text.yaml text/$(GAME)/dict.yaml tools/build/parseText.py | build
 
 	@echo "Compressing text..."
 	@$(PYTHON) tools/build/parseText.py text/$(GAME)/dict.yaml $< $@ $$(($(TEXT_INSERT_ADDRESS)))
