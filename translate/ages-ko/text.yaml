@@ -23,28 +23,58 @@ groups:
       조금 기쁘다'
   - name: TX_0005
     index: '5'
-    text: ''
+    text: '\col(1)30루피\col(0)손에넣었다!
+
+      꽤 기쁘다'
   - name: TX_0006
     index: '6'
-    text: ''
+    text: '\col(1)50ルピ-\col(0)손에넣었다!
+
+      럭키!'
   - name: TX_0007
     index: '7'
-    text: ''
+    text: '\col(1)100루피\col(0)손에넣었다!
+
+      너무 기쁘다!!'
   - name: TX_0008
     index: '8'
-    text: ''
+    text: '\col(1)150루피\col(0)손에넣었다!
+
+      앗싸!!'
   - name: TX_0009
     index: '9'
-    text: ''
+    text: '\col(1)200루피\col(0)손에넣었다!
+
+      행.복.하.다'
   - name: TX_000a
     index: '10'
-    text: ''
+    text: '\col(1)흐름의가락\col(0)을배웠다!\stop
+
+      옛날로부터 元來의時代로
+
+      돌아갈수있다!
+
+      \col(1)하프\col(0)를裝備할때
+
+      選擇해서 演奏하자!'
   - name: TX_000b
     index: '11'
-    text: ''
+    text: '\col(1)時間의가락\col(0)을배웠다!\stop
+
+      옛날로부터 元來의時代로
+
+      元來時代에선 옛날로
+
+      갈수있다!
+
+      \col(1)하프\col(0)를裝備할때
+
+      選擇해서 演奏하자!'
   - name: TX_000c
     index: '12'
-    text: ''
+    text: '\col(1)兄弟의證標\col(0)를손에넣었다!
+
+      이걸로 고론의一員이다!'
   - name: TX_000d
     index: '13'
     text: ''
@@ -74,100 +104,212 @@ groups:
     text: ''
   - name: TX_0016
     index: '22'
-    text: ''
+    text: '\col(1)하트그릇\col(0)을 손에넣었다!'
   - name: TX_0017
     index: '23'
-    text: ''
+    text: '\col(1)하트조각\col(0)을 손에넣었다!
+
+      \heartpiece
+
+      4個를모으면
+
+      \col(1)하트그릇\col(0)이 1個늘어난다!
+
+      서브畵面에서確認할수있어'
   - name: TX_0018
     index: '24'
-    text: ''
+    text: '\col(1)던전地圖\col(0)다!
+
+      셀렉트버튼으로 볼수있다
+
+      어둡게된곳은
+
+      아직 가본적이없는곳이다'
   - name: TX_0019
     index: '25'
-    text: ''
+    text: '\col(1)羅針盤\col(0)을찾았다!\stop
+
+      自身이 있는곳이나
+
+      寶物箱子가있는房을 알수있다
+
+      열쇠가있으면 소리를내서
+
+      알려준다!'
   - name: TX_001a
     index: '26'
-    text: ''
+    text: '\col(1)작은열쇠\col(0)를찾았다!\stop
+
+      자물쇠가걸린 門이나블럭을
+
+      열수있다!
+
+      이던전에서만 쓸수있다'
   - name: TX_001b
     index: '27'
-    text: ''
+    text: '\col(1)보스房열쇠\col(0)를찾았다!'
   - name: TX_001c
     index: '28'
-    text: ''
+    text: '勇士의劍
+
+      \col(1)우드소드\col(0)를손에넣었다!
+
+      버튼을눌러서 힘을모으고
+
+      손을떼면大技術 回轉베기!'
   - name: TX_001d
     index: '29'
-    text: ''
+    text: '聖스러운劍
+
+      \col(1)화이트소드\col(0)를손에넣었다!'
   - name: TX_001e
     index: '30'
-    text: ''
+    text: '傳說의劍
+
+      \col(1)마스터소드\col(0)를손에넣었다!'
   - name: TX_001f
     index: '31'
-    text: ''
+    text: '\col(1)나무防牌\col(0)를손에넣었다!'
   - name: TX_0020
     index: '32'
-    text: ''
+    text: '\col(1)鐵防牌\col(0)를손에넣었다!'
   - name: TX_0021
     index: '33'
-    text: ''
+    text: '\col(1)거울防牌\col(0)를손에넣었다!'
   - name: TX_0022
     index: '34'
-    text: ''
+    text: '\col(1)부메랑\col(0)을받았다!
+
+      敵에게날려서 멈추게하자!'
   - name: TX_0023
     index: '35'
-    text: ''
+    text: '\col(1)墓地열쇠\col(0)를손에넣었다!'
   - name: TX_0024
     index: '36'
-    text: ''
+    text: '\col(1)爆彈\col(0)을손에넣었다!
+
+      殊常한壁을날려버리자!
+
+      꺼낸\col(1)爆彈\col(0)는 다시한番
+
+      버튼을눌러서 그자리에둘수있다
+
+      \col(0x84)\item(0x00)\col(0)버튼을누르고있으면
+
+      그方向으로 던진다!
+
+      놓은\col(1)爆彈\col(0)을向해
+
+      다시버튼을누르면
+
+      다시 들어올린다'
   - name: TX_0025
     index: '37'
-    text: ''
+    text: '\col(1)삽\col(0)을받았다!
+
+      파고 파고 마구파자!'
   - name: TX_0026
     index: '38'
-    text: ''
+    text: '\pos(2)\col(1)파워팔찌\col(0)를손에넣었다!
+
+      버튼을누르며\col(0x84)\item(0x00)\col(0)버튼으로
+
+      무거운物件을 들어올리거나
+
+      밀수있다!'
   - name: TX_0027
     index: '39'
-    text: ''
+    text: '\col(1)록鳥의깃털\col(0)을손에넣었다!
+
+      사뿐, 몸이가벼워진다!'
   - name: TX_0028
     index: '40'
-    text: ''
+    text: '\col(1)롱交替훅\col(0)을손에넣었다!
+
+      멀리있는것과 자리를바꿀수있다'
   - name: TX_0029
     index: '41'
-    text: ''
+    text: '\col(1)야야야열매\col(0)를손에넜었다!
+
+      냄새가나서 魔物을끌어들인다!
+
+      \col(1)나무열매주머니\col(0)를열어서 고르자'
   - name: TX_002a
     index: '42'
-    text: ''
+    text: '\col(1)수수께기열매\col(0)를손에넣었다!
+
+      무슨일이일어날까 期待된다
+
+      이곳저곳에 使用해보자!
+
+      \col(1)나무열매주머니\col(0)를열어서 고르자'
   - name: TX_002b
     index: '43'
-    text: ''
+    text: '\col(1)샤샤샥열매\col(0)를손에넣었다!
+
+      샤샥샤샥 스피드업!
+
+      \col(1)나무열매주머니\col(0)를열어서 고르자'
   - name: TX_002c
     index: '44'
-    text: ''
+    text: '\col(1)휘잉열매\col(0)를손에넣었다!
+
+      가고싶은場所로 회오리워프
+
+      \col(1)나무열매주머니\col(0)를열어서 고르자'
   - name: TX_002d
     index: '45'
-    text: ''
+    text: '\col(1)나무열매주머니\col(0)를손에넣었다!
+
+      \col(1)앗뜨뜨열매\col(0) 20個가들어있다!'
   - name: TX_002e
     index: '46'
-    text: ''
+    text: '\col(1)콩大砲\col(0)를손에넣었다!\stop
+
+      \col(1)나무열매\col(0)를골라서 겨누어쏘자!
+
+      이곳저곳 反射되어돌아온다!'
   - name: TX_002f
     index: '47'
-    text: ''
+    text: '\col(1)파워풀글러브\col(0)를손에넣었다
+
+      이거면 무거운것도 가뿐하다!'
   - name: TX_0030
     index: '48'
-    text: ''
+    text: '\col(1)交替훅\col(0)을손에넣었다!
+
+      노린物件과 自身의位置를
+
+      바꿀수있다'
   - name: TX_0031
     index: '49'
-    text: ''
+    text: '\col(1)물갈퀴\col(0)를손에넣었다!
+
+      이걸로 물속도무섭지않다!
+
+      A로 쓱쓱나아가고 B로 潛水!'
   - name: TX_0032
     index: '50'
-    text: ''
+    text: '\col(1)찍爆彈\col(0)을손에넣었다!
+
+      敵을向해서 突進한다!'
   - name: TX_0033
     index: '51'
-    text: ''
+    text: '\col(1)큰마카열매\col(0)를손에넣었다!
+
+      이걸로 邪惡한混亂을
+
+      떨쳐낼수있을거야!!'
   - name: TX_0034
     index: '52'
-    text: ''
+    text: '\col(1)작은半指箱子\col(0)가 레벨업!
+
+      \col(1)半指\col(0)를\num1個까지넣어둘수있다!'
   - name: TX_0035
     index: '53'
-    text: ''
+    text: '앗뜨뜨! 이대로
+
+      갖고다닐수는 없을것같다'
   - name: TX_0036
     index: '54'
     text: ''
@@ -227,22 +369,26 @@ groups:
     text: ''
   - name: TX_0049
     index: '73'
-    text: ''
+    text: '\col(1)하트조각\col(0)이4個모였다!
+
+      \col(1)하트그릇\col(0)이1個늘어났다!'
   - name: TX_004a
     index: '74'
-    text: ''
+    text: '\col(1)紹介狀\col(0)을손에넣었다!'
   - name: TX_004b
     index: '75'
-    text: ''
+    text: '\col(1)가챠씨앗\col(0)을손에넣었다!
+
+      부드러운흙에 심어보자!'
   - name: TX_004c
     index: '76'
-    text: ''
+    text: '\col(1)하트3個\col(0)를손에넣었다!'
   - name: TX_004d
     index: '77'
-    text: ''
+    text: '\col(1)爆彈10個\col(0)를손에넣었다!'
   - name: TX_004e
     index: '78'
-    text: ''
+    text: '\col(1)封印의冊\col(0)을손에넣었다!'
   - name: TX_004f
     index: '79'
     text: ''
@@ -254,13 +400,15 @@ groups:
     text: ''
   - name: TX_0052
     index: '82'
-    text: ''
+    text: '\col(1)나무열매주머니\col(0)가 가득찼다!'
   - name: TX_0053
     index: '83'
-    text: ''
+    text: '하트가 가득찼다!'
   - name: TX_0054
     index: '84'
-    text: ''
+    text: '\col(1)반지\col(0)를손에넣었다!
+
+      나중에 鑑定받아보자!'
   - name: TX_0055
     index: '85'
     text: ''
@@ -269,13 +417,19 @@ groups:
     text: ''
   - name: TX_0057
     index: '87'
-    text: ''
+    text: '\col(1)작은半指箱子L-1\col(0)이다!
+
+      \col(1)半指\col(0)를 1個넣어둘수있다!'
   - name: TX_0058
     index: '88'
-    text: ''
+    text: '\col(1)작은半指箱子L-2\col(0)다!
+
+      \col(1)半指\col(0)를 3個넣어둘수있다!'
   - name: TX_0059
     index: '89'
-    text: ''
+    text: '\col(1)작은半指箱子L-3\col(0)다!
+
+      \col(1)半指\col(0)를 5個넣어둘수있다!'
   - name: TX_005a
     index: '90'
     text: ''
@@ -337,65 +491,81 @@ groups:
     - '107'
     - '108'
     - '109'
-    text: ''
+    text: '\col(1)魔法의藥\col(0)을손에넣었다!
+
+      敵의攻擊따위로
+
+      하트가바닥났을때 쓸수있다!'
   - name: TX_006e
     index: '110'
-    text: ''
+    text: '\col(1)爆彈\col(0)을 더욱많이
+
+      가지고다닐수있게되었다!'
   - name: TX_006f
     index: '111'
-    text: ''
+    text: '\col(1)大고론刀\col(0)를손에넣었다!
+
+      兩손으로쓰는大劍이다!'
   - name:
     - TX_0070
     - TX_0071
     index:
     - '112'
     - '113'
-    text: ''
+    text: '\col(1)時間의하프\col(0)를손에넣었다!'
   - name: TX_0072
     index: '114'
-    text: ''
+    text: '\col(2)메아리의가락\col(4)을손에넣었다!
+
+      잠들어있는\col(3)時間포탈\col(4)을
+
+      깨울수있다!'
   - name: TX_0073
     index: '115'
     text: ''
   - name: TX_0074
     index: '116'
-    text: ''
+    text: '\col(1)삽\col(0)을되찾았다!'
   - name: TX_0075
     index: '117'
-    text: ''
+    text: '\col(1)우드소드\col(0)를되찾았다!'
   - name: TX_0076
     index: '118'
-    text: ''
+    text: '\col(1)爆彈\col(0)을되찾았다!'
   - name: TX_0077
     index: '119'
-    text: ''
+    text: '\col(1)파워팔찌\col(0)를되찾았다!'
   - name: TX_0078
     index: '120'
-    text: ''
+    text: '\col(1)時間의하프\col(0)를되찾았다!'
   - name: TX_0079
     index: '121'
-    text: ''
+    text: '\col(1)록鳥의깃털\col(0)을되찾았다!'
   - name: TX_007a
     index: '122'
-    text: ''
+    text: '\col(1)물갈퀴\col(0)를되찾았다!'
   - name: TX_007b
     index: '123'
-    text: ''
+    text: '\col(1)나무열매주머니\col(0)를되찾았다!'
   - name: TX_007c
     index: '124'
-    text: ''
+    text: '\col(1)초승달섬海圖\col(0)를손에넣었다!
+
+      이제 섬까지 갈수있다!'
   - name: TX_007d
     index: '125'
     text: ''
   - name: TX_007e
     index: '126'
-    text: ''
+    text: '\col(1)爆彈20個\col(0)를손에넣었다!'
   - name: TX_007f
     index: '127'
-    text: ''
+    text: '\col(3)강아지\col(0)를잡았다!'
   - name: TX_0080
     index: '128'
-    text: ''
+    text: '\col(1)나무열매주머니\col(0)가 파워업!
+
+      들어가는\col(1)나무열매\col(0)數가 늘어났다!'
 - group: '1'
   data:
   - name: TX_0100
@@ -446,7 +616,7 @@ groups:
 
       네가있으면 아무리
 
-      마물이덤벼와도 安心이야'
+      魔物이덤벼와도 安心이야'
   - name: TX_0103
     index: '3'
     text: ''
@@ -499,13 +669,39 @@ groups:
     - '14'
     - '15'
     - '16'
-    text: ''
+    text: '앗 \Link!
+
+      救해주었구나
+
+      何必이면내가 魔物에게
+
+      몸을 빼앗기다니'
   - name: TX_0111
     index: '17'
-    text: ''
+    text: '......\stop
+
+      그\col(3)베란\col(0)이란녀석
+
+      무서운녀석이야
+
+      내마음과는 反對로
+
+      녀석이바라는대로
+
+      操縱當해버려'
   - name: TX_0112
     index: '18'
-    text: ''
+    text: '時間의巫女\col(3)넬\col(0)님께 不吉한
+
+      그림자가 다가오는것같아
+
+      \col(3)하이랄\col(0)로 모시려고
+
+      멀리서 찾아왔는데
+
+      이렇게 돼버리다니...
+
+      \jump(TX_0111)'
     null_terminator: 'False'
   - name: TX_0113
     index: '19'
@@ -513,16 +709,80 @@ groups:
     null_terminator: 'False'
   - name: TX_0114
     index: '20'
-    text: ''
+    text: '\col(3)베란\col(0)은 時間을거슬러
+
+      올라간다고 했었지
+
+      옛날世界에서
+
+      \col(3)넬\col(0)님의 몸을利用해서
+
+      무언가 始作한것같아
+
+      그影響이 \col(3)라브렌느\col(0)에
+
+      나오기始作한것같네\stop
+
+      元來라면 내가 어떻게든
+
+      해야할텐데...
+
+      으윽 \col(3)베란\col(0)에게 操縱당하고
+
+      있었었서그런가 몸이
+
+      마음대로 움직이질않아\stop
+
+      ...\Link여
+
+      너의 그왼손에있는▲무늬가
+
+      眞짜라면 世界를救할
+
+      勇士의證標 일지도몰라
+
+      付託할게!
+
+      너의힘을 빌려줘!'
   - name: TX_0115
     index: '21'
-    text: ''
+    text: '\call(TX_0114)\stop
+
+      맞다 이걸가져가렴
+
+      이劍은 \col(3)젤다\col(0)님께서
+
+      맡기신거니 使用해줘'
   - name: TX_0116
     index: '22'
-    text: ''
+    text: '\call(TX_0118)\stop
+
+      맞다 이걸가져가렴
+
+      이\col(1)防牌\col(0)는 \col(3)젤다\col(0)님께서
+
+      맡기신거니 使用해줘'
   - name: TX_0117
     index: '23'
-    text: ''
+    text: '\Link
+
+      \col(3)렌느市\col(0)의 \col(3)마카나무\col(0)를
+
+      만나러 가줄수있니?\stop
+
+      \col(3)마카나무\col(0)는 이\col(3)라브렌느\col(0)의
+
+      守護神
+
+      分明 어떻게든해줄거야
+
+      이숲에서 東쪽으로가면
+
+      \col(3)넬님의집\col(0)이 있어
+
+      나는 當分間
+
+      거기 있도록할게'
   - name: TX_0118
     index: '24'
     text: ''
@@ -544,10 +804,18 @@ groups:
     - '30'
     - '31'
     - '32'
-    text: ''
+    text: '부디 \col(3)넬\col(0)님을 救해줘
+
+      \Link!!'
   - name: TX_0121
     index: '33'
-    text: ''
+    text: '房의어딘가에 틈새라도
+
+      있는걸까?
+
+      가끔 위쪽에서
+
+      바람이 불어오는데...'
   - name: TX_0122
     index: '34'
     text: ''
@@ -556,7 +824,9 @@ groups:
     text: ''
   - name: TX_0124
     index: '36'
-    text: ''
+    text: '\Link!!
+
+      暫間 기다려줘-!'
   - name: TX_0125
     index: '37'
     text: ''
@@ -610,48 +880,48 @@ groups:
     text: ''
   - name: TX_0201
     index: '1'
-    text: ''
+    text: " LV.1\n    靈魂의 무덤"
   - name: TX_0202
     index: '2'
-    text: ''
+    text: " LV.2\n   날개 던전"
   - name: TX_0203
     index: '3'
-    text: ''
+    text: " LV.3\n   달빛의 祠堂"
   - name: TX_0204
     index: '4'
-    text: ''
+    text: " LV.4\n    骸骨던전"
   - name: TX_0205
     index: '5'
-    text: ''
+    text: " LV.5\n   王冠던전"
   - name:
     - TX_0206
     - TX_020c
     index:
     - '6'
     - '12'
-    text: ''
+    text: " LV.6\n   人魚의 洞窟"
   - name: TX_0207
     index: '7'
     text: ''
   - name: TX_0208
     index: '8'
-    text: ''
+    text: " LV.8\n    古代의 무덤"
   - name: TX_0209
     index: '9'
-    text: ''
+    text: "      暗黑의塔\n     最上部"
   - name: TX_020a
     index: '10'
-    text: ''
+    text: '     儀式의 房'
   - name: TX_020b
     index: '11'
-    text: ''
+    text: '    勇士의 洞窟'
   - name:
     - TX_020e
     - TX_020f
     index:
     - '14'
     - '15'
-    text: ''
+    text: '      暗黑의塔'
 - group: '3'
   data:
   - name: TX_0300
@@ -665,59 +935,59 @@ groups:
     text: ''
   - name: TX_0303
     index: '3'
-    text: ''
+    text: '     對稱마을'
   - name: TX_0304
     index: '4'
     text: ''
   - name: TX_0305
     index: '5'
-    text: ''
+    text: '     고로고로山'
   - name: TX_0306
     index: '6'
-    text: ''
+    text: '    고로고로山기슭'
   - name: TX_0307
     index: '7'
-    text: ''
+    text: '     렌느市'
   - name: TX_0308
     index: '8'
-    text: ''
+    text: '      時間의숲'
   - name: TX_0309
     index: '9'
-    text: ''
+    text: '     욜墓地'
   - name: TX_030a
     index: '10'
-    text: ''
+    text: '    妖精의숲'
   - name: TX_030b
     index: '11'
-    text: ''
+    text: '      렌느南쪽'
   - name: TX_030c
     index: '12'
-    text: ''
+    text: '     南쪽海岸'
   - name: TX_030d
     index: '13'
-    text: ''
+    text: '    초승달海峽'
   - name: TX_030e
     index: '14'
-    text: ''
+    text: '     조라마을'
   - name: TX_030f
     index: '15'
-    text: ''
+    text: '      조라海'
   - name: TX_0310
     index: '16'
-    text: ''
+    text: '     폭풍의바다'
   - name: TX_0311
     index: '17'
-    text: ''
+    text: '     초승달섬'
   - name:
     - TX_0312
     - TX_0313
     index:
     - '18'
     - '19'
-    text: ''
+    text: '      暗黑의塔'
   - name: TX_0314
     index: '20'
-    text: ''
+    text: '     암비의塔'
   - name: TX_0315
     index: '21'
     text: ''
@@ -726,29 +996,29 @@ groups:
     text: ''
   - name: TX_0317
     index: '23'
-    text: ''
+    text: '  보스블린要塞 遺跡'
   - name: TX_0318
     index: '24'
-    text: ''
+    text: '   보스블린要塞'
   - name:
     - TX_0319
     - TX_031a
     index:
     - '25'
     - '26'
-    text: ''
+    text: ' 大魔法師시럽의가게'
   - name: TX_031b
     index: '27'
-    text: ''
+    text: '     넬의집'
   - name: TX_031c
     index: '28'
-    text: ''
+    text: '   博識한버드의邸宅'
   - name: TX_031d
     index: '29'
-    text: ''
+    text: '      商店'
   - name: TX_031e
     index: '30'
-    text: ''
+    text: '  카노의 반지鑑定가게'
   - name: TX_031f
     index: '31'
     text: ''
@@ -763,13 +1033,13 @@ groups:
     text: ''
   - name: TX_0323
     index: '35'
-    text: ''
+    text: '      마카나무'
   - name: TX_0324
     index: '36'
     text: ''
   - name: TX_0325
     index: '37'
-    text: ''
+    text: '   어드밴스샵과\n'
     null_terminator: 'False'
   - name: TX_0326
     index: '38'
@@ -786,7 +1056,7 @@ groups:
     - '41'
     - '42'
     - '43'
-    text: ''
+    text: '   펙과라민의집'
   - name: TX_032c
     index: '44'
     text: ''
@@ -807,19 +1077,19 @@ groups:
     text: ''
   - name: TX_0332
     index: '50'
-    text: ''
+    text: '      렌느마을'
   - name: TX_0333
     index: '51'
-    text: ''
+    text: '     렌느北東쪽'
   - name: TX_0334
     index: '52'
-    text: ''
+    text: '      렌느西쪽'
   - name: TX_0335
     index: '53'
-    text: ''
+    text: '    돌아올수없는海岸'
   - name: TX_0336
     index: '54'
-    text: ''
+    text: '     돌아올수없는바다'
   - name: TX_0337
     index: '55'
     text: ''
@@ -840,14 +1110,14 @@ groups:
     text: ''
   - name: TX_033d
     index: '61'
-    text: ''
+    text: '      化粧室'
   - name:
     - TX_033e
     - TX_033f
     index:
     - '62'
     - '63'
-    text: ''
+    text: '  프렌市長의집'
   - name: TX_0340
     index: '64'
     text: ''
@@ -856,10 +1126,10 @@ groups:
     text: ''
   - name: TX_0342
     index: '66'
-    text: ''
+    text: '  鑛車射擊場'
   - name: TX_0343
     index: '67'
-    text: ''
+    text: '動物學者 트로이의집'
   - name:
     - TX_0344
     - TX_0345
@@ -869,7 +1139,7 @@ groups:
     text: ''
   - name: TX_0346
     index: '70'
-    text: ''
+    text: '    暗黑의塔 入口'
   - name: TX_0347
     index: '71'
     text: ''
@@ -878,7 +1148,7 @@ groups:
     text: ''
   - name: TX_0349
     index: '73'
-    text: ''
+    text: '     벡의집'
   - name: TX_034a
     index: '74'
     text: ''
@@ -1523,25 +1793,87 @@ groups:
     - '206'
     - '207'
     - '208'
-    text: ''
+    text: '\pos(2)꺄악-!! 싫어요-!!
+
+      그-만-해-주-세-요-!!'
   - name: TX_05d1
     index: '209'
-    text: ''
+    text: '\pos(2)꺄-!
+
+      오라버니! 힘내-!'
   - name: TX_05d2
     index: '210'
-    text: ''
+    text: '\pos(2)꺄-!! 멋지다-!!'
   - name: TX_05d3
     index: '211'
-    text: ''
+    text: '아 感謝합니다!!
+
+      이름이 뭔가요?\stop
+
+      \Link!
+
+      좋은 이름이에요!!
+
+      저 \col(3)마카나무\col(0)에요!
+
+      오라버니 强하고멋져요!
+
+      그魔物들 時間의巫女
+
+      언니얘기를 하고있었어요
+
+      \col(3)암비女王\col(0)님을 부추겨서
+
+      \col(3)暗黑의塔\col(0)을 세우고있다고...
+
+      魔物들이 저를
+
+      襲擊하게한것도 어쩌면...\stop
+
+      어쨌든! 救해주셔서
+
+      고마워요!!
+
+      恩惠는 繼續 쭈~욱
+
+      잊지않을게요!
+
+      제가 커서
+
+      꼭 答禮를할게요!
+
+      只今은... 이程度밖에
+
+      해드릴수없지만...
+
+      응~ 이얏!'
   - name: TX_05d4
     index: '212'
-    text: ''
+    text: '\pos(2)오라버니!!
+
+      ...저...
+
+      ...그...
+
+      제가 크고나면
+
+      오라버니한테
+
+      시집가고싶어요!
+
+      꺄아-! 말했다-!!'
   - name: TX_05d5
     index: '213'
-    text: ''
+    text: '아아 \Link오라버니...'
   - name: TX_05d6
     index: '214'
-    text: ''
+    text: '\pos(2)記憶해주세요!
+
+      제가 크게되면
+
+      오라버니께 도움을드릴거에요!
+
+      그러니까 꼭만나러와주세요!'
   - name: TX_05d7
     index: '215'
     text: ''
@@ -3163,7 +3495,7 @@ groups:
     text: ''
   - name: TX_1213
     index: '19'
-    text: "\\pos(2)    선택받은勇士여\n 우리의 試鍊을 받아라!"
+    text: "\\pos(2)    선택받은勇士여\n  우리의 試鍊을 받아라!"
 - group: '19'
   data:
   - name: TX_1300
@@ -8362,25 +8694,65 @@ groups:
     text: ''
   - name: TX_5601
     index: '1'
-    text: ''
+    text: '\pos(0)\Link 고맙다!\stop
+
+      네덕분에 聖스러운結界를
+
+      지나올수 있었으니까!
+
+      이때를 기다려왔지\stop
+
+      어둠의司祭\col(3)베란\col(0)
+
+      그게 내이름이지!'
   - name: TX_5602
     index: '2'
-    text: ''
+    text: '\pos(0)時間의巫女\col(3)넬\col(0)이여!
+
+      너의몸은
+
+      이\col(3)베란\col(0)이 받아간다!
+
+      핫핫핫하!'
   - name: TX_5603
     index: '3'
-    text: ''
+    text: '\pos(2)하핫 멋지네!
+
+      나한테 劍을向할생각이냐?
+
+      나를베면 \col(3)넬\col(0)도 죽어'
   - name: TX_5604
     index: '4'
-    text: ''
+    text: '\pos(2)\col(3)넬\col(0)은 그냥歌姬가아니라
+
+      時間을管掌하는 時間의巫女
+
+      라는건 다알고있지\stop
+
+      이제 巫女의힘은 내거야
+
+      時間을거슬러올라가는것도
+
+      自由自在지!'
   - name: TX_5605
     index: '5'
-    text: ''
+    text: '\pos(2)자 새로운時代가
+
+      始作된다
+
+      暗黑의時代라는 이름의
+
+      새로운 時代가!
+
+      하앗핫핫하!!'
   - name: TX_5606
     index: '6'
     text: ''
   - name: TX_5607
     index: '7'
-    text: ''
+    text: '過去로가서 내맘대로
+
+      하고싶은대로 다해주마!'
   - name: TX_5608
     index: '8'
     text: ''
@@ -8436,7 +8808,7 @@ groups:
     text: ''
   - name: TX_5702
     index: '2'
-    text: ''
+    text: '아아... 恍惚해...'
   - name: TX_5703
     index: '3'
     text: ''
@@ -8448,7 +8820,7 @@ groups:
     text: ''
   - name: TX_5706
     index: '6'
-    text: ''
+    text: '어때? 恍惚하지?'
   - name: TX_5707
     index: '7'
     text: ''
