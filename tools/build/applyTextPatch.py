@@ -21,7 +21,7 @@ for g in base_content['groups']:
         else:
             name = None
         if name != None:
-            if name in patch_content:
+            if name in patch_content and patch_content[name] != '':
                 d['text'] = patch_content[name]
 
 def hexint_presenter(dumper, data):
@@ -29,4 +29,4 @@ def hexint_presenter(dumper, data):
 yaml.add_representer(int, hexint_presenter)
 
 with open(sys.argv[3], 'w', encoding='utf8') as f:
-    yaml.dump(content, f, sort_keys=False, allow_unicode=True)
+    yaml.dump(base_content, f, sort_keys=False, allow_unicode=True)
