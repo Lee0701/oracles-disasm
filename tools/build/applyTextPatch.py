@@ -8,7 +8,7 @@ with open(sys.argv[1], 'r', encoding='utf8') as f:
 
 patch_content = {}
 with open(sys.argv[2], 'r', encoding='utf8') as f:
-    reader = csv.reader(f, delimiter='\t')
+    reader = csv.reader(f, delimiter=',')
     for row in reader:
         patch_content[row[0]] = row[1]
 
