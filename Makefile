@@ -2,7 +2,7 @@
 # "precompressed" folder, and sections will be marked with "FORCE" instead of
 # "FREE" or "SUPERFREE". This is all to make sure the rom builds as an exact
 # copy of the original game.
-BUILD_VANILLA = true
+BUILD_MODE = utf8
 
 # Sets the default target. Can be "ages", "seasons", or "all" (both).
 .DEFAULT_GOAL = all
@@ -13,7 +13,7 @@ CC = wla-gb
 LD = wlalink
 PYTHON = python3
 
-ifeq ($(BUILD_VANILLA), true)
+ifeq ($(BUILD_MODE), vanilla)
 
 CFLAGS += -DBUILD_VANILLA
 
@@ -25,6 +25,9 @@ DOCFILES =
 
 # defines for wla-gb
 DEFINES =
+
+
+ifeq ($(BUILD_MODE), utf8)
 
 ifdef FORCE_SECTIONS
 	DEFINES += -D FORCE_SECTIONS
@@ -41,11 +44,34 @@ else # ROM_AGES
 	TEXT_INSERT_ADDRESS = 0x100000
 endif
 
+else
+
+ifdef FORCE_SECTIONS
+	DEFINES += -D FORCE_SECTIONS
+endif
+ifdef ROM_SEASONS
+	DEFINES += -D ROM_SEASONS
+	GAME = seasons
+	OTHERGAME = ages
+	TEXT_INSERT_ADDRESS = 0x71c00
+else # ROM_AGES
+	DEFINES += -D ROM_AGES
+	GAME = ages
+	OTHERGAME = seasons
+	TEXT_INSERT_ADDRESS = 0x74000
+
+endif
+
+endif
+
 CFLAGS += $(DEFINES)
 
-ifeq ($(BUILD_VANILLA), true)
+ifeq ($(BUILD_MODE), vanilla)
 AGES_BUILD_DIR = build_ages_v
 SEASONS_BUILD_DIR = build_seasons_v
+else ifeq ($(BUILD_MODE), utf8)
+AGES_BUILD_DIR = build_ages_u8
+SEASONS_BUILD_DIR = build_seasons_u8
 else
 AGES_BUILD_DIR = build_ages_e
 SEASONS_BUILD_DIR = build_seasons_e
@@ -90,7 +116,7 @@ AUDIO_FILES = $(shell find audio/ -name '*.s' -o -name '*.bin' | grep -v '/$(OTH
 COMMON_INCLUDE_FILES = $(shell find constants/ include/ -name '*.s' | grep -v '/$(OTHERGAME)/')
 
 
-ifneq ($(BUILD_VANILLA),true)
+ifeq ($(BUILD_MODE), hack)
 
 OPTIMIZE := -o
 
@@ -202,7 +228,7 @@ $(foreach filename,$(BIN_GFX_FILES),  $(eval $(call define_copy_gfx_rules,$(file
 $(foreach filename,$(PNG_GFX_FILES),  $(eval $(call define_png_gfx_rules,$(filename))))
 $(foreach filename,$(UNCMP_GFX_FILES),$(eval $(call define_uncmp_gfx_rules,$(filename))))
 
-ifeq ($(BUILD_VANILLA),true)
+ifeq ($(BUILD_MODE), vanilla)
 
 # Copy precompressed gfx files to build/gfx
 $(foreach filename,$(PRECMP_GFX_FILES),$(eval $(call define_copy_gfx_rules,$(filename))))
@@ -218,7 +244,28 @@ endif
 # ================================================================================
 
 
-ifeq ($(BUILD_VANILLA),true)
+ifeq ($(BUILD_MODE), vanilla)
+
+build/tileset_layouts/%.bin: precompressed/tileset_layouts/$(GAME)/%.bin | build/tileset_layouts
+	@echo "Copying $< to $@..."
+	@cp $< $@
+build/tileset_layouts/%.cmp: precompressed/tileset_layouts/$(GAME)/%.cmp | build/tileset_layouts
+	@echo "Copying $< to $@..."
+	@cp $< $@
+
+build/rooms/room%.cmp: precompressed/rooms/$(GAME)/room%.cmp | build/rooms
+	@echo "Copying $< to $@..."
+	@cp $< $@
+
+build/textData.s: precompressed/text/$(GAME)/textData.s | build
+	@echo "Copying $< to $@..."
+	@cp $< $@
+
+build/textDefines.s: precompressed/text/$(GAME)/textDefines.s | build
+	@echo "Copying $< to $@..."
+	@cp $< $@
+
+else ifeq ($(BUILD_MODE), utf8)
 
 build/tileset_layouts/%.bin: precompressed/tileset_layouts/$(GAME)/%.bin | build/tileset_layouts
 	@echo "Copying $< to $@..."
@@ -241,6 +288,7 @@ build/textData.s: text/$(GAME)/text.yaml text/$(GAME)/dict.yaml text/extracted-p
 	@$(PYTHON) tools/build/parseText.py text/$(GAME)/dict.yaml $< $@ $$(($(TEXT_INSERT_ADDRESS)))
 	
 build/textDefines.s: build/textData.s
+
 
 else
 
