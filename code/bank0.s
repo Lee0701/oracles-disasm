@@ -5402,7 +5402,8 @@ textThreadStart:
 	jr -
 
 ;;
-; Can only be called from bank $3f.
+; Can only be called from bank $3f. See also "copyTextCharacterGfx" which is similar but is used by
+; file select code instead of textbox code.
 ;
 ; @param	[w7TextGfxSource]	Table to use
 ; @param	a			Character
@@ -5648,6 +5649,8 @@ clearAllItemsAndPutLinkOnGround:
 	jp putLinkOnGround
 
 ;;
+; See also "retrieveTextCharacter" which is similar.
+;
 ; @param	a			Character index
 ; @param	c			0 to use jp font, 1 to use english font
 ; @param	de			Where to write the character to
@@ -13537,7 +13540,7 @@ checkRoomPackAfterWarp:
 ; @param[out]	hl	Address of a free interaction slot (on the id byte)
 ; @param[out]	zflag	Set if a free slot was found
 getFreeInteractionSlot:
-	ld hl,FIRST_DYNAMIC_INTERACTION_INDEX<<8 | $40
+	ld hl,(FIRST_DYNAMIC_INTERACTION_INDEX<<8) | $40
 --
 	ld a,(hl)
 	or a
