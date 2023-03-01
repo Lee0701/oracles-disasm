@@ -3,7 +3,7 @@
 # "FREE" or "SUPERFREE". This is all to make sure the rom builds as an exact
 # copy of the original game.
 BUILD_MODE = utf8
-BUILD_LANG = -en
+BUILD_LANG = 
 
 # Sets the default target. Can be "ages", "seasons", or "all" (both).
 .DEFAULT_GOAL = all
@@ -266,6 +266,7 @@ build/textDefines.s: precompressed/text/$(GAME)/textDefines.s | build
 	@echo "Copying $< to $@..."
 	@cp $< $@
 
+
 else ifeq ($(BUILD_MODE), utf8)
 
 build/tileset_layouts/%.bin: precompressed/tileset_layouts/$(GAME)/%.bin | build/tileset_layouts
@@ -279,14 +280,18 @@ build/rooms/room%.cmp: precompressed/rooms/$(GAME)/room%.cmp | build/rooms
 	@echo "Copying $< to $@..."
 	@cp $< $@
 
-# Parse & compress text
-build/textData.s: text/$(GAME)/text.yaml text/$(GAME)/dict.yaml text/extracted-patched/$(GAME)/text.yaml text/translate/$(GAME)$(BUILD_LANG)/text.yaml text/extracted-patched/$(GAME)/dict.yaml text/translate/$(GAME)$(BUILD_LANG)/dict.yaml tools/build/parseText.py | build
+build/text.yaml: text/extracted-patched/$(GAME)$(BUILD_LANG)/text.yaml tools/build/applyTextPatch.py | build
 	@echo "Patching text..."
-	@$(PYTHON) tools/build/applyTextPatch.py text/extracted-patched/$(GAME)/text.yaml text/translate/$(GAME)$(BUILD_LANG)/text.yaml text/translated/$(GAME)$(BUILD_LANG)/text.yaml
-	@$(PYTHON) tools/build/applyTextPatch.py text/extracted-patched/$(GAME)/dict.yaml text/translate/$(GAME)$(BUILD_LANG)/dict.yaml text/translated/$(GAME)$(BUILD_LANG)/dict.yaml
+	@$(PYTHON) tools/build/applyTextPatch.py text/extracted-patched/$(GAME)$(BUILD_LANG)/text.yaml $< $@
 
+build/dict.yaml: text/extracted-patched/$(GAME)$(BUILD_LANG)/dict.yaml tools/build/applyTextPatch.py | build
+	@echo "Patching dict..."
+	@$(PYTHON) tools/build/applyTextPatch.py text/extracted-patched/$(GAME)$(BUILD_LANG)/dict.yaml $< $@
+
+# Parse & compress text
+build/textData.s: build/text.yaml build/dict.yaml tools/build/parseText.py | build
 	@echo "Compressing text..."
-	@$(PYTHON) tools/build/parseText.py text/$(GAME)/dict.yaml $< $@ $$(($(TEXT_INSERT_ADDRESS)))
+	@$(PYTHON) tools/build/parseText.py build/dict.yaml $< $@ $$(($(TEXT_INSERT_ADDRESS)))
 	
 build/textDefines.s: build/textData.s
 
@@ -356,7 +361,7 @@ build/doc: | build
 	mkdir build/doc
 
 clean:
-	-rm -R build_ages_v/ build_ages_e/ build_seasons_v/ build_seasons_e/ doc/ ages.gbc seasons.gbc
+	-rm -R build_ages_v/ build_ages_e/ build_seasons_v/ build_seasons_e/ build_ages_u8/ build_seasons_u8/ doc/ ages.gbc seasons.gbc
 
 run: ages
 	$(GBEMU) ages.gbc 2>/dev/null
