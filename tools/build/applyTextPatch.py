@@ -1,4 +1,5 @@
 
+import os
 import sys
 import yaml
 
@@ -24,5 +25,6 @@ def hexint_presenter(dumper, data):
     return dumper.represent_int(hex(data))
 yaml.add_representer(int, hexint_presenter)
 
+os.makedirs(os.path.dirname(sys.argv[3]), exist_ok=True)
 with open(sys.argv[3], 'w', encoding='utf8') as f:
     yaml.dump(base_content, f, sort_keys=False, allow_unicode=True)
