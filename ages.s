@@ -888,3 +888,9 @@ oamData_7249:
 .include "code/ages/garbage/bank3fEnd.s"
 
 .ends
+
+.BANK $80 SLOT 1
+.ORG 0
+	.redefine DATA_ADDR $0000
+	.redefine DATA_BANK $80
+	m_GfxDataMultiple gfx_font_unicode

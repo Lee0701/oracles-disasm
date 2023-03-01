@@ -700,9 +700,12 @@ def parseTextFile(textFile, isDictionary):
 
                     else:
                         c = text[i]
-                        utf8 = c.encode('utf-8')
-                        for code in utf8:
-                            textStruct.data.append(code)
+                        if c == '~':
+                            textStruct.data.append(ord('\\'))
+                        else:
+                            utf8 = c.encode('utf-8')
+                            for code in utf8:
+                                textStruct.data.append(code)
 
                         if c == ' ':
                             state.lastSpaceIndex = len(textStruct.data)-1
@@ -808,7 +811,7 @@ address = (startAddress%0x4000)+0x4000
 bank = startAddress//0x4000
 
 textOffset1 = groupDict[0].textStructs[0]
-textOffset2 = groupDict[textOffsetSplitIndex].textStructs[0]
+textOffset2 = groupDict[textOffsetSplitIndex].textStructs[0] if textOffsetSplitIndex != 0xff else 0
 textOffset3 = groupDict[textOffsetSplitIndex2].textStructs[0] if textOffsetSplitIndex2 != 0xff else 0
 
 # Print defines
@@ -868,6 +871,7 @@ for group in groupDict.values():
 
 outFile.write('\n')
 
+textOffset2Used = False
 textOffset3Used = False
 
 # Print actual text
@@ -879,6 +883,7 @@ for group in groupDict.values():
             outFile.write('TEXT_OFFSET_1:\n')
         elif textOffset2 == textStruct:
             outFile.write('TEXT_OFFSET_2:\n')
+            textOffset2Used = True 
         elif textOffset3 == textStruct:
             outFile.write('TEXT_OFFSET_3:\n')
             textOffset3Used = True
@@ -912,7 +917,10 @@ for group in groupDict.values():
 #                 outFile2.write(data)
 #                 outFile2.close()
 
-outFile.write('TEXT_OFFSET_3:\n')
+if textOffset2Used == False:
+    outFile.write('TEXT_OFFSET_2:\n')
+if textOffset3Used == False:
+    outFile.write('TEXT_OFFSET_3:\n')
 
 outFile.write('\n.DEFINE TEXT_END_ADDR ' + wlahex(address, 4) + '\n')
 outFile.write('.DEFINE TEXT_END_BANK ' + wlahex(bank, 2))
