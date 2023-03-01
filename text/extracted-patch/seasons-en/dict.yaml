@@ -1,0 +1,1024 @@
+DICT0_00: '  \opt()OK \opt()No thanks'
+DICT0_01: \col(3)Princess Zelda\col(0)
+DICT0_02: '  \opt()Yes \opt()No'
+DICT0_03: You got the\n
+DICT0_04: \col(3)Labrynna\col(0)
+DICT0_05: My books tell me\n
+DICT0_06: ' \col(1)secret\col(0)'
+DICT0_07: \opt()Yes \opt()Not really
+DICT0_08: I'll trade for\n
+DICT0_09: Ore Chunks\col(0)
+DICT0_0a: ee hee hee hee!
+DICT0_0b: Hohhm...ZZZ...
+DICT0_0c: Sword damage\x20
+DICT0_0d: \col(3)Zelda\col(0)
+DICT0_0e: \col(1)Gasha Seed
+DICT0_0f: \col(3)Twinrova\col(0)
+DICT0_10: \col(1)secret\col(0)
+DICT0_11: Thank you
+DICT0_12: You got \col(1)
+DICT0_13: ' \col(1)rings\col(0)'
+DICT0_14: Horon Village
+DICT0_15: Damage taken\x20
+DICT0_16: Want to learn
+DICT0_17: \col(3)Holodrum\col(0)
+DICT0_18: he seasons
+DICT0_19: Subrosian
+DICT0_1a: Seasons\col(0)
+DICT0_1b: You got a
+DICT0_1c: something
+DICT0_1d: 0 Rupees
+DICT0_1e: \col(3)Temple of\n
+DICT0_1f: estruction
+DICT0_20: nderstand
+DICT0_21: Spool Swamp
+DICT0_22: Heart Container
+DICT0_23: a fellow named\n
+DICT0_24: \col(1)Ring Box\col(0)
+DICT0_25: ' damage from\n'
+DICT0_26: Essence of\n
+DICT0_27: Sunken City
+DICT0_28: ome back
+DICT0_29: I can't\x20
+DICT0_2a: \col(1)ring\col(0)
+DICT0_2b: This is\x20
+DICT0_2c: I'll teach you
+DICT0_2d: \col(3)Labrynna's\col(0)
+DICT0_2e: Take this
+DICT0_2f: ' of the\n'
+DICT0_30: ' you can'
+DICT0_31: \col(3)Onox\col(0)
+DICT0_32: Try again later!
+DICT0_33: Do you know\x20
+DICT0_34: \col(1)Hard Ore\col(0)
+DICT0_35: \col(1)essences\col(0)
+DICT0_36: \col(1)secrets\col(0)
+DICT0_37: ' \col(1)bell\col(0)'
+DICT0_38: Mystery Seeds
+DICT0_39: \col(3)Maku Tree\col(0)
+DICT0_3a: of Seasons
+DICT0_3b: If you\x20
+DICT0_3c: Thanks to you,\n
+DICT0_3d: o you remember\n
+DICT0_3e: You don't
+DICT0_3f: Oracle of
+DICT0_40: That's\x20
+DICT0_41: \col(1)seeds\col(0)
+DICT0_42: \col(3)Din\col(0)
+DICT0_43: ' to the\n'
+DICT0_44: You can
+DICT0_45: You're\x20
+DICT0_46: the village
+DICT0_47: appraise
+DICT0_48: ' in the\n'
+DICT0_49: ou have
+DICT0_4a: ' will be\n'
+DICT0_4b: Evil King
+DICT0_4c: ' give you'
+DICT0_4d: ' \opt()No way'
+DICT0_4e: \col(1)Bombs\col(0)
+DICT0_4f: \col(3)Ganon\col(0)
+DICT0_50: ' has been\n'
+DICT0_51: ' ho ho ho!'
+DICT0_52: \col(1)Ribbon\col(0)
+DICT0_53: Seeds\col(0)
+DICT0_54: he power
+DICT0_55: ' if you\n'
+DICT0_56: darkness
+DICT0_57: You got
+DICT0_58: ' return'
+DICT0_59: to the\x20
+DICT0_5a: ou must
+DICT0_5b: Boomerang
+DICT0_5c: sacrifice
+DICT0_5d: Biggoron
+DICT0_5e: he Flame
+DICT0_5f: \col(3)Rosa\col(0)
+DICT0_60: You've\x20
+DICT0_61: I'm gonna\x20
+DICT0_62: I want to\x20
+DICT0_63: Nature!\stop\n
+DICT0_64: \col(1)shield\col(0)
+DICT0_65: our \col(1)Seed\n
+DICT0_66: \col(3)Dimitri\col(0)
+DICT0_67: ' Ring L-'
+DICT0_68: reasure
+DICT0_69: in the\x20
+DICT0_6a: ' your\n'
+DICT0_6b: here's\x20
+DICT0_6c: Will you\x20
+DICT0_6d: Hwaah...\n
+DICT0_6e: Satchel\col(0)
+DICT0_6f: \col(3)Cap'n\col(0)
+DICT0_70: Pieces of Heart
+DICT0_71: I don't\x20
+DICT0_72: Can you\x20
+DICT0_73: come to
+DICT0_74: e you\x20
+DICT0_75: ' again'
+DICT0_76: '...\stop\n'
+DICT0_77: seasons
+DICT0_78: ' found\x20'
+DICT0_79: of the\x20
+DICT0_7a: ' won''t\x20'
+DICT0_7b: '"temple'
+DICT0_7c: ' there'
+DICT0_7d: Game Boy Color
+DICT0_7e: \col(4)\num1 signs\col(0)!\n
+DICT0_7f: \col(1)Essences
+DICT0_80: ' your\x20'
+DICT0_81: ' will\n'
+DICT0_82: ' on the\n'
+DICT0_83: Subrosia
+DICT0_84: Seasons
+DICT0_85: ' shall\n'
+DICT0_86: Good luck
+DICT0_87: waterfall
+DICT0_88: ' with\x20'
+DICT0_89: ' power'
+DICT0_8a: ' this\n'
+DICT0_8b: about\x20
+DICT0_8c: ', but\x20'
+DICT0_8d: \col(2)essence\col(4)
+DICT0_8e: \col(1)Star-Shaped Ore\col(0)
+DICT0_8f: ' Rupees'
+DICT0_90: without
+DICT0_91: I have\x20
+DICT0_92: ' around'
+DICT0_93: strange
+DICT0_94: I am \col(3)
+DICT0_95: Don't\x20
+DICT0_96: ' have\n'
+DICT0_97: ' this\x20'
+DICT0_98: ' that\x20'
+DICT0_99: ' that\n'
+DICT0_9a: Strange Flute
+DICT0_9b: Member's Card
+DICT0_9c: What kind of\n
+DICT0_9d: I surrender!\n
+DICT0_9e: \col(3)Mt. Cucco\col(0)
+DICT0_9f: ' with\n'
+DICT0_a0: loodgate
+DICT0_a1: ' for the'
+DICT0_a2: remember
+DICT0_a3: ing the\n
+DICT0_a4: able to\x20
+DICT0_a5: from the
+DICT0_a6: ountain
+DICT0_a7: Really?
+DICT0_a8: cannot\x20
+DICT0_a9: ' I''ll\x20'
+DICT0_aa: ', but\n'
+DICT0_ab: secret
+DICT0_ac: ' the\x20'
+DICT0_ad: ' just\x20'
+DICT0_ae: Something
+DICT0_af: like this
+DICT0_b0: kidnapped
+DICT0_b1: Game Link
+DICT0_b2: Village\col(0)
+DICT0_b3: \col(3)Veran\col(0)
+DICT0_b4: ' the\n'
+DICT0_b5: you're\x20
+DICT0_b6: ' summer'
+DICT0_b7: It's a\x20
+DICT0_b8: hen you
+DICT0_b9: ystical
+DICT0_ba: ' Seeds\n'
+DICT0_bb: someone
+DICT0_bc: Great Moblin
+DICT0_bd: Bright Sun
+DICT0_be: \col(1)Blue Ore\col(0)
+DICT0_bf: r har har!
+DICT0_c0: \col(3)Hyrule\col(0)
+DICT0_c1: friend
+DICT0_c2: ' you\n'
+DICT0_c3: othing
+DICT0_c4: ' right'
+DICT0_c5: ' will\x20'
+DICT0_c6: shall\x20
+DICT0_c7: ' I can'
+DICT0_c8: forget
+DICT0_c9: naming our son,\n
+DICT0_ca: you can\x20
+DICT0_cb: Got it?\n
+DICT0_cc: ' brought'
+DICT0_cd: It's so\x20
+DICT0_ce: Darkness
+DICT0_cf: \col(1)Rod of
+DICT0_d0: ' Ring'
+DICT0_d1: strong
+DICT0_d2: ' when\n'
+DICT0_d3: ' from\n'
+DICT0_d4: \col(0) is\n
+DICT0_d5: ' you\x20'
+DICT0_d6: ' spring'
+DICT0_d7: through
+DICT0_d8: ' Screen'
+DICT0_d9: ' Shield'
+DICT0_da: monster
+DICT0_db: special
+DICT0_dc: ' and\n'
+DICT0_dd: hat's\x20
+DICT0_de: Spring
+DICT0_df: ' great'
+DICT0_e0: ' think'
+DICT0_e1: ' and\x20'
+DICT0_e2: ' for\n'
+DICT0_e3: ' carry'
+DICT0_e4: ' find\x20'
+DICT0_e5: Master
+DICT0_e6: '! You\n'
+DICT0_e7: people
+DICT0_e8: ' I''ll\n'
+DICT0_e9: Please
+DICT0_ea: don't\x20
+DICT0_eb: ' could'
+DICT0_ec: It's\x20
+DICT0_ed: '! That''s\n'
+DICT0_ee: verything
+DICT0_ef: I wonder\x20
+DICT0_f0: Pegasus
+DICT0_f1: \col(1)rings\col(0)
+DICT0_f2: out of\x20
+DICT0_f3: \col(3)Maple\col(0)
+DICT0_f4: here\x20
+DICT0_f5: have\x20
+DICT0_f6: stump to call\n
+DICT0_f7: Power Bracelet
+DICT0_f8: The season is\n
+DICT0_f9: No matter how\n
+DICT0_fa: \col(3)Twinrova's\col(0)
+DICT0_fb: terrible
+DICT0_fc: has come
+DICT0_fd: I, too,\x20
+DICT0_fe: '  \opt()Sure'
+DICT0_ff: winter
+DICT1_00: happen
+DICT1_01: ' north'
+DICT1_02: ', too!'
+DICT1_03: ' would'
+DICT1_04: ' place'
+DICT1_05: espair
+DICT1_06: word\col(0)
+DICT1_07: ' hear'
+DICT1_08: that\x20
+DICT1_09: I'll\x20
+DICT1_0a: ' time'
+DICT1_0b: your\x20
+DICT1_0c: ' for\x20'
+DICT1_0d: ' like'
+DICT1_0e: ' here'
+DICT1_0f: other
+DICT1_10: before
+DICT1_11: Spirit
+DICT1_12: We're\x20
+DICT1_13: Hmm...
+DICT1_14: always
+DICT1_15: erhaps
+DICT1_16: ' can\x20'
+DICT1_17: Climb atop a\n
+DICT1_18: power
+DICT1_19: ' you.'
+DICT1_1a: This\x20
+DICT1_1b: ' you!'
+DICT1_1c: ' to see'
+DICT1_1d: courage
+DICT1_1e: want to
+DICT1_1f: ' thanks'
+DICT1_20: ushroom
+DICT1_21: ' Level\x20'
+DICT1_22: Advance
+DICT1_23: tell me
+DICT1_24: rincess
+DICT1_25: ' Oracle'
+DICT1_26: You'll\x20
+DICT1_27: anytime
+DICT1_28: Snake\col(0)
+DICT1_29: ' is a'
+DICT1_2a: What\x20
+DICT1_2b: ' more'
+DICT1_2c: ' them'
+DICT1_2d: ' some'
+DICT1_2e: ssence
+DICT1_2f: change
+DICT1_30: return
+DICT1_31: ' It''s\n'
+DICT1_32: ake it
+DICT1_33: ' dance'
+DICT1_34: enough
+DICT1_35: hidden
+DICT1_36: ortune
+DICT1_37: \col(1)Bomb
+DICT1_38: \col(0)!\stop\n
+DICT1_39: thing
+DICT1_3a: this\x20
+DICT1_3b: s of\n
+DICT1_3c: Then\x20
+DICT1_3d: ' hero'
+DICT1_3e: ring\x20
+DICT1_3f: ature
+DICT1_40: ' get\x20'
+DICT1_41: ' are\n'
+DICT1_42: from\x20
+DICT1_43: Fertile Soil
+DICT1_44: Know-It-All\n
+DICT1_45: Magic Potion
+DICT1_46: ah, hah, hah
+DICT1_47: egendary
+DICT1_48: yourself
+DICT1_49: strength
+DICT1_4a: precious
+DICT1_4b: ' you''ll\n'
+DICT1_4c: Bwee-hee
+DICT1_4d: finished
+DICT1_4e: \col(1)Gasha\n
+DICT1_4f: \col(3)Horon\n
+DICT1_50: That\x20
+DICT1_51: ' good'
+DICT1_52: ' has\n'
+DICT1_53: ' it to'
+DICT1_54: eather
+DICT1_55: should
+DICT1_56: master
+DICT1_57: ' must\x20'
+DICT1_58: Thanks
+DICT1_59: beasts
+DICT1_5a: called
+DICT1_5b: better
+DICT1_5c: travel
+DICT1_5d: Bwee!\x20
+DICT1_5e: ', too.'
+DICT1_5f: the \col(1)
+DICT1_60: lute\col(0)
+DICT1_61: take\x20
+DICT1_62: will\x20
+DICT1_63: Megaphone
+DICT1_64: ', ha, ha!'
+DICT1_65: dreamt of
+DICT1_66: different
+DICT1_67: \col(3)Nayru\col(0)
+DICT1_68: \col(3)Vasu\col(0)\x20
+DICT1_69: with\x20
+DICT1_6a: e of\n
+DICT1_6b: ' are\x20'
+DICT1_6c: ' was\x20'
+DICT1_6d: finally
+DICT1_6e: produce
+DICT1_6f: General
+DICT1_70: careful
+DICT1_71: outside
+DICT1_72: already
+DICT1_73: keyhole
+DICT1_74: Your\x20
+DICT1_75: world
+DICT1_76: ' want'
+DICT1_77: Wooden Bird
+DICT1_78: Hero's Cave
+DICT1_79: Greetings!\n
+DICT1_7a: button
+DICT1_7b: Goron\x20
+DICT1_7c: ' weird'
+DICT1_7d: eweler
+DICT1_7e: Winter
+DICT1_7f: ed to\n
+DICT1_80: defeat
+DICT1_81: o much
+DICT1_82: broken
+DICT1_83: ight\x20
+DICT1_84: where
+DICT1_85: e to\x20
+DICT1_86: been\x20
+DICT1_87: ' hope'
+DICT1_88: '  \opt()OK'
+DICT1_89: ' has\x20'
+DICT1_8a: when\x20
+DICT1_8b: come\x20
+DICT1_8c: ' know'
+DICT1_8d: I am\x20
+DICT1_8e: ' well'
+DICT1_8f: ' help'
+DICT1_90: never
+DICT1_91: e!\stop\n
+DICT1_92: Congratulations!\n
+DICT1_93: offer my advice!\n
+DICT1_94: the\x20
+DICT1_95: ' into'
+DICT1_96: ress\x20
+DICT1_97: '! The'
+DICT1_98: ' that'
+DICT1_99: lower
+DICT1_9a: trade
+DICT1_9b: t it\x20
+DICT1_9c: ' what'
+DICT1_9d: ' grow'
+DICT1_9e: ' it''s'
+DICT1_9f: ' were'
+DICT1_a0: since
+DICT1_a1: after
+DICT1_a2: e'll\x20
+DICT1_a3: '!\stop\n'
+DICT1_a4: .\stop\n
+DICT1_a5: '...\n'
+DICT1_a6: ing\x20
+DICT1_a7: Scattered seeds\n
+DICT1_a8: '  \opt()Read \opt()Don''t'
+DICT1_a9: pprais
+DICT1_aa: Let's\x20
+DICT1_ab: could\x20
+DICT1_ac: I saw\x20
+DICT1_ad: ', then'
+DICT1_ae: I'm so
+DICT1_af: still\x20
+DICT1_b0: ' to\x20'
+DICT1_b1: The\x20
+DICT1_b2: ' to\n'
+DICT1_b3: ' this'
+DICT1_b4: ' can\n'
+DICT1_b5: ' back'
+DICT1_b6: ' look'
+DICT1_b7: on't\n
+DICT1_b8: dream
+DICT1_b9: h...\x20
+DICT1_ba: ' I''m\x20'
+DICT1_bb: They\x20
+DICT1_bc: round
+DICT1_bd: need\x20
+DICT1_be: ' it!\n'
+DICT1_bf: ' \opt()No'
+DICT1_c0: Welcome
+DICT1_c1: protect
+DICT1_c2: complet
+DICT1_c3: Mittens
+DICT1_c4: \col(0), an\n
+DICT1_c5: Moosh\col(0)
+DICT1_c6: anana\col(0)
+DICT1_c7: ing\n
+DICT1_c8: Phonograph
+DICT1_c9: Gasha Seed
+DICT1_ca: ' quickly'
+DICT1_cb: Holodrum
+DICT1_cc: ower of\x20
+DICT1_cd: ' worried'
+DICT1_ce: name is\n
+DICT1_cf: \col(3)Blaino\col(0)
+DICT1_d0: \col(1)bell\col(0)
+DICT1_d1: ' of\n'
+DICT1_d2: you\x20
+DICT1_d3: lucky
+DICT1_d4: eason
+DICT1_d5: right
+DICT1_d6: Heart
+DICT1_d7: find\x20
+DICT1_d8: ouble
+DICT1_d9: three
+DICT1_da: Ricky
+DICT1_db: ' long'
+DICT1_dc: stuff
+DICT1_dd: make\n
+DICT1_de: give\n
+DICT1_df: child
+DICT1_e0: ' away'
+DICT1_e1: plant
+DICT1_e2: \col(0)\stop\n
+DICT1_e3: ' of\x20'
+DICT1_e4: \col(0)!\n
+DICT1_e5: ' is\n'
+DICT1_e6: ' in\n'
+DICT1_e7: ?\stop\n
+DICT1_e8: You\x20
+DICT1_e9: and\x20
+DICT1_ea: ' not\x20'
+DICT1_eb: ' many'
+DICT1_ec: ' near'
+DICT1_ed: just\n
+DICT1_ee: I've\x20
+DICT1_ef: et me
+DICT1_f0: break
+DICT1_f1: teach
+DICT1_f2: ' I''m\n'
+DICT1_f3: quest
+DICT1_f4: ' true'
+DICT1_f5: come\n
+DICT1_f6: '''s\col(0)\n'
+DICT1_f7: ' fruit'
+DICT1_f8: ollect
+DICT1_f9: aven't
+DICT1_fa: sacred
+DICT1_fb: ed Ore
+DICT1_fc: Here's
+DICT1_fd: Let us
+DICT1_fe: may be
+DICT1_ff: filled
+DICT2_00: shield
+DICT2_01: please
+DICT2_02: Sorrow
+DICT2_03: ' I''ve\n'
+DICT2_04: ' \opt()Yes'
+DICT2_05: ' now'
+DICT2_06: ' see'
+DICT2_07: all\x20
+DICT2_08: land
+DICT2_09: reat
+DICT2_0a: Slingshot
+DICT2_0b: Lava Soup
+DICT2_0c: Maku Tree
+DICT2_0d: left hand
+DICT2_0e: beautiful
+DICT2_0f: Game Boy\n
+DICT2_10: nderstood
+DICT2_11: Subscreen
+DICT2_12: Thank'ee!
+DICT2_13: ' Jewel\col(0)!'
+DICT2_14: ' in\x20'
+DICT2_15: ance
+DICT2_16: ' got\x20'
+DICT2_17: sleep
+DICT2_18: . The
+DICT2_19: ' open'
+DICT2_1a: ' they'
+DICT2_1b: take\n
+DICT2_1c: more\x20
+DICT2_1d: can't
+DICT2_1e: like\x20
+DICT2_1f: Hey!\x20
+DICT2_20: ' cold'
+DICT2_21: give\x20
+DICT2_22: favor
+DICT2_23: all\n
+DICT2_24: are\x20
+DICT2_25: ight
+DICT2_26: ' one'
+DICT2_27: ther
+DICT2_28: \col(0).\n
+DICT2_29: Engine Grease
+DICT2_2a: Aye, aye, sir
+DICT2_2b: '.............'
+DICT2_2c: ' it\x20'
+DICT2_2d: ' you'
+DICT2_2e: ever
+DICT2_2f: But\x20
+DICT2_30: ' my\n'
+DICT2_31: east
+DICT2_32: Lon Lon
+DICT2_33: yeglass
+DICT2_34: dropped
+DICT2_35: spirits
+DICT2_36: ' anyone'
+DICT2_37: usiness
+DICT2_38: ctually
+DICT2_39: ' ask me'
+DICT2_3a: my test
+DICT2_3b: mateys!
+DICT2_3c: ' out'
+DICT2_3d: I'm\x20
+DICT2_3e: our\x20
+DICT2_3f: tion
+DICT2_40: even
+DICT2_41: Rupee
+DICT2_42: found
+DICT2_43: Sword
+DICT2_44: ttack
+DICT2_45: loves
+DICT2_46: ' swim'
+DICT2_47: Bombs
+DICT2_48: hunks
+DICT2_49: about
+DICT2_4a: ' fine'
+DICT2_4b: ' was\n'
+DICT2_4c: shape
+DICT2_4d: order
+DICT2_4e: ', so\x20'
+DICT2_4f: eed\col(0)
+DICT2_50: \col(1)\num1\x20
+DICT2_51: ring
+DICT2_52: \col(0)?\n
+DICT2_53: Gmph, gmph,\n
+DICT2_54: ' \opt()Maybe not'
+DICT2_55: across
+DICT2_56: agical
+DICT2_57: ' than\n'
+DICT2_58: urnace
+DICT2_59: follow
+DICT2_5a: I had\x20
+DICT2_5b: shadow
+DICT2_5c: symbol
+DICT2_5d: appear
+DICT2_5e: Here!\x20
+DICT2_5f: What?\x20
+DICT2_60: ' chaos'
+DICT2_61: ' is\x20'
+DICT2_62: atch
+DICT2_63: save
+DICT2_64: ' it\n'
+DICT2_65: our\n
+DICT2_66: meet
+DICT2_67: over
+DICT2_68: tell
+DICT2_69: saplings
+DICT2_6a: Flippers
+DICT2_6b: Cuccodex
+DICT2_6c: '''s House'
+DICT2_6d: guardian
+DICT2_6e: not\x20
+DICT2_6f: n't\x20
+DICT2_70: hold
+DICT2_71: ' You'
+DICT2_72: ' up\n'
+DICT2_73: but\x20
+DICT2_74: ship
+DICT2_75: \col(0),\n
+DICT2_76: hoots
+DICT2_77: then\x20
+DICT2_78: start
+DICT2_79: Ember
+DICT2_7a: ready
+DICT2_7b: very\n
+DICT2_7c: ' get\n'
+DICT2_7d: emple
+DICT2_7e: esert
+DICT2_7f: find\n
+DICT2_80: ' name'
+DICT2_81: first
+DICT2_82: urely
+DICT2_83: ruins
+DICT2_84: just\x20
+DICT2_85: ought
+DICT2_86: water
+DICT2_87: Sorry
+DICT2_88: ' love'
+DICT2_89: woods
+DICT2_8a: trees
+DICT2_8b: peace
+DICT2_8c: nside
+DICT2_8d: ry it
+DICT2_8e: cable
+DICT2_8f: orth
+DICT2_90: eeds
+DICT2_91: for\x20
+DICT2_92: feel
+DICT2_93: ' on\n'
+DICT2_94: take
+DICT2_95: here
+DICT2_96: town
+DICT2_97: e a\n
+DICT2_98: know
+DICT2_99: wait
+DICT2_9a: each
+DICT2_9b: Dimitri's F
+DICT2_9c: less
+DICT2_9d: fall
+DICT2_9e: What
+DICT2_9f: back
+DICT2_a0: Now\x20
+DICT2_a1: some
+DICT2_a2: e's\x20
+DICT2_a3: '''re\n'
+DICT2_a4: ' be\n'
+DICT2_a5: ' we\x20'
+DICT2_a6: ing!
+DICT2_a7: the\n
+DICT2_a8: e...
+DICT2_a9: ster
+DICT2_aa: ' use'
+DICT2_ab: ould
+DICT2_ac: hear
+DICT2_ad: one\x20
+DICT2_ae: ay,\x20
+DICT2_af: ' all'
+DICT2_b0: ' any'
+DICT2_b1: '  \opt()'
+DICT2_b2: thin
+DICT2_b3: ' on\x20'
+DICT2_b4: time
+DICT2_b5: only
+DICT2_b6: Come
+DICT2_b7: it?\n
+DICT2_b8: e me
+DICT2_b9: ' my\x20'
+DICT2_ba: help
+DICT2_bb: been\n
+DICT2_bc: ummer
+DICT2_bd: their
+DICT2_be: ocked
+DICT2_bf: while
+DICT2_c0: ' real'
+DICT2_c1: prize
+DICT2_c2: racti
+DICT2_c3: told\x20
+DICT2_c4: those
+DICT2_c5: forge
+DICT2_c6: it's\x20
+DICT2_c7: First
+DICT2_c8: isten
+DICT2_c9: huge\x20
+DICT2_ca: happy
+DICT2_cb: learn
+DICT2_cc: items
+DICT2_cd: olish
+DICT2_ce: pupil
+DICT2_cf: '''s\col(0)\x20'
+DICT2_d0: Tarm Ruins
+DICT2_d1: Hyuh, hyuh
+DICT2_d2: down south
+DICT2_d3: soft earth
+DICT2_d4: Warmth
+DICT2_d5: SELECT
+DICT2_d6: Wooden
+DICT2_d7: emains
+DICT2_d8: Moblin
+DICT2_d9: Sunken
+DICT2_da: danger
+DICT2_db: I knew
+DICT2_dc: final\x20
+DICT2_dd: effect
+DICT2_de: ' I ask'
+DICT2_df: Secret
+DICT2_e0: damage
+DICT2_e1: \col(3)Deku
+DICT2_e2: nice
+DICT2_e3: grow
+DICT2_e4: s a\x20
+DICT2_e5: that
+DICT2_e6: good
+DICT2_e7: Good
+DICT2_e8: what
+DICT2_e9: left
+DICT2_ea: work
+DICT2_eb: '!!!\n'
+DICT2_ec: rest
+DICT2_ed: ' so\n'
+DICT2_ee: Oh!\x20
+DICT2_ef: \col(0)!\x20
+DICT2_f0: enemies
+DICT2_f1: agnetic
+DICT2_f2: narled\x20
+DICT2_f3: Blossom
+DICT2_f4: unleash
+DICT2_f5: I guess
+DICT2_f6: explain
+DICT2_f7: connect
+DICT2_f8: systems
+DICT2_f9: ', huh?\n'
+DICT2_fa: ' is:\stop\n'
+DICT2_fb: \col(1)key\col(0)
+DICT2_fc: How\x20
+DICT2_fd: this
+DICT2_fe: nder
+DICT2_ff: life
+DICT3_00: ress
+DICT3_01: ches
+DICT3_02: open
+DICT3_03: stop
+DICT3_04: play
+DICT3_05: ' it.'
+DICT3_06: Some
+DICT3_07: ' if\n'
+DICT3_08: keep
+DICT3_09: wear
+DICT3_0a: hard
+DICT3_0b: me!\n
+DICT3_0c: not\n
+DICT3_0d: lost
+DICT3_0e: Seed
+DICT3_0f: get\x20
+DICT3_10: ound
+DICT3_11: pass
+DICT3_12: make
+DICT3_13: With
+DICT3_14: you.
+DICT3_15: alon
+DICT3_16: '...\x20'
+DICT3_17: mean
+DICT3_18: Ages
+DICT3_19: ' me\n'
+DICT3_1a: hero
+DICT3_1b: Oh,\x20
+DICT3_1c: burn
+DICT3_1d: ' him'
+DICT3_1e: west
+DICT3_1f: ' new'
+DICT3_20: move
+DICT3_21: '''s Plaque'
+DICT3_22: Like Like
+DICT3_23: h hoh hoh
+DICT3_24: ' promised'
+DICT3_25: utumn
+DICT3_26: hovel
+DICT3_27: force
+DICT3_28: Blue\x20
+DICT3_29: Goron
+DICT3_2a: weird
+DICT3_2b: Zelda
+DICT3_2c: sword
+DICT3_2d: place
+DICT3_2e: ' who\n'
+DICT3_2f: leave
+DICT3_30: offer
+DICT3_31: float
+DICT3_32: hese\x20
+DICT3_33: Just\x20
+DICT3_34: Huh?\x20
+DICT3_35: he's\n
+DICT3_36: check
+DICT3_37: ' gift'
+DICT3_38: ' once'
+DICT3_39: ' late'
+DICT3_3a: skill
+DICT3_3b: ' it,\n'
+DICT3_3c: aught
+DICT3_3d: ' sho'
+DICT3_3e: into
+DICT3_3f: reen
+DICT3_40: cent
+DICT3_41: And\x20
+DICT3_42: more
+DICT3_43: come
+DICT3_44: rust
+DICT3_45: give
+DICT3_46: Then
+DICT3_47: best
+DICT3_48: '! We'
+DICT3_49: ' did'
+DICT3_4a: ing.
+DICT3_4b: ' she'
+DICT3_4c: urse
+DICT3_4d: you,
+DICT3_4e: When
+DICT3_4f: I am
+DICT3_50: hole
+DICT3_51: does
+DICT3_52: live
+DICT3_53: List
+DICT3_54: song
+DICT3_55: '...'
+DICT3_56: \stop\n
+DICT3_57: That
+DICT3_58: ful\n
+DICT3_59: seed
+DICT3_5a: This
+DICT3_5b: sign
+DICT3_5c: cont
+DICT3_5d: one\n
+DICT3_5e: '! No'
+DICT3_5f: can\x20
+DICT3_60: want
+DICT3_61: n't\n
+DICT3_62: look
+DICT3_63: very
+DICT3_64: get\n
+DICT3_65: Here
+DICT3_66: I'll
+DICT3_67: ' way'
+DICT3_68: girl
+DICT3_69: ' boy'
+DICT3_6a: name
+DICT3_6b: ' was'
+DICT3_6c: lose
+DICT3_6d: eyes
+DICT3_6e: ', I\n'
+DICT3_6f: ' sea'
+DICT3_70: ines
+DICT3_71: part
+DICT3_72: er!\n
+DICT3_73: down
+DICT3_74: If I
+DICT3_75: kind
+DICT3_76: hich
+DICT3_77: city
+DICT3_78: a \col(1)
+DICT3_79: to\x20
+DICT3_7a: of\x20
+DICT3_7b: ing
+DICT3_7c: you
+DICT3_7d: ed\n
+DICT3_7e: ' a\x20'
+DICT3_7f: \col(0)\n
+DICT3_80: '''s\n'
+DICT3_81: all
+DICT3_82: my\x20
+DICT3_83: Iron Pot
+DICT3_84: Strange\n
+DICT3_85: olcanoes
+DICT3_86: '! See ya'
+DICT3_87: awakened
+DICT3_88: elicious
+DICT3_89: adventur
+DICT3_8a: ungeon
+DICT3_8b: Banana
+DICT3_8c: illage
+DICT3_8d: Hyrule
+DICT3_8e: golden
+DICT3_8f: almost
+DICT3_90: matter
+DICT3_91: \col(1)Fish\col(0)
+DICT3_92: summit
+DICT3_93: regret
+DICT3_94: normal
+DICT3_95: \col(3)Ambi\col(0)
+DICT3_96: wisdom
+DICT3_97: ', dude'
+DICT3_98: \col(3)Onox
+DICT3_99: in\x20
+DICT3_9a: '''s\x20'
+DICT3_9b: ed\x20
+DICT3_9c: the
+DICT3_9d: You
+DICT3_9e: '!!!'
+DICT3_9f: be\x20
+DICT3_a0: ' me'
+DICT3_a1: and
+DICT3_a2: ate
+DICT3_a3: ell
+DICT3_a4: Time
+DICT3_a5: find
+DICT3_a6: lock
+DICT3_a7: door
+DICT3_a8: ' or\n'
+DICT3_a9: Open
+DICT3_aa: any\x20
+DICT3_ab: Bomb
+DICT3_ac: lute
+DICT3_ad: astl
+DICT3_ae: ayor
+DICT3_af: wish
+DICT3_b0: Find
+DICT3_b1: Read
+DICT3_b2: made
+DICT3_b3: last
+DICT3_b4: was\x20
+DICT3_b5: lame
+DICT3_b6: link
+DICT3_b7: said
+DICT3_b8: seen
+DICT3_b9: Link
+DICT3_ba: ' a\n'
+DICT3_bb: ' \opt()'
+DICT3_bc: ' got\n'
+DICT3_bd: Nurtu
+DICT3_be: build
+DICT3_bf: hoose
+DICT3_c0: ragon
+DICT3_c1: thank
+DICT3_c2: gonna
+DICT3_c3: Syrup
+DICT3_c4: ' Shop'
+DICT3_c5: visit
+DICT3_c6: throw
+DICT3_c7: bloom
+DICT3_c8: cliff
+DICT3_c9: Scrub
+DICT3_ca: racle
+DICT3_cb: ', sir'
+DICT3_cc: After
+DICT3_cd: ' may\n'
+DICT3_ce: reviv
+DICT3_cf: are
+DICT3_d0: ave
+DICT3_d1: ill
+DICT3_d2: ' it'
+DICT3_d3: ' so'
+DICT3_d4: ' \col(1)'
+DICT3_d5: ' \col(3)'
+DICT3_d6: '! I'
+DICT3_d7: ent
+DICT3_d8: \col(0)!
+DICT3_d9: one
+DICT3_da: ' to'
+DICT3_db: ain
+DICT3_dc: ear
+DICT3_dd: Doo, dee, dee♪
+DICT3_de: for
+DICT3_df: ' is'
+DICT3_e0: ' he'
+DICT3_e1: out
+DICT3_e2: ree
+DICT3_e3: ick
+DICT3_e4: ake
+DICT3_e5: is\x20
+DICT3_e6: in'
+DICT3_e7: so\x20
+DICT3_e8: \col(0)\x20
+DICT3_e9: ' bad'
+DICT3_ea: ' an\n'
+DICT3_eb: Life
+DICT3_ec: arry
+DICT3_ed: lect
+DICT3_ee: Hold
+DICT3_ef: ease
+DICT3_f0: They
+DICT3_f1: Gale
+DICT3_f2: evil
+DICT3_f3: sure
+DICT3_f4: appr
+DICT3_f5: ouse
+DICT3_f6: on!\n
+DICT3_f7: goes
+DICT3_f8: ' say'
+DICT3_f9: next
+DICT3_fa: were
+DICT3_fb: Even
+DICT3_fc: such
+DICT3_fd: spot
+DICT3_fe: melt
+DICT3_ff: end
