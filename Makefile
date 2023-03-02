@@ -3,8 +3,8 @@
 # "FREE" or "SUPERFREE". This is all to make sure the rom builds as an exact
 # copy of the original game.
 BUILD_MODE = utf8
-BUILD_LANG = -en
-BASE_LANG = -en
+BUILD_LANG = 
+BASE_LANG = 
 
 # Sets the default target. Can be "ages", "seasons", or "all" (both).
 .DEFAULT_GOAL = all
@@ -281,18 +281,18 @@ build/rooms/room%.cmp: precompressed/rooms/$(GAME)/room%.cmp | build/rooms
 	@echo "Copying $< to $@..."
 	@cp $< $@
 
-build/text.yaml: text/translate/$(GAME)$(BUILD_LANG)/text.yaml tools/build/applyTextPatch.py | build
+build/text$(BUILD_LANG).yaml: text/translate/$(GAME)$(BUILD_LANG)/text.yaml tools/build/applyTextPatch.py | build
 	@echo "Patching text..."
 	@$(PYTHON) tools/build/applyTextPatch.py text/extracted-patched/$(GAME)$(BASE_LANG)/text.yaml $< $@
 
-build/dict.yaml: text/translate/$(GAME)$(BUILD_LANG)/dict.yaml tools/build/applyTextPatch.py | build
+build/dict$(BUILD_LANG).yaml: text/translate/$(GAME)$(BUILD_LANG)/dict.yaml tools/build/applyTextPatch.py | build
 	@echo "Patching dict..."
 	@$(PYTHON) tools/build/applyTextPatch.py text/extracted-patched/$(GAME)$(BASE_LANG)/dict.yaml $< $@
 
 # Parse & compress text
-build/textData.s: build/text.yaml build/dict.yaml tools/build/parseText.py | build
+build/textData.s: build/text$(BUILD_LANG).yaml build/dict$(BUILD_LANG).yaml tools/build/parseText.py | build
 	@echo "Compressing text..."
-	@$(PYTHON) tools/build/parseText.py build/dict.yaml $< $@ $$(($(TEXT_INSERT_ADDRESS)))
+	@$(PYTHON) tools/build/parseText.py build/dict$(BUILD_LANG).yaml $< $@ $$(($(TEXT_INSERT_ADDRESS)))
 	
 build/textDefines.s: build/textData.s
 

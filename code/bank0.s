@@ -5492,6 +5492,8 @@ retrieveTextCharacter:
 	or c
 	ld c,a
 
+	call @getFontId
+
 	call @getFontOffset
 
 @end:
@@ -5535,6 +5537,42 @@ retrieveTextCharacter:
 	inc hl
 @singleEnd:
 	inc hl
+
+	ret
+
+@getFontId:
+	ld a,b
+	and a,$E0
+	rrca
+	rrca
+	rrca
+	rrca
+	rrca
+
+	add a,:gfx_font_unicode_table
+	push af
+	sla c
+	rl b
+	ld a,b
+	and a,$3F
+	or a,$40
+	ld h,a
+	ld a,c
+	ld l,a
+	pop af
+
+	push af
+	setrombank
+
+	ld a,(hl)
+	ld b,a
+	inc hl
+	ld a,(hl)
+	ld c,a
+
+	ld a,BANK_3f
+	setrombank
+	pop af
 
 	ret
 
