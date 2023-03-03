@@ -889,6 +889,8 @@ oamData_7249:
 
 .ends
 
+.include "build/gfxFontUnicodeTable.s"
+
 .BANK $80 SLOT 1
 .ORG 0
 	.redefine DATA_ADDR $0000

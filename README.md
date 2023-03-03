@@ -12,7 +12,9 @@ setup instructions.
 
 # About utf-8 branch
 
-This branch adds support for utf-8 encoded text along with simple unicode font. Currently only supports BMP area
+This branch adds support for utf-8 encoded text along with simple unicode font. Currently only supports BMP area.
+
+The built ROM would not require the space to contain the glyphs of every characters in Unicode. Instead, the 'font table' is used to map the glyphs' positions indexed by their codepoints. The maximum number of unique glyphs is 65535.
 
 ## Font credits
 * [Gilche](https://cafe.naver.com/hansicgu/824) by Eshum
