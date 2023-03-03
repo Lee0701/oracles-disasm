@@ -28,7 +28,7 @@ for (c, i) in enumerate(table):
     a = str[0:2]
     b = str[2:4]
     if (c % (0x4000/2)) == 0:
-        lines.append('.BANK $%x SLOT 1\nORG $0000' % (bank))
+        lines.append('.BANK $%x SLOT 1\n.ORG $0000' % (bank))
         bank += 1
         if c == 0:
             lines.append('gfx_font_unicode_table:')

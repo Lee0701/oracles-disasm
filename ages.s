@@ -889,7 +889,7 @@ oamData_7249:
 
 .ends
 
-.include "data/gfx_font_unicode_table.s"
+.include "build/gfxFontUnicodeTable.s"
 
 .BANK $80 SLOT 1
 .ORG 0
