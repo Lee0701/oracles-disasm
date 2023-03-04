@@ -281,16 +281,16 @@ build/rooms/room%.cmp: precompressed/rooms/$(GAME)/room%.cmp | build/rooms
 	@echo "Copying $< to $@..."
 	@cp $< $@
 
-build/text$(BUILD_LANG).yaml: text/translate/$(GAME)$(BUILD_LANG)/text.yaml tools/build/applyTextPatch.py | build
+build/text.yaml: text/translate/$(GAME)$(BUILD_LANG)/text.yaml tools/build/applyTextPatch.py | build
 	@echo "Patching text..."
 	@$(PYTHON) tools/build/applyTextPatch.py text/extracted-patched/$(GAME)$(BASE_LANG)/text.yaml $< $@
 
-build/dict$(BUILD_LANG).yaml: text/translate/$(GAME)$(BUILD_LANG)/dict.yaml tools/build/applyTextPatch.py | build
+build/dict.yaml: text/translate/$(GAME)$(BUILD_LANG)/dict.yaml tools/build/applyTextPatch.py | build
 	@echo "Patching dict..."
 	@$(PYTHON) tools/build/applyTextPatch.py text/extracted-patched/$(GAME)$(BASE_LANG)/dict.yaml $< $@
 
 # Parse & compress text
-build/textData.s: build/text$(BUILD_LANG).yaml build/dict$(BUILD_LANG).yaml tools/build/parseText.py | build
+build/textData.s: build/text.yaml build/dict.yaml tools/build/parseText.py | build
 	@echo "Compressing text..."
 	@$(PYTHON) tools/build/parseText.py build/dict$(BUILD_LANG).yaml $< $@ $$(($(TEXT_INSERT_ADDRESS)))
 

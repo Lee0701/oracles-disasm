@@ -5418,6 +5418,7 @@ retrieveTextCharacter:
 	push hl
 	push de
 	push bc
+	ld e,$00
 	bit 7,a
 	jr z,@singleByte
 	bit 6,a
@@ -5475,7 +5476,42 @@ retrieveTextCharacter:
 	jr @lastByte
 
 @quadByte:
-	jr @end
+	and a,$07
+	rlca
+	rlca
+	ld e,a
+
+	call readByteFromW7ActiveBank
+	inc hl
+
+	push af
+	and a,$30
+	rrca
+	rrca
+	rrca
+	rrca
+	or e
+	ld e,a
+
+	pop af
+	and a,$0F
+	rlca
+	rlca
+	rlca
+	rlca
+	ld b,a
+
+	call readByteFromW7ActiveBank
+	inc hl
+
+	push af
+	and a,$3C
+	rrca
+	rrca
+	or b
+	ld b,a
+
+	jr @lastByte
 
 @lastByte
 	pop af
@@ -5541,6 +5577,12 @@ retrieveTextCharacter:
 	ret
 
 @getFontId:
+	ld a,e
+	and a,$1F
+	rlca
+	rlca
+	rlca
+	ld e,a
 	ld a,b
 	and a,$E0
 	rrca
@@ -5548,6 +5590,7 @@ retrieveTextCharacter:
 	rrca
 	rrca
 	rrca
+	or a,e
 
 	add a,:gfx_font_unicode_table
 	push af
@@ -5560,7 +5603,6 @@ retrieveTextCharacter:
 	ld a,c
 	ld l,a
 	pop af
-
 	push af
 	setrombank
 
