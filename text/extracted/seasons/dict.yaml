@@ -1,0 +1,5128 @@
+groups:
+- group: 0x00
+  data:
+  - name: DICT0_00
+    index: 0x00
+    text: |2-
+        \opt()はい \opt()いいえ
+
+  - name: DICT0_01
+    index: 0x01
+    text: |-
+      \col(0)を手に入れた!
+
+  - name: DICT0_02
+    index: 0x02
+    text: |2-
+        \opt()かう \opt()やっぱりやめる
+
+  - name: DICT0_03
+    index: 0x03
+    text: |-
+      \col(1)あいことば\col(0)を
+
+  - name: DICT0_04
+    index: 0x04
+    text: |-
+      \col(3)四季のしんでん\col(0)
+
+  - name: DICT0_05
+    index: 0x05
+    text: |-
+      \col(3)ラブレンヌ\col(0)
+
+  - name: DICT0_06
+    index: 0x06
+    text: |-
+      \slow()    大地のことわり\n
+
+  - name: DICT0_07
+    index: 0x07
+    text: |-
+      ウヒャヒャヒャヒャ!
+
+  - name: DICT0_08
+    index: 0x08
+    text: |-
+      \col(3)ツインロ-バ\col(0)
+
+  - name: DICT0_09
+    index: 0x09
+    text: |-
+      \col(3)ゼルダ\col(0)さま
+
+  - name: DICT0_0a
+    index: 0x0a
+    text: |-
+      \col(1)あいことば\col(0)
+
+  - name: DICT0_0b
+    index: 0x0b
+    text: |-
+      \col(3)ゼルダ姫\col(0)
+
+  - name: DICT0_0c
+    index: 0x0c
+    text: |-
+      ものの本によると、\n
+
+  - name: DICT0_0d
+    index: 0x0d
+    text: |-
+      ルピ-\col(0)手に入れた!
+
+  - name: DICT0_0e
+    index: 0x0e
+    text: |2-
+        \opt()うん \opt()べつに
+
+  - name: DICT0_0f
+    index: 0x0f
+    text: |-
+      \col(3)ウララ\col(0)ちゃん
+
+  - name: DICT0_10
+    index: 0x10
+    text: |-
+      闇の将軍\col(3)ゴルゴン\col(0)
+
+  - name: DICT0_11
+    index: 0x11
+    text: |-
+      \col(1)ゆびわの小ばこ\col(0)
+
+  - name: DICT0_12
+    index: 0x12
+    text: |-
+      \col(1)クズ鉄 \num1コ\col(0)
+
+  - name: DICT0_13
+    index: 0x13
+    text: |-
+      \col(0)について知りたい?\n
+
+  - name: DICT0_14
+    index: 0x14
+    text: |-
+      大魔王\col(3)ガノン\col(0)
+
+  - name: DICT0_15
+    index: 0x15
+    text: |-
+      \col(1)ガチャのタネ\col(0)
+
+  - name: DICT0_16
+    index: 0x16
+    text: |-
+      ムニャムニャ。。。
+
+  - name: DICT0_17
+    index: 0x17
+    text: |-
+      \col(1)ゆびわ\col(0)を
+
+  - name: DICT0_18
+    index: 0x18
+    text: |-
+      ゲ-ムボ-イカラ-
+
+  - name: DICT0_19
+    index: 0x19
+    text: |-
+      \col(3)ディン\col(0)
+
+  - name: DICT0_1a
+    index: 0x1a
+    text: |-
+      \col(1)「大地のことわり」\col(0)
+
+  - name: DICT0_1b
+    index: 0x1b
+    text: |-
+      \col(3)ホロン村\col(0)
+
+  - name: DICT0_1c
+    index: 0x1c
+    text: |-
+      \col(1)ゆびわ\col(0)
+
+  - name: DICT0_1d
+    index: 0x1d
+    text: |-
+      \col(3)ゴルゴン\col(0)
+
+  - name: DICT0_1e
+    index: 0x1e
+    text: |-
+      \col(3)ホロドラム\col(0)
+
+  - name: DICT0_1f
+    index: 0x1f
+    text: |-
+      \col(4)\num1まい\col(0) こわしたウラね!\n
+
+  - name: DICT0_20
+    index: 0x20
+    text: |-
+      「時空のしょう」
+
+  - name: DICT0_21
+    index: 0x21
+    text: |-
+      \col(1)四季のロッド\col(0)
+
+  - name: DICT0_22
+    index: 0x22
+    text: |-
+      \col(1)木の実ぶくろ\col(0)
+
+  - name: DICT0_23
+    index: 0x23
+    text: |-
+      \col(1)バクダン\col(0)
+
+  - name: DICT0_24
+    index: 0x24
+    text: |-
+      \col(1)クズ鉄\col(0)
+
+  - name: DICT0_25
+    index: 0x25
+    text: |-
+      \col(3)せんちょう\col(0)
+
+  - name: DICT0_26
+    index: 0x26
+    text: |-
+      \col(1)ことわり\col(0)
+
+  - name: DICT0_27
+    index: 0x27
+    text: |-
+      ふわぁぁぁ。。。\n
+
+  - name: DICT0_28
+    index: 0x28
+    text: |-
+      こうかんするウラ\n
+
+  - name: DICT0_29
+    index: 0x29
+    text: |-
+      \col(1)木の実\col(0)
+
+  - name: DICT0_2a
+    index: 0x2a
+    text: |-
+      ゲ-ムボ-イシリ-ズせんよう\n
+
+  - name: DICT0_2b
+    index: 0x2b
+    text: |-
+      ムムッ! オマエ かんばんを\n
+
+  - name: DICT0_2c
+    index: 0x2c
+    text: |-
+      きりかぶの上で ふってみよう
+
+  - name: DICT0_2d
+    index: 0x2d
+    text: |-
+      。。。\stop\n
+
+  - name: DICT0_2e
+    index: 0x2e
+    text: |-
+      \col(0)とかいうヤツは\n
+
+  - name: DICT0_2f
+    index: 0x2f
+    text: |-
+      「聖なるイケニエ」
+
+  - name: DICT0_30
+    index: 0x30
+    text: |-
+      「ほろびの炎」
+
+  - name: DICT0_31
+    index: 0x31
+    text: |-
+      出なおしてくるウラ!
+
+  - name: DICT0_32
+    index: 0x32
+    text: |-
+      \col(1)あかい鉄\col(0)と\col(1)あおい鉄\col(0)
+
+  - name: DICT0_33
+    index: 0x33
+    text: |-
+      \col(1)ドラ\col(0)を
+
+  - name: DICT0_34
+    index: 0x34
+    text: |-
+      いいことおしえてやるッピ\n
+
+  - name: DICT0_35
+    index: 0x35
+    text: |-
+      \col(3)水びたしになった村
+
+  - name: DICT0_36
+    index: 0x36
+    text: |-
+      つうしんケ-ブル
+
+  - name: DICT0_37
+    index: 0x37
+    text: |-
+      \x20\x20\x20\x20\x20\x20
+
+  - name: DICT0_38
+    index: 0x38
+    text: |2-
+       \opt()知っている \opt()知らない
+
+  - name: DICT0_39
+    index: 0x39
+    text: |-
+      「しんでん」
+
+  - name: DICT0_3a
+    index: 0x3a
+    text: |-
+      \col(0)をもらった!\n
+
+  - name: DICT0_3b
+    index: 0x3b
+    text: |-
+      「ぜつぼうの炎」
+
+  - name: DICT0_3c
+    index: 0x3c
+    text: |-
+      \col(1)カタイ鉄\col(0)
+
+  - name: DICT0_3d
+    index: 0x3d
+    text: |-
+      \col(3)マカの木\col(0)
+
+  - name: DICT0_3e
+    index: 0x3e
+    text: |-
+      うけるダメ-ジ
+
+  - name: DICT0_3f
+    index: 0x3f
+    text: |-
+      とびちっちゃったじゃない
+
+  - name: DICT0_40
+    index: 0x40
+    text: |-
+      ゆびわの小ばこL-
+
+  - name: DICT0_41
+    index: 0x41
+    text: |-
+      こうなったら アンタのおとした\n
+
+  - name: DICT0_42
+    index: 0x42
+    text: |2-
+        \opt()わかった \opt()もういちど
+
+  - name: DICT0_43
+    index: 0x43
+    text: |2-
+        これぞ \col(1)
+
+  - name: DICT0_44
+    index: 0x44
+    text: |-
+      水びたしの村
+
+  - name: DICT0_45
+    index: 0x45
+    text: |-
+      \col(3)ハイラル\col(0)
+
+  - name: DICT0_46
+    index: 0x46
+    text: |-
+      ニョロ\stop\n
+
+  - name: DICT0_47
+    index: 0x47
+    text: |-
+      0ルピ- アル
+
+  - name: DICT0_48
+    index: 0x48
+    text: |-
+      剣のいりょく
+
+  - name: DICT0_49
+    index: 0x49
+    text: |-
+      そうびしているあいだ\n
+
+  - name: DICT0_4a
+    index: 0x4a
+    text: |-
+      \col(3)ボスブリン\col(0)さま
+
+  - name: DICT0_4b
+    index: 0x4b
+    text: |-
+      \col(3)ダイゴロン\col(0)
+
+  - name: DICT0_4c
+    index: 0x4c
+    text: |2-
+        \opt()かう \opt()
+
+  - name: DICT0_4d
+    index: 0x4d
+    text: |-
+      大地のみこ
+
+  - name: DICT0_4e
+    index: 0x4e
+    text: |-
+      かんていしてもら
+
+  - name: DICT0_4f
+    index: 0x4f
+    text: |-
+      四季のロッド
+
+  - name: DICT0_50
+    index: 0x50
+    text: |-
+      \col(2)ことわり\col(4)
+
+  - name: DICT0_51
+    index: 0x51
+    text: |-
+      のゆびわL-
+
+  - name: DICT0_52
+    index: 0x52
+    text: |-
+      \x20\x20\x20\x20\x20
+
+  - name: DICT0_53
+    index: 0x53
+    text: |-
+      てください
+
+  - name: DICT0_54
+    index: 0x54
+    text: |-
+      じぶんが あそんだ\n
+
+  - name: DICT0_55
+    index: 0x55
+    text: |-
+      \col(0)がたすけにくるぞ
+
+  - name: DICT0_56
+    index: 0x56
+    text: |-
+      \col(3)スプ-ルぬま\col(0)
+
+  - name: DICT0_57
+    index: 0x57
+    text: |-
+      \col(1)ガチャの実\col(0)
+
+  - name: DICT0_58
+    index: 0x58
+    text: |2-
+        \opt()やる \opt()やらない
+
+  - name: DICT0_59
+    index: 0x59
+    text: |2-
+        \opt()よむ \opt()よまない
+
+  - name: DICT0_5a
+    index: 0x5a
+    text: |-
+      \col(1)「大地と時空のことわり」\col(0)を知
+
+  - name: DICT0_5b
+    index: 0x5b
+    text: |-
+      の恵み\col(0)!
+
+  - name: DICT0_5c
+    index: 0x5c
+    text: |-
+      \col(1)リボン\col(0)
+
+  - name: DICT0_5d
+    index: 0x5d
+    text: |-
+      \col(3)ゼルダ\col(0)
+
+  - name: DICT0_5e
+    index: 0x5e
+    text: |-
+      \col(3)ベラン\col(0)
+
+  - name: DICT0_5f
+    index: 0x5f
+    text: |-
+      もういちど\x20
+
+  - name: DICT0_60
+    index: 0x60
+    text: |-
+      の恵み\col(4)
+
+  - name: DICT0_61
+    index: 0x61
+    text: |-
+      \col(1)実\col(0)
+
+  - name: DICT0_62
+    index: 0x62
+    text: |-
+      \col(1)ハテナの実\col(0)って
+
+  - name: DICT0_63
+    index: 0x63
+    text: |-
+      「なげきの炎」
+
+  - name: DICT0_64
+    index: 0x64
+    text: |-
+      \col(3)メイプル\col(0)
+
+  - name: DICT0_65
+    index: 0x65
+    text: |-
+      もてるように
+
+  - name: DICT0_66
+    index: 0x66
+    text: |-
+      ダイジョウブ
+
+  - name: DICT0_67
+    index: 0x67
+    text: |-
+      手に入れ
+
+  - name: DICT0_68
+    index: 0x68
+    text: |-
+      もっている
+
+  - name: DICT0_69
+    index: 0x69
+    text: |2-
+       ゆびわかんていや
+
+  - name: DICT0_6a
+    index: 0x6a
+    text: |-
+      \col(1)ハ-トのうつわ
+
+  - name: DICT0_6b
+    index: 0x6b
+    text: |-
+      \col(1)まほうのクスリ
+
+  - name: DICT0_6c
+    index: 0x6c
+    text: |-
+      \col(1)ヘンなふえ\col(0)
+
+  - name: DICT0_6d
+    index: 0x6d
+    text: |-
+      ふしぎの木の実
+
+  - name: DICT0_6e
+    index: 0x6e
+    text: |-
+      \col(3)デクナッツ\col(0)
+
+  - name: DICT0_6f
+    index: 0x6f
+    text: |-
+      \col(1)春バナナ\col(0)
+
+  - name: DICT0_70
+    index: 0x70
+    text: |-
+      \col(3)コッコ山\col(0)
+
+  - name: DICT0_71
+    index: 0x71
+    text: |-
+      ありがとう
+
+  - name: DICT0_72
+    index: 0x72
+    text: |-
+      ているウラ
+
+  - name: DICT0_73
+    index: 0x73
+    text: |-
+      ハ-トのかけら
+
+  - name: DICT0_74
+    index: 0x74
+    text: |2-
+       はじめるウラ
+
+  - name: DICT0_75
+    index: 0x75
+    text: |-
+      \col(1)ロンロンたまご\col(0)
+
+  - name: DICT0_76
+    index: 0x76
+    text: |-
+      \col(3)レッドスネ-ク\col(0)
+
+  - name: DICT0_77
+    index: 0x77
+    text: |-
+      \col(3)ブル-スネ-ク\col(0)
+
+  - name: DICT0_78
+    index: 0x78
+    text: |-
+      \col(3)大きなねっこ\col(0)
+
+  - name: DICT0_79
+    index: 0x79
+    text: |-
+      。。。。。。
+
+  - name: DICT0_7a
+    index: 0x7a
+    text: |-
+      \col(1)バクダン
+
+  - name: DICT0_7b
+    index: 0x7b
+    text: |-
+      プレゼント
+
+  - name: DICT0_7c
+    index: 0x7c
+    text: |-
+      ウラか?\n
+
+  - name: DICT0_7d
+    index: 0x7d
+    text: |2-
+       おしえて
+
+  - name: DICT0_7e
+    index: 0x7e
+    text: |-
+      知っている
+
+  - name: DICT0_7f
+    index: 0x7f
+    text: |-
+      \col(1)たて\col(0)
+
+  - name: DICT0_80
+    index: 0x80
+    text: |-
+      のせいれい
+
+  - name: DICT0_81
+    index: 0x81
+    text: |-
+      がんばって
+
+  - name: DICT0_82
+    index: 0x82
+    text: |-
+      見つけた
+
+  - name: DICT0_83
+    index: 0x83
+    text: |-
+      ボクでよければ 力になるんだな\n
+
+  - name: DICT0_84
+    index: 0x84
+    text: |-
+      。。。\n
+
+  - name: DICT0_85
+    index: 0x85
+    text: |-
+      ボタンをお
+
+  - name: DICT0_86
+    index: 0x86
+    text: |-
+      !\stop\n
+
+  - name: DICT0_87
+    index: 0x87
+    text: |-
+      おかげで カバンの中のモノが\n
+
+  - name: DICT0_88
+    index: 0x88
+    text: |2-
+        \opt()うらない  \opt()つうしん
+
+  - name: DICT0_89
+    index: 0x89
+    text: |-
+      ウ-ラダンス
+
+  - name: DICT0_8a
+    index: 0x8a
+    text: |-
+      こんなトコロ
+
+  - name: DICT0_8b
+    index: 0x8b
+    text: |-
+      ったッピ!\n
+
+  - name: DICT0_8c
+    index: 0x8c
+    text: |-
+      サッサの実
+
+  - name: DICT0_8d
+    index: 0x8d
+    text: |-
+      アチチの実
+
+  - name: DICT0_8e
+    index: 0x8e
+    text: |-
+      うらない\col(0)
+
+  - name: DICT0_8f
+    index: 0x8f
+    text: |-
+      大魔王
+
+  - name: DICT0_90
+    index: 0x90
+    text: |-
+      00ルピ-
+
+  - name: DICT0_91
+    index: 0x91
+    text: |-
+      いっしょに
+
+  - name: DICT0_92
+    index: 0x92
+    text: |-
+      やわらかいつち
+
+  - name: DICT0_93
+    index: 0x93
+    text: |-
+      つたえてほしい
+
+  - name: DICT0_94
+    index: 0x94
+    text: |-
+      \col(3)ガノン\col(0)
+
+  - name: DICT0_95
+    index: 0x95
+    text: |-
+      \col(3)カ-ノ\col(0)
+
+  - name: DICT0_96
+    index: 0x96
+    text: |-
+      をひらいて えらぼう
+
+  - name: DICT0_97
+    index: 0x97
+    text: |-
+      ぶんも もらってやる
+
+  - name: DICT0_98
+    index: 0x98
+    text: |-
+      \col(1)メンバ-ズカ-ド
+
+  - name: DICT0_99
+    index: 0x99
+    text: |-
+      大きなタキのユメを
+
+  - name: DICT0_9a
+    index: 0x9a
+    text: |-
+      ただいまの季節\n
+
+  - name: DICT0_9b
+    index: 0x9b
+    text: |-
+      \col(3)マイトパンチ\col(0)
+
+  - name: DICT0_9c
+    index: 0x9c
+    text: |2-
+       \opt()やめておく
+
+  - name: DICT0_9d
+    index: 0x9d
+    text: |-
+      \col(1)ピュ-の実
+
+  - name: DICT0_9e
+    index: 0x9e
+    text: |-
+      タカラの地図
+
+  - name: DICT0_9f
+    index: 0x9f
+    text: |-
+      はやく オトナに なりたいな-
+
+  - name: DICT0_a0
+    index: 0xa0
+    text: |-
+      \col(4)\num1ふん \num2びょう\col(0)!
+
+  - name: DICT0_a1
+    index: 0xa1
+    text: |-
+      ブ-メラン
+
+  - name: DICT0_a2
+    index: 0xa2
+    text: |-
+      かしら?\n
+
+  - name: DICT0_a3
+    index: 0xa3
+    text: |-
+      勇者の
+
+  - name: DICT0_a4
+    index: 0xa4
+    text: |2-
+        \opt()
+
+  - name: DICT0_a5
+    index: 0xa5
+    text: |-
+      のゆびわ
+
+  - name: DICT0_a6
+    index: 0xa6
+    text: |-
+      っている
+
+  - name: DICT0_a7
+    index: 0xa7
+    text: |-
+      らしいウラ
+
+  - name: DICT0_a8
+    index: 0xa8
+    text: |-
+      わたしは\x20
+
+  - name: DICT0_a9
+    index: 0xa9
+    text: |-
+      るそうじゃ
+
+  - name: DICT0_aa
+    index: 0xaa
+    text: |-
+      わからない
+
+  - name: DICT0_ab
+    index: 0xab
+    text: |-
+      てしまった
+
+  - name: DICT0_ac
+    index: 0xac
+    text: |-
+      やってみる
+
+  - name: DICT0_ad
+    index: 0xad
+    text: |-
+      です\stop\n
+
+  - name: DICT0_ae
+    index: 0xae
+    text: |-
+      気をつけ
+
+  - name: DICT0_af
+    index: 0xaf
+    text: |-
+      ることができ
+
+  - name: DICT0_b0
+    index: 0xb0
+    text: |-
+      もう1だいの
+
+  - name: DICT0_b1
+    index: 0xb1
+    text: |-
+      \col(3)ウィウィ
+
+  - name: DICT0_b2
+    index: 0xb2
+    text: |-
+      ふしぎな力
+
+  - name: DICT0_b3
+    index: 0xb3
+    text: |-
+      \col(1)カギ\col(0)
+
+  - name: DICT0_b4
+    index: 0xb4
+    text: |-
+      \col(1)ふえ\col(0)
+
+  - name: DICT0_b5
+    index: 0xb5
+    text: |-
+      パワ-ブレスレット
+
+  - name: DICT0_b6
+    index: 0xb6
+    text: |-
+      ルピ-が たりない
+
+  - name: DICT0_b7
+    index: 0xb7
+    text: |-
+      ゆびわのあいことば
+
+  - name: DICT0_b8
+    index: 0xb8
+    text: |-
+      ユメを見たんだ\n
+
+  - name: DICT0_b9
+    index: 0xb9
+    text: |-
+      四季のしんでん
+
+  - name: DICT0_ba
+    index: 0xba
+    text: |-
+      ?\stop\n
+
+  - name: DICT0_bb
+    index: 0xbb
+    text: |-
+      ちょっと\x20
+
+  - name: DICT0_bc
+    index: 0xbc
+    text: |-
+      っていない
+
+  - name: DICT0_bd
+    index: 0xbd
+    text: |-
+      おれいに\x20
+
+  - name: DICT0_be
+    index: 0xbe
+    text: |-
+      アドバンス
+
+  - name: DICT0_bf
+    index: 0xbf
+    text: |-
+      さっそく\x20
+
+  - name: DICT0_c0
+    index: 0xc0
+    text: |-
+      んだけど\n
+
+  - name: DICT0_c1
+    index: 0xc1
+    text: |-
+      大地の
+
+  - name: DICT0_c2
+    index: 0xc2
+    text: |-
+      季節が
+
+  - name: DICT0_c3
+    index: 0xc3
+    text: |-
+      なにがおこるか おたのしみ
+
+  - name: DICT0_c4
+    index: 0xc4
+    text: |2-
+          -ちゅうい!!-\n
+
+  - name: DICT0_c5
+    index: 0xc5
+    text: |-
+      あなたが なまえをつけた\n
+
+  - name: DICT0_c6
+    index: 0xc6
+    text: |-
+      勇者
+
+  - name: DICT0_c7
+    index: 0xc7
+    text: |-
+      世界
+
+  - name: DICT0_c8
+    index: 0xc8
+    text: |-
+      てくれる
+
+  - name: DICT0_c9
+    index: 0xc9
+    text: |-
+      かんてい
+
+  - name: DICT0_ca
+    index: 0xca
+    text: |2-
+       げんきになっ
+
+  - name: DICT0_cb
+    index: 0xcb
+    text: |-
+      はんぶんになる
+
+  - name: DICT0_cc
+    index: 0xcc
+    text: |-
+      にへんしんする
+
+  - name: DICT0_cd
+    index: 0xcd
+    text: |-
+      まいどッピ!\n
+
+  - name: DICT0_ce
+    index: 0xce
+    text: |-
+      じゃあ\x20
+
+  - name: DICT0_cf
+    index: 0xcf
+    text: |-
+      るウラよ
+
+  - name: DICT0_d0
+    index: 0xd0
+    text: |-
+      っちゃった
+
+  - name: DICT0_d1
+    index: 0xd1
+    text: |-
+      入れてお
+
+  - name: DICT0_d2
+    index: 0xd2
+    text: |-
+      出てくる
+
+  - name: DICT0_d3
+    index: 0xd3
+    text: |-
+      季節を
+
+  - name: DICT0_d4
+    index: 0xd4
+    text: |-
+      よ\stop\n
+
+  - name: DICT0_d5
+    index: 0xd5
+    text: |-
+      かいものしていくッピ!\n
+
+  - name: DICT0_d6
+    index: 0xd6
+    text: |-
+      時のみこ\col(3)ネ-ル\col(0)
+
+  - name: DICT0_d7
+    index: 0xd7
+    text: |-
+      \col(4)の北の山にある\n
+
+  - name: DICT0_d8
+    index: 0xd8
+    text: |-
+      かいてんぎり
+
+  - name: DICT0_d9
+    index: 0xd9
+    text: |-
+      スプ-ルぬま
+
+  - name: DICT0_da
+    index: 0xda
+    text: |2-
+         ウ-ラ
+
+  - name: DICT0_db
+    index: 0xdb
+    text: |2-
+       いつでも\n
+
+  - name: DICT0_dc
+    index: 0xdc
+    text: |-
+      かもしれない
+
+  - name: DICT0_dd
+    index: 0xdd
+    text: |-
+      ヤロ-ども!
+
+  - name: DICT0_de
+    index: 0xde
+    text: |-
+      また ききに
+
+  - name: DICT0_df
+    index: 0xdf
+    text: |-
+      \col(3)ムッシュ
+
+  - name: DICT0_e0
+    index: 0xe0
+    text: |2-
+       あなた
+
+  - name: DICT0_e1
+    index: 0xe1
+    text: |-
+      \col(1)ドラ\col(0)
+
+  - name: DICT0_e2
+    index: 0xe2
+    text: |-
+      \col(1)剣\col(0)
+
+  - name: DICT0_e3
+    index: 0xe3
+    text: |-
+      じゃない
+
+  - name: DICT0_e4
+    index: 0xe4
+    text: |-
+      0ルピ-
+
+  - name: DICT0_e5
+    index: 0xe5
+    text: |-
+      \x20\x20\x20\x20
+
+  - name: DICT0_e6
+    index: 0xe6
+    text: |-
+      になった
+
+  - name: DICT0_e7
+    index: 0xe7
+    text: |-
+      これで\x20
+
+  - name: DICT0_e8
+    index: 0xe8
+    text: |-
+      四季
+
+  - name: DICT0_e9
+    index: 0xe9
+    text: |-
+      大地
+
+  - name: DICT0_ea
+    index: 0xea
+    text: |-
+      わすれたときは\n
+
+  - name: DICT0_eb
+    index: 0xeb
+    text: |-
+      大まほうつかい
+
+  - name: DICT0_ec
+    index: 0xec
+    text: |-
+      \col(1)メガホン\col(0)
+
+  - name: DICT0_ed
+    index: 0xed
+    text: |-
+      \col(1)小ばこ\col(0)
+
+  - name: DICT0_ee
+    index: 0xee
+    text: |-
+      こうかん
+
+  - name: DICT0_ef
+    index: 0xef
+    text: |-
+      ウラ!\n
+
+  - name: DICT0_f0
+    index: 0xf0
+    text: |-
+      っていた
+
+  - name: DICT0_f1
+    index: 0xf1
+    text: |-
+      サブがめん
+
+  - name: DICT0_f2
+    index: 0xf2
+    text: |-
+      れんしゅう
+
+  - name: DICT0_f3
+    index: 0xf3
+    text: |-
+      わたしの\x20
+
+  - name: DICT0_f4
+    index: 0xf4
+    text: |-
+      りましょう
+
+  - name: DICT0_f5
+    index: 0xf5
+    text: |-
+      おかげで\x20
+
+  - name: DICT0_f6
+    index: 0xf6
+    text: |-
+      わたしたち
+
+  - name: DICT0_f7
+    index: 0xf7
+    text: |-
+      たいせつな
+
+  - name: DICT0_f8
+    index: 0xf8
+    text: |-
+      オマエさん
+
+  - name: DICT0_f9
+    index: 0xf9
+    text: |-
+      いったい\x20
+
+  - name: DICT0_fa
+    index: 0xfa
+    text: |-
+      ますか?\n
+
+  - name: DICT0_fb
+    index: 0xfb
+    text: |-
+      村ちょう
+
+  - name: DICT0_fc
+    index: 0xfc
+    text: |-
+      の恵み\n
+
+  - name: DICT0_fd
+    index: 0xfd
+    text: |-
+      木の実
+
+  - name: DICT0_fe
+    index: 0xfe
+    text: |-
+      している
+
+  - name: DICT0_ff
+    index: 0xff
+    text: |-
+      が ある
+
+- group: 0x01
+  data:
+  - name: DICT1_00
+    index: 0x00
+    text: |-
+      ったら\n
+
+  - name: DICT1_01
+    index: 0x01
+    text: |-
+      わかった
+
+  - name: DICT1_02
+    index: 0x02
+    text: |-
+      てくれた
+
+  - name: DICT1_03
+    index: 0x03
+    text: |-
+      ヒミツのもぐりポイント
+
+  - name: DICT1_04
+    index: 0x04
+    text: |-
+      パクッ モグモグモグ\n
+
+  - name: DICT1_05
+    index: 0x05
+    text: |-
+      いいことを おしえるよ
+
+  - name: DICT1_06
+    index: 0x06
+    text: |-
+      おぼえてくれました?\n
+
+  - name: DICT1_07
+    index: 0x07
+    text: |-
+      の力\col(0)がそなわった
+
+  - name: DICT1_08
+    index: 0x08
+    text: |-
+      \col(1)ヨ-ガンス-プ\col(0)
+
+  - name: DICT1_09
+    index: 0x09
+    text: |-
+      \col(3)ものしりバ-ド\col(0)
+
+  - name: DICT1_0a
+    index: 0x0a
+    text: |-
+      \col(3)レンヌのまち\col(0)の
+
+  - name: DICT1_0b
+    index: 0x0b
+    text: |-
+      イッパイ
+
+  - name: DICT1_0c
+    index: 0x0c
+    text: |2-
+       オイラ
+
+  - name: DICT1_0d
+    index: 0x0d
+    text: |-
+      きっと\x20
+
+  - name: DICT1_0e
+    index: 0x0e
+    text: |-
+      んだな\n
+
+  - name: DICT1_0f
+    index: 0x0f
+    text: |-
+      ニョロ\n
+
+  - name: DICT1_10
+    index: 0x10
+    text: |-
+      るのじゃ
+
+  - name: DICT1_11
+    index: 0x11
+    text: |-
+      ラッキ-
+
+  - name: DICT1_12
+    index: 0x12
+    text: |-
+      いトコロ
+
+  - name: DICT1_13
+    index: 0x13
+    text: |-
+      おねがい
+
+  - name: DICT1_14
+    index: 0x14
+    text: |-
+      ってきた
+
+  - name: DICT1_15
+    index: 0x15
+    text: |-
+      ないウラ
+
+  - name: DICT1_16
+    index: 0x16
+    text: |-
+      ダイゴロン
+
+  - name: DICT1_17
+    index: 0x17
+    text: |-
+      そのまま\x20
+
+  - name: DICT1_18
+    index: 0x18
+    text: |-
+      ないから\n
+
+  - name: DICT1_19
+    index: 0x19
+    text: |-
+      ほんとうに
+
+  - name: DICT1_1a
+    index: 0x1a
+    text: |-
+      ブヒ-ッ!
+
+  - name: DICT1_1b
+    index: 0x1b
+    text: |-
+      ニョロ?\n
+
+  - name: DICT1_1c
+    index: 0x1c
+    text: |-
+      そうですか
+
+  - name: DICT1_1d
+    index: 0x1d
+    text: |-
+      \col(3)ウ-ラ
+
+  - name: DICT1_1e
+    index: 0x1e
+    text: |-
+      おもうんだけど。。。
+
+  - name: DICT1_1f
+    index: 0x1f
+    text: |-
+      どこかの いせきに\x20
+
+  - name: DICT1_20
+    index: 0x20
+    text: |-
+      が こどものころは\n
+
+  - name: DICT1_21
+    index: 0x21
+    text: |-
+      ニオイがする
+
+  - name: DICT1_22
+    index: 0x22
+    text: |-
+      るようになる
+
+  - name: DICT1_23
+    index: 0x23
+    text: |-
+      勇気ある少年
+
+  - name: DICT1_24
+    index: 0x24
+    text: |2-
+       しゅっこう
+
+  - name: DICT1_25
+    index: 0x25
+    text: |-
+      なってしまう
+
+  - name: DICT1_26
+    index: 0x26
+    text: |-
+      チミミちゃん
+
+  - name: DICT1_27
+    index: 0x27
+    text: |-
+      おきゃくさん
+
+  - name: DICT1_28
+    index: 0x28
+    text: |-
+      メチャクチャ
+
+  - name: DICT1_29
+    index: 0x29
+    text: |-
+      なんじゃろう
+
+  - name: DICT1_2a
+    index: 0x2a
+    text: |-
+      のかも。。。
+
+  - name: DICT1_2b
+    index: 0x2b
+    text: |-
+      わかりました
+
+  - name: DICT1_2c
+    index: 0x2c
+    text: |-
+      \col(3)リッキ-
+
+  - name: DICT1_2d
+    index: 0x2d
+    text: |2-
+       \opt()いやだ
+
+  - name: DICT1_2e
+    index: 0x2e
+    text: |-
+      鉄を とか
+
+  - name: DICT1_2f
+    index: 0x2f
+    text: |2-
+       オマエ
+
+  - name: DICT1_30
+    index: 0x30
+    text: |-
+      なかった
+
+  - name: DICT1_31
+    index: 0x31
+    text: |-
+      大きな
+
+  - name: DICT1_32
+    index: 0x32
+    text: |-
+      \col(0)を\x20
+
+  - name: DICT1_33
+    index: 0x33
+    text: |-
+      \col(0)を\n
+
+  - name: DICT1_34
+    index: 0x34
+    text: |-
+      まかれたタネは
+
+  - name: DICT1_35
+    index: 0x35
+    text: |-
+      セレクトボタン
+
+  - name: DICT1_36
+    index: 0x36
+    text: |-
+      うつわがふえる
+
+  - name: DICT1_37
+    index: 0x37
+    text: |-
+      れてるアンタを
+
+  - name: DICT1_38
+    index: 0x38
+    text: |-
+      いらしゃいアル
+
+  - name: DICT1_39
+    index: 0x39
+    text: |-
+      そうびしないと
+
+  - name: DICT1_3a
+    index: 0x3a
+    text: |-
+      それにしても\x20
+
+  - name: DICT1_3b
+    index: 0x3b
+    text: |-
+      コクホウ
+
+  - name: DICT1_3c
+    index: 0x3c
+    text: |-
+      たいへん
+
+  - name: DICT1_3d
+    index: 0x3d
+    text: |-
+      でしょう
+
+  - name: DICT1_3e
+    index: 0x3e
+    text: |-
+      てあげる
+
+  - name: DICT1_3f
+    index: 0x3f
+    text: |-
+      ないよう
+
+  - name: DICT1_40
+    index: 0x40
+    text: |2-
+       わすれ
+
+  - name: DICT1_41
+    index: 0x41
+    text: |-
+      ブヒ!!
+
+  - name: DICT1_42
+    index: 0x42
+    text: |-
+      ブヒ!\n
+
+  - name: DICT1_43
+    index: 0x43
+    text: |-
+      ふっかつ
+
+  - name: DICT1_44
+    index: 0x44
+    text: |-
+      の力を
+
+  - name: DICT1_45
+    index: 0x45
+    text: |-
+      ったウラ
+
+  - name: DICT1_46
+    index: 0x46
+    text: |-
+      ておくれ
+
+  - name: DICT1_47
+    index: 0x47
+    text: |-
+      なんでも
+
+  - name: DICT1_48
+    index: 0x48
+    text: |-
+      アイテム
+
+  - name: DICT1_49
+    index: 0x49
+    text: |-
+      ここから
+
+  - name: DICT1_4a
+    index: 0x4a
+    text: |-
+      まものに
+
+  - name: DICT1_4b
+    index: 0x4b
+    text: |-
+      オマエの
+
+  - name: DICT1_4c
+    index: 0x4c
+    text: |-
+      るッピ!
+
+  - name: DICT1_4d
+    index: 0x4d
+    text: |-
+      とても\x20
+
+  - name: DICT1_4e
+    index: 0x4e
+    text: |-
+      -!!\n
+
+  - name: DICT1_4f
+    index: 0x4f
+    text: |-
+      \col(0)が\x20
+
+  - name: DICT1_50
+    index: 0x50
+    text: |-
+      の中に
+
+  - name: DICT1_51
+    index: 0x51
+    text: |-
+      どんな コだったの
+
+  - name: DICT1_52
+    index: 0x52
+    text: |-
+      いまでは リッパな
+
+  - name: DICT1_53
+    index: 0x53
+    text: |-
+      うたが かんせいし
+
+  - name: DICT1_54
+    index: 0x54
+    text: |-
+      きく \opt()きかない
+
+  - name: DICT1_55
+    index: 0x55
+    text: |-
+      \col(1)ちくおんき\col(0)
+
+  - name: DICT1_56
+    index: 0x56
+    text: |-
+      \col(3)ホロドラム\col(4)
+
+  - name: DICT1_57
+    index: 0x57
+    text: |-
+      \col(1)アイコトバ\col(0)
+
+  - name: DICT1_58
+    index: 0x58
+    text: |-
+      \col(3)ゴロン山\col(0)
+
+  - name: DICT1_59
+    index: 0x59
+    text: |-
+      できるぞ!
+
+  - name: DICT1_5a
+    index: 0x5a
+    text: |-
+      ヨウコウロ
+
+  - name: DICT1_5b
+    index: 0x5b
+    text: |-
+      につたわる
+
+  - name: DICT1_5c
+    index: 0x5c
+    text: |-
+      あらわれる
+
+  - name: DICT1_5d
+    index: 0x5d
+    text: |-
+      もってきて
+
+  - name: DICT1_5e
+    index: 0x5e
+    text: |-
+      ひさしぶり
+
+  - name: DICT1_5f
+    index: 0x5f
+    text: |-
+      もういちど
+
+  - name: DICT1_60
+    index: 0x60
+    text: |-
+      やっぱり\x20
+
+  - name: DICT1_61
+    index: 0x61
+    text: |2-
+       さらわれ
+
+  - name: DICT1_62
+    index: 0x62
+    text: |-
+      にいちゃん
+
+  - name: DICT1_63
+    index: 0x63
+    text: |-
+      このあたり
+
+  - name: DICT1_64
+    index: 0x64
+    text: |-
+      オイラも\x20
+
+  - name: DICT1_65
+    index: 0x65
+    text: |-
+      グハハハハ
+
+  - name: DICT1_66
+    index: 0x66
+    text: |2-
+       きっと\n
+
+  - name: DICT1_67
+    index: 0x67
+    text: |-
+      ちゃんと\x20
+
+  - name: DICT1_68
+    index: 0x68
+    text: |-
+      ことがある
+
+  - name: DICT1_69
+    index: 0x69
+    text: |-
+      ばいになる
+
+  - name: DICT1_6a
+    index: 0x6a
+    text: |-
+      ですか?\n
+
+  - name: DICT1_6b
+    index: 0x6b
+    text: |-
+      さしあげま
+
+  - name: DICT1_6c
+    index: 0x6c
+    text: |-
+      ホロン村
+
+  - name: DICT1_6d
+    index: 0x6d
+    text: |-
+      知らない
+
+  - name: DICT1_6e
+    index: 0x6e
+    text: |-
+      邪悪な
+
+  - name: DICT1_6f
+    index: 0x6f
+    text: |-
+      村の東
+
+  - name: DICT1_70
+    index: 0x70
+    text: |-
+      人々の
+
+  - name: DICT1_71
+    index: 0x71
+    text: |-
+      秋に実をむすんで 冬にねむる\stop\n
+
+  - name: DICT1_72
+    index: 0x72
+    text: |-
+      もらった
+
+  - name: DICT1_73
+    index: 0x73
+    text: |-
+      いろんな
+
+  - name: DICT1_74
+    index: 0x74
+    text: |-
+      ハ-トが
+
+  - name: DICT1_75
+    index: 0x75
+    text: |-
+      ヨ-ガン
+
+  - name: DICT1_76
+    index: 0x76
+    text: |-
+      ここは\x20
+
+  - name: DICT1_77
+    index: 0x77
+    text: |-
+      おぼえて
+
+  - name: DICT1_78
+    index: 0x78
+    text: |-
+      るらしい
+
+  - name: DICT1_79
+    index: 0x79
+    text: |-
+      だよ!\n
+
+  - name: DICT1_7a
+    index: 0x7a
+    text: |-
+      ってくれ
+
+  - name: DICT1_7b
+    index: 0x7b
+    text: |2-
+       わたし
+
+  - name: DICT1_7c
+    index: 0x7c
+    text: |-
+      あなたの
+
+  - name: DICT1_7d
+    index: 0x7d
+    text: |-
+      これから
+
+  - name: DICT1_7e
+    index: 0x7e
+    text: |-
+      んだって
+
+  - name: DICT1_7f
+    index: 0x7f
+    text: |-
+      なにか\x20
+
+  - name: DICT1_80
+    index: 0x80
+    text: |-
+      かな?\n
+
+  - name: DICT1_81
+    index: 0x81
+    text: |-
+      どこかに
+
+  - name: DICT1_82
+    index: 0x82
+    text: |-
+      見つけ
+
+  - name: DICT1_83
+    index: 0x83
+    text: |-
+      聖なる
+
+  - name: DICT1_84
+    index: 0x84
+    text: |-
+      水門
+
+  - name: DICT1_85
+    index: 0x85
+    text: |-
+      \stop\n
+
+  - name: DICT1_86
+    index: 0x86
+    text: |-
+      。。。
+
+  - name: DICT1_87
+    index: 0x87
+    text: |-
+      「♪いっそ〜タネまであいしてェ」\n
+
+  - name: DICT1_88
+    index: 0x88
+    text: |-
+      \col(1)あかいの\col(0)と\col(3)あおいの\col(0)\n
+
+  - name: DICT1_89
+    index: 0x89
+    text: |-
+      っても\x20
+
+  - name: DICT1_8a
+    index: 0x8a
+    text: |-
+      バクダン
+
+  - name: DICT1_8b
+    index: 0x8b
+    text: |-
+      もってい
+
+  - name: DICT1_8c
+    index: 0x8c
+    text: |-
+      くなった
+
+  - name: DICT1_8d
+    index: 0x8d
+    text: |-
+      オマエ\x20
+
+  - name: DICT1_8e
+    index: 0x8e
+    text: |-
+      よかった
+
+  - name: DICT1_8f
+    index: 0x8f
+    text: |-
+      だから\x20
+
+  - name: DICT1_90
+    index: 0x90
+    text: |-
+      してくれ
+
+  - name: DICT1_91
+    index: 0x91
+    text: |-
+      ように\n
+
+  - name: DICT1_92
+    index: 0x92
+    text: |-
+      ロか?\n
+
+  - name: DICT1_93
+    index: 0x93
+    text: |-
+      しかし\x20
+
+  - name: DICT1_94
+    index: 0x94
+    text: |2-
+       もっと
+
+  - name: DICT1_95
+    index: 0x95
+    text: |-
+      てほしい
+
+  - name: DICT1_96
+    index: 0x96
+    text: |-
+      いじょう
+
+  - name: DICT1_97
+    index: 0x97
+    text: |-
+      できない
+
+  - name: DICT1_98
+    index: 0x98
+    text: |-
+      なんとか
+
+  - name: DICT1_99
+    index: 0x99
+    text: |-
+      ダメ-ジ
+
+  - name: DICT1_9a
+    index: 0x9a
+    text: |-
+      って\n
+
+  - name: DICT1_9b
+    index: 0x9b
+    text: |-
+      から\n
+
+  - name: DICT1_9c
+    index: 0x9c
+    text: |-
+      ふりそそぐしずくをうけ わかばは\n
+
+  - name: DICT1_9d
+    index: 0x9d
+    text: |-
+      うごきをとめられるんです! けど\n
+
+  - name: DICT1_9e
+    index: 0x9e
+    text: |-
+      わか木を いっそうたくましくする
+
+  - name: DICT1_9f
+    index: 0x9f
+    text: |-
+      ああ はやく 春にならないかな-
+
+  - name: DICT1_a0
+    index: 0xa0
+    text: |-
+      メガネみたいなカタチをした池が\n
+
+  - name: DICT1_a1
+    index: 0xa1
+    text: |-
+      ごうかくのあかし
+
+  - name: DICT1_a2
+    index: 0xa2
+    text: |-
+      トライフォ-スの
+
+  - name: DICT1_a3
+    index: 0xa3
+    text: |-
+      がやってくる!?
+
+  - name: DICT1_a4
+    index: 0xa4
+    text: |-
+      て こまっちゃう
+
+  - name: DICT1_a5
+    index: 0xa5
+    text: |-
+      そこが あやしい
+
+  - name: DICT1_a6
+    index: 0xa6
+    text: |-
+      すもぐりめいじん
+
+  - name: DICT1_a7
+    index: 0xa7
+    text: |2-
+       10コ ウラ\n
+
+  - name: DICT1_a8
+    index: 0xa8
+    text: |-
+      \col(1)ガチャのタネ
+
+  - name: DICT1_a9
+    index: 0xa9
+    text: |-
+      \col(1)コッコずかん
+
+  - name: DICT1_aa
+    index: 0xaa
+    text: |-
+      いいえ \opt()はい
+
+  - name: DICT1_ab
+    index: 0xab
+    text: |-
+      つあつめれば
+
+  - name: DICT1_ac
+    index: 0xac
+    text: |-
+      \col(1)スコップ\col(0)
+
+  - name: DICT1_ad
+    index: 0xad
+    text: |-
+      をさずけよう
+
+  - name: DICT1_ae
+    index: 0xae
+    text: |-
+      ったとおもう
+
+  - name: DICT1_af
+    index: 0xaf
+    text: |-
+      剣ビ-ムが出
+
+  - name: DICT1_b0
+    index: 0xb0
+    text: |-
+      きいてもらえ
+
+  - name: DICT1_b1
+    index: 0xb1
+    text: |-
+      “ぜつぼう”
+
+  - name: DICT1_b2
+    index: 0xb2
+    text: |-
+      イテテの実
+
+  - name: DICT1_b3
+    index: 0xb3
+    text: |-
+      ぼうけん者
+
+  - name: DICT1_b4
+    index: 0xb4
+    text: |2-
+       \opt()ちがう
+
+  - name: DICT1_b5
+    index: 0xb5
+    text: |-
+      目がさめた
+
+  - name: DICT1_b6
+    index: 0xb6
+    text: |-
+      大よろこび
+
+  - name: DICT1_b7
+    index: 0xb7
+    text: |-
+      闇の力が
+
+  - name: DICT1_b8
+    index: 0xb8
+    text: |-
+      \x20\x20\x20
+
+  - name: DICT1_b9
+    index: 0xb9
+    text: |-
+      でも\x20
+
+  - name: DICT1_ba
+    index: 0xba
+    text: |-
+      か?\n
+
+  - name: DICT1_bb
+    index: 0xbb
+    text: |-
+      !!\n
+
+  - name: DICT1_bc
+    index: 0xbc
+    text: |-
+      かのじょの おどりをみていると\n
+
+  - name: DICT1_bd
+    index: 0xbd
+    text: |-
+      うまくすがたを かくしたつもり\n
+
+  - name: DICT1_be
+    index: 0xbe
+    text: |-
+      こんなに たのしくおどれたのは\n
+
+  - name: DICT1_bf
+    index: 0xbf
+    text: |-
+      もし そのアザが ホンモノなら\n
+
+  - name: DICT1_c0
+    index: 0xc0
+    text: |-
+      もう さずけるものは なにもない
+
+  - name: DICT1_c1
+    index: 0xc1
+    text: |-
+      リングから出たほうが まけだ\n
+
+  - name: DICT1_c2
+    index: 0xc2
+    text: |-
+      2人のあいしょうに見あった\n
+
+  - name: DICT1_c3
+    index: 0xc3
+    text: |-
+      さすらいのよげん者 \col(3)ソクラ
+
+  - name: DICT1_c4
+    index: 0xc4
+    text: |-
+      うれしい
+
+  - name: DICT1_c5
+    index: 0xc5
+    text: |-
+      あたらし
+
+  - name: DICT1_c6
+    index: 0xc6
+    text: |-
+      ところで
+
+  - name: DICT1_c7
+    index: 0xc7
+    text: |-
+      たいよう
+
+  - name: DICT1_c8
+    index: 0xc8
+    text: |-
+      かわりに
+
+  - name: DICT1_c9
+    index: 0xc9
+    text: |-
+      ふけば\x20
+
+  - name: DICT1_ca
+    index: 0xca
+    text: |-
+      いままで
+
+  - name: DICT1_cb
+    index: 0xcb
+    text: |-
+      ほうせき
+
+  - name: DICT1_cc
+    index: 0xcc
+    text: |-
+      ふしぎな
+
+  - name: DICT1_cd
+    index: 0xcd
+    text: |-
+      のトコロ
+
+  - name: DICT1_ce
+    index: 0xce
+    text: |-
+      するウラ
+
+  - name: DICT1_cf
+    index: 0xcf
+    text: |-
+      どうくつ
+
+  - name: DICT1_d0
+    index: 0xd0
+    text: |2-
+       LV.
+
+  - name: DICT1_d1
+    index: 0xd1
+    text: |-
+      かい?\n
+
+  - name: DICT1_d2
+    index: 0xd2
+    text: |-
+      ないと\n
+
+  - name: DICT1_d3
+    index: 0xd3
+    text: |-
+      たすけて
+
+  - name: DICT1_d4
+    index: 0xd4
+    text: |-
+      っても\n
+
+  - name: DICT1_d5
+    index: 0xd5
+    text: |-
+      たときは
+
+  - name: DICT1_d6
+    index: 0xd6
+    text: |-
+      るんじゃ
+
+  - name: DICT1_d7
+    index: 0xd7
+    text: |-
+      じゃに!
+
+  - name: DICT1_d8
+    index: 0xd8
+    text: |-
+      していた
+
+  - name: DICT1_d9
+    index: 0xd9
+    text: |-
+      あれば\n
+
+  - name: DICT1_da
+    index: 0xda
+    text: |2-
+       なんだ
+
+  - name: DICT1_db
+    index: 0xdb
+    text: |-
+      オレたち
+
+  - name: DICT1_dc
+    index: 0xdc
+    text: |-
+      のなまえ
+
+  - name: DICT1_dd
+    index: 0xdd
+    text: |-
+      アルよ\n
+
+  - name: DICT1_de
+    index: 0xde
+    text: |-
+      スタ-ト
+
+  - name: DICT1_df
+    index: 0xdf
+    text: |-
+      さいごの
+
+  - name: DICT1_e0
+    index: 0xe0
+    text: |-
+      たくさん
+
+  - name: DICT1_e1
+    index: 0xe1
+    text: |-
+      が いる
+
+  - name: DICT1_e2
+    index: 0xe2
+    text: |-
+      るんだ\n
+
+  - name: DICT1_e3
+    index: 0xe3
+    text: |-
+      おお!\x20
+
+  - name: DICT1_e4
+    index: 0xe4
+    text: |-
+      つうしん
+
+  - name: DICT1_e5
+    index: 0xe5
+    text: |-
+      の恵み
+
+  - name: DICT1_e6
+    index: 0xe6
+    text: |2-
+       見た
+
+  - name: DICT1_e7
+    index: 0xe7
+    text: |-
+      この村
+
+  - name: DICT1_e8
+    index: 0xe8
+    text: |-
+      ダンジョン
+
+  - name: DICT1_e9
+    index: 0xe9
+    text: |-
+      たからばこ
+
+  - name: DICT1_ea
+    index: 0xea
+    text: |-
+      でんせつの
+
+  - name: DICT1_eb
+    index: 0xeb
+    text: |-
+      いモノを\x20
+
+  - name: DICT1_ec
+    index: 0xec
+    text: |-
+      あけられる
+
+  - name: DICT1_ed
+    index: 0xed
+    text: |-
+      あなたが\x20
+
+  - name: DICT1_ee
+    index: 0xee
+    text: |-
+      んだから!
+
+  - name: DICT1_ef
+    index: 0xef
+    text: |2-
+       よみがえ
+
+  - name: DICT1_f0
+    index: 0xf0
+    text: |-
+      オマエが\x20
+
+  - name: DICT1_f1
+    index: 0xf1
+    text: |-
+      それでは\x20
+
+  - name: DICT1_f2
+    index: 0xf2
+    text: |-
+      にしてやる
+
+  - name: DICT1_f3
+    index: 0xf3
+    text: |2-
+       ここまで
+
+  - name: DICT1_f4
+    index: 0xf4
+    text: |-
+      さいきん\x20
+
+  - name: DICT1_f5
+    index: 0xf5
+    text: |-
+      きこえれば
+
+  - name: DICT1_f6
+    index: 0xf6
+    text: |-
+      ケ-ケケケ
+
+  - name: DICT1_f7
+    index: 0xf7
+    text: |-
+      だった?\n
+
+  - name: DICT1_f8
+    index: 0xf8
+    text: |-
+      マカの木
+
+  - name: DICT1_f9
+    index: 0xf9
+    text: |-
+      って\x20
+
+  - name: DICT1_fa
+    index: 0xfa
+    text: |-
+      ウラ\n
+
+  - name: DICT1_fb
+    index: 0xfb
+    text: |2-
+       \opt()
+
+  - name: DICT1_fc
+    index: 0xfc
+    text: |-
+      から\x20
+
+  - name: DICT1_fd
+    index: 0xfd
+    text: |-
+      ている
+
+  - name: DICT1_fe
+    index: 0xfe
+    text: |-
+      には\n
+
+  - name: DICT1_ff
+    index: 0xff
+    text: |-
+      おたがいに パンチをうちあい\n
+
+- group: 0x02
+  data:
+  - name: DICT2_00
+    index: 0x00
+    text: |-
+      うちに いすわるつもりウラか!
+
+  - name: DICT2_01
+    index: 0x01
+    text: |-
+      かれんにさいた花のカオリは\n
+
+  - name: DICT2_02
+    index: 0x02
+    text: |-
+      実は トリたちに はこばれ\n
+
+  - name: DICT2_03
+    index: 0x03
+    text: |-
+      ドコ見て あるいてんのよ!\n
+
+  - name: DICT2_04
+    index: 0x04
+    text: |-
+      できる
+
+  - name: DICT2_05
+    index: 0x05
+    text: |-
+      ゆびわ
+
+  - name: DICT2_06
+    index: 0x06
+    text: |-
+      んじゃ
+
+  - name: DICT2_07
+    index: 0x07
+    text: |-
+      わたし
+
+  - name: DICT2_08
+    index: 0x08
+    text: |-
+      だ!\n
+
+  - name: DICT2_09
+    index: 0x09
+    text: |-
+      しょう
+
+  - name: DICT2_0a
+    index: 0x0a
+    text: |2-
+       この
+
+  - name: DICT2_0b
+    index: 0x0b
+    text: |-
+      には\x20
+
+  - name: DICT2_0c
+    index: 0x0c
+    text: |-
+      なら\n
+
+  - name: DICT2_0d
+    index: 0x0d
+    text: |-
+      でしゅ
+
+  - name: DICT2_0e
+    index: 0x0e
+    text: |-
+      よ!\n
+
+  - name: DICT2_0f
+    index: 0x0f
+    text: |-
+      えいえんなる イノチのめぐり
+
+  - name: DICT2_10
+    index: 0x10
+    text: |-
+      タカラのありかが しめされる
+
+  - name: DICT2_11
+    index: 0x11
+    text: |-
+      ウマイ! ウマイんだな-!\n
+
+  - name: DICT2_12
+    index: 0x12
+    text: |-
+      ケ-ブル ぬいちゃダメニョロ
+
+  - name: DICT2_13
+    index: 0x13
+    text: |-
+      コラコラコラ! そこのこぞう
+
+  - name: DICT2_14
+    index: 0x14
+    text: |-
+      ぜんぜん こわくなくなります
+
+  - name: DICT2_15
+    index: 0x15
+    text: |-
+      わか木へと せいちょうする
+
+  - name: DICT2_16
+    index: 0x16
+    text: |-
+      かぜにはこばれ 実をむすぶ
+
+  - name: DICT2_17
+    index: 0x17
+    text: |-
+      春にめざめ 夏にそだち\n
+
+  - name: DICT2_18
+    index: 0x18
+    text: |-
+      左。下。右。上だッピ
+
+  - name: DICT2_19
+    index: 0x19
+    text: |-
+      った!\n
+
+  - name: DICT2_1a
+    index: 0x1a
+    text: |-
+      あらたな
+
+  - name: DICT2_1b
+    index: 0x1b
+    text: |-
+      ボタンを
+
+  - name: DICT2_1c
+    index: 0x1c
+    text: |-
+      リッキ-
+
+  - name: DICT2_1d
+    index: 0x1d
+    text: |-
+      いいウラ
+
+  - name: DICT2_1e
+    index: 0x1e
+    text: |-
+      せつめい
+
+  - name: DICT2_1f
+    index: 0x1f
+    text: |-
+      かんばん
+
+  - name: DICT2_20
+    index: 0x20
+    text: |-
+      ワガハイ
+
+  - name: DICT2_21
+    index: 0x21
+    text: |-
+      まったく
+
+  - name: DICT2_22
+    index: 0x22
+    text: |-
+      たのんだ
+
+  - name: DICT2_23
+    index: 0x23
+    text: |2-
+       なにか
+
+  - name: DICT2_24
+    index: 0x24
+    text: |-
+      いらない
+
+  - name: DICT2_25
+    index: 0x25
+    text: |-
+      くれない
+
+  - name: DICT2_26
+    index: 0x26
+    text: |-
+      あなたは
+
+  - name: DICT2_27
+    index: 0x27
+    text: |-
+      トモダチ
+
+  - name: DICT2_28
+    index: 0x28
+    text: |-
+      かわいい
+
+  - name: DICT2_29
+    index: 0x29
+    text: |-
+      のあいだ
+
+  - name: DICT2_2a
+    index: 0x2a
+    text: |-
+      んだけど
+
+  - name: DICT2_2b
+    index: 0x2b
+    text: |-
+      いってみ
+
+  - name: DICT2_2c
+    index: 0x2c
+    text: |-
+      ルピ-が
+
+  - name: DICT2_2d
+    index: 0x2d
+    text: |-
+      こんどは
+
+  - name: DICT2_2e
+    index: 0x2e
+    text: |-
+      サ-ビス
+
+  - name: DICT2_2f
+    index: 0x2f
+    text: |-
+      かんがえ
+
+  - name: DICT2_30
+    index: 0x30
+    text: |-
+      フムフム
+
+  - name: DICT2_31
+    index: 0x31
+    text: |-
+      オイラの
+
+  - name: DICT2_32
+    index: 0x32
+    text: |-
+      どうも\x20
+
+  - name: DICT2_33
+    index: 0x33
+    text: |-
+      おぼえた
+
+  - name: DICT2_34
+    index: 0x34
+    text: |-
+      カギあな
+
+  - name: DICT2_35
+    index: 0x35
+    text: |-
+      デ-トし
+
+  - name: DICT2_36
+    index: 0x36
+    text: |-
+      シアワセ
+
+  - name: DICT2_37
+    index: 0x37
+    text: |-
+      ベイベ-
+
+  - name: DICT2_38
+    index: 0x38
+    text: |-
+      トコロ
+
+  - name: DICT2_39
+    index: 0x39
+    text: |-
+      げんき
+
+  - name: DICT2_3a
+    index: 0x3a
+    text: |-
+      上がる
+
+  - name: DICT2_3b
+    index: 0x3b
+    text: |-
+      季節
+
+  - name: DICT2_3c
+    index: 0x3c
+    text: |-
+      \col(0)\x20
+
+  - name: DICT2_3d
+    index: 0x3d
+    text: |-
+      左手
+
+  - name: DICT2_3e
+    index: 0x3e
+    text: |-
+      まもの
+
+  - name: DICT2_3f
+    index: 0x3f
+    text: |2-
+       いい
+
+  - name: DICT2_40
+    index: 0x40
+    text: |-
+      れば\n
+
+  - name: DICT2_41
+    index: 0x41
+    text: |-
+      ウラよ
+
+  - name: DICT2_42
+    index: 0x42
+    text: |-
+      なんて
+
+  - name: DICT2_43
+    index: 0x43
+    text: |-
+      なんだ
+
+  - name: DICT2_44
+    index: 0x44
+    text: |-
+      という
+
+  - name: DICT2_45
+    index: 0x45
+    text: |-
+      みたい
+
+  - name: DICT2_46
+    index: 0x46
+    text: |-
+      ニョロ
+
+  - name: DICT2_47
+    index: 0x47
+    text: |2-
+       \col(3)
+
+  - name: DICT2_48
+    index: 0x48
+    text: |-
+      ウィウィのふえ
+
+  - name: DICT2_49
+    index: 0x49
+    text: |-
+      ムッシュのふえ
+
+  - name: DICT2_4a
+    index: 0x4a
+    text: |-
+      ”がなったら\x20
+
+  - name: DICT2_4b
+    index: 0x4b
+    text: |-
+      ウインタのもり
+
+  - name: DICT2_4c
+    index: 0x4c
+    text: |-
+      が わいてくる
+
+  - name: DICT2_4d
+    index: 0x4d
+    text: |-
+      ヒップアタック
+
+  - name: DICT2_4e
+    index: 0x4e
+    text: |-
+      たおれていたの
+
+  - name: DICT2_4f
+    index: 0x4f
+    text: |-
+      ることは でき
+
+  - name: DICT2_50
+    index: 0x50
+    text: |-
+      おめでとアル\n
+
+  - name: DICT2_51
+    index: 0x51
+    text: |-
+      うちのじいさん
+
+  - name: DICT2_52
+    index: 0x52
+    text: |2-
+       ってなに?\n
+
+  - name: DICT2_53
+    index: 0x53
+    text: |-
+      じぶんのコブシ
+
+  - name: DICT2_54
+    index: 0x54
+    text: |-
+      アイアイサ-!
+
+  - name: DICT2_55
+    index: 0x55
+    text: |-
+      やくそくどおり
+
+  - name: DICT2_56
+    index: 0x56
+    text: |2-
+       ごせんぞさま
+
+  - name: DICT2_57
+    index: 0x57
+    text: |-
+      \col(1)ボムチュウ
+
+  - name: DICT2_58
+    index: 0x58
+    text: |-
+      見るからに\x20
+
+  - name: DICT2_59
+    index: 0x59
+    text: |-
+      \col(1)ゴロンつぼ
+
+  - name: DICT2_5a
+    index: 0x5a
+    text: |-
+      木ぼりのハト
+
+  - name: DICT2_5b
+    index: 0x5b
+    text: |-
+      キチョウな鉄
+
+  - name: DICT2_5c
+    index: 0x5c
+    text: |-
+      \col(1)ホシの鉄
+
+  - name: DICT2_5d
+    index: 0x5d
+    text: |-
+      \col(3)アンビ\col(0)
+
+  - name: DICT2_5e
+    index: 0x5e
+    text: |-
+      して\n
+
+  - name: DICT2_5f
+    index: 0x5f
+    text: |-
+      ると\n
+
+  - name: DICT2_60
+    index: 0x60
+    text: |-
+      もう\x20
+
+  - name: DICT2_61
+    index: 0x61
+    text: |-
+      だよ\n
+
+  - name: DICT2_62
+    index: 0x62
+    text: |-
+      ってい
+
+  - name: DICT2_63
+    index: 0x63
+    text: |-
+      らしい
+
+  - name: DICT2_64
+    index: 0x64
+    text: |-
+      るウラ
+
+  - name: DICT2_65
+    index: 0x65
+    text: |-
+      さぁ\x20
+
+  - name: DICT2_66
+    index: 0x66
+    text: |-
+      なら\x20
+
+  - name: DICT2_67
+    index: 0x67
+    text: |-
+      \col(0)を
+
+  - name: DICT2_68
+    index: 0x68
+    text: |-
+      \col(0)の
+
+  - name: DICT2_69
+    index: 0x69
+    text: |-
+      わかばは スクスクとそだつ
+
+  - name: DICT2_6a
+    index: 0x6a
+    text: |-
+      つきっきりで かんびょう\n
+
+  - name: DICT2_6b
+    index: 0x6b
+    text: |2-
+        グ ハ ハ ハ ハ ハ
+
+  - name: DICT2_6c
+    index: 0x6c
+    text: |-
+      トビラの中を たんけんし
+
+  - name: DICT2_6d
+    index: 0x6d
+    text: |-
+      \col(3)ようせい\col(0)さんたちに
+
+  - name: DICT2_6e
+    index: 0x6e
+    text: |-
+      かった
+
+  - name: DICT2_6f
+    index: 0x6f
+    text: |-
+      して\x20
+
+  - name: DICT2_70
+    index: 0x70
+    text: |-
+      ました
+
+  - name: DICT2_71
+    index: 0x71
+    text: |-
+      じゃ\n
+
+  - name: DICT2_72
+    index: 0x72
+    text: |-
+      だった
+
+  - name: DICT2_73
+    index: 0x73
+    text: |-
+      だろう
+
+  - name: DICT2_74
+    index: 0x74
+    text: |-
+      にある
+
+  - name: DICT2_75
+    index: 0x75
+    text: |-
+      ばしょ
+
+  - name: DICT2_76
+    index: 0x76
+    text: |-
+      こんな
+
+  - name: DICT2_77
+    index: 0x77
+    text: |-
+      アンタ
+
+  - name: DICT2_78
+    index: 0x78
+    text: |-
+      また\x20
+
+  - name: DICT2_79
+    index: 0x79
+    text: |-
+      あなた
+
+  - name: DICT2_7a
+    index: 0x7a
+    text: |-
+      まった
+
+  - name: DICT2_7b
+    index: 0x7b
+    text: |-
+      らない
+
+  - name: DICT2_7c
+    index: 0x7c
+    text: |-
+      オイラ
+
+  - name: DICT2_7d
+    index: 0x7d
+    text: |-
+      んだな
+
+  - name: DICT2_7e
+    index: 0x7e
+    text: |-
+      少し
+
+  - name: DICT2_7f
+    index: 0x7f
+    text: |-
+      めぐりて タネがめざめる
+
+  - name: DICT2_80
+    index: 0x80
+    text: |2-
+       ずっと ねむったまま\n
+
+  - name: DICT2_81
+    index: 0x81
+    text: |-
+      すべて おわったのですね
+
+  - name: DICT2_82
+    index: 0x82
+    text: |-
+      \col(3)キングゾ-ラ\col(0)さま
+
+  - name: DICT2_83
+    index: 0x83
+    text: |-
+      ちょっと
+
+  - name: DICT2_84
+    index: 0x84
+    text: |-
+      ぬくもり
+
+  - name: DICT2_85
+    index: 0x85
+    text: |-
+      ジャンプ
+
+  - name: DICT2_86
+    index: 0x86
+    text: |-
+      グロ-ブ
+
+  - name: DICT2_87
+    index: 0x87
+    text: |-
+      おれいに
+
+  - name: DICT2_88
+    index: 0x88
+    text: |-
+      ようさい
+
+  - name: DICT2_89
+    index: 0x89
+    text: |-
+      はやく\x20
+
+  - name: DICT2_8a
+    index: 0x8a
+    text: |-
+      るがよい
+
+  - name: DICT2_8b
+    index: 0x8b
+    text: |2-
+       あった
+
+  - name: DICT2_8c
+    index: 0x8c
+    text: |-
+      そうじゃ
+
+  - name: DICT2_8d
+    index: 0x8d
+    text: |-
+      オレさま
+
+  - name: DICT2_8e
+    index: 0x8e
+    text: |-
+      ッピ!\n
+
+  - name: DICT2_8f
+    index: 0x8f
+    text: |2-
+       たのし
+
+  - name: DICT2_90
+    index: 0x90
+    text: |-
+      もりで\x20
+
+  - name: DICT2_91
+    index: 0x91
+    text: |-
+      そこで\x20
+
+  - name: DICT2_92
+    index: 0x92
+    text: |-
+      はずかし
+
+  - name: DICT2_93
+    index: 0x93
+    text: |-
+      たおした
+
+  - name: DICT2_94
+    index: 0x94
+    text: |-
+      ---!
+
+  - name: DICT2_95
+    index: 0x95
+    text: |-
+      しれんを
+
+  - name: DICT2_96
+    index: 0x96
+    text: |-
+      てもらう
+
+  - name: DICT2_97
+    index: 0x97
+    text: |-
+      ことが\n
+
+  - name: DICT2_98
+    index: 0x98
+    text: |-
+      どうした
+
+  - name: DICT2_99
+    index: 0x99
+    text: |-
+      いつか\x20
+
+  - name: DICT2_9a
+    index: 0x9a
+    text: |-
+      かけてみ
+
+  - name: DICT2_9b
+    index: 0x9b
+    text: |-
+      きょうも
+
+  - name: DICT2_9c
+    index: 0x9c
+    text: |-
+      そうウラ
+
+  - name: DICT2_9d
+    index: 0x9d
+    text: |-
+      どうじゃ
+
+  - name: DICT2_9e
+    index: 0x9e
+    text: |-
+      \col(0)に\n
+
+  - name: DICT2_9f
+    index: 0x9f
+    text: |-
+      の上で
+
+  - name: DICT2_a0
+    index: 0xa0
+    text: |-
+      られる
+
+  - name: DICT2_a1
+    index: 0xa1
+    text: |-
+      んだ\n
+
+  - name: DICT2_a2
+    index: 0xa2
+    text: |-
+      ウィ\n
+
+  - name: DICT2_a3
+    index: 0xa3
+    text: |-
+      の力
+
+  - name: DICT2_a4
+    index: 0xa4
+    text: |2-
+       \col(1)
+
+  - name: DICT2_a5
+    index: 0xa5
+    text: |-
+      勇気
+
+  - name: DICT2_a6
+    index: 0xa6
+    text: |-
+      そうにない
+
+  - name: DICT2_a7
+    index: 0xa7
+    text: |-
+      なにやら\x20
+
+  - name: DICT2_a8
+    index: 0xa8
+    text: |-
+      ボスブリン
+
+  - name: DICT2_a9
+    index: 0xa9
+    text: |-
+      あいにきて
+
+  - name: DICT2_aa
+    index: 0xaa
+    text: |-
+      モンスタ-
+
+  - name: DICT2_ab
+    index: 0xab
+    text: |-
+      おとうさん
+
+  - name: DICT2_ac
+    index: 0xac
+    text: |-
+      ぜんぶ か
+
+  - name: DICT2_ad
+    index: 0xad
+    text: |-
+      まもりがみ
+
+  - name: DICT2_ae
+    index: 0xae
+    text: |-
+      ってごらん
+
+  - name: DICT2_af
+    index: 0xaf
+    text: |-
+      ビックリし
+
+  - name: DICT2_b0
+    index: 0xb0
+    text: |-
+      たいときは
+
+  - name: DICT2_b1
+    index: 0xb1
+    text: |-
+      が できた
+
+  - name: DICT2_b2
+    index: 0xb2
+    text: |-
+      ほかにも\x20
+
+  - name: DICT2_b3
+    index: 0xb3
+    text: |-
+      であつめた
+
+  - name: DICT2_b4
+    index: 0xb4
+    text: |-
+      ではないか
+
+  - name: DICT2_b5
+    index: 0xb5
+    text: |-
+      \col(1)キノコ
+
+  - name: DICT2_b6
+    index: 0xb6
+    text: |-
+      水びたし
+
+  - name: DICT2_b7
+    index: 0xb7
+    text: |-
+      北のほう
+
+  - name: DICT2_b8
+    index: 0xb8
+    text: |-
+      ▲のアザ
+
+  - name: DICT2_b9
+    index: 0xb9
+    text: |-
+      \col(0)ったら
+
+  - name: DICT2_ba
+    index: 0xba
+    text: |-
+      の\col(1)つぼ
+
+  - name: DICT2_bb
+    index: 0xbb
+    text: |-
+      が出てき
+
+  - name: DICT2_bc
+    index: 0xbc
+    text: |-
+      見たこと
+
+  - name: DICT2_bd
+    index: 0xbd
+    text: |-
+      の人たち
+
+  - name: DICT2_be
+    index: 0xbe
+    text: |-
+      コ\col(0)で\n
+
+  - name: DICT2_bf
+    index: 0xbf
+    text: |-
+      北の山
+
+  - name: DICT2_c0
+    index: 0xc0
+    text: |-
+      れば\x20
+
+  - name: DICT2_c1
+    index: 0xc1
+    text: |-
+      ても\n
+
+  - name: DICT2_c2
+    index: 0xc2
+    text: |-
+      でも\n
+
+  - name: DICT2_c3
+    index: 0xc3
+    text: |-
+      じゃに
+
+  - name: DICT2_c4
+    index: 0xc4
+    text: |-
+      そんな
+
+  - name: DICT2_c5
+    index: 0xc5
+    text: |-
+      さあ\x20
+
+  - name: DICT2_c6
+    index: 0xc6
+    text: |-
+      力を
+
+  - name: DICT2_c7
+    index: 0xc7
+    text: |-
+      ルピ-
+
+  - name: DICT2_c8
+    index: 0xc8
+    text: |-
+      ヘンな
+
+  - name: DICT2_c9
+    index: 0xc9
+    text: |-
+      ウ-ラ
+
+  - name: DICT2_ca
+    index: 0xca
+    text: |2-
+       おど
+
+  - name: DICT2_cb
+    index: 0xcb
+    text: |-
+      おしえ
+
+  - name: DICT2_cc
+    index: 0xcc
+    text: |-
+      んです
+
+  - name: DICT2_cd
+    index: 0xcd
+    text: |-
+      れない
+
+  - name: DICT2_ce
+    index: 0xce
+    text: |-
+      いった
+
+  - name: DICT2_cf
+    index: 0xcf
+    text: |-
+      では\x20
+
+  - name: DICT2_d0
+    index: 0xd0
+    text: |2-
+       あい
+
+  - name: DICT2_d1
+    index: 0xd1
+    text: |-
+      をえらんで ねらいうち
+
+  - name: DICT2_d2
+    index: 0xd2
+    text: |-
+      とりあつかい ちゅうい
+
+  - name: DICT2_d3
+    index: 0xd3
+    text: |-
+      とろけるような アツさ
+
+  - name: DICT2_d4
+    index: 0xd4
+    text: |-
+      は はんそくになる!\n
+
+  - name: DICT2_d5
+    index: 0xd5
+    text: |-
+      おちかづきのしるしに\n
+
+  - name: DICT2_d6
+    index: 0xd6
+    text: |-
+      ケンブンをひろめるため
+
+  - name: DICT2_d7
+    index: 0xd7
+    text: |-
+      さわると シビレちゃう
+
+  - name: DICT2_d8
+    index: 0xd8
+    text: |-
+      水の中もヘッチャラ
+
+  - name: DICT2_d9
+    index: 0xd9
+    text: |-
+      生きとし生けるもの
+
+  - name: DICT2_da
+    index: 0xda
+    text: |-
+      春 夏 秋 冬
+
+  - name: DICT2_db
+    index: 0xdb
+    text: |-
+      くなる
+
+  - name: DICT2_dc
+    index: 0xdc
+    text: |-
+      いちど
+
+  - name: DICT2_dd
+    index: 0xdd
+    text: |-
+      たすけ
+
+  - name: DICT2_de
+    index: 0xde
+    text: |-
+      られた
+
+  - name: DICT2_df
+    index: 0xdf
+    text: |-
+      りょう
+
+  - name: DICT2_e0
+    index: 0xe0
+    text: |-
+      オマエ
+
+  - name: DICT2_e1
+    index: 0xe1
+    text: |-
+      を ま
+
+  - name: DICT2_e2
+    index: 0xe2
+    text: |-
+      さがし
+
+  - name: DICT2_e3
+    index: 0xe3
+    text: |-
+      キサマ
+
+  - name: DICT2_e4
+    index: 0xe4
+    text: |-
+      ね!\n
+
+  - name: DICT2_e5
+    index: 0xe5
+    text: |-
+      けど\n
+
+  - name: DICT2_e6
+    index: 0xe6
+    text: |-
+      のは\n
+
+  - name: DICT2_e7
+    index: 0xe7
+    text: |-
+      かない
+
+  - name: DICT2_e8
+    index: 0xe8
+    text: |2-
+       おも
+
+  - name: DICT2_e9
+    index: 0xe9
+    text: |-
+      どんな
+
+  - name: DICT2_ea
+    index: 0xea
+    text: |-
+      ついて
+
+  - name: DICT2_eb
+    index: 0xeb
+    text: |-
+      おぬし
+
+  - name: DICT2_ec
+    index: 0xec
+    text: |-
+      村の
+
+  - name: DICT2_ed
+    index: 0xed
+    text: |-
+      \col(0)は
+
+  - name: DICT2_ee
+    index: 0xee
+    text: |-
+      かがみのたて
+
+  - name: DICT2_ef
+    index: 0xef
+    text: |-
+      ロックちょう
+
+  - name: DICT2_f0
+    index: 0xf0
+    text: |-
+      よろこんでい
+
+  - name: DICT2_f1
+    index: 0xf1
+    text: |-
+      キカイあぶら
+
+  - name: DICT2_f2
+    index: 0xf2
+    text: |-
+      サマサさばく
+
+  - name: DICT2_f3
+    index: 0xf3
+    text: |-
+      タ-ムいせき
+
+  - name: DICT2_f4
+    index: 0xf4
+    text: |-
+      チャンピオン
+
+  - name: DICT2_f5
+    index: 0xf5
+    text: |-
+      セ-ブがめん
+
+  - name: DICT2_f6
+    index: 0xf6
+    text: |-
+      の“のろい”
+
+  - name: DICT2_f7
+    index: 0xf7
+    text: |-
+      おもしろいで
+
+  - name: DICT2_f8
+    index: 0xf8
+    text: |-
+      きあいをため
+
+  - name: DICT2_f9
+    index: 0xf9
+    text: |-
+      なるほど!\n
+
+  - name: DICT2_fa
+    index: 0xfa
+    text: |-
+      よかんがする
+
+  - name: DICT2_fb
+    index: 0xfb
+    text: |-
+      へすすめば\n
+
+  - name: DICT2_fc
+    index: 0xfc
+    text: |2-
+       かけつける
+
+  - name: DICT2_fd
+    index: 0xfd
+    text: |2-
+       いそがしい
+
+  - name: DICT2_fe
+    index: 0xfe
+    text: |-
+      サイキョウの
+
+  - name: DICT2_ff
+    index: 0xff
+    text: |-
+      のいりょくが
+
+- group: 0x03
+  data:
+  - name: DICT3_00
+    index: 0x00
+    text: |-
+      いまからいう
+
+  - name: DICT3_01
+    index: 0x01
+    text: |-
+      ハテナの実
+
+  - name: DICT3_02
+    index: 0x02
+    text: |-
+      闇のしさい
+
+  - name: DICT3_03
+    index: 0x03
+    text: |-
+      大もうけだ
+
+  - name: DICT3_04
+    index: 0x04
+    text: |-
+      \col(1)水かき
+
+  - name: DICT3_05
+    index: 0x05
+    text: |-
+      っと\x20
+
+  - name: DICT3_06
+    index: 0x06
+    text: |-
+      のこと
+
+  - name: DICT3_07
+    index: 0x07
+    text: |-
+      まだ\x20
+
+  - name: DICT3_08
+    index: 0x08
+    text: |-
+      ること
+
+  - name: DICT3_09
+    index: 0x09
+    text: |-
+      すべて
+
+  - name: DICT3_0a
+    index: 0x0a
+    text: |-
+      ってお
+
+  - name: DICT3_0b
+    index: 0x0b
+    text: |-
+      たら\n
+
+  - name: DICT3_0c
+    index: 0x0c
+    text: |-
+      ハナシ
+
+  - name: DICT3_0d
+    index: 0x0d
+    text: |-
+      まで\x20
+
+  - name: DICT3_0e
+    index: 0x0e
+    text: |-
+      きいて
+
+  - name: DICT3_0f
+    index: 0x0f
+    text: |-
+      ついに
+
+  - name: DICT3_10
+    index: 0x10
+    text: |-
+      っちゃ
+
+  - name: DICT3_11
+    index: 0x11
+    text: |-
+      い!\n
+
+  - name: DICT3_12
+    index: 0x12
+    text: |-
+      大人気
+
+  - name: DICT3_13
+    index: 0x13
+    text: |-
+      カタチ
+
+  - name: DICT3_14
+    index: 0x14
+    text: |-
+      じゃ!
+
+  - name: DICT3_15
+    index: 0x15
+    text: |-
+      じゃ\x20
+
+  - name: DICT3_16
+    index: 0x16
+    text: |-
+      の?\n
+
+  - name: DICT3_17
+    index: 0x17
+    text: |-
+      なまえ
+
+  - name: DICT3_18
+    index: 0x18
+    text: |-
+      ません
+
+  - name: DICT3_19
+    index: 0x19
+    text: |-
+      さすが
+
+  - name: DICT3_1a
+    index: 0x1a
+    text: |-
+      まで\n
+
+  - name: DICT3_1b
+    index: 0x1b
+    text: |-
+      \col(0)が
+
+  - name: DICT3_1c
+    index: 0x1c
+    text: |-
+      \col(0)\n
+
+  - name: DICT3_1d
+    index: 0x1d
+    text: |-
+      あつめ
+
+  - name: DICT3_1e
+    index: 0x1e
+    text: |-
+      あかし
+
+  - name: DICT3_1f
+    index: 0x1f
+    text: |-
+      カラダ
+
+  - name: DICT3_20
+    index: 0x20
+    text: |2-
+       いま
+
+  - name: DICT3_21
+    index: 0x21
+    text: |-
+      だ!!
+
+  - name: DICT3_22
+    index: 0x22
+    text: |-
+      はじめ
+
+  - name: DICT3_23
+    index: 0x23
+    text: |-
+      ウラ!
+
+  - name: DICT3_24
+    index: 0x24
+    text: |-
+      あげる
+
+  - name: DICT3_25
+    index: 0x25
+    text: |-
+      なんか
+
+  - name: DICT3_26
+    index: 0x26
+    text: |2-
+       どう
+
+  - name: DICT3_27
+    index: 0x27
+    text: |-
+      のいえ
+
+  - name: DICT3_28
+    index: 0x28
+    text: |-
+      に な
+
+  - name: DICT3_29
+    index: 0x29
+    text: |-
+      とは\n
+
+  - name: DICT3_2a
+    index: 0x2a
+    text: |-
+      ワシの
+
+  - name: DICT3_2b
+    index: 0x2b
+    text: |-
+      ゴロ\n
+
+  - name: DICT3_2c
+    index: 0x2c
+    text: |-
+      それは
+
+  - name: DICT3_2d
+    index: 0x2d
+    text: |-
+      アル\n
+
+  - name: DICT3_2e
+    index: 0x2e
+    text: |-
+      みんな
+
+  - name: DICT3_2f
+    index: 0x2f
+    text: |-
+      キボウ
+
+  - name: DICT3_30
+    index: 0x30
+    text: |2-
+       見
+
+  - name: DICT3_31
+    index: 0x31
+    text: |-
+      \col(0)と
+
+  - name: DICT3_32
+    index: 0x32
+    text: |2-
+       海
+
+  - name: DICT3_33
+    index: 0x33
+    text: |-
+      で イノチをはぐくむ
+
+  - name: DICT3_34
+    index: 0x34
+    text: |-
+      さま いちのコブン\n
+
+  - name: DICT3_35
+    index: 0x35
+    text: |-
+      ボクのうえた木で\n
+
+  - name: DICT3_36
+    index: 0x36
+    text: |-
+      \col(3)バイア\col(0)さまや
+
+  - name: DICT3_37
+    index: 0x37
+    text: |-
+      ことわり
+
+  - name: DICT3_38
+    index: 0x38
+    text: |-
+      かくにん
+
+  - name: DICT3_39
+    index: 0x39
+    text: |-
+      ってくる
+
+  - name: DICT3_3a
+    index: 0x3a
+    text: |-
+      つかえる
+
+  - name: DICT3_3b
+    index: 0x3b
+    text: |-
+      なかなか
+
+  - name: DICT3_3c
+    index: 0x3c
+    text: |-
+      いいこと
+
+  - name: DICT3_3d
+    index: 0x3d
+    text: |-
+      ありがと
+
+  - name: DICT3_3e
+    index: 0x3e
+    text: |-
+      シッカリ
+
+  - name: DICT3_3f
+    index: 0x3f
+    text: |-
+      モノが\n
+
+  - name: DICT3_40
+    index: 0x40
+    text: |-
+      ちゃった
+
+  - name: DICT3_41
+    index: 0x41
+    text: |-
+      さまに\x20
+
+  - name: DICT3_42
+    index: 0x42
+    text: |-
+      あんしん
+
+  - name: DICT3_43
+    index: 0x43
+    text: |-
+      いそいで
+
+  - name: DICT3_44
+    index: 0x44
+    text: |-
+      てしまう
+
+  - name: DICT3_45
+    index: 0x45
+    text: |-
+      ないと\x20
+
+  - name: DICT3_46
+    index: 0x46
+    text: |-
+      ゴロ〜\n
+
+  - name: DICT3_47
+    index: 0x47
+    text: |-
+      いちばん
+
+  - name: DICT3_48
+    index: 0x48
+    text: |-
+      まずは\x20
+
+  - name: DICT3_49
+    index: 0x49
+    text: |-
+      エンリョ
+
+  - name: DICT3_4a
+    index: 0x4a
+    text: |-
+      たしか\x20
+
+  - name: DICT3_4b
+    index: 0x4b
+    text: |-
+      あやしい
+
+  - name: DICT3_4c
+    index: 0x4c
+    text: |-
+      あそんで
+
+  - name: DICT3_4d
+    index: 0x4d
+    text: |-
+      いまは\x20
+
+  - name: DICT3_4e
+    index: 0x4e
+    text: |-
+      あげよう
+
+  - name: DICT3_4f
+    index: 0x4f
+    text: |-
+      かわった
+
+  - name: DICT3_50
+    index: 0x50
+    text: |-
+      さっき\x20
+
+  - name: DICT3_51
+    index: 0x51
+    text: |-
+      のもとへ
+
+  - name: DICT3_52
+    index: 0x52
+    text: |-
+      もえあが
+
+  - name: DICT3_53
+    index: 0x53
+    text: |-
+      そうびす
+
+  - name: DICT3_54
+    index: 0x54
+    text: |-
+      やすらぎ
+
+  - name: DICT3_55
+    index: 0x55
+    text: |2-
+       かなり
+
+  - name: DICT3_56
+    index: 0x56
+    text: |-
+      おわびに
+
+  - name: DICT3_57
+    index: 0x57
+    text: |-
+      \col(1)ハネ
+
+  - name: DICT3_58
+    index: 0x58
+    text: |-
+      クズ鉄
+
+  - name: DICT3_59
+    index: 0x59
+    text: |-
+      海ぞく
+
+  - name: DICT3_5a
+    index: 0x5a
+    text: |-
+      手もち
+
+  - name: DICT3_5b
+    index: 0x5b
+    text: |-
+      \col(0)も\n
+
+  - name: DICT3_5c
+    index: 0x5c
+    text: |-
+      100
+
+  - name: DICT3_5d
+    index: 0x5d
+    text: |2-
+       これ
+
+  - name: DICT3_5e
+    index: 0x5e
+    text: |-
+      いない
+
+  - name: DICT3_5f
+    index: 0x5f
+    text: |-
+      てくれ
+
+  - name: DICT3_60
+    index: 0x60
+    text: |-
+      のほう
+
+  - name: DICT3_61
+    index: 0x61
+    text: |2-
+       かえ
+
+  - name: DICT3_62
+    index: 0x62
+    text: |-
+      になる
+
+  - name: DICT3_63
+    index: 0x63
+    text: |-
+      きょう
+
+  - name: DICT3_64
+    index: 0x64
+    text: |-
+      ちゃん
+
+  - name: DICT3_65
+    index: 0x65
+    text: |-
+      ホント
+
+  - name: DICT3_66
+    index: 0x66
+    text: |-
+      か!\n
+
+  - name: DICT3_67
+    index: 0x67
+    text: |-
+      ります
+
+  - name: DICT3_68
+    index: 0x68
+    text: |-
+      に い
+
+  - name: DICT3_69
+    index: 0x69
+    text: |-
+      ってき
+
+  - name: DICT3_6a
+    index: 0x6a
+    text: |-
+      まさか
+
+  - name: DICT3_6b
+    index: 0x6b
+    text: |-
+      だれか
+
+  - name: DICT3_6c
+    index: 0x6c
+    text: |-
+      やろう
+
+  - name: DICT3_6d
+    index: 0x6d
+    text: |-
+      なんと
+
+  - name: DICT3_6e
+    index: 0x6e
+    text: |-
+      のに\n
+
+  - name: DICT3_6f
+    index: 0x6f
+    text: |-
+      ここに
+
+  - name: DICT3_70
+    index: 0x70
+    text: |-
+      リスト
+
+  - name: DICT3_71
+    index: 0x71
+    text: |-
+      見て
+
+  - name: DICT3_72
+    index: 0x72
+    text: |-
+      \slow()「
+
+  - name: DICT3_73
+    index: 0x73
+    text: |-
+      ポカポカようきは\n
+
+  - name: DICT3_74
+    index: 0x74
+    text: |-
+      きみょうなメロディ
+
+  - name: DICT3_75
+    index: 0x75
+    text: |-
+      マイトパンチのジム
+
+  - name: DICT3_76
+    index: 0x76
+    text: |-
+      カバンのなかみが\n
+
+  - name: DICT3_77
+    index: 0x77
+    text: |-
+      グレ-ドアップする
+
+  - name: DICT3_78
+    index: 0x78
+    text: |-
+      かは ヒミツアルネ
+
+  - name: DICT3_79
+    index: 0x79
+    text: |-
+      は キモチイイな\n
+
+  - name: DICT3_7a
+    index: 0x7a
+    text: |-
+      いせきを ぼうけん
+
+  - name: DICT3_7b
+    index: 0x7b
+    text: |-
+      ブヒヒヒヒヒヒ!\n
+
+  - name: DICT3_7c
+    index: 0x7c
+    text: |-
+      オレをかつぐことも
+
+  - name: DICT3_7d
+    index: 0x7d
+    text: |-
+      ジャマを しにきた
+
+  - name: DICT3_7e
+    index: 0x7e
+    text: |-
+      いらっしゃ〜い\heart\n
+
+  - name: DICT3_7f
+    index: 0x7f
+    text: |-
+      ケ-ブルでつないで
+
+  - name: DICT3_80
+    index: 0x80
+    text: |-
+      てんかいっぴんウラ
+
+  - name: DICT3_81
+    index: 0x81
+    text: |-
+      とうとうやったね\x20
+
+  - name: DICT3_82
+    index: 0x82
+    text: |-
+      もハナが たかいよ
+
+  - name: DICT3_83
+    index: 0x83
+    text: |-
+      うて! うて〜!!
+
+  - name: DICT3_84
+    index: 0x84
+    text: |-
+      ん?このブロック\x20
+
+  - name: DICT3_85
+    index: 0x85
+    text: |-
+      マップを見よう\n
+
+  - name: DICT3_86
+    index: 0x86
+    text: |-
+      でんげんを入れ\n
+
+  - name: DICT3_87
+    index: 0x87
+    text: |-
+      ちょう
+
+  - name: DICT3_88
+    index: 0x88
+    text: |-
+      る!\n
+
+  - name: DICT3_89
+    index: 0x89
+    text: |-
+      してい
+
+  - name: DICT3_8a
+    index: 0x8a
+    text: |-
+      なった
+
+  - name: DICT3_8b
+    index: 0x8b
+    text: |-
+      るハズ
+
+  - name: DICT3_8c
+    index: 0x8c
+    text: |-
+      んでい
+
+  - name: DICT3_8d
+    index: 0x8d
+    text: |-
+      してお
+
+  - name: DICT3_8e
+    index: 0x8e
+    text: |-
+      うけと
+
+  - name: DICT3_8f
+    index: 0x8f
+    text: |-
+      タカラ
+
+  - name: DICT3_90
+    index: 0x90
+    text: |-
+      しない
+
+  - name: DICT3_91
+    index: 0x91
+    text: |-
+      この\x20
+
+  - name: DICT3_92
+    index: 0x92
+    text: |-
+      たんだ
+
+  - name: DICT3_93
+    index: 0x93
+    text: |-
+      てきた
+
+  - name: DICT3_94
+    index: 0x94
+    text: |-
+      のです
+
+  - name: DICT3_95
+    index: 0x95
+    text: |-
+      の お
+
+  - name: DICT3_96
+    index: 0x96
+    text: |-
+      アタシ
+
+  - name: DICT3_97
+    index: 0x97
+    text: |-
+      るんだ
+
+  - name: DICT3_98
+    index: 0x98
+    text: |-
+      ないわ
+
+  - name: DICT3_99
+    index: 0x99
+    text: |-
+      きたえ
+
+  - name: DICT3_9a
+    index: 0x9a
+    text: |-
+      ほしい
+
+  - name: DICT3_9b
+    index: 0x9b
+    text: |-
+      るゴロ
+
+  - name: DICT3_9c
+    index: 0x9c
+    text: |-
+      ほろび
+
+  - name: DICT3_9d
+    index: 0x9d
+    text: |-
+      アルよ
+
+  - name: DICT3_9e
+    index: 0x9e
+    text: |-
+      へいわ
+
+  - name: DICT3_9f
+    index: 0x9f
+    text: |-
+      ブヒ!
+
+  - name: DICT3_a0
+    index: 0xa0
+    text: |-
+      の人
+
+  - name: DICT3_a1
+    index: 0xa1
+    text: |-
+      の\col(3)
+
+  - name: DICT3_a2
+    index: 0xa2
+    text: |-
+      がある
+
+  - name: DICT3_a3
+    index: 0xa3
+    text: |-
+      ぞ!\n
+
+  - name: DICT3_a4
+    index: 0xa4
+    text: |-
+      のカギ
+
+  - name: DICT3_a5
+    index: 0xa5
+    text: |-
+      を お
+
+  - name: DICT3_a6
+    index: 0xa6
+    text: |-
+      かせる
+
+  - name: DICT3_a7
+    index: 0xa7
+    text: |-
+      モノを
+
+  - name: DICT3_a8
+    index: 0xa8
+    text: |2-
+       その
+
+  - name: DICT3_a9
+    index: 0xa9
+    text: |-
+      かい\x20
+
+  - name: DICT3_aa
+    index: 0xaa
+    text: |-
+      ちゅう
+
+  - name: DICT3_ab
+    index: 0xab
+    text: |-
+      ように
+
+  - name: DICT3_ac
+    index: 0xac
+    text: |2-
+       うえ
+
+  - name: DICT3_ad
+    index: 0xad
+    text: |-
+      ような
+
+  - name: DICT3_ae
+    index: 0xae
+    text: |-
+      ゴロン
+
+  - name: DICT3_af
+    index: 0xaf
+    text: |-
+      いこう
+
+  - name: DICT3_b0
+    index: 0xb0
+    text: |-
+      いウラ
+
+  - name: DICT3_b1
+    index: 0xb1
+    text: |-
+      こそ\x20
+
+  - name: DICT3_b2
+    index: 0xb2
+    text: |-
+      われら
+
+  - name: DICT3_b3
+    index: 0xb3
+    text: |-
+      んとう
+
+  - name: DICT3_b4
+    index: 0xb4
+    text: |-
+      ッ!\x20
+
+  - name: DICT3_b5
+    index: 0xb5
+    text: |-
+      のとき
+
+  - name: DICT3_b6
+    index: 0xb6
+    text: |-
+      を た
+
+  - name: DICT3_b7
+    index: 0xb7
+    text: |-
+      れて\n
+
+  - name: DICT3_b8
+    index: 0xb8
+    text: |-
+      ます\n
+
+  - name: DICT3_b9
+    index: 0xb9
+    text: |-
+      これを
+
+  - name: DICT3_ba
+    index: 0xba
+    text: |-
+      かしら
+
+  - name: DICT3_bb
+    index: 0xbb
+    text: |2-
+       また
+
+  - name: DICT3_bc
+    index: 0xbc
+    text: |-
+      うと\n
+
+  - name: DICT3_bd
+    index: 0xbd
+    text: |-
+      つたえ
+
+  - name: DICT3_be
+    index: 0xbe
+    text: |-
+      ね?\n
+
+  - name: DICT3_bf
+    index: 0xbf
+    text: |-
+      を つ
+
+  - name: DICT3_c0
+    index: 0xc0
+    text: |-
+      のう\n
+
+  - name: DICT3_c1
+    index: 0xc1
+    text: |-
+      もらえ
+
+  - name: DICT3_c2
+    index: 0xc2
+    text: |-
+      とは\x20
+
+  - name: DICT3_c3
+    index: 0xc3
+    text: |-
+      そこに
+
+  - name: DICT3_c4
+    index: 0xc4
+    text: |-
+      いて\n
+
+  - name: DICT3_c5
+    index: 0xc5
+    text: |-
+      つよい
+
+  - name: DICT3_c6
+    index: 0xc6
+    text: |-
+      どこか
+
+  - name: DICT3_c7
+    index: 0xc7
+    text: |-
+      あんな
+
+  - name: DICT3_c8
+    index: 0xc8
+    text: |-
+      くん!
+
+  - name: DICT3_c9
+    index: 0xc9
+    text: |-
+      にも\x20
+
+  - name: DICT3_ca
+    index: 0xca
+    text: |-
+      ボタンで\x20
+
+  - name: DICT3_cb
+    index: 0xcb
+    text: |-
+      こぞう!\n
+
+  - name: DICT3_cc
+    index: 0xcc
+    text: |-
+      ジャマする
+
+  - name: DICT3_cd
+    index: 0xcd
+    text: |-
+      アイタタタ
+
+  - name: DICT3_ce
+    index: 0xce
+    text: |-
+      おかげで\n
+
+  - name: DICT3_cf
+    index: 0xcf
+    text: |-
+      ほうりなげ
+
+  - name: DICT3_d0
+    index: 0xd0
+    text: |-
+      またききに
+
+  - name: DICT3_d1
+    index: 0xd1
+    text: |2-
+       ずっと\n
+
+  - name: DICT3_d2
+    index: 0xd2
+    text: |-
+      うつくしい
+
+  - name: DICT3_d3
+    index: 0xd3
+    text: |-
+      つかさどる
+
+  - name: DICT3_d4
+    index: 0xd4
+    text: |-
+      とくべつな
+
+  - name: DICT3_d5
+    index: 0xd5
+    text: |-
+      めいを も
+
+  - name: DICT3_d6
+    index: 0xd6
+    text: |-
+      アイヤ-\x20
+
+  - name: DICT3_d7
+    index: 0xd7
+    text: |-
+      るといいよ
+
+  - name: DICT3_d8
+    index: 0xd8
+    text: |-
+      オソロシイ
+
+  - name: DICT3_d9
+    index: 0xd9
+    text: |-
+      ムズカシイ
+
+  - name: DICT3_da
+    index: 0xda
+    text: |-
+      るでないぞ
+
+  - name: DICT3_db
+    index: 0xdb
+    text: |-
+      パトロ-ル
+
+  - name: DICT3_dc
+    index: 0xdc
+    text: |-
+      もちろん\x20
+
+  - name: DICT3_dd
+    index: 0xdd
+    text: |-
+      いくぞ!!
+
+  - name: DICT3_de
+    index: 0xde
+    text: |-
+      じゃねえか
+
+  - name: DICT3_df
+    index: 0xdf
+    text: |-
+      ふたりぐみ
+
+  - name: DICT3_e0
+    index: 0xe0
+    text: |-
+      はなしかけ
+
+  - name: DICT3_e1
+    index: 0xe1
+    text: |-
+      そうなの!
+
+  - name: DICT3_e2
+    index: 0xe2
+    text: |-
+      アドバイス
+
+  - name: DICT3_e3
+    index: 0xe3
+    text: |-
+      ジョウブツ
+
+  - name: DICT3_e4
+    index: 0xe4
+    text: |-
+      は すでに
+
+  - name: DICT3_e5
+    index: 0xe5
+    text: |-
+      \col(1)ハ-ト
+
+  - name: DICT3_e6
+    index: 0xe6
+    text: |-
+      木のたて
+
+  - name: DICT3_e7
+    index: 0xe7
+    text: |-
+      鉄のたて
+
+  - name: DICT3_e8
+    index: 0xe8
+    text: |-
+      \col(1)あかい
+
+  - name: DICT3_e9
+    index: 0xe9
+    text: |-
+      メガネ池
+
+  - name: DICT3_ea
+    index: 0xea
+    text: |-
+      女のコに
+
+  - name: DICT3_eb
+    index: 0xeb
+    text: |-
+      入るはこ
+
+  - name: DICT3_ec
+    index: 0xec
+    text: |-
+      東のもり
+
+  - name: DICT3_ed
+    index: 0xed
+    text: |-
+      知りたい
+
+  - name: DICT3_ee
+    index: 0xee
+    text: |-
+      気のせい
+
+  - name: DICT3_ef
+    index: 0xef
+    text: |-
+      3つの炎
+
+  - name: DICT3_f0
+    index: 0xf0
+    text: |-
+      気に入
+
+  - name: DICT3_f1
+    index: 0xf1
+    text: |-
+      結界を
+
+  - name: DICT3_f2
+    index: 0xf2
+    text: |-
+      ハイパ-パチンコ
+
+  - name: DICT3_f3
+    index: 0xf3
+    text: |-
+      カンシャのしるし
+
+  - name: DICT3_f4
+    index: 0xf4
+    text: |-
+      おおごえで さけ
+
+  - name: DICT3_f5
+    index: 0xf5
+    text: |-
+      どうぶつがくしゃ
+
+  - name: DICT3_f6
+    index: 0xf6
+    text: |2-
+       フェッ フェッ
+
+  - name: DICT3_f7
+    index: 0xf7
+    text: |-
+      「フクロウいし」
+
+  - name: DICT3_f8
+    index: 0xf8
+    text: |-
+      いきつぎなしで\n
+
+  - name: DICT3_f9
+    index: 0xf9
+    text: |-
+      オレ よびたくな
+
+  - name: DICT3_fa
+    index: 0xfa
+    text: |-
+      くれて アリガト
+
+  - name: DICT3_fb
+    index: 0xfb
+    text: |-
+      フフッ、わかいな
+
+  - name: DICT3_fc
+    index: 0xfc
+    text: |-
+      フフッ まけたぜ
+
+  - name: DICT3_fd
+    index: 0xfd
+    text: |-
+      さむいじゅんに\n
+
+  - name: DICT3_fe
+    index: 0xfe
+    text: |2-
+       なさけねえ!\n
+
+  - name: DICT3_ff
+    index: 0xff
+    text: |-
+      ピッピッピ-♪

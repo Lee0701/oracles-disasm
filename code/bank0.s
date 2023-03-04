@@ -5408,7 +5408,8 @@ incHl:
 	ret
 
 ;;
-; Can only be called from bank $3f.
+; Can only be called from bank $3f. See also "copyTextCharacterGfx" which is similar but is used by
+; file select code instead of textbox code.
 ;
 ; @param	[w7TextGfxSource]	Table to use
 ; @param	a			Character
@@ -5417,6 +5418,7 @@ retrieveTextCharacter:
 	push hl
 	push de
 	push bc
+	ld e,$00
 	bit 7,a
 	jr z,@singleByte
 	bit 6,a
@@ -5474,7 +5476,42 @@ retrieveTextCharacter:
 	jr @lastByte
 
 @quadByte:
-	jr @end
+	and a,$07
+	rlca
+	rlca
+	ld e,a
+
+	call readByteFromW7ActiveBank
+	inc hl
+
+	push af
+	and a,$30
+	rrca
+	rrca
+	rrca
+	rrca
+	or e
+	ld e,a
+
+	pop af
+	and a,$0F
+	rlca
+	rlca
+	rlca
+	rlca
+	ld b,a
+
+	call readByteFromW7ActiveBank
+	inc hl
+
+	push af
+	and a,$3C
+	rrca
+	rrca
+	or b
+	ld b,a
+
+	jr @lastByte
 
 @lastByte
 	pop af
@@ -5490,6 +5527,8 @@ retrieveTextCharacter:
 	and a,$3f
 	or c
 	ld c,a
+
+	call @getFontId
 
 	call @getFontOffset
 
@@ -5534,6 +5573,48 @@ retrieveTextCharacter:
 	inc hl
 @singleEnd:
 	inc hl
+
+	ret
+
+@getFontId:
+	ld a,e
+	and a,$1F
+	rlca
+	rlca
+	rlca
+	ld e,a
+	ld a,b
+	and a,$E0
+	rrca
+	rrca
+	rrca
+	rrca
+	rrca
+	or a,e
+
+	add a,:gfx_font_unicode_table
+	push af
+	sla c
+	rl b
+	ld a,b
+	and a,$3F
+	or a,$40
+	ld h,a
+	ld a,c
+	ld l,a
+	pop af
+	push af
+	setrombank
+
+	ld a,(hl)
+	ld b,a
+	inc hl
+	ld a,(hl)
+	ld c,a
+
+	ld a,BANK_3f
+	setrombank
+	pop af
 
 	ret
 
@@ -5780,6 +5861,8 @@ clearAllItemsAndPutLinkOnGround:
 	jp putLinkOnGround
 
 ;;
+; See also "retrieveTextCharacter" which is similar.
+;
 ; @param	a			Character index
 ; @param	c			0 to use jp font, 1 to use english font
 ; @param	de			Where to write the character to
@@ -13669,7 +13752,7 @@ checkRoomPackAfterWarp:
 ; @param[out]	hl	Address of a free interaction slot (on the id byte)
 ; @param[out]	zflag	Set if a free slot was found
 getFreeInteractionSlot:
-	ld hl,FIRST_DYNAMIC_INTERACTION_INDEX<<8 | $40
+	ld hl,(FIRST_DYNAMIC_INTERACTION_INDEX<<8) | $40
 --
 	ld a,(hl)
 	or a

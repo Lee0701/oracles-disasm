@@ -1,0 +1,1024 @@
+DICT0_00: '  \opt()はい \opt()いいえ'
+DICT0_01: \col(0)を手に入れた!
+DICT0_02: '  \opt()かう \opt()やっぱりやめる'
+DICT0_03: \col(1)あいことば\col(0)を
+DICT0_04: \col(3)四季のしんでん\col(0)
+DICT0_05: \col(3)ラブレンヌ\col(0)
+DICT0_06: \slow()    大地のことわり\n
+DICT0_07: ウヒャヒャヒャヒャ!
+DICT0_08: \col(3)ツインロ-バ\col(0)
+DICT0_09: \col(3)ゼルダ\col(0)さま
+DICT0_0a: \col(1)あいことば\col(0)
+DICT0_0b: \col(3)ゼルダ姫\col(0)
+DICT0_0c: ものの本によると、\n
+DICT0_0d: ルピ-\col(0)手に入れた!
+DICT0_0e: '  \opt()うん \opt()べつに'
+DICT0_0f: \col(3)ウララ\col(0)ちゃん
+DICT0_10: 闇の将軍\col(3)ゴルゴン\col(0)
+DICT0_11: \col(1)ゆびわの小ばこ\col(0)
+DICT0_12: \col(1)クズ鉄 \num1コ\col(0)
+DICT0_13: \col(0)について知りたい?\n
+DICT0_14: 大魔王\col(3)ガノン\col(0)
+DICT0_15: \col(1)ガチャのタネ\col(0)
+DICT0_16: ムニャムニャ。。。
+DICT0_17: \col(1)ゆびわ\col(0)を
+DICT0_18: ゲ-ムボ-イカラ-
+DICT0_19: \col(3)ディン\col(0)
+DICT0_1a: \col(1)「大地のことわり」\col(0)
+DICT0_1b: \col(3)ホロン村\col(0)
+DICT0_1c: \col(1)ゆびわ\col(0)
+DICT0_1d: \col(3)ゴルゴン\col(0)
+DICT0_1e: \col(3)ホロドラム\col(0)
+DICT0_1f: \col(4)\num1まい\col(0) こわしたウラね!\n
+DICT0_20: 「時空のしょう」
+DICT0_21: \col(1)四季のロッド\col(0)
+DICT0_22: \col(1)木の実ぶくろ\col(0)
+DICT0_23: \col(1)バクダン\col(0)
+DICT0_24: \col(1)クズ鉄\col(0)
+DICT0_25: \col(3)せんちょう\col(0)
+DICT0_26: \col(1)ことわり\col(0)
+DICT0_27: ふわぁぁぁ。。。\n
+DICT0_28: こうかんするウラ\n
+DICT0_29: \col(1)木の実\col(0)
+DICT0_2a: ゲ-ムボ-イシリ-ズせんよう\n
+DICT0_2b: ムムッ! オマエ かんばんを\n
+DICT0_2c: きりかぶの上で ふってみよう
+DICT0_2d: 。。。\stop\n
+DICT0_2e: \col(0)とかいうヤツは\n
+DICT0_2f: 「聖なるイケニエ」
+DICT0_30: 「ほろびの炎」
+DICT0_31: 出なおしてくるウラ!
+DICT0_32: \col(1)あかい鉄\col(0)と\col(1)あおい鉄\col(0)
+DICT0_33: \col(1)ドラ\col(0)を
+DICT0_34: いいことおしえてやるッピ\n
+DICT0_35: \col(3)水びたしになった村
+DICT0_36: つうしんケ-ブル
+DICT0_37: \x20\x20\x20\x20\x20\x20
+DICT0_38: ' \opt()知っている \opt()知らない'
+DICT0_39: 「しんでん」
+DICT0_3a: \col(0)をもらった!\n
+DICT0_3b: 「ぜつぼうの炎」
+DICT0_3c: \col(1)カタイ鉄\col(0)
+DICT0_3d: \col(3)マカの木\col(0)
+DICT0_3e: うけるダメ-ジ
+DICT0_3f: とびちっちゃったじゃない
+DICT0_40: ゆびわの小ばこL-
+DICT0_41: こうなったら アンタのおとした\n
+DICT0_42: '  \opt()わかった \opt()もういちど'
+DICT0_43: '  これぞ \col(1)'
+DICT0_44: 水びたしの村
+DICT0_45: \col(3)ハイラル\col(0)
+DICT0_46: ニョロ\stop\n
+DICT0_47: 0ルピ- アル
+DICT0_48: 剣のいりょく
+DICT0_49: そうびしているあいだ\n
+DICT0_4a: \col(3)ボスブリン\col(0)さま
+DICT0_4b: \col(3)ダイゴロン\col(0)
+DICT0_4c: '  \opt()かう \opt()'
+DICT0_4d: 大地のみこ
+DICT0_4e: かんていしてもら
+DICT0_4f: 四季のロッド
+DICT0_50: \col(2)ことわり\col(4)
+DICT0_51: のゆびわL-
+DICT0_52: \x20\x20\x20\x20\x20
+DICT0_53: てください
+DICT0_54: じぶんが あそんだ\n
+DICT0_55: \col(0)がたすけにくるぞ
+DICT0_56: \col(3)スプ-ルぬま\col(0)
+DICT0_57: \col(1)ガチャの実\col(0)
+DICT0_58: '  \opt()やる \opt()やらない'
+DICT0_59: '  \opt()よむ \opt()よまない'
+DICT0_5a: \col(1)「大地と時空のことわり」\col(0)を知
+DICT0_5b: の恵み\col(0)!
+DICT0_5c: \col(1)リボン\col(0)
+DICT0_5d: \col(3)ゼルダ\col(0)
+DICT0_5e: \col(3)ベラン\col(0)
+DICT0_5f: もういちど\x20
+DICT0_60: の恵み\col(4)
+DICT0_61: \col(1)実\col(0)
+DICT0_62: \col(1)ハテナの実\col(0)って
+DICT0_63: 「なげきの炎」
+DICT0_64: \col(3)メイプル\col(0)
+DICT0_65: もてるように
+DICT0_66: ダイジョウブ
+DICT0_67: 手に入れ
+DICT0_68: もっている
+DICT0_69: ' ゆびわかんていや'
+DICT0_6a: \col(1)ハ-トのうつわ
+DICT0_6b: \col(1)まほうのクスリ
+DICT0_6c: \col(1)ヘンなふえ\col(0)
+DICT0_6d: ふしぎの木の実
+DICT0_6e: \col(3)デクナッツ\col(0)
+DICT0_6f: \col(1)春バナナ\col(0)
+DICT0_70: \col(3)コッコ山\col(0)
+DICT0_71: ありがとう
+DICT0_72: ているウラ
+DICT0_73: ハ-トのかけら
+DICT0_74: ' はじめるウラ'
+DICT0_75: \col(1)ロンロンたまご\col(0)
+DICT0_76: \col(3)レッドスネ-ク\col(0)
+DICT0_77: \col(3)ブル-スネ-ク\col(0)
+DICT0_78: \col(3)大きなねっこ\col(0)
+DICT0_79: 。。。。。。
+DICT0_7a: \col(1)バクダン
+DICT0_7b: プレゼント
+DICT0_7c: ウラか?\n
+DICT0_7d: ' おしえて'
+DICT0_7e: 知っている
+DICT0_7f: \col(1)たて\col(0)
+DICT0_80: のせいれい
+DICT0_81: がんばって
+DICT0_82: 見つけた
+DICT0_83: ボクでよければ 力になるんだな\n
+DICT0_84: 。。。\n
+DICT0_85: ボタンをお
+DICT0_86: '!\stop\n'
+DICT0_87: おかげで カバンの中のモノが\n
+DICT0_88: '  \opt()うらない  \opt()つうしん'
+DICT0_89: ウ-ラダンス
+DICT0_8a: こんなトコロ
+DICT0_8b: ったッピ!\n
+DICT0_8c: サッサの実
+DICT0_8d: アチチの実
+DICT0_8e: うらない\col(0)
+DICT0_8f: 大魔王
+DICT0_90: 00ルピ-
+DICT0_91: いっしょに
+DICT0_92: やわらかいつち
+DICT0_93: つたえてほしい
+DICT0_94: \col(3)ガノン\col(0)
+DICT0_95: \col(3)カ-ノ\col(0)
+DICT0_96: をひらいて えらぼう
+DICT0_97: ぶんも もらってやる
+DICT0_98: \col(1)メンバ-ズカ-ド
+DICT0_99: 大きなタキのユメを
+DICT0_9a: ただいまの季節\n
+DICT0_9b: \col(3)マイトパンチ\col(0)
+DICT0_9c: ' \opt()やめておく'
+DICT0_9d: \col(1)ピュ-の実
+DICT0_9e: タカラの地図
+DICT0_9f: はやく オトナに なりたいな-
+DICT0_a0: \col(4)\num1ふん \num2びょう\col(0)!
+DICT0_a1: ブ-メラン
+DICT0_a2: かしら?\n
+DICT0_a3: 勇者の
+DICT0_a4: '  \opt()'
+DICT0_a5: のゆびわ
+DICT0_a6: っている
+DICT0_a7: らしいウラ
+DICT0_a8: わたしは\x20
+DICT0_a9: るそうじゃ
+DICT0_aa: わからない
+DICT0_ab: てしまった
+DICT0_ac: やってみる
+DICT0_ad: です\stop\n
+DICT0_ae: 気をつけ
+DICT0_af: ることができ
+DICT0_b0: もう1だいの
+DICT0_b1: \col(3)ウィウィ
+DICT0_b2: ふしぎな力
+DICT0_b3: \col(1)カギ\col(0)
+DICT0_b4: \col(1)ふえ\col(0)
+DICT0_b5: パワ-ブレスレット
+DICT0_b6: ルピ-が たりない
+DICT0_b7: ゆびわのあいことば
+DICT0_b8: ユメを見たんだ\n
+DICT0_b9: 四季のしんでん
+DICT0_ba: ?\stop\n
+DICT0_bb: ちょっと\x20
+DICT0_bc: っていない
+DICT0_bd: おれいに\x20
+DICT0_be: アドバンス
+DICT0_bf: さっそく\x20
+DICT0_c0: んだけど\n
+DICT0_c1: 大地の
+DICT0_c2: 季節が
+DICT0_c3: なにがおこるか おたのしみ
+DICT0_c4: '    -ちゅうい!!-\n'
+DICT0_c5: あなたが なまえをつけた\n
+DICT0_c6: 勇者
+DICT0_c7: 世界
+DICT0_c8: てくれる
+DICT0_c9: かんてい
+DICT0_ca: ' げんきになっ'
+DICT0_cb: はんぶんになる
+DICT0_cc: にへんしんする
+DICT0_cd: まいどッピ!\n
+DICT0_ce: じゃあ\x20
+DICT0_cf: るウラよ
+DICT0_d0: っちゃった
+DICT0_d1: 入れてお
+DICT0_d2: 出てくる
+DICT0_d3: 季節を
+DICT0_d4: よ\stop\n
+DICT0_d5: かいものしていくッピ!\n
+DICT0_d6: 時のみこ\col(3)ネ-ル\col(0)
+DICT0_d7: \col(4)の北の山にある\n
+DICT0_d8: かいてんぎり
+DICT0_d9: スプ-ルぬま
+DICT0_da: '   ウ-ラ'
+DICT0_db: ' いつでも\n'
+DICT0_dc: かもしれない
+DICT0_dd: ヤロ-ども!
+DICT0_de: また ききに
+DICT0_df: \col(3)ムッシュ
+DICT0_e0: ' あなた'
+DICT0_e1: \col(1)ドラ\col(0)
+DICT0_e2: \col(1)剣\col(0)
+DICT0_e3: じゃない
+DICT0_e4: 0ルピ-
+DICT0_e5: \x20\x20\x20\x20
+DICT0_e6: になった
+DICT0_e7: これで\x20
+DICT0_e8: 四季
+DICT0_e9: 大地
+DICT0_ea: わすれたときは\n
+DICT0_eb: 大まほうつかい
+DICT0_ec: \col(1)メガホン\col(0)
+DICT0_ed: \col(1)小ばこ\col(0)
+DICT0_ee: こうかん
+DICT0_ef: ウラ!\n
+DICT0_f0: っていた
+DICT0_f1: サブがめん
+DICT0_f2: れんしゅう
+DICT0_f3: わたしの\x20
+DICT0_f4: りましょう
+DICT0_f5: おかげで\x20
+DICT0_f6: わたしたち
+DICT0_f7: たいせつな
+DICT0_f8: オマエさん
+DICT0_f9: いったい\x20
+DICT0_fa: ますか?\n
+DICT0_fb: 村ちょう
+DICT0_fc: の恵み\n
+DICT0_fd: 木の実
+DICT0_fe: している
+DICT0_ff: が ある
+DICT1_00: ったら\n
+DICT1_01: わかった
+DICT1_02: てくれた
+DICT1_03: ヒミツのもぐりポイント
+DICT1_04: パクッ モグモグモグ\n
+DICT1_05: いいことを おしえるよ
+DICT1_06: おぼえてくれました?\n
+DICT1_07: の力\col(0)がそなわった
+DICT1_08: \col(1)ヨ-ガンス-プ\col(0)
+DICT1_09: \col(3)ものしりバ-ド\col(0)
+DICT1_0a: \col(3)レンヌのまち\col(0)の
+DICT1_0b: イッパイ
+DICT1_0c: ' オイラ'
+DICT1_0d: きっと\x20
+DICT1_0e: んだな\n
+DICT1_0f: ニョロ\n
+DICT1_10: るのじゃ
+DICT1_11: ラッキ-
+DICT1_12: いトコロ
+DICT1_13: おねがい
+DICT1_14: ってきた
+DICT1_15: ないウラ
+DICT1_16: ダイゴロン
+DICT1_17: そのまま\x20
+DICT1_18: ないから\n
+DICT1_19: ほんとうに
+DICT1_1a: ブヒ-ッ!
+DICT1_1b: ニョロ?\n
+DICT1_1c: そうですか
+DICT1_1d: \col(3)ウ-ラ
+DICT1_1e: おもうんだけど。。。
+DICT1_1f: どこかの いせきに\x20
+DICT1_20: が こどものころは\n
+DICT1_21: ニオイがする
+DICT1_22: るようになる
+DICT1_23: 勇気ある少年
+DICT1_24: ' しゅっこう'
+DICT1_25: なってしまう
+DICT1_26: チミミちゃん
+DICT1_27: おきゃくさん
+DICT1_28: メチャクチャ
+DICT1_29: なんじゃろう
+DICT1_2a: のかも。。。
+DICT1_2b: わかりました
+DICT1_2c: \col(3)リッキ-
+DICT1_2d: ' \opt()いやだ'
+DICT1_2e: 鉄を とか
+DICT1_2f: ' オマエ'
+DICT1_30: なかった
+DICT1_31: 大きな
+DICT1_32: \col(0)を\x20
+DICT1_33: \col(0)を\n
+DICT1_34: まかれたタネは
+DICT1_35: セレクトボタン
+DICT1_36: うつわがふえる
+DICT1_37: れてるアンタを
+DICT1_38: いらしゃいアル
+DICT1_39: そうびしないと
+DICT1_3a: それにしても\x20
+DICT1_3b: コクホウ
+DICT1_3c: たいへん
+DICT1_3d: でしょう
+DICT1_3e: てあげる
+DICT1_3f: ないよう
+DICT1_40: ' わすれ'
+DICT1_41: ブヒ!!
+DICT1_42: ブヒ!\n
+DICT1_43: ふっかつ
+DICT1_44: の力を
+DICT1_45: ったウラ
+DICT1_46: ておくれ
+DICT1_47: なんでも
+DICT1_48: アイテム
+DICT1_49: ここから
+DICT1_4a: まものに
+DICT1_4b: オマエの
+DICT1_4c: るッピ!
+DICT1_4d: とても\x20
+DICT1_4e: -!!\n
+DICT1_4f: \col(0)が\x20
+DICT1_50: の中に
+DICT1_51: どんな コだったの
+DICT1_52: いまでは リッパな
+DICT1_53: うたが かんせいし
+DICT1_54: きく \opt()きかない
+DICT1_55: \col(1)ちくおんき\col(0)
+DICT1_56: \col(3)ホロドラム\col(4)
+DICT1_57: \col(1)アイコトバ\col(0)
+DICT1_58: \col(3)ゴロン山\col(0)
+DICT1_59: できるぞ!
+DICT1_5a: ヨウコウロ
+DICT1_5b: につたわる
+DICT1_5c: あらわれる
+DICT1_5d: もってきて
+DICT1_5e: ひさしぶり
+DICT1_5f: もういちど
+DICT1_60: やっぱり\x20
+DICT1_61: ' さらわれ'
+DICT1_62: にいちゃん
+DICT1_63: このあたり
+DICT1_64: オイラも\x20
+DICT1_65: グハハハハ
+DICT1_66: ' きっと\n'
+DICT1_67: ちゃんと\x20
+DICT1_68: ことがある
+DICT1_69: ばいになる
+DICT1_6a: ですか?\n
+DICT1_6b: さしあげま
+DICT1_6c: ホロン村
+DICT1_6d: 知らない
+DICT1_6e: 邪悪な
+DICT1_6f: 村の東
+DICT1_70: 人々の
+DICT1_71: 秋に実をむすんで 冬にねむる\stop\n
+DICT1_72: もらった
+DICT1_73: いろんな
+DICT1_74: ハ-トが
+DICT1_75: ヨ-ガン
+DICT1_76: ここは\x20
+DICT1_77: おぼえて
+DICT1_78: るらしい
+DICT1_79: だよ!\n
+DICT1_7a: ってくれ
+DICT1_7b: ' わたし'
+DICT1_7c: あなたの
+DICT1_7d: これから
+DICT1_7e: んだって
+DICT1_7f: なにか\x20
+DICT1_80: かな?\n
+DICT1_81: どこかに
+DICT1_82: 見つけ
+DICT1_83: 聖なる
+DICT1_84: 水門
+DICT1_85: \stop\n
+DICT1_86: 。。。
+DICT1_87: 「♪いっそ〜タネまであいしてェ」\n
+DICT1_88: \col(1)あかいの\col(0)と\col(3)あおいの\col(0)\n
+DICT1_89: っても\x20
+DICT1_8a: バクダン
+DICT1_8b: もってい
+DICT1_8c: くなった
+DICT1_8d: オマエ\x20
+DICT1_8e: よかった
+DICT1_8f: だから\x20
+DICT1_90: してくれ
+DICT1_91: ように\n
+DICT1_92: ロか?\n
+DICT1_93: しかし\x20
+DICT1_94: ' もっと'
+DICT1_95: てほしい
+DICT1_96: いじょう
+DICT1_97: できない
+DICT1_98: なんとか
+DICT1_99: ダメ-ジ
+DICT1_9a: って\n
+DICT1_9b: から\n
+DICT1_9c: ふりそそぐしずくをうけ わかばは\n
+DICT1_9d: うごきをとめられるんです! けど\n
+DICT1_9e: わか木を いっそうたくましくする
+DICT1_9f: ああ はやく 春にならないかな-
+DICT1_a0: メガネみたいなカタチをした池が\n
+DICT1_a1: ごうかくのあかし
+DICT1_a2: トライフォ-スの
+DICT1_a3: がやってくる!?
+DICT1_a4: て こまっちゃう
+DICT1_a5: そこが あやしい
+DICT1_a6: すもぐりめいじん
+DICT1_a7: ' 10コ ウラ\n'
+DICT1_a8: \col(1)ガチャのタネ
+DICT1_a9: \col(1)コッコずかん
+DICT1_aa: いいえ \opt()はい
+DICT1_ab: つあつめれば
+DICT1_ac: \col(1)スコップ\col(0)
+DICT1_ad: をさずけよう
+DICT1_ae: ったとおもう
+DICT1_af: 剣ビ-ムが出
+DICT1_b0: きいてもらえ
+DICT1_b1: “ぜつぼう”
+DICT1_b2: イテテの実
+DICT1_b3: ぼうけん者
+DICT1_b4: ' \opt()ちがう'
+DICT1_b5: 目がさめた
+DICT1_b6: 大よろこび
+DICT1_b7: 闇の力が
+DICT1_b8: \x20\x20\x20
+DICT1_b9: でも\x20
+DICT1_ba: か?\n
+DICT1_bb: '!!\n'
+DICT1_bc: かのじょの おどりをみていると\n
+DICT1_bd: うまくすがたを かくしたつもり\n
+DICT1_be: こんなに たのしくおどれたのは\n
+DICT1_bf: もし そのアザが ホンモノなら\n
+DICT1_c0: もう さずけるものは なにもない
+DICT1_c1: リングから出たほうが まけだ\n
+DICT1_c2: 2人のあいしょうに見あった\n
+DICT1_c3: さすらいのよげん者 \col(3)ソクラ
+DICT1_c4: うれしい
+DICT1_c5: あたらし
+DICT1_c6: ところで
+DICT1_c7: たいよう
+DICT1_c8: かわりに
+DICT1_c9: ふけば\x20
+DICT1_ca: いままで
+DICT1_cb: ほうせき
+DICT1_cc: ふしぎな
+DICT1_cd: のトコロ
+DICT1_ce: するウラ
+DICT1_cf: どうくつ
+DICT1_d0: ' LV.'
+DICT1_d1: かい?\n
+DICT1_d2: ないと\n
+DICT1_d3: たすけて
+DICT1_d4: っても\n
+DICT1_d5: たときは
+DICT1_d6: るんじゃ
+DICT1_d7: じゃに!
+DICT1_d8: していた
+DICT1_d9: あれば\n
+DICT1_da: ' なんだ'
+DICT1_db: オレたち
+DICT1_dc: のなまえ
+DICT1_dd: アルよ\n
+DICT1_de: スタ-ト
+DICT1_df: さいごの
+DICT1_e0: たくさん
+DICT1_e1: が いる
+DICT1_e2: るんだ\n
+DICT1_e3: おお!\x20
+DICT1_e4: つうしん
+DICT1_e5: の恵み
+DICT1_e6: ' 見た'
+DICT1_e7: この村
+DICT1_e8: ダンジョン
+DICT1_e9: たからばこ
+DICT1_ea: でんせつの
+DICT1_eb: いモノを\x20
+DICT1_ec: あけられる
+DICT1_ed: あなたが\x20
+DICT1_ee: んだから!
+DICT1_ef: ' よみがえ'
+DICT1_f0: オマエが\x20
+DICT1_f1: それでは\x20
+DICT1_f2: にしてやる
+DICT1_f3: ' ここまで'
+DICT1_f4: さいきん\x20
+DICT1_f5: きこえれば
+DICT1_f6: ケ-ケケケ
+DICT1_f7: だった?\n
+DICT1_f8: マカの木
+DICT1_f9: って\x20
+DICT1_fa: ウラ\n
+DICT1_fb: ' \opt()'
+DICT1_fc: から\x20
+DICT1_fd: ている
+DICT1_fe: には\n
+DICT1_ff: おたがいに パンチをうちあい\n
+DICT2_00: うちに いすわるつもりウラか!
+DICT2_01: かれんにさいた花のカオリは\n
+DICT2_02: 実は トリたちに はこばれ\n
+DICT2_03: ドコ見て あるいてんのよ!\n
+DICT2_04: できる
+DICT2_05: ゆびわ
+DICT2_06: んじゃ
+DICT2_07: わたし
+DICT2_08: だ!\n
+DICT2_09: しょう
+DICT2_0a: ' この'
+DICT2_0b: には\x20
+DICT2_0c: なら\n
+DICT2_0d: でしゅ
+DICT2_0e: よ!\n
+DICT2_0f: えいえんなる イノチのめぐり
+DICT2_10: タカラのありかが しめされる
+DICT2_11: ウマイ! ウマイんだな-!\n
+DICT2_12: ケ-ブル ぬいちゃダメニョロ
+DICT2_13: コラコラコラ! そこのこぞう
+DICT2_14: ぜんぜん こわくなくなります
+DICT2_15: わか木へと せいちょうする
+DICT2_16: かぜにはこばれ 実をむすぶ
+DICT2_17: 春にめざめ 夏にそだち\n
+DICT2_18: 左。下。右。上だッピ
+DICT2_19: った!\n
+DICT2_1a: あらたな
+DICT2_1b: ボタンを
+DICT2_1c: リッキ-
+DICT2_1d: いいウラ
+DICT2_1e: せつめい
+DICT2_1f: かんばん
+DICT2_20: ワガハイ
+DICT2_21: まったく
+DICT2_22: たのんだ
+DICT2_23: ' なにか'
+DICT2_24: いらない
+DICT2_25: くれない
+DICT2_26: あなたは
+DICT2_27: トモダチ
+DICT2_28: かわいい
+DICT2_29: のあいだ
+DICT2_2a: んだけど
+DICT2_2b: いってみ
+DICT2_2c: ルピ-が
+DICT2_2d: こんどは
+DICT2_2e: サ-ビス
+DICT2_2f: かんがえ
+DICT2_30: フムフム
+DICT2_31: オイラの
+DICT2_32: どうも\x20
+DICT2_33: おぼえた
+DICT2_34: カギあな
+DICT2_35: デ-トし
+DICT2_36: シアワセ
+DICT2_37: ベイベ-
+DICT2_38: トコロ
+DICT2_39: げんき
+DICT2_3a: 上がる
+DICT2_3b: 季節
+DICT2_3c: \col(0)\x20
+DICT2_3d: 左手
+DICT2_3e: まもの
+DICT2_3f: ' いい'
+DICT2_40: れば\n
+DICT2_41: ウラよ
+DICT2_42: なんて
+DICT2_43: なんだ
+DICT2_44: という
+DICT2_45: みたい
+DICT2_46: ニョロ
+DICT2_47: ' \col(3)'
+DICT2_48: ウィウィのふえ
+DICT2_49: ムッシュのふえ
+DICT2_4a: ”がなったら\x20
+DICT2_4b: ウインタのもり
+DICT2_4c: が わいてくる
+DICT2_4d: ヒップアタック
+DICT2_4e: たおれていたの
+DICT2_4f: ることは でき
+DICT2_50: おめでとアル\n
+DICT2_51: うちのじいさん
+DICT2_52: ' ってなに?\n'
+DICT2_53: じぶんのコブシ
+DICT2_54: アイアイサ-!
+DICT2_55: やくそくどおり
+DICT2_56: ' ごせんぞさま'
+DICT2_57: \col(1)ボムチュウ
+DICT2_58: 見るからに\x20
+DICT2_59: \col(1)ゴロンつぼ
+DICT2_5a: 木ぼりのハト
+DICT2_5b: キチョウな鉄
+DICT2_5c: \col(1)ホシの鉄
+DICT2_5d: \col(3)アンビ\col(0)
+DICT2_5e: して\n
+DICT2_5f: ると\n
+DICT2_60: もう\x20
+DICT2_61: だよ\n
+DICT2_62: ってい
+DICT2_63: らしい
+DICT2_64: るウラ
+DICT2_65: さぁ\x20
+DICT2_66: なら\x20
+DICT2_67: \col(0)を
+DICT2_68: \col(0)の
+DICT2_69: わかばは スクスクとそだつ
+DICT2_6a: つきっきりで かんびょう\n
+DICT2_6b: '  グ ハ ハ ハ ハ ハ'
+DICT2_6c: トビラの中を たんけんし
+DICT2_6d: \col(3)ようせい\col(0)さんたちに
+DICT2_6e: かった
+DICT2_6f: して\x20
+DICT2_70: ました
+DICT2_71: じゃ\n
+DICT2_72: だった
+DICT2_73: だろう
+DICT2_74: にある
+DICT2_75: ばしょ
+DICT2_76: こんな
+DICT2_77: アンタ
+DICT2_78: また\x20
+DICT2_79: あなた
+DICT2_7a: まった
+DICT2_7b: らない
+DICT2_7c: オイラ
+DICT2_7d: んだな
+DICT2_7e: 少し
+DICT2_7f: めぐりて タネがめざめる
+DICT2_80: ' ずっと ねむったまま\n'
+DICT2_81: すべて おわったのですね
+DICT2_82: \col(3)キングゾ-ラ\col(0)さま
+DICT2_83: ちょっと
+DICT2_84: ぬくもり
+DICT2_85: ジャンプ
+DICT2_86: グロ-ブ
+DICT2_87: おれいに
+DICT2_88: ようさい
+DICT2_89: はやく\x20
+DICT2_8a: るがよい
+DICT2_8b: ' あった'
+DICT2_8c: そうじゃ
+DICT2_8d: オレさま
+DICT2_8e: ッピ!\n
+DICT2_8f: ' たのし'
+DICT2_90: もりで\x20
+DICT2_91: そこで\x20
+DICT2_92: はずかし
+DICT2_93: たおした
+DICT2_94: '---!'
+DICT2_95: しれんを
+DICT2_96: てもらう
+DICT2_97: ことが\n
+DICT2_98: どうした
+DICT2_99: いつか\x20
+DICT2_9a: かけてみ
+DICT2_9b: きょうも
+DICT2_9c: そうウラ
+DICT2_9d: どうじゃ
+DICT2_9e: \col(0)に\n
+DICT2_9f: の上で
+DICT2_a0: られる
+DICT2_a1: んだ\n
+DICT2_a2: ウィ\n
+DICT2_a3: の力
+DICT2_a4: ' \col(1)'
+DICT2_a5: 勇気
+DICT2_a6: そうにない
+DICT2_a7: なにやら\x20
+DICT2_a8: ボスブリン
+DICT2_a9: あいにきて
+DICT2_aa: モンスタ-
+DICT2_ab: おとうさん
+DICT2_ac: ぜんぶ か
+DICT2_ad: まもりがみ
+DICT2_ae: ってごらん
+DICT2_af: ビックリし
+DICT2_b0: たいときは
+DICT2_b1: が できた
+DICT2_b2: ほかにも\x20
+DICT2_b3: であつめた
+DICT2_b4: ではないか
+DICT2_b5: \col(1)キノコ
+DICT2_b6: 水びたし
+DICT2_b7: 北のほう
+DICT2_b8: ▲のアザ
+DICT2_b9: \col(0)ったら
+DICT2_ba: の\col(1)つぼ
+DICT2_bb: が出てき
+DICT2_bc: 見たこと
+DICT2_bd: の人たち
+DICT2_be: コ\col(0)で\n
+DICT2_bf: 北の山
+DICT2_c0: れば\x20
+DICT2_c1: ても\n
+DICT2_c2: でも\n
+DICT2_c3: じゃに
+DICT2_c4: そんな
+DICT2_c5: さあ\x20
+DICT2_c6: 力を
+DICT2_c7: ルピ-
+DICT2_c8: ヘンな
+DICT2_c9: ウ-ラ
+DICT2_ca: ' おど'
+DICT2_cb: おしえ
+DICT2_cc: んです
+DICT2_cd: れない
+DICT2_ce: いった
+DICT2_cf: では\x20
+DICT2_d0: ' あい'
+DICT2_d1: をえらんで ねらいうち
+DICT2_d2: とりあつかい ちゅうい
+DICT2_d3: とろけるような アツさ
+DICT2_d4: は はんそくになる!\n
+DICT2_d5: おちかづきのしるしに\n
+DICT2_d6: ケンブンをひろめるため
+DICT2_d7: さわると シビレちゃう
+DICT2_d8: 水の中もヘッチャラ
+DICT2_d9: 生きとし生けるもの
+DICT2_da: 春 夏 秋 冬
+DICT2_db: くなる
+DICT2_dc: いちど
+DICT2_dd: たすけ
+DICT2_de: られた
+DICT2_df: りょう
+DICT2_e0: オマエ
+DICT2_e1: を ま
+DICT2_e2: さがし
+DICT2_e3: キサマ
+DICT2_e4: ね!\n
+DICT2_e5: けど\n
+DICT2_e6: のは\n
+DICT2_e7: かない
+DICT2_e8: ' おも'
+DICT2_e9: どんな
+DICT2_ea: ついて
+DICT2_eb: おぬし
+DICT2_ec: 村の
+DICT2_ed: \col(0)は
+DICT2_ee: かがみのたて
+DICT2_ef: ロックちょう
+DICT2_f0: よろこんでい
+DICT2_f1: キカイあぶら
+DICT2_f2: サマサさばく
+DICT2_f3: タ-ムいせき
+DICT2_f4: チャンピオン
+DICT2_f5: セ-ブがめん
+DICT2_f6: の“のろい”
+DICT2_f7: おもしろいで
+DICT2_f8: きあいをため
+DICT2_f9: なるほど!\n
+DICT2_fa: よかんがする
+DICT2_fb: へすすめば\n
+DICT2_fc: ' かけつける'
+DICT2_fd: ' いそがしい'
+DICT2_fe: サイキョウの
+DICT2_ff: のいりょくが
+DICT3_00: いまからいう
+DICT3_01: ハテナの実
+DICT3_02: 闇のしさい
+DICT3_03: 大もうけだ
+DICT3_04: \col(1)水かき
+DICT3_05: っと\x20
+DICT3_06: のこと
+DICT3_07: まだ\x20
+DICT3_08: ること
+DICT3_09: すべて
+DICT3_0a: ってお
+DICT3_0b: たら\n
+DICT3_0c: ハナシ
+DICT3_0d: まで\x20
+DICT3_0e: きいて
+DICT3_0f: ついに
+DICT3_10: っちゃ
+DICT3_11: い!\n
+DICT3_12: 大人気
+DICT3_13: カタチ
+DICT3_14: じゃ!
+DICT3_15: じゃ\x20
+DICT3_16: の?\n
+DICT3_17: なまえ
+DICT3_18: ません
+DICT3_19: さすが
+DICT3_1a: まで\n
+DICT3_1b: \col(0)が
+DICT3_1c: \col(0)\n
+DICT3_1d: あつめ
+DICT3_1e: あかし
+DICT3_1f: カラダ
+DICT3_20: ' いま'
+DICT3_21: だ!!
+DICT3_22: はじめ
+DICT3_23: ウラ!
+DICT3_24: あげる
+DICT3_25: なんか
+DICT3_26: ' どう'
+DICT3_27: のいえ
+DICT3_28: に な
+DICT3_29: とは\n
+DICT3_2a: ワシの
+DICT3_2b: ゴロ\n
+DICT3_2c: それは
+DICT3_2d: アル\n
+DICT3_2e: みんな
+DICT3_2f: キボウ
+DICT3_30: ' 見'
+DICT3_31: \col(0)と
+DICT3_32: ' 海'
+DICT3_33: で イノチをはぐくむ
+DICT3_34: さま いちのコブン\n
+DICT3_35: ボクのうえた木で\n
+DICT3_36: \col(3)バイア\col(0)さまや
+DICT3_37: ことわり
+DICT3_38: かくにん
+DICT3_39: ってくる
+DICT3_3a: つかえる
+DICT3_3b: なかなか
+DICT3_3c: いいこと
+DICT3_3d: ありがと
+DICT3_3e: シッカリ
+DICT3_3f: モノが\n
+DICT3_40: ちゃった
+DICT3_41: さまに\x20
+DICT3_42: あんしん
+DICT3_43: いそいで
+DICT3_44: てしまう
+DICT3_45: ないと\x20
+DICT3_46: ゴロ〜\n
+DICT3_47: いちばん
+DICT3_48: まずは\x20
+DICT3_49: エンリョ
+DICT3_4a: たしか\x20
+DICT3_4b: あやしい
+DICT3_4c: あそんで
+DICT3_4d: いまは\x20
+DICT3_4e: あげよう
+DICT3_4f: かわった
+DICT3_50: さっき\x20
+DICT3_51: のもとへ
+DICT3_52: もえあが
+DICT3_53: そうびす
+DICT3_54: やすらぎ
+DICT3_55: ' かなり'
+DICT3_56: おわびに
+DICT3_57: \col(1)ハネ
+DICT3_58: クズ鉄
+DICT3_59: 海ぞく
+DICT3_5a: 手もち
+DICT3_5b: \col(0)も\n
+DICT3_5c: '100'
+DICT3_5d: ' これ'
+DICT3_5e: いない
+DICT3_5f: てくれ
+DICT3_60: のほう
+DICT3_61: ' かえ'
+DICT3_62: になる
+DICT3_63: きょう
+DICT3_64: ちゃん
+DICT3_65: ホント
+DICT3_66: か!\n
+DICT3_67: ります
+DICT3_68: に い
+DICT3_69: ってき
+DICT3_6a: まさか
+DICT3_6b: だれか
+DICT3_6c: やろう
+DICT3_6d: なんと
+DICT3_6e: のに\n
+DICT3_6f: ここに
+DICT3_70: リスト
+DICT3_71: 見て
+DICT3_72: \slow()「
+DICT3_73: ポカポカようきは\n
+DICT3_74: きみょうなメロディ
+DICT3_75: マイトパンチのジム
+DICT3_76: カバンのなかみが\n
+DICT3_77: グレ-ドアップする
+DICT3_78: かは ヒミツアルネ
+DICT3_79: は キモチイイな\n
+DICT3_7a: いせきを ぼうけん
+DICT3_7b: ブヒヒヒヒヒヒ!\n
+DICT3_7c: オレをかつぐことも
+DICT3_7d: ジャマを しにきた
+DICT3_7e: いらっしゃ〜い\heart\n
+DICT3_7f: ケ-ブルでつないで
+DICT3_80: てんかいっぴんウラ
+DICT3_81: とうとうやったね\x20
+DICT3_82: もハナが たかいよ
+DICT3_83: うて! うて〜!!
+DICT3_84: ん?このブロック\x20
+DICT3_85: マップを見よう\n
+DICT3_86: でんげんを入れ\n
+DICT3_87: ちょう
+DICT3_88: る!\n
+DICT3_89: してい
+DICT3_8a: なった
+DICT3_8b: るハズ
+DICT3_8c: んでい
+DICT3_8d: してお
+DICT3_8e: うけと
+DICT3_8f: タカラ
+DICT3_90: しない
+DICT3_91: この\x20
+DICT3_92: たんだ
+DICT3_93: てきた
+DICT3_94: のです
+DICT3_95: の お
+DICT3_96: アタシ
+DICT3_97: るんだ
+DICT3_98: ないわ
+DICT3_99: きたえ
+DICT3_9a: ほしい
+DICT3_9b: るゴロ
+DICT3_9c: ほろび
+DICT3_9d: アルよ
+DICT3_9e: へいわ
+DICT3_9f: ブヒ!
+DICT3_a0: の人
+DICT3_a1: の\col(3)
+DICT3_a2: がある
+DICT3_a3: ぞ!\n
+DICT3_a4: のカギ
+DICT3_a5: を お
+DICT3_a6: かせる
+DICT3_a7: モノを
+DICT3_a8: ' その'
+DICT3_a9: かい\x20
+DICT3_aa: ちゅう
+DICT3_ab: ように
+DICT3_ac: ' うえ'
+DICT3_ad: ような
+DICT3_ae: ゴロン
+DICT3_af: いこう
+DICT3_b0: いウラ
+DICT3_b1: こそ\x20
+DICT3_b2: われら
+DICT3_b3: んとう
+DICT3_b4: ッ!\x20
+DICT3_b5: のとき
+DICT3_b6: を た
+DICT3_b7: れて\n
+DICT3_b8: ます\n
+DICT3_b9: これを
+DICT3_ba: かしら
+DICT3_bb: ' また'
+DICT3_bc: うと\n
+DICT3_bd: つたえ
+DICT3_be: ね?\n
+DICT3_bf: を つ
+DICT3_c0: のう\n
+DICT3_c1: もらえ
+DICT3_c2: とは\x20
+DICT3_c3: そこに
+DICT3_c4: いて\n
+DICT3_c5: つよい
+DICT3_c6: どこか
+DICT3_c7: あんな
+DICT3_c8: くん!
+DICT3_c9: にも\x20
+DICT3_ca: ボタンで\x20
+DICT3_cb: こぞう!\n
+DICT3_cc: ジャマする
+DICT3_cd: アイタタタ
+DICT3_ce: おかげで\n
+DICT3_cf: ほうりなげ
+DICT3_d0: またききに
+DICT3_d1: ' ずっと\n'
+DICT3_d2: うつくしい
+DICT3_d3: つかさどる
+DICT3_d4: とくべつな
+DICT3_d5: めいを も
+DICT3_d6: アイヤ-\x20
+DICT3_d7: るといいよ
+DICT3_d8: オソロシイ
+DICT3_d9: ムズカシイ
+DICT3_da: るでないぞ
+DICT3_db: パトロ-ル
+DICT3_dc: もちろん\x20
+DICT3_dd: いくぞ!!
+DICT3_de: じゃねえか
+DICT3_df: ふたりぐみ
+DICT3_e0: はなしかけ
+DICT3_e1: そうなの!
+DICT3_e2: アドバイス
+DICT3_e3: ジョウブツ
+DICT3_e4: は すでに
+DICT3_e5: \col(1)ハ-ト
+DICT3_e6: 木のたて
+DICT3_e7: 鉄のたて
+DICT3_e8: \col(1)あかい
+DICT3_e9: メガネ池
+DICT3_ea: 女のコに
+DICT3_eb: 入るはこ
+DICT3_ec: 東のもり
+DICT3_ed: 知りたい
+DICT3_ee: 気のせい
+DICT3_ef: 3つの炎
+DICT3_f0: 気に入
+DICT3_f1: 結界を
+DICT3_f2: ハイパ-パチンコ
+DICT3_f3: カンシャのしるし
+DICT3_f4: おおごえで さけ
+DICT3_f5: どうぶつがくしゃ
+DICT3_f6: ' フェッ フェッ'
+DICT3_f7: 「フクロウいし」
+DICT3_f8: いきつぎなしで\n
+DICT3_f9: オレ よびたくな
+DICT3_fa: くれて アリガト
+DICT3_fb: フフッ、わかいな
+DICT3_fc: フフッ まけたぜ
+DICT3_fd: さむいじゅんに\n
+DICT3_fe: ' なさけねえ!\n'
+DICT3_ff: ピッピッピ-♪
