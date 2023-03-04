@@ -292,7 +292,7 @@ build/dict.yaml: text/translate/$(GAME)$(BUILD_LANG)/dict.yaml tools/build/apply
 # Parse & compress text
 build/textData.s: build/text.yaml build/dict.yaml tools/build/parseText.py | build
 	@echo "Compressing text..."
-	@$(PYTHON) tools/build/parseText.py build/dict$(BUILD_LANG).yaml $< $@ $$(($(TEXT_INSERT_ADDRESS)))
+	@$(PYTHON) tools/build/parseText.py build/dict.yaml $< $@ $$(($(TEXT_INSERT_ADDRESS)))
 
 build/gfxFontUnicodeTable.s: text/translate/$(GAME)$(BUILD_LANG)/gfx_font_unicode_table.txt tools/build/generateFontTable.py | build
 	@echo "Generating font table..."
