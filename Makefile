@@ -294,11 +294,24 @@ build/textData.s: build/text.yaml build/dict.yaml tools/build/parseText.py | bui
 	@echo "Compressing text..."
 	@$(PYTHON) tools/build/parseText.py build/dict$(BUILD_LANG).yaml $< $@ $$(($(TEXT_INSERT_ADDRESS)))
 
-build/gfxFontUnicodeTable.s: text/translate/$(GAME)$(BUILD_LANG)/gfx_font_unicode_table.txt tools/build/generateFontTable.py | build
+build/gfx/gfx_font_unicode.png: text/translate/$(GAME)$(BUILD_LANG)/gfx_font_unicode_table.txt tools/build/generateFont.py | build/gfx
+	@echo "Generating font..."
+	@$(PYTHON) tools/build/generateFont.py $< k8x12.ttf $@
+
+build/gfx/gfx_font_unicode.bin: build/gfx/gfx_font_unicode.png tools/build/generateFont.py build/gfx | build/gfx
+	@echo "Converting font..."
+	@$(PYTHON) tools/gfx/gfx.py --out $@ --interleave 1bpp $<
+
+build/gfx/gfx_font_unicode.cmp: build/gfx/gfx_font_unicode.bin build/gfx | build/gfx
+	@echo "Compressing font..."
+	@dd if=/dev/zero bs=1 count=1 of=$@ 2>/dev/null
+	@cat $< >> $@
+
+build/gfx_font_unicode_table.s: text/translate/$(GAME)$(BUILD_LANG)/gfx_font_unicode_table.txt tools/build/generateFontTable.py | build
 	@echo "Generating font table..."
 	@$(PYTHON) tools/build/generateFontTable.py $< $@ 50 0
 
-build/textDefines.s: build/textData.s build/gfxFontUnicodeTable.s
+build/textDefines.s: build/textData.s build/gfx/gfx_font_unicode.cmp build/gfx_font_unicode_table.s | build build/gfx
 
 
 else
