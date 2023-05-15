@@ -3,7 +3,7 @@
 # "FREE" or "SUPERFREE". This is all to make sure the rom builds as an exact
 # copy of the original game.
 BUILD_MODE = utf8
-BUILD_LANG = -ko
+BUILD_LANG = -ko-kore
 BASE_LANG = 
 
 # Sets the default target. Can be "ages", "seasons", or "all" (both).
