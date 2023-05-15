@@ -298,7 +298,16 @@ build/gfxFontUnicodeTable.s: text/translate/$(GAME)$(BUILD_LANG)/gfx_font_unicod
 	@echo "Generating font table..."
 	@$(PYTHON) tools/build/generateFontTable.py $< $@ 50 0
 
-build/textDefines.s: build/textData.s build/gfxFontUnicodeTable.s
+build/gfx/gfx_font_unicode.bin: text/translate/$(GAME)$(BUILD_LANG)/gfx_font_unicode.png tools/gfx/gfx.py | build
+	@mkdir -p build/gfx/
+	@echo "Converting font..."
+	@$(PYTHON) tools/gfx/gfx.py --out $@ auto $<
+
+build/gfx/gfx_font_unicode.cmp: build/gfx/gfx_font_unicode.bin
+	@dd if=/dev/zero bs=1 count=1 of=$@ 2>/dev/null
+	@cat $< >> $@
+
+build/textDefines.s: build/textData.s build/gfxFontUnicodeTable.s build/gfx/gfx_font_unicode.cmp
 
 
 else
