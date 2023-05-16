@@ -3,7 +3,7 @@
 # "FREE" or "SUPERFREE". This is all to make sure the rom builds as an exact
 # copy of the original game.
 BUILD_MODE = utf8
-BUILD_LANG = -ko-kore
+BUILD_LANG = -ja-jpan
 BASE_LANG = 
 
 # Sets the default target. Can be "ages", "seasons", or "all" (both).
@@ -289,11 +289,7 @@ build/dict.yaml: text/translate/$(GAME)$(BUILD_LANG)/dict.yaml tools/build/apply
 	@echo "Patching dict..."
 	@$(PYTHON) tools/build/applyTextPatch.py text/extracted-patched/$(GAME)$(BASE_LANG)/dict.yaml $< $@
 
-# Parse & compress text
-build/textData.s: build/text.yaml build/dict.yaml tools/build/parseText.py | build
-	@echo "Compressing text..."
-	@$(PYTHON) tools/build/parseText.py build/dict.yaml $< $@ $$(($(TEXT_INSERT_ADDRESS)))
-
+# Generate Unicode font and table
 build/gfxFontUnicodeTable.s: text/translate/$(GAME)$(BUILD_LANG)/gfx_font_unicode_table.txt tools/build/generateFontTable.py | build
 	@echo "Generating font table..."
 	@$(PYTHON) tools/build/generateFontTable.py $< $@ 50 0
@@ -303,11 +299,16 @@ build/gfx/gfx_font_unicode.bin: text/translate/$(GAME)$(BUILD_LANG)/gfx_font_uni
 	@echo "Converting font..."
 	@$(PYTHON) tools/gfx/gfx.py --out $@ auto $<
 
-build/gfx/gfx_font_unicode.cmp: build/gfx/gfx_font_unicode.bin
+build/gfx/gfx_font_unicode.cmp: build/gfx/gfx_font_unicode.bin | build
 	@dd if=/dev/zero bs=1 count=1 of=$@ 2>/dev/null
 	@cat $< >> $@
 
-build/textDefines.s: build/textData.s build/gfxFontUnicodeTable.s build/gfx/gfx_font_unicode.cmp
+# Parse & compress text
+build/textData.s: build/text.yaml build/dict.yaml build/gfxFontUnicodeTable.s build/gfx/gfx_font_unicode.cmp tools/build/parseText.py | build
+	@echo "Compressing text..."
+	@$(PYTHON) tools/build/parseText.py build/dict.yaml $< $@ $$(($(TEXT_INSERT_ADDRESS)))
+
+build/textDefines.s: build/textData.s build/gfxFontUnicodeTable.s build/gfx/gfx_font_unicode.cmp | build
 
 
 else
