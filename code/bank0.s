@@ -5529,7 +5529,6 @@ retrieveTextCharacter:
 	ld c,a
 
 	call @getFontId
-
 	call @getFontOffset
 
 @end:
@@ -5539,14 +5538,16 @@ retrieveTextCharacter:
 
 	push af
 	setrombank
-	call @func_18fd
+
+	call @func_18fd		; Add an extra call for 16x16 tiles
+	call @func_18fd		; Note: displayNextTextCharacter on textbox.s
 
 	ld a,BANK_3f
 	setrombank
 
 	xor a
 	ld (w7TextGfxSource),a
-	
+
 	pop af
 	pop de
 
@@ -5620,19 +5621,18 @@ retrieveTextCharacter:
 
 @getFontOffset:
 	ld a,b			; First 6 bits of first byte for bank id
-	and a,$FC
-	rrca
+	and a,$FE		; First 7 bits if using 16x16 tiles
 	rrca
 	add a,:gfx_font_unicode
 	push af
 	ld a,b
-	and a,$03
+	and a,$01
 	ld h,a
 	ld a,c
 	ld l,a			; Transfer other bits to hl
 	pop af
 
-	ld d,$04
+	ld d,$05
 -
 	sla l
 	rl h

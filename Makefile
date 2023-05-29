@@ -3,7 +3,7 @@
 # "FREE" or "SUPERFREE". This is all to make sure the rom builds as an exact
 # copy of the original game.
 BUILD_MODE = utf8
-BUILD_LANG = ja-jpan
+BUILD_LANG = lzh
 BASE_LANG = 
 
 # Sets the default target. Can be "ages", "seasons", or "all" (both).
@@ -271,6 +271,16 @@ build/textDefines.s: precompressed/text/$(GAME)/textDefines.s | build
 
 else ifeq ($(BUILD_MODE), utf8)
 
+FONT_IMG_WIDTH = 128
+FONT_IMG_HEIGHT = 8192
+
+ifeq ($(BUILD_LANG), lzh)
+
+FONT_IMG_WIDTH = 256
+FONT_IMG_HEIGHT = 16384
+
+endif
+
 build/tileset_layouts/%.bin: precompressed/tileset_layouts/$(GAME)/%.bin | build/tileset_layouts
 	@echo "Copying $< to $@..."
 	@cp $< $@
@@ -293,7 +303,7 @@ build/dict.yaml: text/translate/$(GAME)-$(BUILD_LANG)/dict.yaml tools/build/appl
 # Generate Unicode font and table
 build/gfx/gfx_font_unicode.png build/gfx_font_unicode_table.s: text/translate/$(GAME)-$(BUILD_LANG)/fontset.yml tools/build/generateFontset.py | build build/gfx text/translate/$(GAME)-$(BUILD_LANG)
 	@echo "Generating font and font table..."
-	@$(PYTHON) tools/build/generateFontset.py $< build/gfx_font_unicode_table.s build/gfx/gfx_font_unicode.png 50 0
+	@$(PYTHON) tools/build/generateFontset.py $< build/gfx_font_unicode_table.s build/gfx/gfx_font_unicode.png 50 0 $(FONT_IMG_WIDTH) $(FONT_IMG_HEIGHT)
 
 build/gfx/gfx_font_unicode.bin: build/gfx/gfx_font_unicode.png tools/build/generateFont.py | build/gfx
 	@echo "Converting font..."

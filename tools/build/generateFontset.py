@@ -5,14 +5,11 @@ import yaml
 import os.path
 from PIL import Image, ImageDraw, ImageFont
 
-glyph_width = 8
-glyph_height = 16
-
-image_height = 8192
-image_width = glyph_width * 16
-
 first_bank = int(sys.argv[4], 16)
 offset = int(sys.argv[5], 16)
+
+image_width = int(sys.argv[6]) if len(sys.argv) > 6 else 128
+image_height = int(sys.argv[7]) if len(sys.argv) > 7 else 8192
 
 black = (0, 0, 0)
 white = (255, 255, 255)
@@ -34,6 +31,8 @@ def gen_bitmap(font_def, filepath):
     charset_file = os.path.join(filepath, font_def['charset'])
     offset_x = font_def.get('offset_x', 0)
     offset_y = font_def.get('offset_y', 0)
+    glyph_width = font_def.get('glyph_width', 8)
+    glyph_height = font_def.get('glyph_height', 16)
 
     charset = load_charset(charset_file)
 
@@ -63,6 +62,8 @@ def gen_outline(font_def, filepath):
     charset_file = os.path.join(filepath, font_def['charset'])
     offset_x = font_def.get('offset_x', 0)
     offset_y = font_def.get('offset_y', 0)
+    glyph_width = font_def.get('glyph_width', 8)
+    glyph_height = font_def.get('glyph_height', 16)
 
     charset = load_charset(charset_file)
 
@@ -74,7 +75,6 @@ def gen_outline(font_def, filepath):
 
     draw.rectangle((0, 0, width, height), fill=black)
 
-    font_size = 12
     font = ImageFont.truetype(font_name, font_size)
 
     for j, line in enumerate(charset):

@@ -1,7 +1,9 @@
 fontset:
   - type: outline
-    font_name: k8x12.ttf
-    font_size: 12
+    font_name: GothicMedium-001.000.ttf
+    font_size: 16
     charset: charset.txt
     offset_x: 0
-    offset_y: 5
+    offset_y: 0
+    glyph_width: 16
+    glyph_height: 16
