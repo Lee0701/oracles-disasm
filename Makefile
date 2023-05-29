@@ -290,9 +290,18 @@ build/dict.yaml: text/translate/$(GAME)$(BUILD_LANG)/dict.yaml tools/build/apply
 	@$(PYTHON) tools/build/applyTextPatch.py text/extracted-patched/$(GAME)$(BASE_LANG)/dict.yaml $< $@
 
 # Generate Unicode font and table
-build/gfxFontUnicodeTable.s: text/translate/$(GAME)$(BUILD_LANG)/gfx_font_unicode_table.txt tools/build/generateFontTable.py | build
-	@echo "Generating font table..."
-	@$(PYTHON) tools/build/generateFontTable.py $< $@ 50 0
+build/gfx/gfx_font_unicode.png: text/translate/$(GAME)$(BUILD_LANG)/fontset.yml tools/build/generateFontset.py | build/gfx text/translate/$(GAME)$(BUILD_LANG)
+	@echo "Generating font and font table..."
+	@$(PYTHON) tools/build/generateFontset.py $< build/gfx/gfx_font_unicode_table.s $@ 50 0
+
+build/gfx/gfx_font_unicode.bin: build/gfx/gfx_font_unicode.png tools/build/generateFont.py | build/gfx
+	@echo "Converting font..."
+	@$(PYTHON) tools/gfx/gfx.py --out $@ --interleave 1bpp $<
+
+build/gfx/gfx_font_unicode.cmp: build/gfx/gfx_font_unicode.bin | build/gfx
+	@echo "Compressing font..."
+	@dd if=/dev/zero bs=1 count=1 of=$@ 2>/dev/null
+	@cat $< >> $@
 
 build/gfx/gfx_font_unicode.bin: text/translate/$(GAME)$(BUILD_LANG)/gfx_font_unicode.png tools/gfx/gfx.py | build
 	@mkdir -p build/gfx/
