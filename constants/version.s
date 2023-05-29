@@ -1,7 +1,7 @@
 ; Pick one. (For now, the regions other than "US" only activate code changes, not asset changes, and
 ; they aren't complete.)
-;.define REGION_JP
-.define REGION_US
+.define REGION_JP
+;.define REGION_US
 ;.define REGION_EU
 
 

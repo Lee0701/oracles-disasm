@@ -330,6 +330,10 @@
 	m_GfxData gfx_dmg_text ; $0c2dec
 	m_GfxData gfx_dmg_gametitle ; $0c2ec8
 	m_GfxData map_dmg_message ; $0c312b
+	m_GfxData gfx_jp_intro_screen_2 ; $0c3281
+	m_GfxData gfx_jp_intro_screen_1 ; $0c3665
+	m_GfxData map_jp_intro_screen_1 ; $0c3910
+	m_GfxData flg_jp_intro_screen_1 ; $0c3a11
 	m_GfxData gfx_capcom_nintendo ; $0c3215
 	m_GfxData map_capcom_nintendo ; $0c35a7
 	m_GfxData flg_capcom_nintendo ; $0c361c
