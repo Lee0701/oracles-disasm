@@ -290,6 +290,10 @@ build/dict.yaml: text/translate/$(GAME)$(BUILD_LANG)/dict.yaml tools/build/apply
 	@$(PYTHON) tools/build/applyTextPatch.py text/extracted-patched/$(GAME)$(BASE_LANG)/dict.yaml $< $@
 
 # Generate Unicode font and table
+build/gfx_font_unicode_table.s: text/translate/$(GAME)$(BUILD_LANG)/gfx_font_unicode_table.txt tools/build/generateFontTable.py | build
+	@echo "Generating font table..."
+	@$(PYTHON) tools/build/generateFontTable.py $< $@ 50 0
+
 build/gfx/gfx_font_unicode.png: text/translate/$(GAME)$(BUILD_LANG)/fontset.yml tools/build/generateFontset.py | build/gfx text/translate/$(GAME)$(BUILD_LANG)
 	@echo "Generating font and font table..."
 	@$(PYTHON) tools/build/generateFontset.py $< build/gfx/gfx_font_unicode_table.s $@ 50 0
@@ -313,11 +317,11 @@ build/gfx/gfx_font_unicode.cmp: build/gfx/gfx_font_unicode.bin | build
 	@cat $< >> $@
 
 # Parse & compress text
-build/textData.s: build/text.yaml build/dict.yaml build/gfxFontUnicodeTable.s build/gfx/gfx_font_unicode.cmp tools/build/parseText.py | build
+build/textData.s: build/text.yaml build/dict.yaml build/gfx_font_unicode_table.s build/gfx/gfx_font_unicode.cmp tools/build/parseText.py | build
 	@echo "Compressing text..."
 	@$(PYTHON) tools/build/parseText.py build/dict.yaml $< $@ $$(($(TEXT_INSERT_ADDRESS)))
 
-build/textDefines.s: build/textData.s build/gfxFontUnicodeTable.s build/gfx/gfx_font_unicode.cmp | build
+build/textDefines.s: build/textData.s build/gfx_font_unicode_table.s build/gfx/gfx_font_unicode.cmp | build
 
 
 else
