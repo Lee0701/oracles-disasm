@@ -5,3 +5,6 @@ fontset:
     charset: charset.txt
     offset_x: 0
     offset_y: 5
+  - type: bitmap
+    file_name: gfx_font_additional.png
+    charset: gfx_font_additional_charset.txt
