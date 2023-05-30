@@ -5407,176 +5407,7 @@ incHl:
 	inc h
 	ret
 
-;;
-; Can only be called from bank $3f. See also "copyTextCharacterGfx" which is similar but is used by
-; file select code instead of textbox code.
-;
-; @param	[w7TextGfxSource]	Table to use
-; @param	a			Character
-; @param	bc			Address to write data to
-retrieveTextCharacter:
-	push hl
-	push de
-	push bc
-	ld e,$00
-	bit 7,a
-	jr z,@singleByte
-	bit 6,a
-	jr z,@end
-	bit 5,a
-	jr z,@doubleByte
-	bit 4,a
-	jr z,@tripleByte
-	bit 3,a
-	jr z, @quadByte
-	jr @end
-
-@singleByte:
-	call multiplyABy16
-	ld a,(w7TextGfxSource)
-	ld hl,@data
-	rst_addDoubleIndex
-	ldi a,(hl)
-	ld h,(hl)
-	ld l,a
-	add hl,bc
-	pop bc
-	push bc
-	ld a,:gfx_font
-	jr @end
-
-@doubleByte:
-	push af
-
-	and a,$1C
-	rrca
-	rrca
-	ld b,a
-
-	jr @lastByte
-
-@tripleByte:
-	and a,$0F
-	rlca
-	rlca
-	rlca
-	rlca
-	ld b,a
-
-	call readByteFromW7ActiveBank
-	inc hl
-
-	push af
-	and a,$3C
-	rrca
-	rrca
-	or b
-	ld b,a
-
-	jr @lastByte
-
-@quadByte:
-	and a,$07
-	rlca
-	rlca
-	ld e,a
-
-	call readByteFromW7ActiveBank
-	inc hl
-
-	push af
-	and a,$30
-	rrca
-	rrca
-	rrca
-	rrca
-	or e
-	ld e,a
-
-	pop af
-	and a,$0F
-	rlca
-	rlca
-	rlca
-	rlca
-	ld b,a
-
-	call readByteFromW7ActiveBank
-	inc hl
-
-	push af
-	and a,$3C
-	rrca
-	rrca
-	or b
-	ld b,a
-
-	jr @lastByte
-
-@lastByte
-	pop af
-
-	and a,$03
-	rrca
-	rrca
-	ld c,a
-
-	call readByteFromW7ActiveBank
-	inc hl
-
-	and a,$3f
-	or c
-	ld c,a
-
-	call @getFontId
-
-	call @getFontOffset
-
-@end:
-	pop bc
-	pop de
-	push de
-
-	push af
-	setrombank
-	call @func_18fd
-
-	ld a,BANK_3f
-	setrombank
-
-	xor a
-	ld (w7TextGfxSource),a
-	
-	pop af
-	pop de
-
-	pop hl
-	dec hl
-	call readByteFromW7ActiveBank
-	bit 7,a
-	jr z,@singleEnd
-	bit 6,a
-	jr z,@singleEnd
-	bit 5,a
-	jr z,@doubleEnd
-	bit 4,a
-	jr z,@tripleEnd
-	bit 3,a
-	jr z, @quadEnd
-	jr @singleEnd
-	
-@quadEnd:
-	inc hl
-@tripleEnd:
-	inc hl
-@doubleEnd:
-	inc hl
-@singleEnd:
-	inc hl
-
-	ret
-
-@getFontId:
+getFontId:
 	ld a,e
 	and a,$1F
 	rlca
@@ -5618,7 +5449,7 @@ retrieveTextCharacter:
 
 	ret
 
-@getFontOffset:
+getFontOffset:
 	ld a,b			; First 6 bits of first byte for bank id
 	and a,$FC
 	rrca
@@ -5644,6 +5475,46 @@ retrieveTextCharacter:
 	add a,$40		; Add $4000 to hl
 	ld h,a
 	pop af
+	ret
+
+;;
+; Can only be called from bank $3f. See also "copyTextCharacterGfx" which is similar but is used by
+; file select code instead of textbox code.
+;
+; @param	[w7TextGfxSource]	Table to use
+; @param	a			Character
+; @param	bc			Address to write data to
+retrieveTextCharacter:
+	push de
+	push bc
+	ld a, $4f
+	setrombank
+	dec hl
+	call readUTF8
+	ld a, $3f
+	setrombank
+	pop bc
+
+	push hl
+	push bc
+	ld a, c
+	push de ; Transfer de to bc
+	pop bc ; TODO: Modify the function to simplify this
+	ld e, a
+	call getFontId
+	call getFontOffset
+	pop bc
+
+	setrombank
+	call @func_18fd
+	ld a,BANK_3f
+	setrombank
+	pop hl
+
+	xor a
+	ld (w7TextGfxSource),a
+
+	pop de
 	ret
 
 @data:
@@ -5733,6 +5604,25 @@ readByteFromW7ActiveBank:
 	ld b,(hl)
 
 	ld a,BANK_3f
+	setrombank
+
+	ld a,b
+	pop bc
+	ret
+
+;;
+; Assumes RAM bank 7 is loaded.
+; @param b: Bank number to read from
+; @param hl: Offset to read from
+; @param a: Bank number to return to
+readByteFromW7ActiveBankAndReturn:
+	push bc
+	push af
+	ld a,(w7ActiveBank)
+	setrombank
+	ld b,(hl)
+
+	pop af
 	setrombank
 
 	ld a,b
