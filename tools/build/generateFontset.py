@@ -5,6 +5,7 @@ import yaml
 import os.path
 from PIL import Image, ImageDraw, ImageFont
 
+columns = 16
 glyph_width = 8
 glyph_height = 16
 
@@ -26,7 +27,7 @@ def load_charset(charset_file):
 
     chars = re.sub(r'[^\S\r\n]', '', chars)
     chars = re.sub(r'\\u([0-9a-fA-F]{1,6})', lambda x: chr(int(x.group(1), 16)), chars)
-    chars = chars.strip().split('\n')
+    chars = [line.ljust(16, chr(0)) for line in chars.split('\n')]
     return chars
 
 def gen_bitmap(font_def, filepath):
@@ -37,7 +38,7 @@ def gen_bitmap(font_def, filepath):
 
     charset = load_charset(charset_file)
 
-    width = 16 * glyph_width
+    width = columns * glyph_width
     height = len(charset) * glyph_height
 
     img = Image.new("RGB", (width, height))
@@ -66,7 +67,7 @@ def gen_outline(font_def, filepath):
 
     charset = load_charset(charset_file)
 
-    width = 16 * glyph_width
+    width = columns * glyph_width
     height = len(charset) * glyph_height
 
     img = Image.new("RGB", (width, height))
@@ -121,7 +122,7 @@ def main():
     with open(fontset_deffile, 'r') as f:
         fontset = yaml.safe_load(f)['fontset']
 
-    table = [0 for i in range(0x40000)]
+    table = [0 for _ in range(0x40000)]
 
     output_img = Image.new("RGB", (image_width, image_height))
     draw = ImageDraw.Draw(output_img, 'RGBA')

@@ -3,7 +3,7 @@
 # "FREE" or "SUPERFREE". This is all to make sure the rom builds as an exact
 # copy of the original game.
 BUILD_MODE = utf8
-BUILD_LANG = -ko-kore
+BUILD_LANG = ko-kore
 BASE_LANG = 
 
 # Sets the default target. Can be "ages", "seasons", or "all" (both).
@@ -296,7 +296,7 @@ build/dict.yaml: text/translate/$(GAME)$(BUILD_LANG_TAG)/dict.yaml tools/build/a
 	@$(PYTHON) tools/build/applyTextPatch.py text/extracted-patched/$(GAME)$(BASE_LANG)/dict.yaml $< $@
 
 # Generate Unicode font and table
-build/gfx/gfx_font_unicode.png build/gfx_font_unicode_table.s: text/translate/$(GAME)$(BUILD_LANG_TAG)/fontset.yml tools/build/generateFontset.py | build build/gfx text/translate/$(GAME)$(BUILD_LANG)
+build/gfx/gfx_font_unicode.png build/gfx_font_unicode_table.s: text/translate/$(GAME)$(BUILD_LANG_TAG)/fontset.yml tools/build/generateFontset.py | build build/gfx text/translate/$(GAME)$(BUILD_LANG_TAG)
 	@echo "Generating font and font table..."
 	@$(PYTHON) tools/build/generateFontset.py $< build/gfx_font_unicode_table.s build/gfx/gfx_font_unicode.png 50 0
 

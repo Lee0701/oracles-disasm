@@ -37,6 +37,7 @@ for (c, i) in enumerate(table):
         line += ' ; U+%04x %s' % (c, chr(c))
     lines.append(line)
 
+print([len(l) for l in lines])
 output = '\n'.join(lines)
 
 with open(sys.argv[2], 'w', encoding='utf8') as f:

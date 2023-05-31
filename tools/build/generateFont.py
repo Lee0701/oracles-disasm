@@ -18,7 +18,7 @@ with open(charset, 'r', encoding='utf-8') as f:
 
 chars = re.sub(r'[^\S\r\n]', '', chars)
 chars = re.sub(r'\\u([0-9a-fA-F]{1,5})', lambda x: chr(int(x.group(1))), chars)
-chars = chars.strip().split('\n')
+chars = chars.split('\n')
 
 width = 16 * glyph_width
 height = len(chars) * glyph_height
