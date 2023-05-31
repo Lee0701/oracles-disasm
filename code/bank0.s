@@ -5420,11 +5420,11 @@ retrieveTextCharacter:
 	push de ; Store it until the end of the function
 	push bc ; Store it until being used as write offset
 
-	ld a, :readUTF8
+	ld a, :decodeUTF8
 	setrombank
 
 	dec hl
-	call readUTF8
+	call decodeUTF8
 	push hl
 	call getFontId
 	call getFontOffset
@@ -5433,7 +5433,7 @@ retrieveTextCharacter:
 	pop bc
 	push de
 	setrombank
-	call @func_18fd
+	call @copyTile
 	ld a,BANK_3f
 	setrombank
 	pop hl
@@ -5452,7 +5452,7 @@ retrieveTextCharacter:
 ;;
 ; @param bc: Offset to write to
 ; @param hl: Offset to read from
-@func_18fd:
+@copyTile:
 	ld e,$10
 
 	; gfx_font_start+$140 is the heart character. It's always red.
