@@ -53,7 +53,7 @@ def gen_bitmap(font_def, filepath):
             y = j * glyph_height + offset_y
 
             img.paste(src.crop((src_x, src_y, x+glyph_width, y+glyph_height)), (x, y))
-    
+
     return img, charset
 
 def gen_outline(font_def, filepath):

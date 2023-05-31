@@ -1,10 +1,7 @@
 fontset:
-  - type: bitmap
-    file_name: bitmap-default.png
-    charset: charset-default.txt
   - type: outline
     file_name: k8x12.ttf
     font_size: 12
-    charset: charset-jis0208.txt
+    charset: charset-default.txt
     offset_x: 0
     offset_y: 5

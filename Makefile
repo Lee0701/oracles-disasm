@@ -174,7 +174,7 @@ build/$(GAME).o: rooms/$(GAME)/*.bin
 build/audio.o: $(AUDIO_FILES)
 build/*.o: $(COMMON_INCLUDE_FILES) Makefile
 
-build/$(GAME).o: $(GAME).s build/textData.s build/textDefines.s build/gfx/gfx_font_unicode.png build/gfx_font_unicode_table.s Makefile | build
+build/$(GAME).o: $(GAME).s build/textData.s build/textDefines.s build/gfx/gfx_font_unicode.cmp build/gfx_font_unicode_table.s Makefile | build
 	$(CC) -o $@ $(CFLAGS) $<
 
 build/%.o: code/%.s | build
