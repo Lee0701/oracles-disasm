@@ -210,10 +210,10 @@ gfxHeader03:
 	m_GfxHeader gfx_done, $8801, $1f
 gfxHeader04:
 ; These seem to use an incorrect mode (mode 0)?
-	m_GfxHeaderForceMode gfx_capcom_nintendo, $9801, $7f|$80, $00
-	m_GfxHeaderForceMode gfx_capcom_nintendo, $9800, $7f|$80, $00
-	m_GfxHeaderForceMode gfx_capcom_nintendo, $8800, $7f|$80, $00
-	m_GfxHeaderForceMode gfx_capcom_nintendo, $9000, $7f|$80, $00
+	m_GfxHeader flg_jp_intro_screen_1, $9801, $23|$80
+	m_GfxHeader map_jp_intro_screen_1, $9800, $23|$80
+	m_GfxHeader gfx_jp_intro_screen_1, $8800, $5f|$80
+	m_GfxHeader gfx_jp_intro_screen_2, $9000, $7f
 gfxHeader05:
 	m_GfxHeader spr_minimap_icons, $8000, $1f|$80
 	m_GfxHeader gfx_0e264f, $8700, $2f|$80

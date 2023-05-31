@@ -535,7 +535,13 @@ oamData_15_4e0c:
 
 .ends
 
-.include "build/gfxFontUnicodeTable.s"
+
+.BANK $4f SLOT 1
+.ORG 0
+.include "code/unicode.s"
+
+
+.include "build/gfx_font_unicode_table.s"
 
 .BANK $80 SLOT 1
 .ORG 0

@@ -72,8 +72,14 @@ ifeq ($(BUILD_MODE), vanilla)
 AGES_BUILD_DIR = build_ages_v
 SEASONS_BUILD_DIR = build_seasons_v
 else ifeq ($(BUILD_MODE), utf8)
-AGES_BUILD_DIR = build_ages_u8
-SEASONS_BUILD_DIR = build_seasons_u8
+	ifeq ($(BUILD_LANG), )
+	BUILD_LANG_TAG = 
+	else
+	BUILD_LANG_TAG = -$(BUILD_LANG)
+	endif
+BUILD_TAG = _$(BUILD_MODE)$(BUILD_LANG_TAG)
+AGES_BUILD_DIR = build_ages$(BUILD_TAG)
+SEASONS_BUILD_DIR = build_seasons$(BUILD_TAG)
 else
 AGES_BUILD_DIR = build_ages_e
 SEASONS_BUILD_DIR = build_seasons_e
@@ -281,34 +287,34 @@ build/rooms/room%.cmp: precompressed/rooms/$(GAME)/room%.cmp | build/rooms
 	@echo "Copying $< to $@..."
 	@cp $< $@
 
-build/text.yaml: text/translate/$(GAME)$(BUILD_LANG)/text.yaml tools/build/applyTextPatch.py | build
+build/text.yaml: text/translate/$(GAME)$(BUILD_LANG_TAG)/text.yaml tools/build/applyTextPatch.py | build
 	@echo "Patching text..."
 	@$(PYTHON) tools/build/applyTextPatch.py text/extracted-patched/$(GAME)$(BASE_LANG)/text.yaml $< $@
 
-build/dict.yaml: text/translate/$(GAME)$(BUILD_LANG)/dict.yaml tools/build/applyTextPatch.py | build
+build/dict.yaml: text/translate/$(GAME)$(BUILD_LANG_TAG)/dict.yaml tools/build/applyTextPatch.py | build
 	@echo "Patching dict..."
 	@$(PYTHON) tools/build/applyTextPatch.py text/extracted-patched/$(GAME)$(BASE_LANG)/dict.yaml $< $@
 
 # Generate Unicode font and table
-build/gfxFontUnicodeTable.s: text/translate/$(GAME)$(BUILD_LANG)/gfx_font_unicode_table.txt tools/build/generateFontTable.py | build
-	@echo "Generating font table..."
-	@$(PYTHON) tools/build/generateFontTable.py $< $@ 50 0
+build/gfx/gfx_font_unicode.png build/gfx_font_unicode_table.s: text/translate/$(GAME)$(BUILD_LANG_TAG)/fontset.yml tools/build/generateFontset.py | build build/gfx text/translate/$(GAME)$(BUILD_LANG)
+	@echo "Generating font and font table..."
+	@$(PYTHON) tools/build/generateFontset.py $< build/gfx_font_unicode_table.s build/gfx/gfx_font_unicode.png 50 0
 
-build/gfx/gfx_font_unicode.bin: text/translate/$(GAME)$(BUILD_LANG)/gfx_font_unicode.png tools/gfx/gfx.py | build
-	@mkdir -p build/gfx/
+build/gfx/gfx_font_unicode.bin: build/gfx/gfx_font_unicode.png tools/build/generateFont.py | build/gfx
 	@echo "Converting font..."
-	@$(PYTHON) tools/gfx/gfx.py --out $@ auto $<
+	@$(PYTHON) tools/gfx/gfx.py --out $@ --interleave 1bpp $<
 
 build/gfx/gfx_font_unicode.cmp: build/gfx/gfx_font_unicode.bin | build
+	@echo "Compressing font..."
 	@dd if=/dev/zero bs=1 count=1 of=$@ 2>/dev/null
 	@cat $< >> $@
 
 # Parse & compress text
-build/textData.s: build/text.yaml build/dict.yaml build/gfxFontUnicodeTable.s build/gfx/gfx_font_unicode.cmp tools/build/parseText.py | build
+build/textData.s: build/text.yaml build/dict.yaml build/gfx/gfx_font_unicode.cmp build/gfx_font_unicode_table.s tools/build/parseText.py | build
 	@echo "Compressing text..."
 	@$(PYTHON) tools/build/parseText.py build/dict.yaml $< $@ $$(($(TEXT_INSERT_ADDRESS)))
 
-build/textDefines.s: build/textData.s build/gfxFontUnicodeTable.s build/gfx/gfx_font_unicode.cmp | build
+build/textDefines.s: build/gfx/gfx_font_unicode.cmp build/gfx_font_unicode_table.s build/textData.s build/gfx/gfx_font_unicode.cmp | build
 
 
 else

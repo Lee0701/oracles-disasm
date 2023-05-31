@@ -1,0 +1,4 @@
+fontset:
+  - type: bitmap
+    file_name: gfx_font.png
+    charset: charset-latin.txt
