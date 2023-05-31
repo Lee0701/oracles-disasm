@@ -148,8 +148,11 @@ updateTextbox:
 	call updateCharacterDisplayTimer
 	ret nz
 
+	call displayNextTextCharacter
+.ifdef FONT_16x16
 	call displayNextTextCharacter	; Add an extra call for 16x16 text tiles
-	call displayNextTextCharacter	; Note: retrieveTextCharacter@end on bank0.s
+.endif								; Note: retrieveTextCharacter@end on bank0.s
+
 	call dmaTextboxMap
 	ld d,>w7TextStatus
 	call getNextCharacterToDisplay

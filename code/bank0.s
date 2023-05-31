@@ -5438,8 +5438,10 @@ retrieveTextCharacter:
 	push de
 	setrombank
 
+	call @func_18fd
+.ifdef FONT_16x16
 	call @func_18fd		; Add an extra call for 16x16 tiles
-	call @func_18fd		; Note: displayNextTextCharacter on textbox.s
+.endif					; Note: displayNextTextCharacter on textbox.s
 
 	ld a,BANK_3f
 	setrombank
