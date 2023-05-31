@@ -306,7 +306,7 @@ build/dict.yaml: text/translate/$(GAME)$(BUILD_LANG_TAG)/dict.yaml tools/build/a
 	@$(PYTHON) tools/build/applyTextPatch.py text/extracted-patched/$(GAME)$(BASE_LANG)/dict.yaml $< $@
 
 # Generate Unicode font and table
-build/gfx/gfx_font_unicode.png build/gfx_font_unicode_table.s: text/translate/$(GAME)$(BUILD_LANG_TAG)/fontset.yml tools/build/generateFontset.py | build build/gfx text/translate/$(GAME)$(BUILD_LANG)
+build/gfx/gfx_font_unicode.png build/gfx_font_unicode_table.s: text/translate/$(GAME)$(BUILD_LANG_TAG)/fontset.yml tools/build/generateFontset.py | build build/gfx text/translate/$(GAME)$(BUILD_LANG_TAG)
 	@echo "Generating font and font table..."
 	@$(PYTHON) tools/build/generateFontset.py $< build/gfx_font_unicode_table.s build/gfx/gfx_font_unicode.png 50 0 $(FONT_IMG_WIDTH) $(FONT_IMG_HEIGHT)
 
