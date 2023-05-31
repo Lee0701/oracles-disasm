@@ -300,7 +300,7 @@ build/gfx/gfx_font_unicode.png build/gfx_font_unicode_table.s: text/translate/$(
 	@echo "Generating font and font table..."
 	@$(PYTHON) tools/build/generateFontset.py $< build/gfx_font_unicode_table.s build/gfx/gfx_font_unicode.png 50 0
 
-build/gfx/gfx_font_unicode.bin: build/gfx/gfx_font_unicode.png tools/build/generateFont.py | build/gfx
+build/gfx/gfx_font_unicode.bin: build/gfx/gfx_font_unicode.png tools/gfx/gfx.py | build/gfx
 	@echo "Converting font..."
 	@$(PYTHON) tools/gfx/gfx.py --out $@ --interleave 1bpp $<
 
