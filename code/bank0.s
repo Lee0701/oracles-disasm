@@ -5420,7 +5420,7 @@ retrieveTextCharacter:
 	push de ; Store it until the end of the function
 	push bc ; Store it until being used as write offset
 
-	ld a, $4f
+	ld a, :readUTF8
 	setrombank
 
 	dec hl

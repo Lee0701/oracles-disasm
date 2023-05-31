@@ -102,8 +102,9 @@ readUTF8:
 @end:
     ret
 
+;; Read next byte from hl, incrementing hl itself
 @nextByte:
-    ld a, $4f
+    ld a, :@nextByte
     call readByteFromW7ActiveBankAndReturn
     inc hl
     ret
