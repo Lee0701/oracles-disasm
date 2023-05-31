@@ -72,7 +72,12 @@ ifeq ($(BUILD_MODE), vanilla)
 AGES_BUILD_DIR = build_ages_v
 SEASONS_BUILD_DIR = build_seasons_v
 else ifeq ($(BUILD_MODE), utf8)
-BUILD_TAG = _$(BUILD_MODE)-$(BUILD_LANG)
+	ifeq ($(BUILD_LANG), )
+	BUILD_LANG_TAG = 
+	else
+	BUILD_LANG_TAG = -$(BUILD_LANG)
+	endif
+BUILD_TAG = _$(BUILD_MODE)$(BUILD_LANG_TAG)
 AGES_BUILD_DIR = build_ages$(BUILD_TAG)
 SEASONS_BUILD_DIR = build_seasons$(BUILD_TAG)
 else
@@ -292,16 +297,16 @@ build/rooms/room%.cmp: precompressed/rooms/$(GAME)/room%.cmp | build/rooms
 	@echo "Copying $< to $@..."
 	@cp $< $@
 
-build/text.yaml: text/translate/$(GAME)-$(BUILD_LANG)/text.yaml tools/build/applyTextPatch.py | build
+build/text.yaml: text/translate/$(GAME)$(BUILD_LANG_TAG)/text.yaml tools/build/applyTextPatch.py | build
 	@echo "Patching text..."
 	@$(PYTHON) tools/build/applyTextPatch.py text/extracted-patched/$(GAME)$(BASE_LANG)/text.yaml $< $@
 
-build/dict.yaml: text/translate/$(GAME)-$(BUILD_LANG)/dict.yaml tools/build/applyTextPatch.py | build
+build/dict.yaml: text/translate/$(GAME)$(BUILD_LANG_TAG)/dict.yaml tools/build/applyTextPatch.py | build
 	@echo "Patching dict..."
 	@$(PYTHON) tools/build/applyTextPatch.py text/extracted-patched/$(GAME)$(BASE_LANG)/dict.yaml $< $@
 
 # Generate Unicode font and table
-build/gfx/gfx_font_unicode.png build/gfx_font_unicode_table.s: text/translate/$(GAME)-$(BUILD_LANG)/fontset.yml tools/build/generateFontset.py | build build/gfx text/translate/$(GAME)-$(BUILD_LANG)
+build/gfx/gfx_font_unicode.png build/gfx_font_unicode_table.s: text/translate/$(GAME)$(BUILD_LANG_TAG)/fontset.yml tools/build/generateFontset.py | build build/gfx text/translate/$(GAME)$(BUILD_LANG)
 	@echo "Generating font and font table..."
 	@$(PYTHON) tools/build/generateFontset.py $< build/gfx_font_unicode_table.s build/gfx/gfx_font_unicode.png 50 0 $(FONT_IMG_WIDTH) $(FONT_IMG_HEIGHT)
 

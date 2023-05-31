@@ -889,6 +889,12 @@ oamData_7249:
 
 .ends
 
+
+.BANK $4f SLOT 1
+.ORG 0
+.include "code/utf8.s"
+
+
 .include "build/gfx_font_unicode_table.s"
 
 .BANK $80 SLOT 1

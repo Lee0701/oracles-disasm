@@ -5414,129 +5414,24 @@ incHl:
 ; @param	[w7TextGfxSource]	Table to use
 ; @param	a			Character
 ; @param	bc			Address to write data to
+; @return hl: (Incremented) offset to read next character
+; @return bc (Incremented) offset to write data to on next call
 retrieveTextCharacter:
+	push de ; Store it until the end of the function
+	push bc ; Store it until being used as write offset
+
+	ld a, :readUTF8
+	setrombank
+
+	dec hl
+	call readUTF8
 	push hl
-	push de
-	push bc
-	ld e,$00
-	bit 7,a
-	jr z,@singleByte
-	bit 6,a
-	jr z,@end
-	bit 5,a
-	jr z,@doubleByte
-	bit 4,a
-	jr z,@tripleByte
-	bit 3,a
-	jr z, @quadByte
-	jr @end
+	call getFontId
+	call getFontOffset
 
-@singleByte:
-	call multiplyABy16
-	ld a,(w7TextGfxSource)
-	ld hl,@data
-	rst_addDoubleIndex
-	ldi a,(hl)
-	ld h,(hl)
-	ld l,a
-	add hl,bc
-	pop bc
-	push bc
-	ld a,:gfx_font
-	jr @end
-
-@doubleByte:
-	push af
-
-	and a,$1C
-	rrca
-	rrca
-	ld b,a
-
-	jr @lastByte
-
-@tripleByte:
-	and a,$0F
-	rlca
-	rlca
-	rlca
-	rlca
-	ld b,a
-
-	call readByteFromW7ActiveBank
-	inc hl
-
-	push af
-	and a,$3C
-	rrca
-	rrca
-	or b
-	ld b,a
-
-	jr @lastByte
-
-@quadByte:
-	and a,$07
-	rlca
-	rlca
-	ld e,a
-
-	call readByteFromW7ActiveBank
-	inc hl
-
-	push af
-	and a,$30
-	rrca
-	rrca
-	rrca
-	rrca
-	or e
-	ld e,a
-
-	pop af
-	and a,$0F
-	rlca
-	rlca
-	rlca
-	rlca
-	ld b,a
-
-	call readByteFromW7ActiveBank
-	inc hl
-
-	push af
-	and a,$3C
-	rrca
-	rrca
-	or b
-	ld b,a
-
-	jr @lastByte
-
-@lastByte
-	pop af
-
-	and a,$03
-	rrca
-	rrca
-	ld c,a
-
-	call readByteFromW7ActiveBank
-	inc hl
-
-	and a,$3f
-	or c
-	ld c,a
-
-	call @getFontId
-	call @getFontOffset
-
-@end:
-	pop bc
 	pop de
+	pop bc
 	push de
-
-	push af
 	setrombank
 
 	call @func_18fd		; Add an extra call for 16x16 tiles
@@ -5544,106 +5439,12 @@ retrieveTextCharacter:
 
 	ld a,BANK_3f
 	setrombank
+	pop hl
 
 	xor a
 	ld (w7TextGfxSource),a
 
-	pop af
 	pop de
-
-	pop hl
-	dec hl
-	call readByteFromW7ActiveBank
-	bit 7,a
-	jr z,@singleEnd
-	bit 6,a
-	jr z,@singleEnd
-	bit 5,a
-	jr z,@doubleEnd
-	bit 4,a
-	jr z,@tripleEnd
-	bit 3,a
-	jr z, @quadEnd
-	jr @singleEnd
-	
-@quadEnd:
-	inc hl
-@tripleEnd:
-	inc hl
-@doubleEnd:
-	inc hl
-@singleEnd:
-	inc hl
-
-	ret
-
-@getFontId:
-	ld a,e
-	and a,$1F
-	rlca
-	rlca
-	rlca
-	ld e,a
-	ld a,b
-	and a,$E0
-	rrca
-	rrca
-	rrca
-	rrca
-	rrca
-	or a,e
-
-	add a,:gfx_font_unicode_table
-	push af
-	sla c
-	rl b
-	ld a,b
-	and a,$3F
-	or a,$40
-	ld h,a
-	ld a,c
-	ld l,a
-	pop af
-	push af
-	setrombank
-
-	ld a,(hl)
-	ld b,a
-	inc hl
-	ld a,(hl)
-	ld c,a
-
-	ld a,BANK_3f
-	setrombank
-	pop af
-
-	ret
-
-@getFontOffset:
-	ld a,b			; First 6 bits of first byte for bank id
-	and a,$FE		; First 7 bits if using 16x16 tiles
-	rrca
-	add a,:gfx_font_unicode
-	push af
-	ld a,b
-	and a,$01
-	ld h,a
-	ld a,c
-	ld l,a			; Transfer other bits to hl
-	pop af
-
-	ld d,$05
--
-	sla l
-	rl h
-	dec d
-	jr nz,-
-
-	push af
-	ld a,h
-	add a,$40		; Add $4000 to hl
-	ld h,a
-	pop af
 	ret
 
 @data:
@@ -5652,8 +5453,8 @@ retrieveTextCharacter:
 	.dw gfx_font_tradeitems
 
 ;;
-; @param bc
-; @param hl
+; @param bc: Offset to write to
+; @param hl: Offset to read from
 @func_18fd:
 	ld e,$10
 
@@ -5736,6 +5537,42 @@ readByteFromW7ActiveBank:
 	setrombank
 
 	ld a,b
+	pop bc
+	ret
+
+;;
+; Assumes RAM bank 7 is loaded.
+; @param hl: Offset to read from
+; @param a: Bank number to return to
+readByteFromW7ActiveBankAndReturn:
+	push bc
+	push af
+	ld a,(w7ActiveBank)
+	setrombank
+	ld b,(hl)
+
+	pop af
+	setrombank
+
+	ld a,b
+	pop bc
+	ret
+
+;;
+; @param b: Bank number to read from
+; @param hl: Offset to read from
+; @param a: Bank number to return to
+readByteFromBankAndReturn:
+	push bc
+	push af
+	ld a, b
+	setrombank
+	ld b, (hl)
+
+	pop af
+	setrombank
+
+	ld a, b
 	pop bc
 	ret
 
