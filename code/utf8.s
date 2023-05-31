@@ -107,3 +107,80 @@ readUTF8:
     call readByteFromW7ActiveBankAndReturn
     inc hl
     ret
+
+
+; @param c: Unicode codepoint, upper 1 byte
+; @param de: Unicode codepoint, lower 2 bytes
+; @return de: Glyph index, as in font table
+getFontId:
+	ld a, c
+	and a, $1f
+	rlca
+	rlca
+	rlca
+	ld c, a
+	ld a, d
+	and a, $e0
+	rrca
+	rrca
+	rrca
+	rrca
+	rrca
+	or a, c
+
+	add a, :gfx_font_unicode_table
+	push af
+	sla e
+	rl d
+	ld a, d
+	and a, $3f
+	or a, $40
+	ld h, a
+	ld a, e
+	ld l, a
+	pop af
+	push af
+
+    ld b, a
+    ld a, :getFontId
+    call readByteFromBankAndReturn
+    ld d, a
+	inc hl
+    ld a, :getFontId
+    call readByteFromBankAndReturn
+	ld e, a
+	pop af
+
+	ret
+
+
+; @param de: Glyph index as in font table
+; @return a: Bank number that tile is in
+; @return hl: Offset of the tile
+getFontOffset:
+	ld a, d			; First 6 bits of first byte for bank id
+	and a, $fc
+	rrca
+	rrca
+	add a, :gfx_font_unicode
+	push af
+	ld a, d
+	and a, $03
+	ld h, a
+	ld a, e
+	ld l, a			; Transfer other bits to hl
+
+	sla l
+	rl h
+	sla l
+	rl h
+	sla l
+	rl h
+	sla l
+	rl h
+
+	ld a, h
+	add a, $40		; Add $4000 to hl
+	ld h, a
+	pop af
+	ret

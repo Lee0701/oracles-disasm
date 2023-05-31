@@ -5407,76 +5407,6 @@ incHl:
 	inc h
 	ret
 
-getFontId:
-	ld a,e
-	and a,$1F
-	rlca
-	rlca
-	rlca
-	ld e,a
-	ld a,b
-	and a,$E0
-	rrca
-	rrca
-	rrca
-	rrca
-	rrca
-	or a,e
-
-	add a,:gfx_font_unicode_table
-	push af
-	sla c
-	rl b
-	ld a,b
-	and a,$3F
-	or a,$40
-	ld h,a
-	ld a,c
-	ld l,a
-	pop af
-	push af
-	setrombank
-
-	ld a,(hl)
-	ld b,a
-	inc hl
-	ld a,(hl)
-	ld c,a
-
-	ld a,BANK_3f
-	setrombank
-	pop af
-
-	ret
-
-getFontOffset:
-	ld a,b			; First 6 bits of first byte for bank id
-	and a,$FC
-	rrca
-	rrca
-	add a,:gfx_font_unicode
-	push af
-	ld a,b
-	and a,$03
-	ld h,a
-	ld a,c
-	ld l,a			; Transfer other bits to hl
-	pop af
-
-	ld d,$04
--
-	sla l
-	rl h
-	dec d
-	jr nz,-
-
-	push af
-	ld a,h
-	add a,$40		; Add $4000 to hl
-	ld h,a
-	pop af
-	ret
-
 ;;
 ; Can only be called from bank $3f. See also "copyTextCharacterGfx" which is similar but is used by
 ; file select code instead of textbox code.
@@ -5484,27 +5414,24 @@ getFontOffset:
 ; @param	[w7TextGfxSource]	Table to use
 ; @param	a			Character
 ; @param	bc			Address to write data to
+; @return hl: (Incremented) offset to read next character
+; @return bc (Incremented) offset to write data to on next call
 retrieveTextCharacter:
-	push de
-	push bc
+	push de ; Store it until the end of the function
+	push bc ; Store it until being used as write offset
+
 	ld a, $4f
 	setrombank
+
 	dec hl
 	call readUTF8
-	ld a, $3f
-	setrombank
-	pop bc
-
 	push hl
-	push bc
-	ld a, c
-	push de ; Transfer de to bc
-	pop bc ; TODO: Modify the function to simplify this
-	ld e, a
 	call getFontId
 	call getFontOffset
-	pop bc
 
+	pop de
+	pop bc
+	push de
 	setrombank
 	call @func_18fd
 	ld a,BANK_3f
@@ -5523,8 +5450,8 @@ retrieveTextCharacter:
 	.dw gfx_font_tradeitems
 
 ;;
-; @param bc
-; @param hl
+; @param bc: Offset to write to
+; @param hl: Offset to read from
 @func_18fd:
 	ld e,$10
 
@@ -5612,7 +5539,6 @@ readByteFromW7ActiveBank:
 
 ;;
 ; Assumes RAM bank 7 is loaded.
-; @param b: Bank number to read from
 ; @param hl: Offset to read from
 ; @param a: Bank number to return to
 readByteFromW7ActiveBankAndReturn:
@@ -5626,6 +5552,24 @@ readByteFromW7ActiveBankAndReturn:
 	setrombank
 
 	ld a,b
+	pop bc
+	ret
+
+;;
+; @param b: Bank number to read from
+; @param hl: Offset to read from
+; @param a: Bank number to return to
+readByteFromBankAndReturn:
+	push bc
+	push af
+	ld a, b
+	setrombank
+	ld b, (hl)
+
+	pop af
+	setrombank
+
+	ld a, b
 	pop bc
 	ret
 
