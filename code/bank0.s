@@ -5427,9 +5427,13 @@ retrieveTextCharacter:
 	call readUTF8
 	push hl
 	call getFontId
+.ifdef FONT_16x16 ; Caution: The game will stop if the line width is exceeded
+	call getFontOffset16x16
+.else
 	call getFontOffset
+.endif
 
-	pop de
+	pop de ; Actually the value of hl
 	pop bc
 	push de
 	setrombank

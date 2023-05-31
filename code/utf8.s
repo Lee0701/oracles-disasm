@@ -155,7 +155,7 @@ getFontId:
 	ret
 
 
-; @param de: Glyph index as in font table
+; @param de: Tile index as in font table
 ; @return a: Bank number that tile is in
 ; @return hl: Offset of the tile
 getFontOffset:
@@ -171,17 +171,44 @@ getFontOffset:
 	ld a, e
 	ld l, a			; Transfer other bits to hl
 
-	sla l
-	rl h
-	sla l
-	rl h
-	sla l
-	rl h
-	sla l
-	rl h
+    ld e, $04
+    call shiftHl
 
 	ld a, h
 	add a, $40		; Add $4000 to hl
 	ld h, a
 	pop af
 	ret
+
+
+; @param de: Tile index as in font table
+; @return a: Bank number that tile is in
+; @return hl: Offset of the tile
+getFontOffset16x16:
+	ld a, d			; First 6 bits of first byte for bank id
+	and a, $fe      ; First 7 bits if using 16x16 tiles
+	rrca
+	add a, :gfx_font_unicode
+	push af
+	ld a, d
+	and a, $01
+	ld h, a
+	ld a, e
+	ld l, a			; Transfer other bits to hl
+
+    ld e, $05
+    call shiftHl
+
+	ld a, h
+	add a, $40		; Add $4000 to hl
+	ld h, a
+	pop af
+	ret
+
+
+shiftHl:
+	sla l
+	rl h
+    dec e
+    jr nz, shiftHl
+    ret

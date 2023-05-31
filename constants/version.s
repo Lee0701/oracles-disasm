@@ -5,6 +5,9 @@
 ;.define REGION_EU
 
 
+.define FONT_16x16
+
+
 ; "AGES_ENGINE" is like "ROM_AGES", but anything wrapped in this define could potentially be used in
 ; Seasons as well. Generally this enables extra engine features added in Ages. However, it could
 ; also cause subtle differences in how certain things work.
