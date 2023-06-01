@@ -1316,7 +1316,8 @@ runTextInput:
 @label_02_055:
 	add c
 	and $0f
-	cp $0c
+	; cp $0c
+	cp $0e
 	jr nc,@label_02_055
 	ld c,a
 	ld a,(hl)
@@ -1446,7 +1447,7 @@ textInput_getCursorPosition:
 	jr nc,++
 	dec c
 ++
-	add c
+	; add c
 	add b
 	ret
 
