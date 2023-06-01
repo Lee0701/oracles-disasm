@@ -2,6 +2,6 @@ fontset:
   - type: outline
     file_name: k8x12.ttf
     font_size: 12
-    charset: charset-default.txt
+    charset: charset-jis0208.txt
     offset_x: 0
     offset_y: 5

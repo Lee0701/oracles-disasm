@@ -73,7 +73,6 @@ def gen_outline(font_def, filepath):
 
     draw.rectangle((0, 0, width, height), fill=black)
 
-    font_size = 12
     font = ImageFont.truetype(file_name, font_size)
 
     for j, line in enumerate(charset):
@@ -134,11 +133,14 @@ def main():
         font_type = font_def['type']
         if font_type == 'bitmap':
             font, charset = gen_bitmap(font_def, filepath)
+            index = mark_table(table, charset, index)
+            output_img.paste(font, (0, offset_y))
+            offset_y += font.height
         elif font_type == 'outline':
             font, charset = gen_outline(font_def, filepath)
-        index = mark_table(table, charset, index)
-        output_img.paste(font, (0, offset_y))
-        offset_y += font.height
+            index = mark_table(table, charset, index)
+            output_img.paste(font, (0, offset_y))
+            offset_y += font.height
 
     open(sys.argv[2], 'w').write(gen_table_file(table))
     output_img.save(sys.argv[3], 'png')

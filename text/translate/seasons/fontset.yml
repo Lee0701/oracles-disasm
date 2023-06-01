@@ -1,7 +1,4 @@
 fontset:
-  - type: bitmap
-    file_name: bitmap-default.png
-    charset: charset-default.txt
   - type: outline
     file_name: k8x12.ttf
     font_size: 12
