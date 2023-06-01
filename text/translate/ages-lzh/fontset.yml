@@ -1,6 +1,6 @@
 fontset:
   - type: outline
-    font_name: k8x12.ttf
+    file_name: k8x12.ttf
     font_size: 12
     charset: charset.txt
     offset_x: 0
