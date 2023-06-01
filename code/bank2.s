@@ -1167,31 +1167,64 @@ runTextInput:
 	jr @gotCharacter
 
 @notEnteringSecret:
-	ld a,c
-	sub $37
-	jr c,@label_02_046
-	ld c,$2d
-	jr z,@gotCharacter
-	ld c,$20
-	dec a
-	jr z,@gotCharacter
-	dec a
-	ld e,a
-	call textInput_getOutputAddress
+	; ld a,c
+	; sub $37
+	; jr c,@label_02_046
+	; ld c,$2d
+	; jr z,@gotCharacter
+	; ld c,$20
+	; dec a
+	; jr z,@gotCharacter
+	; dec a
+	; ld e,a
+	; call textInput_getOutputAddress
 
 @label_02_046:
+	ld a, c
+	and a
+	jr z, @null
 	ld a,(wFileSelect.kanaMode)
 	or a
-	ld a,$60
+	ld a, $20
 	jr z,+
-	ld a,$b0
+	ld a, $50
 +
 	add c
 	ld c,a
 
 @gotCharacter:
 	call textInput_getOutputAddress
-	ld (hl),c
+
+	; ld (hl), c
+
+	push de
+	push hl
+	push hl
+	pop de
+
+	ld hl, textInputTable
+	ld b, $00
+	sla c
+	rl b
+	sla c
+	rl b
+	add hl, bc
+	ld b, $04
+-
+	ldi a, (hl)
+	cp a, $00
+	jr z, +
+	ld (de), a
+	inc de
+	dec b
+	jr nz, -
++
+
+	pop hl
+	pop de
+
+@null:
+
 @selectionRight:
 	ld hl,wFileSelect.textInputCursorPos
 	inc (hl)
