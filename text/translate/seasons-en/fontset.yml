@@ -1,4 +1,4 @@
 fontset:
   - type: bitmap
-    file_name: gfx_font.png
-    charset: charset-latin.txt
+    file_name: bitmap-default.png
+    charset: charset-default.txt
