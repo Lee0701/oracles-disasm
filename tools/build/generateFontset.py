@@ -5,11 +5,13 @@ import yaml
 import os.path
 from PIL import Image, ImageDraw, ImageFont
 
+columns = 16
+
 glyph_width = 8
 glyph_height = 16
 
 image_height = 8192
-image_width = glyph_width * 16
+image_width = glyph_width * columns
 
 first_bank = int(sys.argv[4], 16)
 offset = int(sys.argv[5], 16)
@@ -37,13 +39,13 @@ def gen_bitmap(font_def, filepath):
 
     charset = load_charset(charset_file)
 
-    width = 16 * glyph_width
-    height = len(charset) * glyph_height
+    image_width = columns * glyph_width
+    image_height = len(charset) * glyph_height
 
-    img = Image.new("RGB", (width, height))
+    img = Image.new("RGB", (image_width, image_height))
     draw = ImageDraw.Draw(img, 'RGBA')
 
-    draw.rectangle((0, 0, width, height), fill=black)
+    draw.rectangle((0, 0, image_width, image_height), fill=black)
 
     src = Image.open(file_name)
     for j, line in enumerate(charset):
@@ -54,11 +56,11 @@ def gen_bitmap(font_def, filepath):
             y = j * glyph_height + offset_y
 
             img.paste(src.crop((src_x, src_y, x+glyph_width, y+glyph_height)), (x, y))
-    
+
     return img, charset
 
 def gen_outline(font_def, filepath):
-    font_name = os.path.join(filepath, font_def['font_name'])
+    file_name = os.path.join(filepath, font_def['file_name'])
     font_size = font_def['font_size']
     charset_file = os.path.join(filepath, font_def['charset'])
     offset_x = font_def.get('offset_x', 0)
@@ -74,15 +76,14 @@ def gen_outline(font_def, filepath):
 
     draw.rectangle((0, 0, width, height), fill=black)
 
-    font_size = 12
-    font = ImageFont.truetype(font_name, font_size)
+    font = ImageFont.truetype(file_name, font_size)
 
     for j, line in enumerate(charset):
         for i, ch in enumerate(line):
             x = i * glyph_width + offset_x
             y = j * glyph_height + offset_y
             draw.text((x, y), ch, fill=white, font=font)
-    
+
     return img, charset
 
 def mark_table(table, charset, index=0):
@@ -90,6 +91,8 @@ def mark_table(table, charset, index=0):
         for i, ch in enumerate(line):
             code = ord(ch)
             table[code] = index
+            index += 1
+        for _ in range(columns - len(line)):
             index += 1
     return index
 
@@ -102,11 +105,11 @@ def gen_table_file(table):
         a = str[0:2]
         b = str[2:4]
         if (c % (0x4000/2)) == 0:
-            lines.append('.BANK $%x SLOT 1\n.ORG $0000' % (bank))
+            lines.append('.BANK $%02x SLOT 1\n.ORG $0000' % (bank))
             bank += 1
             if c == 0:
                 lines.append('gfx_font_unicode_table:')
-        line = '\t.db $%s $%s' % (a, b)
+        line = '    .db $%s $%s' % (a, b)
         if i != 0 and c >= 0x20:
             line += ' ; U+%04x %s' % (c, chr(c))
         lines.append(line)
@@ -133,12 +136,12 @@ def main():
         font_type = font_def['type']
         if font_type == 'bitmap':
             font, charset = gen_bitmap(font_def, filepath)
-            index += mark_table(table, charset, index)
+            index = mark_table(table, charset, index)
             output_img.paste(font, (0, offset_y))
             offset_y += font.height
         elif font_type == 'outline':
             font, charset = gen_outline(font_def, filepath)
-            index += mark_table(table, charset, index)
+            index = mark_table(table, charset, index)
             output_img.paste(font, (0, offset_y))
             offset_y += font.height
 
