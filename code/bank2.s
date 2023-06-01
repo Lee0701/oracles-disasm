@@ -1851,13 +1851,16 @@ textInput_loadCharacterGfx:
 	ld de,w5NameEntryCharacterGfx
 
 .ifdef REGION_JP
-	ldbc $2e, $60
+	ldbc $2e, $20
 	ld a,(wFileSelect.kanaMode)
 	or a
 	jr z,+
 	ld c,$b0
 +
-	call copyTextCharacters
+	push hl
+	ld hl, textInputTable
+	call copyTextCharactersByTable
+	pop hl
 	ld hl,data_02_4a28
 	ld b,$09
 	ld a,(wFileSelect.textInputMode)
@@ -1867,7 +1870,10 @@ textInput_loadCharacterGfx:
 	inc b
 	ld c,$30
 ++
-	call copyTextCharacters
+	push hl
+	ld hl, textInputTable
+	call copyTextCharactersByTable
+	pop hl
 	call copyTextCharactersFromHlUntilNull
 
 .else
@@ -1906,6 +1912,30 @@ copyTextCharacters:
 	jr nz,copyTextCharacters
 	ret
 
+;;
+; @param hl: Table of actual characters (UTF-8 codes)
+; @param b: Number of characters to copy
+; @param c: First character to copy
+; @param de:    Destination
+; @param	wFileSelect.fontXor	Value to xor every other byte with
+copyTextCharactersByTable:
+	push hl
+	push bc
+
+	ld b, $00
+	sla c
+	rl b
+	sla c
+	rl b
+	add hl, bc
+	call copyTextCharacterGfxFromHl
+
+	pop bc
+	inc c
+	dec b
+	pop hl
+	jr nz,copyTextCharactersByTable
+	ret
 
 .ifdef REGION_JP
 

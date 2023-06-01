@@ -5413,9 +5413,10 @@ incHl:
 ;
 ; @param	[w7TextGfxSource]	Table to use
 ; @param	a			Character
+; @param hl: Address to read character from
 ; @param	bc			Address to write data to
 ; @return hl: (Incremented) offset to read next character
-; @return bc (Incremented) offset to write data to on next call
+; @return bc: (Incremented) offset to write data to on next call
 retrieveTextCharacter:
 	push de ; Store it until the end of the function
 	push bc ; Store it until being used as write offset
@@ -5424,6 +5425,8 @@ retrieveTextCharacter:
 	setrombank
 
 	dec hl
+	ld a, (w7ActiveBank)
+	ld b, a
 	call decodeUTF8
 	push hl
 	call getFontId
@@ -5531,24 +5534,6 @@ readByteFromW7ActiveBank:
 	ld b,(hl)
 
 	ld a,BANK_3f
-	setrombank
-
-	ld a,b
-	pop bc
-	ret
-
-;;
-; Assumes RAM bank 7 is loaded.
-; @param hl: Offset to read from
-; @param a: Bank number to return to
-readByteFromW7ActiveBankAndReturn:
-	push bc
-	push af
-	ld a,(w7ActiveBank)
-	setrombank
-	ld b,(hl)
-
-	pop af
 	setrombank
 
 	ld a,b
@@ -5738,6 +5723,48 @@ copyTextCharacterGfx:
 	setrombank
 	pop bc
 	pop hl
+	ret
+
+;;
+; @param hl: Where to read the character tile from
+; @param de: Where to write the character to
+; @param wFileSelect.fontXor: Value to xor every other byte with
+copyTextCharacterGfxFromHl:
+	push bc
+	push hl
+	ldh a,(<hRomBank)
+	push af
+
+	ld a, :decodeUTF8
+	setrombank
+
+	push de
+	ld b, $02
+	call decodeUTF8
+
+	call getFontId
+	call getFontOffset
+	setrombank
+
+	ld a,(wFileSelect.fontXor)
+	ld c,a
+	ld b, $10
+	pop de
+-
+	ldi a, (hl)
+	xor c
+	ld (de), a
+	inc de
+	ld (de), a
+	inc de
+	dec b
+	jr nz, -
+
+	pop af
+	setrombank
+	pop hl
+	pop bc
+
 	ret
 
 ;;

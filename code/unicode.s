@@ -1,4 +1,5 @@
 
+; @param b: Bank number to read from
 ; @param hl: Start address to read from
 ; @return c: Unicode codepoint, upper 1 byte
 ; @return de: Unicode codepoint, lower 2 bytes
@@ -105,7 +106,7 @@ decodeUTF8:
 ;; Read next byte from hl, incrementing hl itself
 @nextByte:
     ld a, :@nextByte
-    call readByteFromW7ActiveBankAndReturn
+    call readByteFromBankAndReturn
     inc hl
     ret
 

@@ -34,6 +34,7 @@
 .BANK $02 SLOT 1
 .ORG 0
 
+    .include "code/textInputTable.s"
 	.include "code/bank2.s"
 	.include "code/roomInitialization.s"
 
