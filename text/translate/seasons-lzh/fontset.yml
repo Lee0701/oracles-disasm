@@ -1,6 +1,6 @@
 fontset:
   - type: outline
-    font_name: GothicMedium-001.000.ttf
+    file_name: GothicMedium-001.000.ttf
     font_size: 16
     charset: charset.txt
     offset_x: 0

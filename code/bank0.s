@@ -5420,11 +5420,11 @@ retrieveTextCharacter:
 	push de ; Store it until the end of the function
 	push bc ; Store it until being used as write offset
 
-	ld a, :readUTF8
+	ld a, :decodeUTF8
 	setrombank
 
 	dec hl
-	call readUTF8
+	call decodeUTF8
 	push hl
 	call getFontId
 .ifdef FONT_16x16 ; Caution: The game will stop if the line width is exceeded
@@ -5438,9 +5438,9 @@ retrieveTextCharacter:
 	push de
 	setrombank
 
-	call @func_18fd
+	call @copyTile
 .ifdef FONT_16x16
-	call @func_18fd		; Add an extra call for 16x16 tiles
+	call @copyTile		; Add an extra call for 16x16 tiles
 .endif					; Note: displayNextTextCharacter on textbox.s
 
 	ld a,BANK_3f
@@ -5461,7 +5461,7 @@ retrieveTextCharacter:
 ;;
 ; @param bc: Offset to write to
 ; @param hl: Offset to read from
-@func_18fd:
+@copyTile:
 	ld e,$10
 
 	; gfx_font_start+$140 is the heart character. It's always red.

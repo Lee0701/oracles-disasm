@@ -2,7 +2,7 @@
 ; @param hl: Start address to read from
 ; @return c: Unicode codepoint, upper 1 byte
 ; @return de: Unicode codepoint, lower 2 bytes
-readUTF8:
+decodeUTF8:
     ld c, $00
     ld d, $00
 
