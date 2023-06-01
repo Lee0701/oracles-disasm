@@ -1150,8 +1150,6 @@ runTextInput:
 	call multiplyABy16
 	add hl,bc
 
-.ifdef REGION_JP
-
 	ld a,(hl)
 	rrca
 	and $3f
@@ -1180,22 +1178,6 @@ runTextInput:
 	dec a
 	ld e,a
 	call textInput_getOutputAddress
-	ld a,(hl)
-	call func_02_494a
-	jr c,@gotCharacter
-	ld a,(wFileSelect.textInputCursorPos)
-	or a
-	jr z,++
-	dec hl
-	ld a,(hl)
-	call func_02_494a
-	jr nc,++
-	ld hl,wFileSelect.textInputCursorPos
-	dec (hl)
-	jr @gotCharacter
-++
-	ld a,SND_ERROR
-	jp playSound
 
 @label_02_046:
 	ld a,(wFileSelect.kanaMode)
@@ -1206,28 +1188,6 @@ runTextInput:
 +
 	add c
 	ld c,a
-
-.else ; REGION_US, REGION_EU
-
-	ld c,$20
-	ld a,(hl)
-	cp $02
-	jr z,@gotCharacter
-
-	rrca
-	and $3f
-	add $40
-
-	ld c,a
-	ld a,(wFileSelect.textInputMode)
-	rlca
-	jr nc,@gotCharacter
-
-	ld a,c
-	ld hl,secretSymbols-$40
-	rst_addAToHl
-	ld c,(hl)
-.endif
 
 @gotCharacter:
 	call textInput_getOutputAddress
@@ -1772,7 +1732,7 @@ textInput_mapUpperXToLowerX:
 
 ;;
 ; Used only in japanese version
-func_02_494a:
+addVoicedMark:
 	push hl
 	ld hl,@table2
 	bit 0,e
@@ -1850,8 +1810,7 @@ textInput_loadCharacterGfx:
 	ld (wFileSelect.fontXor),a
 	ld de,w5NameEntryCharacterGfx
 
-.ifdef REGION_JP
-	ldbc $2e, $20
+	ldbc $3b, $20
 	ld a,(wFileSelect.kanaMode)
 	or a
 	jr z,+
@@ -1875,22 +1834,6 @@ textInput_loadCharacterGfx:
 	call copyTextCharactersByTable
 	pop hl
 	call copyTextCharactersFromHlUntilNull
-
-.else
-
-	ld a,(wFileSelect.textInputMode)
-	rlca
-	jr c,+
-
-	ldbc $3b, $40
-	call copyTextCharacters
-	jr ++
-+
-	ld hl,secretSymbols
-	ld b,$40
-	call copyTextCharactersFromHlUntilNull
-++
-.endif
 
 	pop af
 	ld ($ff00+R_SVBK),a
@@ -1940,6 +1883,7 @@ copyTextCharactersByTable:
 .ifdef REGION_JP
 
 data_02_4a28:
+    ; $0e: voiced mark, $0f: devoiced mark
 	.db $2d $20 $0e $0f $00
 
 .endif
