@@ -39,6 +39,9 @@ def gen_bitmap(font_def, filepath):
 
     charset = load_charset(charset_file)
 
+    image_width = columns * glyph_width
+    image_height = len(charset) * glyph_height
+
     img = Image.new("RGB", (image_width, image_height))
     draw = ImageDraw.Draw(img, 'RGBA')
 
