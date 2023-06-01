@@ -1,18 +1,18 @@
 fontset:
   - type: outline
-    font_name: k8x12.ttf
+    file_name: k8x12.ttf
     font_size: 12
     charset: charset-default.txt
     offset_x: 0
     offset_y: 5
   - type: outline
-    font_name: Galmuri11-Condensed.ttf
+    file_name: Galmuri11-Condensed.ttf
     font_size: 12
     charset: charset-ks1001-hangul.txt
     offset_x: 0
     offset_y: 4
   - type: outline
-    font_name: k8x12.ttf
+    file_name: k8x12.ttf
     font_size: 12
     charset: charset-ks1001-hanja.txt
     offset_x: 0

@@ -174,7 +174,7 @@ build/$(GAME).o: rooms/$(GAME)/*.bin
 build/audio.o: $(AUDIO_FILES)
 build/*.o: $(COMMON_INCLUDE_FILES) Makefile
 
-build/$(GAME).o: $(GAME).s build/textData.s build/textDefines.s Makefile | build
+build/$(GAME).o: $(GAME).s build/textData.s build/textDefines.s build/gfx/gfx_font_unicode.cmp build/gfx_font_unicode_table.s Makefile | build
 	$(CC) -o $@ $(CFLAGS) $<
 
 build/%.o: code/%.s | build
@@ -300,7 +300,7 @@ build/gfx/gfx_font_unicode.png build/gfx_font_unicode_table.s: text/translate/$(
 	@echo "Generating font and font table..."
 	@$(PYTHON) tools/build/generateFontset.py $< build/gfx_font_unicode_table.s build/gfx/gfx_font_unicode.png 50 0
 
-build/gfx/gfx_font_unicode.bin: build/gfx/gfx_font_unicode.png tools/build/generateFont.py | build/gfx
+build/gfx/gfx_font_unicode.bin: build/gfx/gfx_font_unicode.png tools/gfx/gfx.py | build/gfx
 	@echo "Converting font..."
 	@$(PYTHON) tools/gfx/gfx.py --out $@ --interleave 1bpp $<
 
@@ -310,11 +310,11 @@ build/gfx/gfx_font_unicode.cmp: build/gfx/gfx_font_unicode.bin | build
 	@cat $< >> $@
 
 # Parse & compress text
-build/textData.s: build/text.yaml build/dict.yaml build/gfx/gfx_font_unicode.cmp build/gfx_font_unicode_table.s tools/build/parseText.py | build
+build/textData.s: build/text.yaml build/dict.yaml tools/build/parseText.py | build
 	@echo "Compressing text..."
 	@$(PYTHON) tools/build/parseText.py build/dict.yaml $< $@ $$(($(TEXT_INSERT_ADDRESS)))
 
-build/textDefines.s: build/gfx/gfx_font_unicode.cmp build/gfx_font_unicode_table.s build/textData.s build/gfx/gfx_font_unicode.cmp | build
+build/textDefines.s: build/textData.s | build
 
 
 else
